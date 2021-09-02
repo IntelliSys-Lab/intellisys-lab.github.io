@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>IntelliSys Lab | LSU | Project todo</title>
+<title>IntelliSys Lab | LSU | Harvesting Idle Resources in Serverless Computing</title>
 <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 ">
 
@@ -190,12 +190,51 @@
       <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Project todo</h1>
-    <p class="post-description">description TBD</p>
+    <h1 class="post-title">Harvesting Idle Resources in Serverless Computing</h1>
+    <p class="post-description"></p>
   </header>
 
   <article>
-    <!-- Every project has a beautiful feature showcase page.
+    <div class="title"><strong>Harvesting Idle Resources in Serverless Computing via Reinforcement Learning</strong></div>
+<div class="author">
+    Hanfei Yu, <em>Hao Wang</em>, Jian Li, and Seung-Jong Park
+</div>
+<div class="periodical">
+    &gt;&gt;&gt; Available at <a href="https://arxiv.org/abs/2108.12717">arXiv:2108.12717</a>, 2021
+</div>
+
+<!-- <div>
+    <div class="title">Harvesting Idle Resources in Serverless Computing via Reinforcement Learning</div>
+    <div class="author">
+        Hanfei Yu, <em>Hao Wang</em>,Jian Li, and Seung-Jong Park
+    </div>
+
+    <div class="periodical">
+        Available at <a href="https://arxiv.org/abs/2108.12717">arXiv:2108.12717</a>, 2021
+    </div>
+</div> -->
+
+<p><br /></p>
+
+<h2 id="abstract">Abstract</h2>
+
+<p>Serverless computing has become a new cloud computing paradigm that promises to deliver high cost-efficiency and
+simplified cloud deployment with automated resource scaling at a fine granularity. Users decouple a cloud application
+into chained functions and preset each serverless function’s memory and CPU demands at megabyte-level and core-level,
+respectively. Serverless platforms then automatically scale the number of functions to accommodate the workloads.
+However, the complexities of chained functions make it non-trivial to accurately determine the resource demands of each
+function for users, leading to either resource over-provision or under-provision for individual functions.</p>
+
+<p>This paper presents FaaSRM, a new resource manager (RM) for serverless platforms that maximizes resource efficiency by
+dynamically harvesting idle resources from functions over-supplied to functions under-supplied. FaaSRM monitors each
+function’s resource utilization in real-time, detects over-provisioning and under-provisioning, and applies deep
+reinforcement learning to harvest idle resources safely using a safeguard mechanism and accelerate functions
+efficiently. We have implemented and deployed a FaaSRM prototype in a 13-node Apache OpenWhisk cluster. Experimental
+results on the OpenWhisk cluster show that FaaSRM reduces the execution time of 98% of function invocations by 35.81%
+compared to the baseline RMs by harvesting idle resources from 38.8% of the invocations and accelerating 39.2% of the
+invocations.</p>
+
+<!-- Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
 Make your photos 1/3, 2/3, or full width.
 
@@ -224,11 +263,11 @@ To give your project a background in the portfolio page, just add the img tag to
 </div> -->
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="/assets/img/L1008052.jpg" alt="" title="example image" />
+        <img class="img-fluid" src="/assets/img/faasrm-workflow.pdf" alt="" title="example image" />
     </div>
 </div>
 <div class="caption">
-    LSU Campus 
+    FaaSRM workflow.
 </div>
 
 <!-- You can also put regular text between your rows of images.
@@ -279,7 +318,7 @@ Here's the code for the last row of images above:
     
 <footer class="sticky-bottom mt-5">
   <div class="container">
-    Last updated: August 28, 2021   &copy; Copyright 2021 IntelliSys  Lab.
+    Last updated: September 01, 2021   &copy; Copyright 2021 IntelliSys  Lab.
     Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
     
