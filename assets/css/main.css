@@ -144,7 +144,9 @@ footer.sticky-bottom { border-top: 1px solid #e8e8e8; padding-top: 40px; padding
 
 .projects .card img { width: 100%; }
 
-.projects .card .card-title { color: #000000; }
+.projects .card .card-body { background: #afafaf; }
+
+.projects .card .card-title { color: #ffffff; }
 
 .publications { margin-top: 2rem; }
 
