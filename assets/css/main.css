@@ -142,11 +142,13 @@ footer.sticky-bottom { border-top: 1px solid #e8e8e8; padding-top: 40px; padding
 
 .projects .grid-item a:hover { color: var(--global-theme-color); }
 
+.projects .card { border-radius: 10px; }
+
 .projects .card img { width: 100%; }
 
-.projects .card .card-body { background: #676767; }
+.projects .card .card-body { background: #676767; border-radius: 0 0 10px 10px; }
 
-.projects .card .card-title { color: #ffffff; }
+.projects .card .card-title { color: #ffffff; margin-bottom: 0; }
 
 .publications { margin-top: 2rem; }
 
