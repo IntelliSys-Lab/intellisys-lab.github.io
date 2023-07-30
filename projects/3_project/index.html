@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>IntelliSys Lab | LSU | Fine-grained Attacks Towards Federated Learning</title>
+<title>IntelliSys Lab | LSU | Byzantine-robust Federated Learning</title>
 <meta name="description" content="the Intelligent System (IntelliSys) Lab in the Computer Science Engineering Division of Louisiana State University (LSU)
 ">
 
@@ -220,19 +220,19 @@
       <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Fine-grained Attacks Towards Federated Learning</h1>
+    <h1 class="post-title">Byzantine-robust Federated Learning</h1>
     <p class="post-description"></p>
   </header>
 
   <article>
-    <!-- <div class="title"><strong>Siren: Byzantine-robust Federated Learning via Proactive Alarming</strong></div>
+    <div class="title"><strong>Siren: Byzantine-robust Federated Learning via Proactive Alarming</strong></div>
 <div class="author">
     Hanxi Guo, Hao Wang, Tao Song, Yang Hua, Zhangcheng Lv, Xiulang Jin, Zhengui Xue, Ruhui Ma, and Haibing Guan
 </div>
 <div class="periodical">
-    >>> Paper is available at <a href="https://dl.acm.org/doi/abs/10.1145/3472883.3486990">ACM SoCC</a>, 2021 <br />
-    >>> Code is available at <a href="https://github.com/AISIGSJTU/Siren">https://github.com/AISIGSJTU/Siren</a>
-</div> -->
+    &gt;&gt;&gt; Paper is available at <a href="https://dl.acm.org/doi/abs/10.1145/3472883.3486990">ACM SoCC</a>, 2021 <br />
+    &gt;&gt;&gt; Code is available at <a href="https://github.com/AISIGSJTU/Siren">https://github.com/AISIGSJTU/Siren</a>
+</div>
 
 <!-- <div>
     <div class="title">Harvesting Idle Resources in Serverless Computing via Reinforcement Learning</div>
@@ -249,7 +249,8 @@
 
 <h4 id="abstract">Abstract</h4>
 
-<p>The decentralized learning paradigm and heterogeneity of federated learning (FL) further extend the attack surface for backdoor attacks. A few backdoor attack and defense methodologies have been proposed for FL. However, none of them recognizes that poisoning <strong>backdoor-critical (BC) layers</strong>—a small set of model layers—rather than the whole model can successfully backdoor FL at a minimum chance of being detected by state-of-the-art (SOTA) defenses.</p>
+<p>With the popularity of machine learning on many applications, data privacy has become a severe issue when machine learning is applied in the real world. Federated learning (FL), an emerging paradigm in machine learning, aims to train a centralized model while distributing training data among a large number of clients in order to avoid data privacy leaking, which has attracted great attention recently. However, the distributed training scheme in FL is susceptible to different kinds of attacks. Existing defense systems mainly utilize model weight analysis to identify malicious clients with many limitations. For example, some defense systems must know the exact number of malicious clients beforehand, which can be easily bypassed by well-designed attack methods and become impractical for real-world scenarios.
+This paper presents Siren, a Byzantine-robust federated learning system via a proactive alarming mechanism. Compared with current Byzantine-robust aggregation rules, Siren can defend against attacks from a higher proportion of malicious clients in the system while keeping the global model performing normally. Extensive experiments against different attack methods are conducted under diverse settings on both independent and identically distributed (IID) and non-IID data. The experimental results illustrate the effectiveness of Siren comparing with several state-of-the-art defense methods.</p>
 
 <!-- Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
@@ -281,15 +282,11 @@ To give your project a background in the portfolio page, just add the img tag to
 <div class="container">
 
     <div class="row">
-        <div class="col">
-        </div>
-        <div class="col-12 col-sm-12 col-md-12 col-lg-12 mt-md-0">
-            <img class="img-fluid" src="/assets/img/lsa-haomin.png" alt="" />
+        <div class="col-12 col-sm-10 col-md-7 col-lg-7 mt-md-0 mx-auto d-block">
+            <img class="img-fluid" src="/assets/img/siren-process.png" alt="" />
             <div class="caption">
-                Fine-grained Attacking.
+                Siren workflow.
             </div>
-        </div>
-        <div class="col">
         </div>
     </div>
 
@@ -343,7 +340,7 @@ Here's the code for the last row of images above:
     
 <footer class="sticky-bottom mt-5">
   <div class="container">
-    Last updated: July 29, 2023   &copy; Copyright 2023 IntelliSys  Lab.
+    Last updated: July 30, 2023   &copy; Copyright 2023 IntelliSys  Lab.
     Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
     

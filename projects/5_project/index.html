@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>IntelliSys Lab | LSU | Resource Harvesting in Serverless Computing</title>
+<title>IntelliSys Lab | LSU | Automating Material Measurement and Evaluation using CV Approaches</title>
 <meta name="description" content="the Intelligent System (IntelliSys) Lab in the Computer Science Engineering Division of Louisiana State University (LSU)
 ">
 
@@ -220,42 +220,19 @@
       <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Resource Harvesting in Serverless Computing</h1>
+    <h1 class="post-title">Automating Material Measurement and Evaluation using CV Approaches</h1>
     <p class="post-description"></p>
   </header>
 
   <article>
-    <div class="title"><strong>Libra: Harvesting Idle Resources Safely and Timely in Serverless Clusters</strong></div>
+    <!-- <div class="title"><strong>Siren: Byzantine-robust Federated Learning via Proactive Alarming</strong></div>
 <div class="author">
-    Hanfei Yu, Christian Fontenot, Hao Wang, Jian Li, Xu Yuan, and Seung-Jong Park
+    Hanxi Guo, Hao Wang, Tao Song, Yang Hua, Zhangcheng Lv, Xiulang Jin, Zhengui Xue, Ruhui Ma, and Haibing Guan
 </div>
-<!-- <div class="periodical"> -->
-<p>——Accepted by the ACM HPDC 2023, <a href="Libra_Hanfei_HPDC23.pdf">[PDF]</a>
-<!-- </div> --></p>
-
-<p><br /></p>
-
-<h4 id="abstract">Abstract</h4>
-
-<p>Serverless computing has been favored by users and infrastructure providers from various industries, including online services and scientific computing. Users enjoy its auto-scaling and ease-of-management, and providers own more control to optimize their service. However, existing serverless platforms still require users to pre-define resource allocations for their functions, leading to frequent misconfiguration by inexperienced users in practice. Besides, functions’ varying input data further escalate the gap between their dynamic resource demands and static allocations, leaving functions either over-provisioned or under-provisioned. This paper presents Libra, a safe and timely resource harvesting framework for multi-node serverless clusters. Libra makes precise harvesting decisions to accelerate function invocations with harvested resources and jointly improve resource utilization by profiling dynamic resource demands and availability proactively. Experiments on OpenWhisk clusters with real-world workloads show that Libra reduces response latency by 39% and achieves 3× resource utilization compared to state-of-the-art solutions.</p>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid mx-auto d-block" width="70%" src="/assets/img/libra.png" alt="" />
-    </div>
-</div>
-<div class="caption">
-    Libra workflow.
-</div>
-<p><br /></p>
-
-<hr />
-
-<div class="title"><strong>Harvesting Idle Resources in Serverless Computing via Reinforcement Learning</strong></div>
-<div class="author">
-    Hanfei Yu, Hao Wang, Jian Li, and Seung-Jong Park
-</div>
-<p>——Accepted by the ACM WebConf 2022, available at <a href="https://arxiv.org/abs/2108.12717">arXiv:2108.12717</a></p>
+<div class="periodical">
+    >>> Paper is available at <a href="https://dl.acm.org/doi/abs/10.1145/3472883.3486990">ACM SoCC</a>, 2021 <br />
+    >>> Code is available at <a href="https://github.com/AISIGSJTU/Siren">https://github.com/AISIGSJTU/Siren</a>
+</div> -->
 
 <!-- <div>
     <div class="title">Harvesting Idle Resources in Serverless Computing via Reinforcement Learning</div>
@@ -268,25 +245,9 @@
     </div>
 </div> -->
 
-<p><br /></p>
+<!-- <br /> -->
 
-<h4 id="abstract-1">Abstract</h4>
-
-<p>Serverless computing has become a new cloud computing paradigm that promises to deliver high cost-efficiency and
-simplified cloud deployment with automated resource scaling at a fine granularity. Users decouple a cloud application
-into chained functions and preset each serverless function’s memory and CPU demands at megabyte-level and core-level,
-respectively. Serverless platforms then automatically scale the number of functions to accommodate the workloads.
-However, the complexities of chained functions make it non-trivial to accurately determine the resource demands of each
-function for users, leading to either resource over-provision or under-provision for individual functions.</p>
-
-<p>This paper presents FaaSRM, a new resource manager (RM) for serverless platforms that maximizes resource efficiency by
-dynamically harvesting idle resources from functions over-supplied to functions under-supplied. FaaSRM monitors each
-function’s resource utilization in real-time, detects over-provisioning and under-provisioning, and applies deep
-reinforcement learning to harvest idle resources safely using a safeguard mechanism and accelerate functions
-efficiently. We have implemented and deployed a FaaSRM prototype in a 13-node Apache OpenWhisk cluster. Experimental
-results on the OpenWhisk cluster show that FaaSRM reduces the execution time of 98% of function invocations by 35.81%
-compared to the baseline RMs by harvesting idle resources from 38.8% of the invocations and accelerating 39.2% of the
-invocations.</p>
+<!-- #### About  -->
 
 <!-- Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
@@ -315,13 +276,42 @@ To give your project a background in the portfolio page, just add the img tag to
 <div class="caption">
     Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
 </div> -->
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid" src="/assets/img/faasrm-workflow.png" alt="" />
+
+<div class="container">
+
+    <div class="row">
+        <div class="col">
+        </div>
+        <div class="col-12 col-sm-8 col-md-8 col-lg-8 mt-md-0">
+            <img class="img-fluid" src="/assets/img/material-eval.gif" alt="" />
+            <div class="caption">
+                Live material measurement. 
+            </div>
+        </div>
+        <div class="col">
+        </div>
     </div>
+
 </div>
-<div class="caption">
-    FaaSRM workflow.
+
+<p>This project is supported by BoR LAMDA Seed Grant.</p>
+
+<p>Open source code repo: <a href="https://github.com/Nasser-Mohammed/MechE_Nail_Statistics">https://github.com/Nasser-Mohammed/MechE_Nail_Statistics</a>.</p>
+
+<h3 id="team">Team</h3>
+
+<div class="container">
+
+    <div class="row">
+        <div class="col">
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 mt-md-0">
+            <img class="img-fluid" src="/assets/img/material-team.png" alt="" />
+        </div>
+        <div class="col">
+        </div>
+    </div>
+
 </div>
 
 <!-- You can also put regular text between your rows of images.
@@ -372,7 +362,7 @@ Here's the code for the last row of images above:
     
 <footer class="sticky-bottom mt-5">
   <div class="container">
-    Last updated: July 29, 2023   &copy; Copyright 2023 IntelliSys  Lab.
+    Last updated: July 30, 2023   &copy; Copyright 2023 IntelliSys  Lab.
     Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
     
