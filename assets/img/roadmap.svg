@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xl="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="64 265 858 369" width="858" height="369">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xl="http://www.w3.org/1999/xlink" viewBox="64 265 858 369" width="858" height="369">
   <defs>
     <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -3 7 6" markerWidth="7" markerHeight="6" color="#c62f24">
       <g>
@@ -18,7 +18,7 @@
       </g>
     </marker>
   </defs>
-  <g id="Canvas_1" stroke-dasharray="none" fill-opacity="1" stroke="none" stroke-opacity="1" fill="none">
+  <g id="Canvas_1" stroke="none" stroke-dasharray="none" fill="none" fill-opacity="1" stroke-opacity="1">
     <title>Canvas 1</title>
     <g id="Canvas_1_Layer_2">
       <title>Layer 2</title>
@@ -157,15 +157,14 @@
           <rect x="329.93126" y="274.259" width="5" height="42.799435" fill="#04cd66"/>
         </g>
       </g>
-      <g id="Group_184">
-        <g id="Graphic_186">
-          <text transform="translate(535.7128 604.25176)" fill="#04cd66">
-            <tspan font-family="Helvetica Neue" font-size="16" fill="#04cd66" x="0" y="15">Attacking &amp; Defending Federated Learning</tspan>
-          </text>
-        </g>
-        <g id="Graphic_185">
-          <rect x="525.7128" y="603.1862" width="5" height="20.579124" fill="#04cd66"/>
-        </g>
+      <g id="Graphic_186">
+        <text transform="translate(535.7128 595.02776)" fill="#04cd66">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="#04cd66" x="0" y="15">Attacking &amp; Defending Federated Learning </tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="#04cd66" x="0" y="33.448">(funded by NSF SaTC CORE)</tspan>
+        </text>
+      </g>
+      <g id="Graphic_185">
+        <rect x="525.7128" y="598.19356" width="5" height="35.55704" fill="#04cd66"/>
       </g>
       <g id="Line_183">
         <line x1="454.57754" y1="485.5874" x2="454.57754" y2="511.0295" stroke="#c62f24" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
@@ -284,7 +283,7 @@
         <g id="Graphic_151">
           <text transform="translate(610.88274 313.4837)" fill="#00ce64">
             <tspan font-family="Helvetica Neue" font-size="16" fill="#00ce64" x="0" y="15">CPU/GPU Hybrid Serverless Architecture </tspan>
-            <tspan font-family="Helvetica Neue" font-size="16" fill="#00ce64" x="0" y="33.448">(funded by NSF CRII)</tspan>
+            <tspan font-family="Helvetica Neue" font-size="16" fill="#00ce64" x="0" y="33.448">(funded by NSF OAC CRII)</tspan>
           </text>
         </g>
       </g>
