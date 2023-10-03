@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xl="http://www.w3.org/1999/xlink" viewBox="64 265 858 369" width="858" height="369">
+  <defs>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -3 7 6" markerWidth="7" markerHeight="6" color="#c62f24">
+      <g>
+        <path d="M 4.8 0 L 0 -1.8 L 0 1.8 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker_2" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -3 7 6" markerWidth="7" markerHeight="6" color="#009bda">
+      <g>
+        <path d="M 4.8 0 L 0 -1.8 L 0 1.8 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker_3" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -3 7 6" markerWidth="7" markerHeight="6" color="#029bdb">
+      <g>
+        <path d="M 4.8 0 L 0 -1.8 L 0 1.8 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+  </defs>
+  <g id="Canvas_1" stroke="none" stroke-dasharray="none" fill="none" fill-opacity="1" stroke-opacity="1">
+    <title>Canvas 1</title>
+    <g id="Canvas_1_Layer_2">
+      <title>Layer 2</title>
+      <g id="Group_214">
+        <g id="Graphic_227">
+          <path d="M 74.04566 593.2009 L 505.04566 593.2009 C 510.5685 593.2009 515.04566 597.6781 515.04566 603.2009 L 515.04566 623.7506 C 515.04566 629.27345 510.5685 633.7506 505.04566 633.7506 L 74.04566 633.7506 C 68.52281 633.7506 64.04566 629.27345 64.04566 623.7506 L 64.04566 603.2009 C 64.04566 597.6781 68.52281 593.2009 74.04566 593.2009 Z" fill="#f2f2f2"/>
+        </g>
+        <g id="Graphic_226">
+          <rect x="71.9364" y="605.47576" width="5" height="16" fill="#999"/>
+        </g>
+        <g id="Graphic_225">
+          <text transform="translate(81.9364 604.25176)" fill="#666">
+            <tspan font-family="Helvetica Neue" font-size="16" fill="#666" x="0" y="15">Before 2021 </tspan>
+          </text>
+        </g>
+        <g id="Group_222">
+          <g id="Graphic_224">
+            <rect x="180.00537" y="605.47576" width="5" height="16" fill="#04cd66"/>
+          </g>
+          <g id="Graphic_223">
+            <text transform="translate(190.00537 604.25176)" fill="#04cd66">
+              <tspan font-family="Helvetica Neue" font-size="16" fill="#04cd66" x="0" y="15">2021-current </tspan>
+            </text>
+          </g>
+        </g>
+        <g id="Group_219">
+          <g id="Graphic_221">
+            <rect x="294.41403" y="605.47576" width="5" height="16" fill="#f26077"/>
+          </g>
+          <g id="Graphic_220">
+            <text transform="translate(304.41403 604.25176)" fill="#f36177">
+              <tspan font-family="Helvetica Neue" font-size="16" fill="#f36177" x="0" y="15">Future</tspan>
+            </text>
+          </g>
+        </g>
+        <g id="Group_216">
+          <g id="Graphic_218">
+            <circle cx="368.9422" cy="613.47576" r="5.00000798950948" fill="white"/>
+            <path d="M 372.47774 609.9402 C 374.43037 611.89285 374.43037 615.0587 372.47774 617.0113 C 370.52512 618.9639 367.3593 618.9639 365.4067 617.0113 C 363.45405 615.0587 363.45405 611.89285 365.4067 609.9402 C 367.3593 607.9876 370.52512 607.9876 372.47774 609.9402" stroke="#029bdb" stroke-linecap="round" stroke-linejoin="miter" stroke-dasharray="3.0,3.0" stroke-width="1.5"/>
+          </g>
+          <g id="Graphic_217">
+            <circle cx="374.9422" cy="613.47576" r="5.00000798950947" fill="white"/>
+            <path d="M 378.47774 609.9402 C 380.43037 611.89285 380.43037 615.0587 378.47774 617.0113 C 376.52512 618.9639 373.3593 618.9639 371.4067 617.0113 C 369.45405 615.0587 369.45405 611.89285 371.4067 609.9402 C 373.3593 607.9876 376.52512 607.9876 378.47774 609.9402" stroke="#c62f23" stroke-linecap="round" stroke-linejoin="miter" stroke-dasharray="3.0,3.0" stroke-width="1.5"/>
+          </g>
+        </g>
+        <g id="Graphic_215">
+          <text transform="translate(384.13725 604.25176)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="781597e-18" y="15">Work in Progress</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Line_213">
+        <path d="M 371.6508 428.4326 L 409 428.4326 C 414.52285 428.4326 419 432.90975 419 438.4326 L 419 470.5874 C 419 476.11025 423.47715 480.5874 429 480.5874 L 547.2222 480.5874" stroke="#c62f24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Line_212">
+        <line x1="198.72383" y1="409.4201" x2="198.72383" y2="423.4326" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_211">
+        <path d="M 151.6751 451.4489 L 151.6716 443.4326 L 151.6716 433.4326" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_210">
+        <path d="M 278.8618 428.4326 L 306.5 428.4326 C 312.02285 428.4326 316.5 423.95545 316.5 418.4326 C 316.5 418.4326 316.5 418.4326 316.5 418.4326 L 316.5 388.92337 C 316.5 383.4005 320.97715 378.92337 326.5 378.92337 L 491.66667 378.92337" stroke="#009bda" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_209">
+        <circle cx="424.44637" cy="378.92337" r="5.00000798950948" fill="#029bdb"/>
+      </g>
+      <g id="Line_208">
+        <line x1="135.09523" y1="428.4326" x2="379.9479" y2="428.4326" stroke="#666" stroke-linecap="round" stroke-linejoin="miter" stroke-width="2"/>
+      </g>
+      <g id="Graphic_207">
+        <circle cx="151.6716" cy="428.4326" r="5.00000798950949" fill="#333"/>
+      </g>
+      <g id="Graphic_206">
+        <circle cx="198.72383" cy="428.4326" r="5.0000079895095" fill="#333"/>
+      </g>
+      <g id="Graphic_205">
+        <circle cx="295.64796" cy="428.4326" r="5.0000079895095" fill="#333"/>
+      </g>
+      <g id="Line_204">
+        <line x1="295.64796" y1="325.8174" x2="295.64796" y2="423.4326" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_203">
+        <circle cx="334.93126" cy="428.4326" r="5.0000079895095" fill="#333"/>
+      </g>
+      <g id="Line_202">
+        <line x1="334.93126" y1="433.4326" x2="334.93126" y2="450.7121" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_201">
+        <path d="M 419 459.1508 L 419 560.2247 C 419 564.7537 422.67144 568.4251 427.2004 568.4251 L 435.37386 568.4251 C 435.3918 568.4251 435.40977 568.4252 435.42773 568.4253 L 519.1733 568.87635 C 519.19124 568.87645 519.2092 568.8765 519.22715 568.8765 L 535.2002 568.8765" stroke="#c62f24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_200">
+        <circle cx="535.2002" cy="568.8765" r="5.00000798950948" fill="#c72f24"/>
+      </g>
+      <g id="Line_199">
+        <line x1="535.2002" y1="568.8765" x2="579.6757" y2="568.8765" marker-end="url(#FilledArrow_Marker)" stroke="#c62f24" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="2"/>
+      </g>
+      <g id="Line_198">
+        <line x1="535.2002" y1="573.8765" x2="535.2002" y2="595.1809" stroke="#c62f24" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_197">
+        <path d="M 400.11955 378.92337 L 471.0185 378.92337 C 476.54137 378.92337 481.0185 383.4005 481.0185 388.92337 L 481.0185 418.94207 C 481.0185 424.4649 485.49567 428.94207 491.0185 428.94207 L 578.857 428.94207" marker-end="url(#FilledArrow_Marker_2)" stroke="#009bda" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="2"/>
+      </g>
+      <g id="Line_196">
+        <line x1="545.24234" y1="480.37304" x2="579.6757" y2="480.37304" marker-end="url(#FilledArrow_Marker)" stroke="#c62f24" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="2"/>
+      </g>
+      <g id="Group_193">
+        <g id="Graphic_195">
+          <text transform="translate(118 360.8134)" fill="#666">
+            <tspan font-family="Helvetica Neue" font-size="16" fill="#666" x="0" y="15">Optimizing Large-Scale </tspan>
+            <tspan font-family="Helvetica Neue" font-size="16" fill="#666" x="0" y="33.448">Data Analytics with ML</tspan>
+          </text>
+        </g>
+        <g id="Graphic_194">
+          <rect x="108" y="357.8617" width="5" height="42.799435" fill="#999"/>
+        </g>
+      </g>
+      <g id="Group_190">
+        <g id="Graphic_192">
+          <text transform="translate(118 463.1596)" fill="#666">
+            <tspan font-family="Helvetica Neue" font-size="16" fill="#666" x="0" y="15">Data Center </tspan>
+            <tspan font-family="Helvetica Neue" font-size="16" fill="#666" x="0" y="33.448">Network </tspan>
+          </text>
+        </g>
+        <g id="Graphic_191">
+          <rect x="108" y="458.56714" width="5" height="46.982184" fill="#999"/>
+        </g>
+      </g>
+      <g id="Group_187">
+        <g id="Graphic_189">
+          <text transform="translate(341.1379 277.2107)" fill="#04cd66">
+            <tspan font-family="Helvetica Neue" font-size="16" fill="#04cd66" x="0" y="15">Accelerating Serverless Computing with </tspan>
+            <tspan font-family="Helvetica Neue" font-size="16" fill="#04cd66" x="0" y="33.448">Reinforcement Learning</tspan>
+          </text>
+        </g>
+        <g id="Graphic_188">
+          <rect x="329.93126" y="274.259" width="5" height="42.799435" fill="#04cd66"/>
+        </g>
+      </g>
+      <g id="Graphic_186">
+        <text transform="translate(535.7128 595.02776)" fill="#04cd66">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="#04cd66" x="0" y="15">Attacking &amp; Defending Federated Learning </tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" fill="#04cd66" x="0" y="33.448">(funded by NSF SaTC CORE)</tspan>
+        </text>
+      </g>
+      <g id="Graphic_185">
+        <rect x="525.7128" y="598.19356" width="5" height="35.55704" fill="#04cd66"/>
+      </g>
+      <g id="Line_183">
+        <line x1="454.57754" y1="485.5874" x2="454.57754" y2="511.0295" stroke="#c62f24" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_182">
+        <text transform="translate(611.2604 559.6525)" fill="#f36177">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="#f36177" x="0" y="15">AI Security &amp; Forensics</tspan>
+        </text>
+      </g>
+      <g id="Graphic_181">
+        <rect x="601.2604" y="559.23003" width="5" height="20.579124" fill="#f26077"/>
+      </g>
+      <g id="Line_180">
+        <line x1="424.44637" y1="373.92337" x2="424.44637" y2="325.8174" stroke="#009cdb" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_179">
+        <text transform="translate(611.2604 370.33296)" fill="#f36177">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="#f36177" x="0" y="15">Serverless High-performance Computing</tspan>
+        </text>
+      </g>
+      <g id="Line_178">
+        <path d="M 436.4312 480.5874 L 469.6748 480.5874 C 475.19764 480.5874 479.6748 476.11025 479.6748 470.5874 L 479.6748 438.94207 C 479.6748 433.41923 484.15195 428.94207 489.6748 428.94207 L 571.0073 428.94207" marker-end="url(#FilledArrow_Marker)" stroke="#c62f24" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="2"/>
+      </g>
+      <g id="Line_177">
+        <line x1="488.2" y1="378.91386" x2="579.6757" y2="378.91386" marker-end="url(#FilledArrow_Marker_3)" stroke="#029bdb" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="2"/>
+      </g>
+      <g id="Graphic_176">
+        <text transform="translate(611.2604 419.7086)" fill="#f36177">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="#f36177" x="0" y="15">Large Model Training &amp; Serving</tspan>
+        </text>
+      </g>
+      <g id="Graphic_175">
+        <rect x="601.2604" y="416.39657" width="5" height="25.072064" fill="#f26077"/>
+      </g>
+      <g id="Graphic_174">
+        <text transform="translate(611.2604 471.79214)" fill="#f36177">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="#f36177" x="0" y="15">Federated Analytics</tspan>
+        </text>
+      </g>
+      <g id="Graphic_173">
+        <rect x="601.2604" y="470.7266" width="5" height="20.579124" fill="#f26077"/>
+      </g>
+      <g id="Graphic_172">
+        <circle cx="400.66737" cy="428.4326" r="5.00000798950951" fill="#c72f24"/>
+      </g>
+      <g id="Line_171">
+        <line x1="400.66737" y1="433.4326" x2="400.66737" y2="524.75705" stroke="#c62f24" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_170">
+        <circle cx="454.57754" cy="480.5874" r="5.00000798950945" fill="#c72f24"/>
+      </g>
+      <g id="Line_169">
+        <path d="M 443.1665 378.91386 L 470.8047 378.91386 C 476.32757 378.91386 480.8047 374.4367 480.8047 368.91386 L 480.8047 341.9317 C 480.8047 336.40883 485.2819 331.9317 490.8047 331.9317 L 579.2626 331.9317" marker-end="url(#FilledArrow_Marker_2)" stroke="#009bda" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="2"/>
+      </g>
+      <g id="Graphic_168">
+        <rect x="601.2604" y="369.2674" width="5" height="20.579124" fill="#f26077"/>
+      </g>
+      <g id="Graphic_167">
+        <circle cx="510.04566" cy="331.9317" r="5.00000798950949" fill="white"/>
+        <path d="M 513.5812 328.39615 C 515.5338 330.34877 515.5338 333.5146 513.5812 335.4672 C 511.6286 337.41984 508.46275 337.41984 506.51013 335.4672 C 504.5575 333.5146 504.5575 330.34877 506.51013 328.39615 C 508.46275 326.44352 511.6286 326.44352 513.5812 328.39615" stroke="#029bdb" stroke-linecap="round" stroke-linejoin="miter" stroke-dasharray="3.0,3.0" stroke-width="1.5"/>
+      </g>
+      <g id="Group_163">
+        <g id="Graphic_166">
+          <text transform="translate(226.75862 462.4228)" fill="#666">
+            <tspan font-family="Helvetica Neue" font-size="16" fill="#666" x="0" y="15">Optimizing Federated </tspan>
+            <tspan font-family="Helvetica Neue" font-size="16" fill="#666" x="0" y="33.448">Learning</tspan>
+          </text>
+        </g>
+        <g id="Graphic_165">
+          <rect x="216.75862" y="460.2248" width="5" height="42.799435" fill="#999"/>
+        </g>
+        <g id="Graphic_164">
+          <rect x="216.75862" y="482.47125" width="5" height="20.579124" fill="#04cd66"/>
+        </g>
+      </g>
+      <g id="Graphic_162">
+        <circle cx="559.8847" cy="568.8765" r="5.0000079895095" fill="white"/>
+        <path d="M 563.4202 565.341 C 565.37286 567.2936 565.37286 570.4594 563.4202 572.412 C 561.4676 574.36466 558.3018 574.36466 556.3492 572.412 C 554.39654 570.4594 554.39654 567.2936 556.3492 565.341 C 558.3018 563.38834 561.4676 563.38834 563.4202 565.341" stroke="#c62f23" stroke-linecap="round" stroke-linejoin="miter" stroke-dasharray="3.0,3.0" stroke-width="1.5"/>
+      </g>
+      <g id="Graphic_161">
+        <circle cx="545.2182" cy="378.91386" r="5.00000798950948" fill="white"/>
+        <path d="M 548.75374 375.37833 C 550.7064 377.33095 550.7064 380.49677 548.75374 382.4494 C 546.8011 384.40202 543.6353 384.40202 541.6827 382.4494 C 539.73005 380.49677 539.73005 377.33095 541.6827 375.37833 C 543.6353 373.4257 546.8011 373.4257 548.75374 375.37833" stroke="#029bdb" stroke-linecap="round" stroke-linejoin="miter" stroke-dasharray="3.0,3.0" stroke-width="1.5"/>
+      </g>
+      <g id="Graphic_160">
+        <text transform="translate(264.59167 533.8279)" fill="#04cd66">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="#04cd66" x="0" y="15">Adversarial Learning </tspan>
+        </text>
+      </g>
+      <g id="Graphic_159">
+        <rect x="253.38504" y="532.629" width="5" height="20.579124" fill="#04cd66"/>
+      </g>
+      <g id="Group_154">
+        <g id="Graphic_158">
+          <text transform="translate(138.5 277.2107)" fill="#666">
+            <tspan font-family="Helvetica Neue" font-size="16" fill="#666" x="0" y="15">Distributed ML with New </tspan>
+            <tspan font-family="Helvetica Neue" font-size="16" fill="#666" x="0" y="33.448">Architectures</tspan>
+          </text>
+        </g>
+        <g id="Group_155">
+          <g id="Graphic_157">
+            <rect x="128.5" y="274.24593" width="5" height="42.799435" fill="#999"/>
+          </g>
+          <g id="Graphic_156">
+            <rect x="128.5" y="296.49236" width="5" height="20.579124" fill="#04cd66"/>
+          </g>
+        </g>
+      </g>
+      <g id="Graphic_153">
+        <circle cx="489.2849" cy="480.5874" r="5.00000798950948" fill="white"/>
+        <path d="M 492.8204 477.0519 C 494.77305 479.0045 494.77305 482.1703 492.8204 484.12293 C 490.8678 486.07556 487.702 486.07556 485.74936 484.12293 C 483.7967 482.1703 483.7967 479.0045 485.74936 477.0519 C 487.702 475.09924 490.8678 475.09924 492.8204 477.0519" stroke="#c62f23" stroke-linecap="round" stroke-linejoin="miter" stroke-dasharray="3.0,3.0" stroke-width="1.5"/>
+      </g>
+      <g id="Group_150">
+        <g id="Graphic_152">
+          <rect x="601.2604" y="309.55046" width="5" height="42.799435" fill="#09cc66"/>
+        </g>
+        <g id="Graphic_151">
+          <text transform="translate(610.88274 313.4837)" fill="#00ce64">
+            <tspan font-family="Helvetica Neue" font-size="16" fill="#00ce64" x="0" y="15">CPU/GPU Hybrid Serverless Architecture </tspan>
+            <tspan font-family="Helvetica Neue" font-size="16" fill="#00ce64" x="0" y="33.448">(funded by NSF OAC CRII)</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Group_147">
+        <g id="Graphic_149">
+          <text transform="translate(460.2644 515.7095)" fill="#04cd66">
+            <tspan font-family="Helvetica Neue" font-size="16" fill="#04cd66" x="0" y="15">Personalized Federated Learning</tspan>
+          </text>
+        </g>
+        <g id="Graphic_148">
+          <rect x="450.2644" y="514.64395" width="5" height="20.579124" fill="#04cd66"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
