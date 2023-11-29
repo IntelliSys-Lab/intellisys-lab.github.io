@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>IntelliSys Lab | LSU | Super Computer in Your Pocket</title>
+<title>IntelliSys Lab | LSU | Hacking Self-driving Models</title>
 <meta name="description" content="the Intelligent System (IntelliSys) Lab in the Computer Science Engineering Division of Louisiana State University (LSU)
 ">
 
@@ -31,7 +31,7 @@
 
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/k12projects/2_project/">
+<link rel="canonical" href="/k12projects/4_project/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -220,154 +220,57 @@
       <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Super Computer in Your Pocket</h1>
+    <h1 class="post-title">Hacking Self-driving Models</h1>
     <p class="post-description"></p>
   </header>
 
   <article>
     <!-- <div class="title"><strong>Playing FlappyBird with Reinforcement Learning</strong></div> -->
 <!-- <br /> -->
+
+<h4 id="live-demo">Live Demo</h4>
+
+<div class="container">
+
+    <div class="row">
+        <div class="col">
+        </div>
+        <div class="col-10 col-sm-8 col-md-6 col-lg-6 mt-md-0 mx-auto d-block">
+            <img class="img-fluid" src="/assets/img/backdoor.gif" alt="" />
+        </div>
+        <div class="col">
+        </div>
+    </div>
+
+</div>
+
+<p><br /></p>
+
 <h4 id="program-members">Program Members</h4>
 
 <ul>
-  <li><strong>Alexander Randall</strong>, 7th grade student at Kenilworth Science and Technology School (KST), <a href="https://ce.lsu.edu/news/publicNews.do?method=displayStory&amp;activity=public&amp;storyId=16497495">3rd place winner in Louisiana State Science &amp; Engineering Fair</a></li>
-  <li><strong>Ms. Kenyatta Fountain</strong> (Advisor at KST)</li>
-  <li><strong>Mr.</strong> <strong>Elkhan Akhundov</strong>, Advisor at KST</li>
-  <li><strong>Mr. Ashutosh Neupane</strong> (graduate student), Advisor at LSU</li>
-  <li><strong>Dr. Hao Wang</strong>, Advisor at LSU</li>
+  <li><strong>William Wei</strong>, 12th-grade high school student from Baton Rouge High School, HSSR Program</li>
+  <li><strong>Dr. Hao Wang</strong>, Advisor</li>
 </ul>
-
-<!-- <img class="img-fluid" src="/assets/img/KST-mentoring.jpg" alt="" /> -->
-<!-- <div class="caption"> -->
-
-<!-- </div> -->
-
-<!-- <div>
-    <div class="title">Harvesting Idle Resources in Serverless Computing via Reinforcement Learning</div>
-    <div class="author">
-        Hanfei Yu, <em>Hao Wang</em>,Jian Li, and Seung-Jong Park
-    </div>
-
-    <div class="periodical">
-        Available at <a href="https://arxiv.org/abs/2108.12717">arXiv:2108.12717</a>, 2021
-    </div>
-</div> -->
 
 <p><br /></p>
 
 <h4 id="objectives">Objectives</h4>
 
-<p>This project is to use Amazon Web services Internet of thing core platform to deploy individual complicated functions and send and retrieve data, eventually, demonstrating computing heavy workloads with a single-chip computer.</p>
+<p>Inspired by BadNets [1], we further explore the practical scenarios of self-driving and demonstrate the feasibility to attack self-driving vehicles using cameras and neural network models.</p>
 
-<h4 id="roadmap">Roadmap</h4>
-<ul>
-  <li>Develop serverless computing functions, e.g., image recognitions</li>
-  <li>Deploy functions to AWS Lambda</li>
-  <li>Develop a simple client—the “button”—at the Raspberry Pi</li>
-  <li>Activate the functions deployed at AWS Lambda by pressing the “button”</li>
-  <li>Develop simple code handling the results returned from AWS Lambda functions</li>
-</ul>
-
-<!-- Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    --- -->
-
-<!-- <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="/assets/img/1.jpg" alt="" title="example image"/>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="/assets/img/3.jpg" alt="" title="example image"/>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="/assets/img/5.jpg" alt="" title="example image"/>
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div> -->
-<div class="container">
-
-    <div class="row">
-        <div class="col-12 col-sm-12 col-md-8 col-lg-6 mt-md-0">
-            <img class="img-fluid rounded" src="/assets/img/serverless-kst.png" alt="" />
-            <div class="caption">
-                Serverless architecture.
-            </div>
-        </div>
-        <div class="col-6 col-sm-6 col-md-6 col-lg-3 mt-md-0">
-            <img class="img-fluid rounded" src="/assets/img/alex-kst-2.jpg" alt="" />
-            <div class="caption">
-                Alexander Randall is working on his Pi.
-            </div>
-        </div>
-        <div class="col-6 col-sm-6 col-md-6 col-lg-3 mt-md-0">
-            <img class="img-fluid rounded" src="/assets/img/alex-kst.jpg" alt="" />
-            <div class="caption">
-                Alexander Randall and his Pi.
-            </div>
+<div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 mx-auto d-block">
+        <img class="img-fluid" src="/assets/img/self-driving.png" alt="" />
+        <div class="caption">
+            Backdoor self-driving AI models [1]. 
         </div>
     </div>
-
-    <div class="row">
-        <div class="col-9 col-sm-9 col-md-9 col-lg-9 mt-md-0">
-            <img class="img-fluid rounded mx-auto d-block" src="/assets/img/alexander-award.jpg" alt="" />
-            <div class="caption">
-                Alexander Randall received 2nd place in the Regional Competition.
-            </div>
-        </div>
-        <div class="col-3 col-sm-3 col-md-3 col-lg-3 mt-md-0">
-            <img class="img-fluid rounded mx-auto d-block" src="/assets/img/alex-randall.png" alt="" />
-            <div class="caption">
-                <!-- Alexander Randall received 2nd place in the Regional Competition. -->
-            </div>
-        </div>
-    </div>
-
 </div>
 
-<!-- You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images. -->
+<h4 id="references">References</h4>
 
-<!-- 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="/assets/img/6.jpg" alt="" title="example image"/>
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="/assets/img/11.jpg" alt="" title="example image"/>
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/" target="_blank">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="/assets/img/6.jpg" alt="" title="example image"/>
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="/assets/img/11.jpg" alt="" title="example image"/>
-    </div>
-</div>
-``` -->
+<p>[1] Tianyu Gu, Brendan Dolan-Gavitt, and Siddharth Garg. 2019. BadNets: Identifying Vulnerabilities in the Machine Learning Model Supply Chain. arXiv:1708.06733 [cs] (March 2019). Retrieved April 18, 2022 from http://arxiv.org/abs/1708.06733</p>
 
   </article>
 
