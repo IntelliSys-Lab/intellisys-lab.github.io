@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xl="http://www.w3.org/1999/xlink" viewBox="117 328 870 372" width="870" height="372">
+<svg xmlns:xl="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="117 328 870 372" width="870" height="372">
   <defs>
     <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -3 7 6" markerWidth="7" markerHeight="6" color="#c62f24">
       <g>
@@ -18,7 +18,7 @@
       </g>
     </marker>
   </defs>
-  <g id="Canvas_1" stroke-opacity="1" stroke="none" stroke-dasharray="none" fill="none" fill-opacity="1">
+  <g id="Canvas_1" stroke="none" stroke-dasharray="none" fill="none" stroke-opacity="1" fill-opacity="1">
     <title>Canvas 1</title>
     <g id="Canvas_1_Serialized">
       <title>Serialized</title>
@@ -115,7 +115,7 @@
         <line x1="506.06885" y1="413.1948" x2="597.5445" y2="413.1948" marker-end="url(#FilledArrow_Marker_3)" stroke="#029bdb" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="2"/>
       </g>
       <g id="Graphic_235">
-        <rect x="619.06885" y="484.7362" width="5" height="33.276" fill="#f26077"/>
+        <rect x="619.16814" y="484.7362" width="5" height="36.276" fill="#f26077"/>
       </g>
       <g id="Graphic_234">
         <circle cx="428.9851" cy="467.17796" r="5.00000798950948" fill="#c72f24"/>
@@ -127,10 +127,10 @@
         <path d="M 458.9016 413.1948 L 488.78916 413.1948 C 494.312 413.1948 498.78916 408.71763 498.78916 403.1948 L 498.78916 387.62445 C 498.78916 382.1016 503.2663 377.62445 508.78916 377.62445 L 597.5022 377.62445" marker-end="url(#FilledArrow_Marker_2)" stroke="#009bda" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
       </g>
       <g id="Graphic_230">
-        <rect x="619.06885" y="405.08502" width="5" height="16" fill="#f26077"/>
+        <rect x="619.16814" y="405.08502" width="5" height="16" fill="#f26077"/>
       </g>
       <g id="Graphic_228">
-        <rect x="619.06885" y="360.3546" width="5.198571" height="33.276" fill="#04cd66"/>
+        <rect x="619.06885" y="358.1963" width="5.198571" height="39.347587" fill="#04cd66"/>
       </g>
       <g id="Graphic_227">
         <circle cx="532.1714" cy="377.62445" r="5.00000798950948" fill="white"/>
@@ -213,36 +213,32 @@
         <path d="M 448.06885 566.4985 L 448.06885 640.148 C 448.06885 645.67084 452.546 650.148 458.06885 650.148 L 550.484 650.148" stroke="#c62f24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
       </g>
       <g id="Graphic_200">
-        <rect x="619.06885" y="642.3602" width="5" height="30.05766" fill="#f26077"/>
+        <rect x="619.16814" y="642.3602" width="5" height="30.05766" fill="#f26077"/>
       </g>
       <g id="Graphic_199">
-        <rect x="619.06885" y="664.32126" width="5" height="19.14361" fill="#04cd66"/>
+        <rect x="619.16814" y="664.32126" width="5" height="19.14361" fill="#04cd66"/>
       </g>
       <g id="Graphic_198">
-        <rect x="619.06885" y="566.4782" width="5" height="33.29631" fill="#04cd66"/>
+        <rect x="619.16814" y="568.6365" width="5" height="33.29631" fill="#04cd66"/>
       </g>
       <g id="Graphic_197">
-        <rect x="619.06885" y="502.0122" width="5" height="16" fill="#04cd66"/>
+        <rect x="619.16814" y="502.0122" width="5" height="19.14361" fill="#04cd66"/>
       </g>
-      <g id="Group_191">
-        <g id="Graphic_193">
-          <text transform="translate(630.7804 431.4503)" fill="black">
-            <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="0" y="15">Large Language Model Democratization</tspan>
-          </text>
-        </g>
-        <g id="Graphic_192">
-          <rect x="619.06885" y="432.88665" width="5" height="16" fill="#f26077"/>
-        </g>
+      <g id="Graphic_193">
+        <text transform="translate(630.7804 431.4503)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="0" y="15">Large Language Model Democratization</tspan>
+        </text>
       </g>
-      <g id="Group_188">
-        <g id="Graphic_190">
-          <text transform="translate(629.56885 451.1614)" fill="black">
-            <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="0" y="15">Sustainable AI</tspan>
-          </text>
-        </g>
-        <g id="Graphic_189">
-          <rect x="619.06885" y="451.8609" width="5" height="16" fill="#f26077"/>
-        </g>
+      <g id="Graphic_192">
+        <rect x="619.16814" y="432.88665" width="5" height="16" fill="#f26077"/>
+      </g>
+      <g id="Graphic_190">
+        <text transform="translate(629.56885 451.1614)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="0" y="15">Sustainable AI</tspan>
+        </text>
+      </g>
+      <g id="Graphic_189">
+        <rect x="619.16814" y="451.8609" width="5" height="16" fill="#f26077"/>
       </g>
       <g id="Graphic_187">
         <circle cx="531.6555" cy="453.86585" r="5.00000798950948" fill="white"/>
@@ -265,7 +261,7 @@
         <path d="M 581.12544 646.6125 C 583.0781 648.5651 583.0781 651.7309 581.12544 653.6835 C 579.1728 655.63615 576.007 655.63615 574.0544 653.6835 C 572.10175 651.7309 572.10175 648.5651 574.0544 646.6125 C 576.007 644.6598 579.1728 644.6598 581.12544 646.6125" stroke="#c62f23" stroke-linecap="round" stroke-linejoin="miter" stroke-dasharray="3.0,3.0" stroke-width="1.5"/>
       </g>
       <g id="Graphic_179">
-        <rect x="619.0519" y="565.41045" width="5" height="15.14361" fill="#f26077"/>
+        <rect x="619.16814" y="565.41045" width="5" height="15.14361" fill="#f26077"/>
       </g>
       <g id="Group_1481">
         <title>Adversarial Learning 
@@ -1877,21 +1873,23 @@
           <path d="M 509.76 687.29225 L 507.667 687.29225 L 507.667 687.98125 L 508.941 687.98125 L 508.941 698.55025 L 507.667 698.55025 L 507.667 699.23925 L 509.76 699.23925 Z" fill="#04cd66"/>
         </g>
       </g>
-      <g id="Graphic_1974">
-        <path d="M 633.85156 377.6229 L 874.2042 377.6229 C 876.9657 377.6229 879.2042 379.86146 879.2042 382.6229 L 879.2042 391.6229 C 879.2042 394.3843 876.9657 396.6229 874.2042 396.6229 L 633.85156 396.6229 C 631.0901 396.6229 628.85156 394.3843 628.85156 391.6229 L 628.85156 382.6229 C 628.85156 379.86146 631.0901 377.6229 633.85156 377.6229 Z" fill="#04cd66"/>
-      </g>
       <g id="Graphic_1975">
         <path d="M 633.85156 502.0122 L 874.2042 502.0122 C 876.9657 502.0122 879.2042 504.2508 879.2042 507.0122 L 879.2042 516.0122 C 879.2042 518.7736 876.9657 521.0122 874.2042 521.0122 L 633.85156 521.0122 C 631.0901 521.0122 628.85156 518.7736 628.85156 516.0122 L 628.85156 507.0122 C 628.85156 504.2508 631.0901 502.0122 633.85156 502.0122 Z" fill="#04cd66"/>
       </g>
       <g id="Graphic_1971">
-        <text transform="translate(663.3527 503.32365)" fill="white">
+        <text transform="translate(673.1354 503.32365)" fill="white">
           <tspan font-family="Helvetica Neue" font-weight="bold" font-size="13" fill="white" x="0" y="13">funded by NSF RII Track-4</tspan>
         </text>
       </g>
-      <g id="Graphic_1970">
-        <text transform="translate(683.6977 378.93434)" fill="white">
-          <tspan font-family="Helvetica Neue" font-weight="bold" font-size="13" fill="white" x="5897505e-19" y="13">funded by NSF CRII</tspan>
-        </text>
+      <g id="Group_1991">
+        <g id="Graphic_1974">
+          <path d="M 633.85156 379.1719 L 874.2042 379.1719 C 876.9657 379.1719 879.2042 381.4105 879.2042 384.1719 L 879.2042 393.1719 C 879.2042 395.93333 876.9657 398.1719 874.2042 398.1719 L 633.85156 398.1719 C 631.0901 398.1719 628.85156 395.93333 628.85156 393.1719 L 628.85156 384.1719 C 628.85156 381.4105 631.0901 379.1719 633.85156 379.1719 Z" fill="#04cd66"/>
+        </g>
+        <g id="Graphic_1970">
+          <text transform="translate(693.4804 380.48336)" fill="white">
+            <tspan font-family="Helvetica Neue" font-weight="bold" font-size="13" fill="white" x="5897505e-19" y="13">funded by NSF CRII</tspan>
+          </text>
+        </g>
       </g>
       <g id="Graphic_1976">
         <path d="M 635.5154 583.1246 L 843.0843 583.1246 C 845.8457 583.1246 848.0843 585.3632 848.0843 588.1246 L 848.0843 597.1246 C 848.0843 599.88605 845.8457 602.1246 843.0843 602.1246 L 635.5154 602.1246 C 632.754 602.1246 630.5154 599.88605 630.5154 597.1246 L 630.5154 588.1246 C 630.5154 585.3632 632.754 583.1246 635.5154 583.1246 Z" fill="#04cd66"/>
@@ -1902,10 +1900,10 @@
         </text>
       </g>
       <g id="Graphic_1977">
-        <path d="M 633.85156 663.0842 L 953.5 663.0842 C 956.2614 663.0842 958.5 665.3228 958.5 668.0842 L 958.5 677.0842 C 958.5 679.8457 956.2614 682.0842 953.5 682.0842 L 633.85156 682.0842 C 631.0901 682.0842 628.85156 679.8457 628.85156 677.0842 L 628.85156 668.0842 C 628.85156 665.3228 631.0901 663.0842 633.85156 663.0842 Z" fill="#04cd66"/>
+        <path d="M 633.85156 663.8037 L 953.5 663.8037 C 956.2614 663.8037 958.5 666.04224 958.5 668.8037 L 958.5 677.8037 C 958.5 680.5651 956.2614 682.8037 953.5 682.8037 L 633.85156 682.8037 C 631.0901 682.8037 628.85156 680.5651 628.85156 677.8037 L 628.85156 668.8037 C 628.85156 666.04224 631.0901 663.8037 633.85156 663.8037 Z" fill="#04cd66"/>
       </g>
       <g id="Graphic_1973">
-        <text transform="translate(651.0853 664.3957)" fill="white">
+        <text transform="translate(651.0853 665.1151)" fill="white">
           <tspan font-family="Helvetica Neue" font-weight="bold" font-size="13" fill="white" x="2557954e-19" y="13">funded by Louisiana Materials Design Alliance</tspan>
         </text>
       </g>
