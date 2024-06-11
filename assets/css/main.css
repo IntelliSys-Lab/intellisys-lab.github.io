@@ -1,12 +1,12 @@
 /******************************************************************************* Variables used throughout the theme. To adjust anything, simply edit the variables below and rebuild the theme. */
 /******************************************************************************* Themes */
-:root { --global-bg-color: #ffffff; --global-code-bg-color: rgba(70, 29, 124, 0.05); --global-text-color: #000000; --global-text-color-light: #828282; --global-theme-color: #461d7c; --global-hover-color: #461d7c; --global-footer-bg-color: #424242; --global-footer-text-color: #e8e8e8; --global-footer-link-color: #ffffff; --global-distill-app-color: #828282; }
+:root { --global-bg-color: #ffffff; --global-code-bg-color: rgba(163, 38, 56, 0.05); --global-text-color: #000000; --global-text-color-light: #7F7F7F; --global-theme-color: #a32638; --global-hover-color: #a32638; --global-footer-bg-color: #3f3f3f; --global-footer-text-color: #e5e5e5; --global-footer-link-color: #ffffff; --global-distill-app-color: #7F7F7F; }
 
 :root .fa-sun { display: none; }
 
 :root .fa-moon { padding-left: 10px; padding-top: 12px; display: block; }
 
-html[data-theme='dark'] { --global-bg-color: #424242; --global-code-bg-color: #2c3237; --global-text-color: #e8e8e8; --global-text-color-light: #e8e8e8; --global-theme-color: #2698BA; --global-hover-color: #2698BA; --global-footer-bg-color: #e8e8e8; --global-footer-text-color: #424242; --global-footer-link-color: #000000; --global-distill-app-color: #e8e8e8; }
+html[data-theme='dark'] { --global-bg-color: #3f3f3f; --global-code-bg-color: #2c3237; --global-text-color: #e5e5e5; --global-text-color-light: #e5e5e5; --global-theme-color: #2698BA; --global-hover-color: #2698BA; --global-footer-bg-color: #e5e5e5; --global-footer-text-color: #3f3f3f; --global-footer-link-color: #000000; --global-distill-app-color: #e5e5e5; }
 
 html[data-theme='dark'] .fa-sun { padding-left: 10px; padding-top: 12px; display: block; }
 
@@ -54,7 +54,7 @@ a:hover:after, table.table a:hover:after { width: 100%; }
 
 .post-description a:hover { color: var(--global-theme-color); text-decoration: none; }
 
-.navbar { box-shadow: none; border-bottom: 1px solid #e8e8e8; background-color: var(--global-bg-color); opacity: 0.95; }
+.navbar { box-shadow: none; border-bottom: 1px solid #e5e5e5; background-color: var(--global-bg-color); opacity: 0.95; }
 
 .navbar.navbar-light a:hover { text-decoration: none; }
 
@@ -110,15 +110,15 @@ footer.fixed-bottom a { color: var(--global-footer-link-color); }
 
 footer.fixed-bottom a:hover { color: var(--global-theme-color); text-decoration: none; }
 
-footer.sticky-bottom { border-top: 1px solid #e8e8e8; padding-top: 40px; padding-bottom: 40px; font-size: 0.9rem; }
+footer.sticky-bottom { border-top: 1px solid #e5e5e5; padding-top: 40px; padding-bottom: 40px; font-size: 0.9rem; }
 
-.header-bar { border-bottom: 1px solid #e8e8e8; text-align: center; padding-top: 2rem; padding-bottom: 5rem; }
+.header-bar { border-bottom: 1px solid #e5e5e5; text-align: center; padding-top: 2rem; padding-bottom: 5rem; }
 
 .header-bar h1 { color: var(--global-theme-color); font-size: 5rem; }
 
 .post-list { margin: 0; margin-bottom: 40px; padding: 0; }
 
-.post-list li { border-bottom: 1px solid #e8e8e8; list-style: none; padding-top: 2rem; padding-bottom: 2rem; }
+.post-list li { border-bottom: 1px solid #e5e5e5; list-style: none; padding-top: 2rem; padding-bottom: 2rem; }
 
 .post-list li .post-meta { color: var(--global-text-color-light); font-size: 1rem; margin-bottom: 0; }
 
@@ -158,7 +158,7 @@ footer.sticky-bottom { border-top: 1px solid #e8e8e8; padding-top: 40px; padding
 
 .publications h2 span { font-size: 1.5rem; }
 
-.publications h2.year { color: #e8e8e8; border-top: 1px solid #e8e8e8; padding-top: 1rem; margin-top: 2rem; margin-bottom: -2rem; text-align: right; }
+.publications h2.year { color: #e5e5e5; border-top: 1px solid #e5e5e5; padding-top: 1rem; margin-top: 2rem; margin-bottom: -2rem; text-align: right; }
 
 .publications ol.bibliography { list-style: none; padding: 0; margin-top: 0; }
 
@@ -221,7 +221,7 @@ html.transition, html.transition *, html.transition *:before, html.transition *:
 .avatar:hover::before { opacity: 1; }
 
 /******************************************************************************* Style overrides for distill blog posts. */
-d-byline { border-top-color: #e8e8e8 !important; }
+d-byline { border-top-color: #e5e5e5 !important; }
 
 d-byline h3 { color: var(--global-text-color) !important; }
 
@@ -233,11 +233,11 @@ d-article { border-top-color: #e8e8e8 !important; }
 
 d-article a, d-article p, d-article h1, d-article h2, d-article h3, d-article h4, d-article h5, d-article h6 { color: var(--global-text-color) !important; }
 
-d-article a, d-article h1, d-article h2, d-article hr { border-bottom-color: #e8e8e8 !important; }
+d-article a, d-article h1, d-article h2, d-article hr { border-bottom-color: #e5e5e5 !important; }
 
 d-article a:hover { border-bottom-color: var(--global-hover-color) !important; }
 
-d-appendix { border-top-color: #e8e8e8 !important; color: var(--global-distill-app-color) !important; }
+d-appendix { border-top-color: #e5e5e5 !important; color: var(--global-distill-app-color) !important; }
 
 d-appendix h3, d-appendix li, d-appendix span { color: var(--global-distill-app-color) !important; }
 
