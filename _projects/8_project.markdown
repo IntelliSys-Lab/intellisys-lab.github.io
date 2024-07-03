@@ -31,7 +31,7 @@ importance: 1
 <div class="author">
     Peishen Yan, Hao Wang, Tao Song, Yang Hua, Ruhui Ma, Ningxin Hu, Mohammad R. Haghighat and Haibing Guan
 </div>
-------<a href="https://arxiv.org/pdf/2312.12484.pdf">Preprint at ArXiv 2312.12484</a>
+------Accepted by ECCV 2024 <a href="https://arxiv.org/pdf/2312.12484.pdf">[PDF]</a>
 
 <br />
 
