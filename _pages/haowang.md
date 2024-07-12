@@ -132,7 +132,9 @@ Distributed Computing, Distributed Machine Learning, Large-scale Data Analytics,
     * **Web Chair**: [APNet 2024](https://conferences.sigcomm.org/events/apnet2024/), IEEE ICNP 2017
     * **Session Chair**: INFOCOM 2022-2023, ACM SoCC 2022 (online)
     * **Guest Editor**: Journal of Systems Architecture (Special issue: [AI-driven Next-Generation Distributed Systems and Applications](https://www.sciencedirect.com/journal/journal-of-systems-architecture/about/call-for-papers))
-* **NSF Panelist**, 2022, 2024
+    * **Topic Editor**: Frontiers in Computer Science Software (Topics: [Serverless Computing for Stateful Applications](https://www.frontiersin.org/research-topics/65081/serverless-computing-for-stateful-applications))
+
+* **NSF Panelist**, 2022, 2024, 2024
 * **NSF Graduate Research Fellowship Program Reviewer**, 2023
     <!-- * ****: National Science Foundation Core Program Panel 2022 -->
     <!-- <li><strong>Shadow PC Member</strong>, ACM EuroSys Conference, 2021</li> -->

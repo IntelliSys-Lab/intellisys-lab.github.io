@@ -22,7 +22,7 @@ nav: true
     {% endif %}
       <div class="card hoverable">
         {% if project.img %}
-        <div style="padding: 10px 10px"> <img src="{{ project.img | relative_url }}" alt="project thumbnail"> </div>
+        <div style="padding: 10px 10px"> <img class="img-fluid rounded" src="{{ project.img | relative_url }}" alt="project thumbnail"> </div>
         {% endif %}
         <div class="card-body">
           <h5 class="card-title">{{ project.title }}</h5>
@@ -52,7 +52,7 @@ nav: true
     {% endif %}
       <div class="card hoverable">
         {% if project.img %}
-        <div style="padding: 10px 10px"> <img src="{{ project.img | relative_url }}" alt="project thumbnail"> </div>
+        <div style="padding: 10px 10px"> <img class="img-fluid rounded" src="{{ project.img | relative_url }}" alt="project thumbnail"> </div>
         {% endif %}
         <div class="card-body">
           <h5 class="card-title">{{ project.title }}</h5>
