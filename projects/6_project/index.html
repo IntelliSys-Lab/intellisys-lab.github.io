@@ -128,7 +128,7 @@
               
             </a>
           </li>
-          <li class="nav-item ">
+          <!-- <li class="nav-item ">
             <a class="nav-link" href="/joinus/" style="margin-left: 5px;">
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-plus-fill" viewBox="0 0 20 20">
                 <path d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
@@ -136,7 +136,7 @@
               </svg> Join Us
               
             </a>
-          </li>
+          </li> -->
           <li class="nav-item ">
             <a class="nav-link" href="/haowang/" style="margin-left: 5px;">
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-badge" viewBox="0 0 20 20">
@@ -252,6 +252,44 @@
 </div>
 <p><br /></p>
 
+<div class="title"><strong>Nitro: Boosting Distributed Reinforcement Learning with Serverless Computing</strong></div>
+<div class="author">
+    Hanfei Yu, Jacob Carter, Hao Wang, Devesh Tiwari, Jian Li, and Seung-Jong Park
+</div>
+<p>——Accepted by the VLDB 2025</p>
+
+<!-- #### Abstract
+
+Deep reinforcement learning (DRL) has gained immense success in many applications, including gaming AI, robotics, and system scheduling. DRL algorithms produce, sample, and learn from training data online through a trial-and-error process, demanding considerable time and computational resources. To address this, distributed DRL algorithms and paradigms have been developed to expedite training using extensive resources. Through carefully designed experiments, we are the first to observe that strategically increasing the actor-environment interactions by spawning more concurrent actors at certain training rounds within ephemeral time frames can significantly enhance training efficiency. Yet, current distributed DRL solutions, which are predominantly server-based (or serverful), fail to capitalize on these opportunities due to their long startup times, limited adaptability, and cumbersome scalability.
+
+This paper proposes Nitro, a generic training engine for distributed DRL algorithms that enforces timely and effective boosting with concurrent actors instantaneously spawned by serverless computing. With serverless functions, Nitro adjusts data sampling strategies dynamically according to the DRL training demands. Nitro seizes the opportunity of real-time boosting by accurately and swiftly detecting an empirical metric. To achieve cost efficiency, we design a heuristic actor scaling algorithm to guide Nitro for cost-aware boosting budget allocation. We integrate Nitro with state-of-the-art DRL algorithms and frameworks and evaluate them on AWS EC2 and Lambda. Experiments with Mujoco and Atari benchmarks show that Nitro improves the final rewards (i.e., training quality) by up to 6$$\times$$ and reduces training costs by up to 42%. -->
+
+<p><br /></p>
+
+<hr />
+
+<p><br /></p>
+
+<div class="title"><strong>Stellaris: Staleness-Aware Distributed Reinforcement Learning with Serverless Computing
+</strong></div>
+<div class="author">
+    Hanfei Yu, Hao Wang, Devesh Tiwari, Jian Li, and Seung-Jong Park
+</div>
+<p>——Accepted by the SC 2024 (Best Student Paper Finalist)</p>
+
+<!-- #### Abstract
+
+Deep reinforcement learning (DRL) has gained immense success in many applications, including gaming AI, scientific simulations, and large-scale (HPC) system scheduling. DRL training, which involves a trial-and-error process, demands
+considerable time and computational resources. To address this, distributed DRL algorithms and paradigms have been developed to expedite training using extensive resources. However, existing distributed DRL solutions rely on synchronous learning with serverful infrastructures, suffering from low training efficiency and overwhelming training costs.
+
+This paper proposes Stellaris, the first to introduce a generic asynchronous learning paradigm for distributed DRL training with serverless computing. We devise an importance sampling truncation technique to stabilize DRL training and develop a staleness-aware gradient aggregation method tailored to the dynamic staleness in asynchronous serverless DRL training. Experiments on AWS EC2 regular testbeds and HPC clusters show that Stellaris outperforms existing state-of-the-art DRL baselines by achieving 2.2$$\times$$ higher rewards (i.e., training quality) and reducing 41% training costs.  -->
+
+<p><br /></p>
+
+<hr />
+
+<p><br /></p>
+
 <div class="title"><strong>Cheaper and Faster: Distributed Deep Reinforcement Learning with Serverless Computing</strong></div>
 <div class="author">
     Hanfei Yu, Jian Li, Yang Hua, Xu Yuan, and Hao Wang
@@ -282,7 +320,7 @@
     
 <footer class="sticky-bottom mt-5">
   <div class="container">
-    Last updated: August 09, 2024   &copy; Copyright 2024 IntelliSys  Lab.
+    Last updated: August 26, 2024   &copy; Copyright 2024 IntelliSys  Lab.
     Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
     
