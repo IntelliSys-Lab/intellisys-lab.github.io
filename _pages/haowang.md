@@ -40,11 +40,11 @@ nav: true
             <a href="https://scholar.google.com/citations?user=r-Ik__gAAAAJ&hl=en"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-google" viewBox="0 0 20 20"><path d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z"/></svg></a> 
             </span> 
             <br>
-            <span>Assistant Professor of <a href="https://www.lsu.edu/eng/cse/about/general/index.php">CSE Division</a>, <a href="https://www.lsu.edu/index.php">LSU</a></span><br>                
-            <span>Email: haowang at lsu.edu</span> <br>
-            <span>Phone: +1 (225) 578-7510</span> <br>                
-            <span>Office: 3272X Patrick F. Taylor Hall</span> <br> 
-            <span>Lab: 2303 Patrick F. Taylor Hall</span> </p>
+            <span>Upcoming Assistant Professor of <a href="https://www.stevens.edu/page-minisite-landing/electrical-and-computer-engineering-department">ECE</a>, <a href="https://www.stevens.edu/">Stevens</a></span><br>                
+            <span>Email: hwang9 at stevens.edu</span> <br>
+            <span>Phone: TBD </span> <br>                 
+            <span>Office: Burchard Building 411</span> <br> 
+            <span>Lab: TBD</span> </p>
         </div>
 
     </div>
@@ -52,8 +52,7 @@ nav: true
 ---
 
 #### :runner: About Me
-I received my Ph.D. degree from <a href="https://www.ece.utoronto.ca/">the ECE Department</a>, <a href="https://www.utoronto.ca">U<i>of</i>T</a> 2020 July. I finished both my Bachelor's and Master's degrees at <a href="https://www.sjtu.edu.cn">Shanghai Jiao Tong University</a> in 2012 and 2015, respectively. 
-Now I am working as an Assistant Professor in the <a href="https://www.lsu.edu/eng/cse/">CSE Division</a> of <a href="https://www.lsu.edu/">Louisiana State University</a>. I received the NSF CRII Award in 2022. 
+I received my Ph.D. degree from <a href="https://www.ece.utoronto.ca/">the ECE Department</a>, <a href="https://www.utoronto.ca">U<i>of</i>T</a> 2020 July. I finished both my Bachelor's and Master's degrees at <a href="https://www.sjtu.edu.cn">Shanghai Jiao Tong University</a> in 2012 and 2015, respectively. I received the NSF CRII Award in 2022. 
 <!-- <br/>We have available Ph.D. positions.  >>> <a href="https://intellisys.haow.ca/joinus/"><u>Join us</u></a> at <a href="https://intellisys.haow.ca"><img src="/assets/img/isl-logo-white.svg" alt="lab-logo" height="25px" style="margin-bottom: -7px;" /> IntelliSys Lab</a> ! -->
 
 👨🏻‍🔬#computer_science_researcher 👨🏻‍💻#developer 🎮#gamer 📷#photographer 👨🏻‍🎨#watercolor_painter 
@@ -166,20 +165,20 @@ Distributed Computing, Distributed Machine Learning, Large-scale Data Analytics,
 </ul>
 
 #### :dart: Leisure Life
-<a href="https://www.haow.ca/gallery/" target="_blank"> :art:</a> :camera: :book: :running: :swimmer: :bicyclist: :badminton: :video_game:
+<a href="https://zen.haow.us" target="_blank"> :art:</a> :camera: :book: :running: :swimmer: :bicyclist: :badminton: :video_game:
     <!-- <p align="right"><img id="foot-logo" alt="foot-logo" src="./images/wh_c.png" height="40px" /> </p> -->
 
 <div class="row">
     <div class="col-sm col-lg-4 mt-3 mt-md-0">
-      <a href="https://www.haow.ca/gallery/" target="_blank"><img class="img-fluid rounded" src="{{ '/assets/img/tokyo.JPG' | relative_url }}" alt=""
+      <a href="https://zen.haow.us" target="_blank"><img class="img-fluid rounded" src="{{ '/assets/img/tokyo.JPG' | relative_url }}" alt=""
         title="tokyo tower" /></a>
     </div>
     <div class="col-sm col-lg-4 mt-3 mt-md-0">
-      <a href="https://www.haow.ca/gallery/" target="_blank"><img class="img-fluid rounded" src="{{ '/assets/img/IMG_4447.JPG' | relative_url }}" alt=""
+      <a href="https://zen.haow.us" target="_blank"><img class="img-fluid rounded" src="{{ '/assets/img/IMG_4447.JPG' | relative_url }}" alt=""
         title="island" /></a>
     </div>
     <div class="col-sm col-lg-4 mt-3 mt-md-0">
-      <a href="https://www.haow.ca/gallery/" target="_blank"><img class="img-fluid rounded" src="{{ '/assets/img/a-48.png' | relative_url }}" alt=""
+      <a href="https://zen.haow.us" target="_blank"><img class="img-fluid rounded" src="{{ '/assets/img/a-48.png' | relative_url }}" alt=""
         title="shanghai" /></a>
     </div>
 </div>
