@@ -39,7 +39,14 @@ nav: true
             <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
                 <h4><a href="https://hanfeiyu.github.io"><b>Hanfei Yu</b></a></h4>
                 <span>2021 Summer</span> <br />                
-                <span>[<a href="https://intellisys.haow.ca/assets/pdf/hanfei_freyr_webconf22.pdf">WWW'22</a>], [<a href="https://intellisys.haow.ca/assets/pdf/Libra_Hanfei_HPDC23.pdf">HPDC'23</a>], [<a href="https://intellisys.haow.ca/assets/pdf/hanfei-asplos24spring.pdf">ASPLOS'24</a>], [<a href="https://intellisys.haow.ca/assets/pdf/Hanfei_AAAI24_RL_serverless.pdf">AAAI'24</a>], [SC'24]</span> <br />                
+                <span>[<a href="https://intellisys.haow.ca/assets/pdf/hanfei_freyr_webconf22.pdf">WWW'22</a>], 
+                [<a href="https://intellisys.haow.ca/assets/pdf/Libra_Hanfei_HPDC23.pdf">HPDC'23</a>], 
+                [<a href="https://intellisys.haow.ca/assets/pdf/hanfei-asplos24spring.pdf">ASPLOS'24</a>], 
+                [<a href="https://intellisys.haow.ca/assets/pdf/Hanfei_AAAI24_RL_serverless.pdf">AAAI'24</a>], 
+                [<a href="">SC'24</a>],
+                [<a href="">VLDB'25</a>],
+                [<a href="">TPDS</a>]
+                </span> <br />                
                 <span>B.S. Shanghai Jiao Tong University</span><br />   
                 <span>M.S.  University of Washington Tacoma</span>
             </div>
@@ -85,6 +92,28 @@ nav: true
          </div>
     </div>
 </div>
+</div>
+
+<br />
+
+
+<h3> Research Interns </h3>
+---
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6 mt-1 mb-4 mt-md-1">
+            <div class="row">
+                <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
+                    <img class="img-fluid rounded" src="/assets/img/yifansui.jpg" width="130px" alt="" title=""/>
+                </div>
+                <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
+                    <h4><b>Yifan Sui</b></h4>
+                    <span>Shanghai Jiao Tong University</span><br />
+                    <span><a>Project: ML Pre-loading for Serverless Architectures</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <br />
@@ -227,6 +256,7 @@ nav: true
 
 <br />
 
+<!-- 
 <h3> High School Interns </h3>
 ---
 <div class="container">
@@ -246,7 +276,7 @@ nav: true
     </div>
 </div>
 
-<br />
+<br /> -->
 
 <h3> Alumni </h3>
 ---

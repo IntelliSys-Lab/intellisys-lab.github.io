@@ -42,9 +42,9 @@ nav: true
             <br>
             <span>Upcoming Assistant Professor of <a href="https://www.stevens.edu/page-minisite-landing/electrical-and-computer-engineering-department">ECE</a>, <a href="https://www.stevens.edu/">Stevens</a></span><br>                
             <span>Email: hwang9 at stevens.edu</span> <br>
-            <span>Phone: TBD </span> <br>                 
+            <!-- <span>Phone: TBD </span> <br>                  -->
             <span>Office: Burchard Building 411</span> <br> 
-            <span>Lab: TBD</span> </p>
+            <span>Lab: Burchard Building 110</span> </p>
         </div>
 
     </div>
