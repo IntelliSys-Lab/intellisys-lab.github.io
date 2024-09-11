@@ -40,7 +40,7 @@ nav: true
             <a href="https://scholar.google.com/citations?user=r-Ik__gAAAAJ&hl=en"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-google" viewBox="0 0 20 20"><path d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z"/></svg></a> 
             </span> 
             <br>
-            <span>Upcoming Assistant Professor of <a href="https://www.stevens.edu/page-minisite-landing/electrical-and-computer-engineering-department">ECE</a>, <a href="https://www.stevens.edu/">Stevens</a></span><br>                
+            <span>Assistant Professor of <a href="https://www.stevens.edu/page-minisite-landing/electrical-and-computer-engineering-department">ECE</a>, <a href="https://www.stevens.edu/">Stevens</a></span><br>                
             <span>Email: hwang9 at stevens.edu</span> <br>
             <!-- <span>Phone: TBD </span> <br>                  -->
             <span>Office: Burchard Building 411</span> <br> 
@@ -133,7 +133,7 @@ Distributed Computing, Distributed Machine Learning, Large-scale Data Analytics,
     * **Guest Editor**: Journal of Systems Architecture (Special issue: [AI-driven Next-Generation Distributed Systems and Applications](https://www.sciencedirect.com/journal/journal-of-systems-architecture/about/call-for-papers))
     * **Topic Editor**: Frontiers in Computer Science Software (Topics: [Serverless Computing for Stateful Applications](https://www.frontiersin.org/research-topics/65081/serverless-computing-for-stateful-applications))
 
-* **NSF Panelist**, 2022, 2024, 2024
+* **NSF Panelist**, 2022, 2024, 2024, 2024
 * **NSF Graduate Research Fellowship Program Reviewer**, 2023
     <!-- * ****: National Science Foundation Core Program Panel 2022 -->
     <!-- <li><strong>Shadow PC Member</strong>, ACM EuroSys Conference, 2021</li> -->
