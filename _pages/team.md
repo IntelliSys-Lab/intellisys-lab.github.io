@@ -177,27 +177,28 @@ To be updated...
 
 <br />
 
-<!-- 
+
 <h3> High School Interns </h3>
----
+
 <div class="container">
     <div class="row">
         <div class="col-lg-6 mt-1 mb-4 mt-md-1">
             <div class="row">
                 <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
-                    <img class="img-fluid rounded" src="/assets/img/ethanwang.png" width="130px" alt="" title=""/>
+                    <img class="img-fluid rounded" src="/assets/img/ziang.jpg" width="130px" alt="" title=""/>
                 </div>
                 <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
-                    <h4><b>Ethan Wang</b></h4>
-                    <span>Barbe High School, LSU High School Summer Research Program, 2024</span><br />
-                    <span><a>Project: Multi-agent RL</a></span>
+                    <h4><b>Zi'ang Zhuang</b></h4>
+                    <span>Baton Rouge Magnet High School</span><br />                    
+                    <span>2028 Class</span><br />    
+                    <span>Project: LLM for Math</span>
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-<br /> -->
+<br /> 
 
 <h3> Alumni </h3>
 ---
