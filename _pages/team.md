@@ -45,7 +45,8 @@ nav: true
                 [<a href="https://intellisys.haow.ca/assets/pdf/Hanfei_AAAI24_RL_serverless.pdf">AAAI'24</a>], 
                 [<a href="">SC'24</a>],
                 [<a href="">VLDB'25</a>],
-                [<a href="">TPDS</a>]
+                [<a href="">TPDS</a>],
+                [<a href="">SoCC'24</a>]
                 </span> <br />                
                 <span>B.S. Shanghai Jiao Tong University</span><br />   
                 <span>M.S.  University of Washington Tacoma</span>
@@ -108,6 +109,7 @@ nav: true
                 </div>
                 <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
                     <h4><b>Yifan Sui</b></h4>
+                    <span>[<a href="">SoCC'24</a>]</span> <br />
                     <span>Shanghai Jiao Tong University</span><br />
                     <span><a>Project: ML Pre-loading for Serverless Architectures</a></span>
                 </div>
@@ -179,6 +181,7 @@ To be updated...
 
 
 <h3> High School Interns </h3>
+---
 
 <div class="container">
     <div class="row">

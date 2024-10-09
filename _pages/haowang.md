@@ -106,7 +106,8 @@ Distributed Computing, Distributed Machine Learning, Large-scale Data Analytics,
 
 
 #### :trophy: Awards
-<ul> 
+<ul>
+    <li>2024, <strong>SIGHPC Early Career Travel Grant</strong></li>
     <li>2024, <strong>Distinguished Member of IEEE INFOCOM 2024 TPC recognition</strong> [<a href="/assets/pdf/2024_DTPC_certificate_FK-SK.pdf">Link</a>]</li>
     <li>2022, <strong>Excellent Reviewer for the IEEE Transactions on Network Science & Engineering</strong> [<a href="/assets/pdf/tnse-excellent-reviewer.pdf">Link</a>]</li>
     <li>2022, <strong>NSF CRII Award</strong> [<a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2153502">Link</a>]</li>
@@ -142,7 +143,7 @@ Distributed Computing, Distributed Machine Learning, Large-scale Data Analytics,
     * LSU High School Summer Research Program, 2022-2023
     * [Kenilworth Science and Technology Charter School](https://www.kenilworthschool.org) Student Research Mentorship Program, 2021-2024
 * **Conference TPC Member &#38; Journal Reviewer** 
-    * **System & Network**: ACM HPDC 2024, ACM SoCC 2022, INFOCOM 2021-2025, Globecom 2022, ADHOCNETS 2021, ICCCN 2022-2023, ICDCS 2022-2024, IEEE TPDS, IEEE ToN, IEEE TNSE, IEEE TCC, IEEE TMC, IEEE TSC, IEEE IoTJ
+    * **System & Network**: ACM HPDC 2024, ACM SoCC 2022, INFOCOM 2021-2025, Globecom 2022, ADHOCNETS 2021, ICCCN 2022-2023, ICDCS 2022-2025, IEEE TPDS, IEEE ToN, IEEE TNSE, IEEE TCC, IEEE TMC, IEEE TSC, IEEE IoTJ
     * **AI & ML**: CVPR 2024, ICLR 2024, ECAI 2023, AAAI 2023-2024, ECML PKDD 2022, NeurIPS 2022-2024, ICML 2022-2023, IEEE CDC 2023, IEEE TAI, IEEE TIST
     * **Web & Data**: ACM WSDM 2023, ACM theWebConf 2022, 2024, IEEE IRI 2020-2021
 
@@ -155,7 +156,7 @@ Distributed Computing, Distributed Machine Learning, Large-scale Data Analytics,
 #### :link: Links
 <ul>
     <li><a href="https://www.bilibili.com/video/BV18v411n7mr?p=1&share_medium=iphone&share_plat=ios&share_source=WEIXIN_MONMENT&share_tag=s_i&timestamp=1626790733&unique_k=V8kWdj&share_times=1">Writing Perfect Papers</a>, <i>by <a href="https://iqua.ece.toronto.edu/bli/">Prof. Baochun Li</a></i>.</li>
-    <li><a href="http://www.sigcomm.org/sites/default/files/ccr/papers/2007/July/1273445-1273458.pdf">How to Read a Paper</a>, <i>by <a href="https://svr-sk818-web.cl.cam.ac.uk/keshav/wiki/index.php/Main_Page">Prof. Srinivasan Keshav</a></i>.</li>
+    <li><a href="https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf">How to Read a Paper</a>, <i>by <a href="https://svr-sk818-web.cl.cam.ac.uk/keshav/wiki/index.php/Main_Page">Prof. Srinivasan Keshav</a></i>.</li>
     <li><a href="https://zalberico.com/essay/2020/04/19/how-to-become-a-hacker.html">How to Become A Hacker</a>, <i>by <a href="https://zalberico.com">Zach Alberico</a></i>. </li>
     <li><a href="http://dustintran.com/blog/a-research-to-engineering-workflow">A Research to Engineering Workflow</a>, <i>by <a href="http://dustintran.com">Dr. Dustin Tran</a></i>.</li>
     <li><a href="https://muratbuffalo.blogspot.com/2020/02/the-art-of-powerful-questions.html">Metadata - on Distributed Systems Broadly Defined</a>, <i>by <a href="https://cse.buffalo.edu/~demirbas/">Prof. Murat Demirbas</a></i>.</li>
