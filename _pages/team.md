@@ -173,9 +173,22 @@ nav: true
 ---
 
 <div class="container">
-    
+    <div class="row">
+        <div class="col-lg-6 mt-1 mb-4 mt-md-1">
+            <div class="row">
+                <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
+                    <img class="img-fluid rounded" src="/assets/img/alejandra_malia.jpg" width="130px" alt="" title=""/>
+                </div>
+                <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
+                    <h4><b>Alejandra Malia Saez</b></h4>
+                    <span>Senior year, Stevens Institute of Technology</span><br />
+                    <!-- <span><a>Project: ML Pre-loading for Serverless Architectures</a></span> -->
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-To be updated...
+
 
 <br />
 
