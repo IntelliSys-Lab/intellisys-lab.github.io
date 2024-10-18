@@ -109,7 +109,7 @@ nav: true
                 </div>
                 <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
                     <h4><b>Yifan Sui</b></h4>
-                    <span>[<a href="">SoCC'24</a>]</span> <br />
+                    <span>[<a href="/assets/pdf/yifan-socc24.pdf">SoCC'24</a>]</span> <br />
                     <span>Shanghai Jiao Tong University</span><br />
                     <span><a>Project: ML Pre-loading for Serverless Architectures</a></span>
                 </div>
@@ -122,7 +122,7 @@ nav: true
                 </div>
                 <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
                     <h4><b>Peishen Yan</b></h4>
-                    <span>[<a href="">ECCV'24</a>]</span> <br />
+                    <span>[<a href="/assets/pdf/SkyMask_for_ECCV.pdf">ECCV'24</a>]</span> <br />
                     <span>Shanghai Jiao Tong University</span><br />
                     <span><a>Project: FL Security & Efficiency</a></span>
                 </div>
