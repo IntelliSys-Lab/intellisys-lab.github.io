@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>IntelliSys Lab | Stevens | Announcement_4</title>
+<title>IntelliSys Lab | Stevens | Serverless Inference With Opportunistic Pre-Loading</title>
 <meta name="description" content="the Intelligent System (IntelliSys) Lab 
 ">
 
@@ -31,7 +31,7 @@
 
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/news/announcement_4/">
+<link rel="canonical" href="/projects/9_project%20copy/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -93,7 +93,7 @@
           </li> -->
           <!--  -->
           <!-- pages -->
-          <li class="nav-item ">
+          <li class="nav-item active">
             <a class="nav-link" href="/projects/">
               </span><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-lightning-charge-fill" viewBox="0 0 20 20">
                 <path d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09z"/>
@@ -234,24 +234,48 @@
     <!-- Content -->
 
     <div class="container mt-5">
-      
-
-<div class="post">
+      <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Announcement_4</h1>
-    <p class="post-meta">April 29, 2021</p>
+    <h1 class="post-title">Serverless Inference With Opportunistic Pre-Loading</h1>
+    <p class="post-description"></p>
   </header>
 
-  <article class="post-content">
-    <p>Our work “Themis: A Fair Evaluation Platform for Computer Vision Competitions” has been accepted by IJCAI-21.</p>
+  <article>
+    <div class="title"><strong>Pre-Warming is Not Enough: Accelerating Serverless Inference with Opportunistic Pre-Loading</strong></div>
+<div class="author">
+    Yifan Sui, Hanfei Yu, Yitao Hu, Jianxun Li, and Hao Wang
+</div>
+<!-- <div class="periodical"> -->
+<p>——Accepted by the ACM SoCC 2024, <a href="/assets/pdf/yifan-socc24.pdf">[PDF]</a>
+<!-- </div> --></p>
+
+<p><br /></p>
+
+<h4 id="abstract">Abstract</h4>
+
+<p>Serverless computing has rapidly prospered as a new cloud computing diagram with agile scalability, pay-as-you-go pricing, and ease-to-use features for Machine Learning (ML) inference tasks. Users package their ML code into lightweight serverless functions and execute them using containers. Unfortunately, a notorious problem, called cold-starts, hinders serverless computing from providing low-latency function executions. To mitigate cold-starts, pre-warming, which keeps containers warm predictively, has been widely accepted by academia and industry. However, pre-warming fails to eliminate the unique latency incurred by loading ML artifacts. We observed that for ML inference functions, the loading of libraries and models takes significantly more time than container warming. Consequently, pre-warming alone is not enough to mitigate the ML inference function’s cold-starts.</p>
+
+<p>This paper introduces <strong><em>InstaInfer</em></strong>, an opportunistic pre-loading technique to achieve instant inference by eliminating the latency associated with loading ML artifacts, thereby achieving minimal time cost in function execution. <strong><em>InstaInfer</em></strong> fully utilizes the memory of warmed containers to pre-load the function’s libraries and model, striking a balance between maximum acceleration and resource wastage. We design <strong><em>InstaInfer</em></strong> to be transparent to providers and compatible with existing pre-warming solutions. Experiments on OpenWhisk with real-world workloads show that <strong><em>InstaInfer</em></strong> reduces up to 93\% loading latency and achieves up to 8$\times$ speedup compared to state-of-the-art pre-warming solutions.</p>
+
+<div class="row">
+        <div class="col-12 col-sm-12 col-md-8 col-lg-7 mx-auto d-block">
+        <img class="img-fluid" src="/assets/img/instainfer.png" alt="" />
+        <div class="caption">
+            InstaInfer's workflow.  
+        </div>
+    </div>
+</div>
+
+<p><br /></p>
 
   </article>
 
-  
-
 </div>
 
+<ul>
+  <p align="right"><img id="foot-logo" src="/assets/img/isl-logo-dark.gif" height="40px" /> </p>
+</ul>
     </div>
 
     <!-- Footer -->
