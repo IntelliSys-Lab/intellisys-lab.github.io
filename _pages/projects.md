@@ -11,7 +11,7 @@ nav: true
 <br />
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-      <img class="img-fluid mx-auto d-block" src="{{ '/assets/img/roadmap.svg' | relative_url }}" width="100%" alt="" title="road map" />
+      <img class="img-fluid mx-auto d-block" src="{{ '/assets/img/roadmap.png' | relative_url }}" width="100%" alt="" title="road map" />
     </div>
 </div>
 
