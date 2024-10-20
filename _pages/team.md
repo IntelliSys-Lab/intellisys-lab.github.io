@@ -144,25 +144,39 @@ nav: true
         </div>
         <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
             <h4><b>Peiman Fotouhi</b></h4>
-            <span>2022 Fall</span> <br />
+            <span>2022 Fall, LSU</span> <br />
             <span>B.S. University of Isfahan</span> <br />
         </div>
          </div>
     </div> 
     <div class="col-lg-6 mt-1 mb-4 mt-md-1">
-            <div class="row">
+        <div class="row">
             <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
                 <img class="img-fluid rounded" src="/assets/img/shaghayegh.jpg" width="130px" alt="" title=""/>
             </div>
             <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
                 <h4><b>Shaghayegh Rabbanian</b></h4>
-                <span>Master, 2023</span><br />
+                <span>Master, 2023, LSU</span><br />
                 <span>Reinforcement Learning-driven Multi-Depot Vehicle Routing [<a href="https://iise.confex.com/iise/2023/meetingapp.cgi/Paper/3575">IISE'23</a>]</span><br />
                 <span>Ph.D. from the MIE Department</span><br />
                 <!-- <span><i>Co-advised with Dr. Gerald M. Knapp</i></span><br /> -->
             </div>
+        </div>
+    </div>
+    <div class="col-lg-6 mt-1 mb-4 mt-md-1">
+        <div class="row">
+            <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
+                <img class="img-fluid rounded" src="/assets/img/tinygrap.svg" width="130px" alt="" title=""/>
+            </div>
+            <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
+                <h4><b><a href="https://ctemp48.github.io">Christian Templin</a></b></h4>
+                <span>Master, 2024</span><br />
+                <span>Bachelor of Engineering</span><br />
+                <span>Stevens Institute of Technology</span>
+                <!-- <span>Reinforcement Learning-driven Multi-Depot Vehicle Routing [<a href="https://iise.confex.com/iise/2023/meetingapp.cgi/Paper/3575">IISE'23</a>]</span><br /> -->
             </div>
         </div>
+    </div>
     </div>
 </div>
 
@@ -181,8 +195,9 @@ nav: true
                 </div>
                 <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
                     <h4><b>Alejandra Malia Saez</b></h4>
-                    <span>Senior year, Stevens Institute of Technology</span><br />
-                    <!-- <span><a>Project: ML Pre-loading for Serverless Architectures</a></span> -->
+                    <span>Senior year, exchange student from Universidad Pontificia de Comillas ICAI</span><br />
+                    <span>Stevens Institute of Technology</span><br />
+                    <span><a>Project: Self-charging Smart Cars</a></span>
                 </div>
             </div>
         </div>
@@ -208,6 +223,19 @@ nav: true
                     <span>Baton Rouge Magnet High School</span><br />                    
                     <span>2028 Class</span><br />    
                     <span>Project: LLM for Math</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 mt-1 mb-4 mt-md-1">
+            <div class="row">
+                <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
+                    <img class="img-fluid rounded" src="/assets/img/tinygrap.svg" width="130px" alt="" title=""/>
+                </div>
+                <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
+                    <h4><b>Shelley Ma</b></h4>
+                    <span>McNair Academic High School</span><br />            
+                    <span>2026 Class</span><br />    
+                    <span>Project: ML-driven ANC for Misophonia</span>
                 </div>
             </div>
         </div>
