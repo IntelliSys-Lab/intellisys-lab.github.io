@@ -137,18 +137,6 @@ nav: true
 ---
 <div class="container">
     <div class="row">                
-        <div class="col-lg-6 mt-1 mb-4 mt-md-1">
-        <div class="row">
-        <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
-            <img class="img-fluid rounded" src="/assets/img/peiman.jpeg" width="130px" alt="" title=""/>
-        </div>
-        <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
-            <h4><b>Peiman Fotouhi</b></h4>
-            <span>2022 Fall, LSU</span> <br />
-            <span>B.S. University of Isfahan</span> <br />
-        </div>
-         </div>
-    </div> 
     <div class="col-lg-6 mt-1 mb-4 mt-md-1">
         <div class="row">
             <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
@@ -229,7 +217,7 @@ nav: true
         <div class="col-lg-6 mt-1 mb-4 mt-md-1">
             <div class="row">
                 <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
-                    <img class="img-fluid rounded" src="/assets/img/tinygrap.svg" width="130px" alt="" title=""/>
+                    <img class="img-fluid rounded" src="/assets/img/shelley-ma.jpg" width="130px" alt="" title=""/>
                 </div>
                 <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
                     <h4><b>Shelley Ma</b></h4>
@@ -247,7 +235,20 @@ nav: true
 <h3> Alumni </h3>
 ---
 <div class="container">
-    <div class="row">              
+    <div class="row">
+        <div class="col-lg-6 mt-1 mb-4 mt-md-1">
+            <div class="row">
+                <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
+                    <img class="img-fluid rounded" src="/assets/img/peiman.jpeg" width="130px" alt="" title=""/>
+                </div>
+                <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
+                    <h4><b>Peiman Fotouhi</b></h4>
+                    <span>Master, 2024, LSU</span> <br />
+                    <span>B.S. University of Isfahan</span> <br />
+                    <span>Thesis: <i>"Resource Harvesting for Parallel Functions in Serverless Workflows"</i></span> <br />
+                </div>
+            </div>
+        </div>               
         <div class="col-lg-6 mt-1 mb-4 mt-md-1">
             <div class="row">
                 <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
@@ -261,32 +262,6 @@ nav: true
                 </div>
             </div>
         </div>
-        <!-- <div class="col-lg-6 mt-1 mb-4 mt-md-1">
-            <div class="row">
-                <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
-                    <img class="img-fluid rounded" src="/assets/img/khalil.jpeg" width="130px" alt="" title=""/>
-                </div>
-                <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
-                    <h4>Khalil I El-abbassi</h4>
-                    <span>Joined at 2023 Fall</span><br />
-                    <span>Freshmen student from the <a href="https://www.lsu.edu/discover/funding/presidents_future_leaders_in_research.php">President's Future Leader in Research (PFLR)</a> scholarship project</span><br />
-                    <br />
-                </div>
-            </div>
-        </div> -->
-        <!-- <div class="col-lg-6 mt-1 mb-4 mt-md-1">
-            <div class="row">
-                <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
-                    <img class="img-fluid rounded" src="/assets/img/brandon.jpg" width="130px" alt="" title=""/>
-                </div>
-                <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
-                    <h4>Brandon J Walton</h4>
-                    <span>Joined at 2023 Fall</span><br />
-                    <span>Automating Material Measurement and Evaluation using CV Approaches</span><br />
-                    <br />
-                </div>
-            </div>
-        </div> -->
         <div class="col-lg-6 mt-1 mb-4 mt-md-1">
             <div class="row">
                 <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
@@ -300,20 +275,6 @@ nav: true
                 </div>
             </div>
         </div>
-        <!-- <div class="col-lg-6 mt-1 mb-4 mt-md-1">
-            <div class="row">
-                <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
-                    <img class="img-fluid rounded" src="/assets/img/hayden.jpeg" width="130px" alt="" title=""/>
-                </div>
-                <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
-                    <h4>Hayden Duplantier</h4>
-                    <span>Joined at 2023 Fall</span><br />
-                    <span>With the <a href="https://www.lsu.edu/cybersecurity/scholarships-for-service/index.php">LSU Scholarship for Service (SFS)</a> project</span><br/>
-                    <span>AI Model Ballistics</span><br />
-                    <br />
-                </div>
-            </div>
-        </div> -->
         <div class="col-lg-6 mt-1 mb-4 mt-md-1">
             <div class="row">
                 <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
@@ -340,8 +301,6 @@ nav: true
                 </div>
             </div>
         </div>
-    </div>
-    <div class="row">
         <div class="col-lg-6 mt-1 mb-4 mt-md-1">
             <div class="row">
                 <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
@@ -523,20 +482,20 @@ nav: true
                 </div>
             </div>
         </div>
-        <div class="col-lg-6 mt-1 mb-4 mt-md-1">
+        <!-- <div class="col-lg-6 mt-1 mb-4 mt-md-1">
             <div class="row">
                 <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
                     <img class="img-fluid rounded" src="/assets/img/ryan_ding.JPG" width="130px" alt="" title=""/>
                 </div>
                 <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
                     <h4><b>Ryan Ding</b></h4>
-                    <!-- <span>11th Grade</span><br />   -->
-                    <span>LSU High School Summer Research Program, 2022</span><br />
+                    <span>11th Grade</span><br />   -->
+                    <!-- <span>LSU High School Summer Research Program, 2022</span><br />
                     <span>Baton Rouge Magnet High School</span><br />  
                     <span>Project: Parallel Reinforcement Learning Algorithms</span>              
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="col-lg-6 mt-1 mb-4 mt-md-1">
         <div class="row">
             <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
