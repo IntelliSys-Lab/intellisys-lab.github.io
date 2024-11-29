@@ -107,6 +107,8 @@ Distributed Computing, Distributed Machine Learning, Large-scale Data Analytics,
 
 #### :trophy: Awards
 <ul>
+    <li>2024, <strong>ACM SoCC 2024 Best Paper Award</strong> [<a href="/assets/pdf/socc24-best-paper.pdf">Link</a>]</li>
+    <li>2024, <strong>ACM/IEEE SC 2024 Best Student Paper Finalist</strong></li>
     <li>2024, <strong>SIGHPC Early Career Travel Grant</strong></li>
     <li>2024, <strong>Distinguished Member of IEEE INFOCOM 2024 TPC recognition</strong> [<a href="/assets/pdf/2024_DTPC_certificate_FK-SK.pdf">Link</a>]</li>
     <li>2022, <strong>Excellent Reviewer for the IEEE Transactions on Network Science & Engineering</strong> [<a href="/assets/pdf/tnse-excellent-reviewer.pdf">Link</a>]</li>
