@@ -12,7 +12,7 @@ importance: 2
     Yifan Sui, Hanfei Yu, Yitao Hu, Jianxun Li, and Hao Wang
 </div>
 <!-- <div class="periodical"> -->
-------Accepted by the ACM SoCC 2024, [[PDF]](/assets/pdf/yifan-socc24.pdf)
+------Accepted by the ACM SoCC 2024, [[PDF]](/assets/pdf/yifan-socc24.pdf), received the **Best Paper Award**.
 <!-- </div> -->
 
 <br />
