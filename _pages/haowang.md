@@ -57,6 +57,8 @@ I received my Ph.D. degree from <a href="https://www.ece.utoronto.ca/">the ECE D
 
 👨🏻‍🔬#computer_science_researcher 👨🏻‍💻#developer 🎮#gamer 📷#photographer 👨🏻‍🎨#watercolor_painter 
 
+Please check all the cool labs and researchers at iCNS and ECE @ Stevens [[YouTube](https://youtu.be/lmJbHa_aFvI?si=D1cxk93yuAqbhpCn)]!
+
 <!-- <h3><a name="designer-templates" class="anchor"><span class="octicon octicon-link"></span></a>Research Interest</h3> -->
 <!-- <br> -->
 
