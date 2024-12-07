@@ -39,14 +39,14 @@ nav: true
             <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
                 <h4><a href="https://hanfeiyu.github.io"><b>Hanfei Yu</b></a></h4>
                 <span>2021 Summer</span> <br />                
-                <span>[<a href="https://intellisys.haow.ca/assets/pdf/hanfei_freyr_webconf22.pdf">WWW'22</a>], 
-                [<a href="https://intellisys.haow.ca/assets/pdf/Libra_Hanfei_HPDC23.pdf">HPDC'23</a>], 
-                [<a href="https://intellisys.haow.ca/assets/pdf/hanfei-asplos24spring.pdf">ASPLOS'24</a>], 
-                [<a href="https://intellisys.haow.ca/assets/pdf/Hanfei_AAAI24_RL_serverless.pdf">AAAI'24</a>], 
-                [<a href="">SC'24</a>],
-                [<a href="">VLDB'25</a>],
-                [<a href="">TPDS</a>],
-                [<a href="">SoCC'24</a>]
+                <span>[<a href="/assets/pdf/hanfei_freyr_webconf22.pdf">WWW'22</a>], 
+                [<a href="/assets/pdf/Libra_Hanfei_HPDC23.pdf">HPDC'23</a>], 
+                [<a href="/assets/pdf/hanfei-asplos24spring.pdf">ASPLOS'24</a>], 
+                [<a href="/assets/pdf/Hanfei_AAAI24_RL_serverless.pdf">AAAI'24</a>], 
+                [<a href="/assets/pdf/SC41406.2024.00045.pdf">SC'24</a>],
+                [<a href="/assets/pdf/hanfei-vldb25.pdf">VLDB'25</a>],
+                [<a href="/assets/pdf/TPDS_Hanfei.pdf">TPDS</a>],
+                [<a href="/assets/pdf/yifan-socc24.pdf">SoCC'24 <b>Best Paper Award</b></a>]
                 </span> <br />                
                 <span>B.S. Shanghai Jiao Tong University</span><br />   
                 <span>M.S.  University of Washington Tacoma</span>
