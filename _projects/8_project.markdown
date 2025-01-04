@@ -3,7 +3,7 @@ layout: page
 title: Fine-grained Defense Towards Federated Learning
 category: fl
 img: /assets/img/skymask-peishen-thumbnail.png
-importance: 1
+importance: 2
 ---
 
 <!-- <div class="title"><strong>Siren: Byzantine-robust Federated Learning via Proactive Alarming</strong></div>
