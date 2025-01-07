@@ -186,6 +186,21 @@ Distributed Computing, Distributed Machine Learning, Large-scale Data Analytics,
       <a href="https://zen.haow.us" target="_blank"><img class="img-fluid rounded" src="{{ '/assets/img/a-48.png' | relative_url }}" alt=""
         title="shanghai" /></a>
     </div>
+</div>   
+<br />
+<div class="row"> 
+    <div class="col-sm col-lg-4 mt-3 mt-md-0">
+      <a href="https://zen.haow.us" target="_blank"><img class="img-fluid rounded" src="{{ '/assets/img/venice.png' | relative_url }}" alt=""
+        title="venice" /></a>
+    </div>
+    <div class="col-sm col-lg-4 mt-3 mt-md-0">
+      <a href="https://zen.haow.us" target="_blank"><img class="img-fluid rounded" src="{{ '/assets/img/IMG_9785.png' | relative_url }}" alt=""
+        title="house" /></a>
+    </div>
+    <div class="col-sm col-lg-4 mt-3 mt-md-0">
+      <a href="https://zen.haow.us" target="_blank"><img class="img-fluid rounded" src="{{ '/assets/img/a-29.png' | relative_url }}" alt=""
+        title="oldbuilding" /></a>
+    </div>
 </div>
   <!-- <div class="caption">
     Tower Dr., LSU Campus (shot by Dr. Hao Wang | Leica M240 | Summicron-M 1:2/35 ASPH)
