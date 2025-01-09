@@ -175,11 +175,11 @@ Distributed Computing, Distributed Machine Learning, Large-scale Data Analytics,
 
 <div class="row">
     <div class="col-sm col-lg-4 mt-3 mt-md-0">
-      <a href="https://zen.haow.us" target="_blank"><img class="img-fluid rounded" src="{{ '/assets/img/tokyo.jpg' | relative_url }}" alt=""
+      <a href="https://zen.haow.us" target="_blank"><img class="img-fluid rounded" src="{{ '/assets/img/tokyo-jp.jpg' | relative_url }}" alt=""
         title="tokyo tower" /></a>
     </div>
     <div class="col-sm col-lg-4 mt-3 mt-md-0">
-      <a href="https://zen.haow.us" target="_blank"><img class="img-fluid rounded" src="{{ '/assets/img/IMG_4447.jpg' | relative_url }}" alt=""
+      <a href="https://zen.haow.us" target="_blank"><img class="img-fluid rounded" src="{{ '/assets/img/img4447.jpg' | relative_url }}" alt=""
         title="island" /></a>
     </div>
     <div class="col-sm col-lg-4 mt-3 mt-md-0">
@@ -190,11 +190,11 @@ Distributed Computing, Distributed Machine Learning, Large-scale Data Analytics,
 <br />
 <div class="row"> 
     <div class="col-sm col-lg-4 mt-3 mt-md-0">
-      <a href="https://zen.haow.us" target="_blank"><img class="img-fluid rounded" src="{{ '/assets/img/venice.png' | relative_url }}" alt=""
+      <a href="https://zen.haow.us" target="_blank"><img class="img-fluid rounded" src="{{ '/assets/img/venice-italy.png' | relative_url }}" alt=""
         title="venice" /></a>
     </div>
     <div class="col-sm col-lg-4 mt-3 mt-md-0">
-      <a href="https://zen.haow.us" target="_blank"><img class="img-fluid rounded" src="{{ '/assets/img/IMG_9785.png' | relative_url }}" alt=""
+      <a href="https://zen.haow.us" target="_blank"><img class="img-fluid rounded" src="{{ '/assets/img/img9785.png' | relative_url }}" alt=""
         title="house" /></a>
     </div>
     <div class="col-sm col-lg-4 mt-3 mt-md-0">
