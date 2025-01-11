@@ -63,7 +63,7 @@ Please check all the cool labs and researchers at iCNS and ECE @ Stevens [[YouTu
 <!-- <br> -->
 
 #### :telescope: Research Interest
-Distributed Computing, Distributed Machine Learning, Large-scale Data Analytics, Data Center Networking
+Serverless Computing, Federated Learning, High-Performance Computing, AI Security
 
 #### :mortar_board: Education
 <ul>
@@ -133,12 +133,12 @@ Distributed Computing, Distributed Machine Learning, Large-scale Data Analytics,
 
 * **Organizer**
     * **Publicity Chair**: Springer [ICA3PP 2023](http://tjutanklab.com/ica3pp2023/home.html)
-    * **Web Chair**: [APNet 2024](https://conferences.sigcomm.org/events/apnet2024/), IEEE ICNP 2017
+    * **Web Chair**: [APNet 2024](https://conferences.sigcomm.org/events/apnet2024/)-[2025](https://conferences.sigcomm.org/events/apnet2025/organization.php), IEEE ICNP 2017
     * **Session Chair**: INFOCOM 2022-2023, ACM SoCC 2022 (online)
     * **Guest Editor**: Journal of Systems Architecture (Special issue: [AI-driven Next-Generation Distributed Systems and Applications](https://www.sciencedirect.com/journal/journal-of-systems-architecture/about/call-for-papers))
     * **Topic Editor**: Frontiers in Computer Science Software (Topics: [Serverless Computing for Stateful Applications](https://www.frontiersin.org/research-topics/65081/serverless-computing-for-stateful-applications))
 
-* **NSF Panelist**, 2022, 2024, 2024, 2024
+* **NSF Panelist**, 2022, 2024, 2024, 2024, 2025, 2025
 * **NSF Graduate Research Fellowship Program Reviewer**, 2023
     <!-- * ****: National Science Foundation Core Program Panel 2022 -->
     <!-- <li><strong>Shadow PC Member</strong>, ACM EuroSys Conference, 2021</li> -->
@@ -148,7 +148,7 @@ Distributed Computing, Distributed Machine Learning, Large-scale Data Analytics,
     * [Kenilworth Science and Technology Charter School](https://www.kenilworthschool.org) Student Research Mentorship Program, 2021-2024
 * **Conference TPC Member &#38; Journal Reviewer** 
     * **System & Network**: ACM HPDC 2024-25, ACM SoCC 2022, INFOCOM 2021-2025, Globecom 2022, ADHOCNETS 2021, ICCCN 2022-2023, ICDCS 2022-2025, IEEE TPDS, IEEE ToN, IEEE TNSE, IEEE TCC, IEEE TMC, IEEE TSC, IEEE IoTJ
-    * **AI & ML**: AISTATS 2025, CVPR 2024, ICLR 2024-2025, ECAI 2023, AAAI 2023-2025, ECML PKDD 2022, NeurIPS 2022-2024, ICML 2022-2023, IEEE CDC 2023, IEEE TAI, IEEE TIST
+    * **AI & ML**: AISTATS 2025, CVPR 2024-2025, ICLR 2024-2025, ECAI 2023, AAAI 2023-2025, ECML PKDD 2022, NeurIPS 2022-2024, ICML 2022-2023, IEEE CDC 2023, IEEE TAI, IEEE TIST
     * **Web & Data**: ACM WSDM 2023, ACM theWebConf 2022, 2024, IEEE IRI 2020-2021
 
 <!-- #### :rocket: Projects
