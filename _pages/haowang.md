@@ -132,6 +132,7 @@ Serverless Computing, Federated Learning, High-Performance Computing, AI Securit
 #### :speech_balloon: Professional Service
 
 * **Organizer**
+    * **Organizers/Program Chairs**: [ACM SIGMETRICS 2025 Workshop: AI Crossroads: Systems, Energy, and Applications](https://ai-crossroads.github.io)
     * **Publicity Chair**: Springer [ICA3PP 2023](http://tjutanklab.com/ica3pp2023/home.html)
     * **Web Chair**: [APNet 2024](https://conferences.sigcomm.org/events/apnet2024/)-[2025](https://conferences.sigcomm.org/events/apnet2025/organization.php), IEEE ICNP 2017
     * **Session Chair**: INFOCOM 2022-2023, ACM SoCC 2022 (online)
