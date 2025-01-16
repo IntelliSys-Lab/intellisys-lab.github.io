@@ -149,6 +149,7 @@ Serverless Computing, Federated Learning, High-Performance Computing, AI Securit
 * **Conference TPC Member &#38; Journal Reviewer** 
     * **System & Network**: ACM HPDC 2024-25, ACM SoCC 2022, INFOCOM 2021-2025, Globecom 2022, ADHOCNETS 2021, ICCCN 2022-2023, ICDCS 2022-2025, IEEE TPDS, IEEE ToN, IEEE TNSE, IEEE TCC, IEEE TMC, IEEE TSC, IEEE IoTJ
     * **AI & ML**: AISTATS 2025, CVPR 2024-2025, ICLR 2024-2025, ECAI 2023, AAAI 2023-2025, ECML PKDD 2022, NeurIPS 2022-2024, ICML 2022-2023, IEEE CDC 2023, IEEE TAI, IEEE TIST
+    * **Security**: TIFS
     * **Web & Data**: ACM WSDM 2023, ACM theWebConf 2022, 2024, IEEE IRI 2020-2021
 
 <!-- #### :rocket: Projects
