@@ -1,12 +1,13 @@
 ---
 layout: page
 permalink: /team/
-title: Team
+title: IntelliSys Team
 description:
 nav: true
 ---
 
-<h3> Faculty </h3>
+<h3> Doorman </h3>
+<p>Velut arbor ævo</p>
 ---
 <div class="container">
 
