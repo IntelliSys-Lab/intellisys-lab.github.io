@@ -172,7 +172,7 @@ Serverless Computing, Federated Learning, High-Performance Computing, AI Securit
 </ul>
 
 #### :dart: Leisure Life
-<a href="https://zen.haow.us" target="_blank"> :art:</a> :camera: :book: :running: :swimmer: :bicyclist: :badminton: :video_game:
+<a href="https://zen.haow.us" target="_blank"> :art:</a> :camera: :book: :running: :swimmer: :bicyclist: :badminton: :video_game: <a href="https://dingyanna.github.io" target="_blank">:airplane:</a>
     <!-- <p align="right"><img id="foot-logo" alt="foot-logo" src="./images/wh_c.png" height="40px" /> </p> -->
 
 <div class="row">
