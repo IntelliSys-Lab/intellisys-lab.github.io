@@ -23,7 +23,7 @@ nav: true
 ---
 <br />
 
-### Serverless Computing :zap: :cloud: :hourglass_flowing_sand: 
+### System: Serverless Computing, ML Systems, LLM Serving System :zap: :cloud: :hourglass_flowing_sand: 
 
 <div class="projects grid" style="margin-top:20px">
   {% assign sorted_projects = site.projects | sort: "importance" %}
@@ -68,7 +68,7 @@ nav: true
 
 <br />
 
-### Federated Learning :lock: :crystal_ball: :space_invader: 
+### AI: FL, Efficient AI, AI Security...  :lock: :crystal_ball: :space_invader: 
 
 <div class="projects grid" style="margin-top:20px">
   {% assign sorted_projects = site.projects | sort: "importance" %}
