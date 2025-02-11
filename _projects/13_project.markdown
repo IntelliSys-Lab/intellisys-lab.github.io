@@ -12,7 +12,7 @@ importance: 1
     Hanfei Yu, Xingqi Cui, Hong Zhang, Hao Wang, Hao Wang
 </div>
 <!-- <div class="periodical"> -->
-<!-- ------Preprint at arXiv, [[link]](https://arxiv.org/abs/2407.15389).  -->
+------[Preprint at arXiv](https://arxiv.org/abs/2502.05370). 
 <!-- </div> -->
 
 <br />
