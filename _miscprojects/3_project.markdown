@@ -14,7 +14,7 @@ importance: 4
 
 <div class="row">
         <div class="col-12 col-sm-12 col-md-10 col-lg-10 mx-auto d-block">
-        <img class="img-fluid" src="{{ '/assets/img/rap-song.png' | relative_url }}" alt="" />
+        <img class="img-fluid rounded" src="{{ '/assets/img/rap-song.png' | relative_url }}" alt="" />
         <div class="caption">
             We are working on the copyright issues of this song, will release it soon. 
         </div>

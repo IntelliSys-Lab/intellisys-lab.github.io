@@ -3,12 +3,12 @@ layout: page
 title: "TigerAI: LSU-IBM AI & Security Summer Boot Camp"
 description:
 img: /assets/img/tigerai-2.jpg
-importance: 1
+importance: 2
 ---
 
 <div class="row">
         <div class="col-12 col-sm-12 col-md-10 col-lg-10 mx-auto d-block">
-        <img class="img-fluid" src="{{ '/assets/img/tigerai-2.jpg' | relative_url }}" alt="" />
+        <img class="img-fluid rounded" src="{{ '/assets/img/tigerai-2.jpg' | relative_url }}" alt="" />
         <div class="caption"> </div>
     </div>
 </div>
