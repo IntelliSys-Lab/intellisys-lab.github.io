@@ -48,7 +48,8 @@ nav: true
                 [<a href="/assets/pdf/SC41406.2024.00045.pdf">SC'24</a>],
                 [<a href="/assets/pdf/hanfei-vldb25.pdf">VLDB'25</a>],
                 [<a href="/assets/pdf/TPDS_Hanfei.pdf">TPDS</a>],
-                [<a href="/assets/pdf/yifan-socc24.pdf">SoCC'24 <b>Best Paper Award</b></a>]
+                [<a href="/assets/pdf/yifan-socc24.pdf">SoCC'24 <b>Best Paper Award</b></a>],
+                [<a href="https://mlcommons.org/about-us/programs/">2025 <b>ML and Systems Rising Stars</b></a>]
                 </span> <br />                
                 <span>B.S. Shanghai Jiao Tong University</span><br />   
                 <span>M.S.  University of Washington Tacoma</span>
