@@ -109,6 +109,7 @@ Serverless Computing, Federated Learning, High-Performance Computing, AI Securit
 
 #### :trophy: Awards
 <ul>
+    <li>2025, <strong>Distinguished Member of IEEE INFOCOM 2025 TPC recognition</strong> [<a href="/assets/pdf/INFOCOM Dist TPC Certificate">Link</a>]</li>
     <li>2024, <strong>ACM SoCC 2024 Best Paper Award</strong> [<a href="/assets/pdf/socc24-best-paper.pdf">Link</a>]</li>
     <li>2024, <strong>ACM/IEEE SC 2024 Best Student Paper Finalist</strong></li>
     <li>2024, <strong>SIGHPC Early Career Travel Grant</strong></li>
