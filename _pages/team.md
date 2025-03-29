@@ -95,6 +95,44 @@ nav: true
         </div>
          </div>
     </div>
+    <div class="col-lg-6 mt-1 mb-4 mt-md-1">
+        <div class="row">
+        <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
+            <img class="img-fluid rounded" src="/assets/img/isl-logo-dark.svg" width="130px" alt="" title=""/>
+        </div>
+        <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
+            <h4><a href="https://me.waynetech.site"><b>Lucas (Hao) Wang</b></a></h4>
+            <span>2025 Fall</span> <br />
+            <span>B.S. Tongji University</span> <br />
+            <span>M.S. Tongji University</span>
+        </div>
+         </div>
+    </div>
+    <div class="col-lg-6 mt-1 mb-4 mt-md-1">
+        <div class="row">
+        <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
+            <img class="img-fluid rounded" src="/assets/img/isl-logo-dark.svg" width="130px" alt="" title=""/>
+        </div>
+        <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
+            <h4><a href="https://me.waynetech.site"><b>Renming Zhang</b></a></h4>
+            <span>2025 Fall</span> <br />
+            <span>B.S. Communication University of Zhejiang</span><br />
+            <span>M.S. Boston University</span> 
+        </div>
+         </div>
+    </div>
+    <div class="col-lg-6 mt-1 mb-4 mt-md-1">
+        <div class="row">
+        <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
+            <img class="img-fluid rounded" src="/assets/img/isl-logo-dark.svg" width="130px" alt="" title=""/>
+        </div>
+        <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
+            <h4><a href="https://me.waynetech.site"><b>Xuan Li</b></a></h4>
+            <span>2025 Fall</span> <br />
+            <span>B.S. Southeast University</span>
+        </div>
+         </div>
+    </div>
 </div>
 </div>
 
@@ -190,7 +228,7 @@ nav: true
                 <span>Master, 2024</span><br />
                 <span>Bachelor of Engineering</span><br />
                 <span>Stevens Institute of Technology</span>
-                <!-- <span>Reinforcement Learning-driven Multi-Depot Vehicle Routing [<a href="https://iise.confex.com/iise/2023/meetingapp.cgi/Paper/3575">IISE'23</a>]</span><br /> -->
+                <span>Generative Spatial Audio Diffusion Model</span><br />
             </div>
         </div>
     </div>
@@ -200,7 +238,7 @@ nav: true
                 <img class="img-fluid rounded" src="/assets/img/gaoyi-wu.jpg" width="130px" alt="" title=""/>
             </div>
             <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
-                <h4><b><a href="https://ctemp48.github.io">Gaoyi Wu</a></b></h4>
+                <h4><b>Gaoyi Wu</b></h4>
                 <span>Master, 2024</span><br />
                 <span>Stevens Institute of Technology</span><br />
                 <span>AI Security</span>
