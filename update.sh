@@ -20,7 +20,7 @@ git commit -m "$1"
 # Push changes to the current branch
 git push
 
-echo "Changes have been pushed successfully!"
+echo "### Changes have been pushed successfully!"
 
 # Navigate to the other repository
 cd ../intellisys-lab.github.io.nosync
@@ -34,4 +34,4 @@ git commit -m "$1"
 # Push changes to the current branch
 git push
 
-echo "Changes have been pushed successfully to intellisys-lab.github.io.nosync!"
+echo "### Changes have been pushed successfully to intellisys-lab.github.io!"
