@@ -5,7 +5,7 @@ permalink: /projects/
 description: 
 nav: true
 ---
-
+<!-- 
 ## Road Map
 ---
 <br />
@@ -16,7 +16,7 @@ nav: true
 </div>
 
 <br />
-<br />
+<br /> -->
 
 
 ## Research Projects

@@ -355,7 +355,8 @@ nav: true
                 <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
                     <span><b>Xingqi Cui</b></span>, 
                     <span>Research Intern, joined at 2024 Fall</span>, 
-                    <span>MoE-based LLM System</span>
+                    <span>MoE-based LLM System</span>, <br/>
+                    <span>PhD student @ Rice University 2025 Fall</span>
                 </div>
             </div>
         </div>   
@@ -491,7 +492,7 @@ nav: true
             <div class="col-sm-10 col-lg-10 col-9 mt-1 mt-md-1">
                 <b><a href="https://hanxiguo.me">Hanxi Guo</a></b>, 
                 <span>Research Intern, joined at 2021 Spring</span>, 
-                <span>[<a href="https://intellisys.haow.ca/assets/pdf/hanxi-siren-socc.pdf">SoCC'21</a>], [<a href="https://dl.acm.org/doi/abs/10.1145/3472883.3486990">TDSC</a>], [<a href="https://intellisys.haow.ca/assets/pdf/hanxi-spacedml-network.pdf">IEEE Network</a>]</span>, 
+                <span>[<a href="https://intellisys.haow.ca/assets/pdf/hanxi-siren-socc.pdf">SoCC'21</a>], [<a href="https://dl.acm.org/doi/abs/10.1145/3472883.3486990">TDSC</a>], [<a href="https://intellisys.haow.ca/assets/pdf/hanxi-spacedml-network.pdf">IEEE Network</a>]</span>, <br/>
                 <span>Now Ph.D. student @ Purdue</span>
             </div>
             </div>
@@ -592,7 +593,8 @@ nav: true
                     <b>Kaitlyn Smith</b>, 
                     <span>:trophy: The 2nd place winner, LSU HSSR Program, 2022</span>, 
                     <span>Baton Rouge Magnet High School</span>, 
-                    <span>Project: Reinforcement Learning for Video Games</span>                
+                    <span>Project: Reinforcement Learning for Video Games</span>
+                    <span>Admitted by Yale</span>                
                 </div>
             </div>
         </div>
