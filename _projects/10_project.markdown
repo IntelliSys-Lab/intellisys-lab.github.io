@@ -13,6 +13,9 @@ importance: 1
 <div class="container">
   
     <div class="row">
+        <div class="col-12">
+            <img class="img-fluid rounded mx-auto d-block" src="/assets/img/ale-smart-car.gif" /><br />
+        </div>   
 
         <div class="col-12">
             <img class="img-fluid rounded mx-auto d-block" src="/assets/img/ale-expo-car-poster.png" /><br />
