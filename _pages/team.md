@@ -98,7 +98,7 @@ nav: true
     <div class="col-lg-6 mt-1 mb-4 mt-md-1">
         <div class="row">
         <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
-            <img class="img-fluid rounded" src="/assets/img/isl-logo-dark.svg" width="130px" alt="" title=""/>
+            <img class="img-fluid rounded" src="/assets/img/lucas.jpg" width="130px" alt="" title=""/>
         </div>
         <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
             <h4><a href="https://me.waynetech.site"><b>Lucas (Hao) Wang</b></a></h4>
@@ -111,7 +111,7 @@ nav: true
     <div class="col-lg-6 mt-1 mb-4 mt-md-1">
         <div class="row">
         <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
-            <img class="img-fluid rounded" src="/assets/img/isl-logo-dark.svg" width="130px" alt="" title=""/>
+            <img class="img-fluid rounded" src="/assets/img/renming.jpeg" width="130px" alt="" title=""/>
         </div>
         <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
             <h4><a href="https://me.waynetech.site"><b>Renming Zhang</b></a></h4>
@@ -124,7 +124,7 @@ nav: true
     <div class="col-lg-6 mt-1 mb-4 mt-md-1">
         <div class="row">
         <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
-            <img class="img-fluid rounded" src="/assets/img/isl-logo-dark.svg" width="130px" alt="" title=""/>
+            <img class="img-fluid rounded" src="/assets/img/xuanli.jpeg" width="130px" alt="" title=""/>
         </div>
         <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
             <h4><a href="https://me.waynetech.site"><b>Xuan Li</b></a></h4>
