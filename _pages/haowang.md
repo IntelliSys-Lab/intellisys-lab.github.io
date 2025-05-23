@@ -144,7 +144,7 @@ Serverless Computing, Federated Learning, High-Performance Computing, AI Securit
     * **Guest Editor**: Journal of Systems Architecture (Special issue: [AI-driven Next-Generation Distributed Systems and Applications](https://www.sciencedirect.com/journal/journal-of-systems-architecture/about/call-for-papers))
     * **Topic Editor**: Frontiers in Computer Science Software (Topics: Serverless Computing for Stateful Applications)
 
-* **NSF Panelist**, 2022, 2024x3, 2025x5
+* **NSF Panelist**, 2022, 2024x3, 2025x6
 * **NSF Graduate Research Fellowship Program Reviewer**, 2023
     <!-- * ****: National Science Foundation Core Program Panel 2022 -->
     <!-- <li><strong>Shadow PC Member</strong>, ACM EuroSys Conference, 2021</li> -->

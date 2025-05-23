@@ -37,7 +37,7 @@ nav: true
 <br />
 
 
-### Hackathons, Tutorials, and Fun
+### Workshops, Hackathons, Tutorials, and Fun
 ---
 <br />
 
