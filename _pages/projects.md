@@ -35,12 +35,12 @@ nav: true
       {% else %}
       <a href="{{ project.url | relative_url }}">
       {% endif %}
-        <div class="card hoverable">
+        <div class="card">
           {% if project.img %}
-          <div style="padding: 10px 10px"> <img class="img-fluid rounded" src="{{ project.img | relative_url }}" alt="project thumbnail"> </div>
+          <div> <img class="img-fluid rounded" src="{{ project.img | relative_url }}" alt="project thumbnail"> </div>
           {% endif %}
           <div class="card-body">
-            <h5 class="card-title">{{ project.title }}</h5>
+            <h5 style="font-weight: 10" class="card-title">{{ project.title }}</h5>
             <!-- <p class="card-text">{{ project.description }}</p> -->
             <div class="row ml-1 mr-1 p-0">
               {% if project.github %}
@@ -80,12 +80,12 @@ nav: true
       {% else %}
       <a href="{{ project.url | relative_url }}">
       {% endif %}
-        <div class="card hoverable">
+        <div class="card">
           {% if project.img %}
-          <div style="padding: 10px 10px"> <img class="img-fluid rounded" src="{{ project.img | relative_url }}" alt="project thumbnail"> </div>
+          <div> <img class="img-fluid rounded" src="{{ project.img | relative_url }}" alt="project thumbnail"> </div>
           {% endif %}
           <div class="card-body">
-            <h5 class="card-title">{{ project.title }}</h5>
+            <h5 style="font-weight: 10" class="card-title">{{ project.title }}</h5>
             <!-- <p class="card-text">{{ project.description }}</p> -->
             <div class="row ml-1 mr-1 p-0">
               {% if project.github %}
@@ -125,12 +125,12 @@ nav: true
       {% else %}
       <a href="{{ project.url | relative_url }}">
       {% endif %}
-        <div class="card hoverable">
+        <div class="card">
           {% if project.img %}
-          <div style="padding: 10px 10px"> <img class="img-fluid rounded" src="{{ project.img | relative_url }}" alt="project thumbnail"> </div>
+          <div> <img class="img-fluid rounded" src="{{ project.img | relative_url }}" alt="project thumbnail"> </div>
           {% endif %}
           <div class="card-body">
-            <h5 class="card-title">{{ project.title }}</h5>
+            <h5 style="font-weight: 10" class="card-title">{{ project.title }}</h5>
             <!-- <p class="card-text">{{ project.description }}</p> -->
             <div class="row ml-1 mr-1 p-0">
               {% if project.github %}
@@ -176,9 +176,9 @@ nav: true
     {% else %}
     <a href="{{ project.url | relative_url }}">
     {% endif %}
-      <div class="card hoverable">
+      <div class="card">
         {% if project.img %}
-        <div style="padding: 10px 10px"> <img class="img-fluid rounded" src="{{ project.img | relative_url }}" alt="project thumbnail"> </div>
+        <div> <img class="img-fluid rounded" src="{{ project.img | relative_url }}" alt="project thumbnail"> </div>
         {% endif %}
         <div class="card-body">
           <h5 class="card-title">{{ project.title }}</h5>

@@ -306,18 +306,20 @@ footer.sticky-bottom {
     }
   }
   .card {
-    border-radius: 10px; 
+    // border-radius: 10px; 
     img {
       width: 100%;
     }
     .card-body {
-      background: $stevens-red;
+      background: transparent;
       border-radius: 0 0 10px 10px; 
     }
     .card-title {
-      color: $white-color;
+      color: $stevens-red;
       margin-bottom: 0;
     }
+    box-shadow: none;
+    border: 1px solid $grey-color-light;
   }
 }
 
