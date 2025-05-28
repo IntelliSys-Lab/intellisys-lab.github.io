@@ -142,13 +142,13 @@ footer.sticky-bottom { border-top: 1px solid #e5e5e5; padding-top: 40px; padding
 
 .projects .grid-item a:hover { color: var(--global-theme-color); }
 
-.projects .card { border-radius: 10px; }
+.projects .card { box-shadow: none; border: 1px solid #e5e5e5; }
 
 .projects .card img { width: 100%; }
 
-.projects .card .card-body { background: #a32638; border-radius: 0 0 10px 10px; }
+.projects .card .card-body { background: transparent; border-radius: 0 0 10px 10px; }
 
-.projects .card .card-title { color: #ffffff; margin-bottom: 0; }
+.projects .card .card-title { color: #a32638; margin-bottom: 0; }
 
 .publications { margin-top: 2rem; }
 

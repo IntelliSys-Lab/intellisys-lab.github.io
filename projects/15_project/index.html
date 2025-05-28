@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>IntelliSys Lab | Stevens | a post with images</title>
+<title>IntelliSys Lab | Stevens | Serverless LoRA-based LLM Serving</title>
 <meta name="description" content="the Intelligent System (IntelliSys) Lab 
 ">
 
@@ -31,7 +31,7 @@
 
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/blog/2015/images/">
+<link rel="canonical" href="/projects/15_project/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -93,7 +93,7 @@
           </li> -->
           <!--  -->
           <!-- pages -->
-          <li class="nav-item ">
+          <li class="nav-item active">
             <a class="nav-link" href="/projects/">
               </span><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-lightning-charge-fill" viewBox="0 0 20 20">
                 <path d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09z"/>
@@ -234,60 +234,47 @@
     <!-- Content -->
 
     <div class="container mt-5">
-      
-
-<div class="post">
+      <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">a post with images</h1>
-    <p class="post-meta">May 15, 2015</p>
+    <h1 class="post-title">Serverless LoRA-based LLM Serving</h1>
+    <p class="post-description"></p>
   </header>
 
-  <article class="post-content">
-    <p>Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Fingerstache four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch.</p>
+  <article>
+    <div class="title"><strong>ServerlessLoRA: Minimizing Latency and Cost in Serverless Inference for LoRA-Based LLMs</strong></div>
+<div class="author">
+    Yifan Sui, Hao Wang, Hanfei Yu, Yitao Hu, Jianxun Li, and Hao Wang
+</div>
+<!-- <div class="periodical"> -->
+<p>——Preprint at <a href="https://arxiv.org/abs/2505.14468">[arXiv]</a>. 
+<!-- </div> --></p>
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="/assets/img/9.jpg" />
-    </div>
-</div>
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="/assets/img/7.jpg" />
-    </div>
-</div>
-<div class="caption">
-    A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all.
-</div>
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="/assets/img/8.jpg" />
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="/assets/img/10.jpg" />
-    </div>
-</div>
+<p><br /></p>
 
-<p>Slow-carb four dollar toast Helvetica pop-up. Kale chips next level literally trust fund Pitchfork. Jean shorts Pinterest beard, farm-to-table irony craft beer swag tofu 8-bit Banksy. Quinoa forage fanny pack, pug hashtag Echo Park heirloom Schlitz tote bag artisan Neutra mumblecore 90’s shabby chic raw denim.</p>
+<h4 id="abstract">Abstract</h4>
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="/assets/img/11.jpg" />
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="/assets/img/12.jpg" />
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="/assets/img/7.jpg" />
+<p>Serverless computing has grown rapidly for serving Large Language Model (LLM) inference due to its pay-as-you-go pricing, fine-grained GPU usage, and rapid scaling. However, our analysis reveals that current serverless can effectively serve general LLM but fail with Low-Rank Adaptation (LoRA) inference due to three key limitations: 1) massive parameter redundancy among functions where 99% of weights are unnecessarily duplicated, 2) costly artifact loading latency beyond LLM loading, and 3) magnified resource contention when serving multiple LoRA LLMs. These inefficiencies lead to massive GPU wastage, increased Time-To-First-Token (TTFT), and high monetary costs.
+We propose ServerlessLoRA, a novel serverless inference system designed for faster and cheaper LoRA LLM serving. ServerlessLoRA enables secure backbone LLM sharing across isolated LoRA functions to reduce redundancy. We design a pre-loading method that pre-loads comprehensive LoRA artifacts to minimize cold-start latency. Furthermore, ServerlessLoRA employs contention aware batching and offloading to mitigate GPU resource conflicts during bursty workloads. Experiment on industrial workloads demonstrates that ServerlessLoRA reduces TTFT by up to 86% and cuts monetary costs by up to 89% compared to state-of-the-art LLM inference solutions.</p>
+
+<p><br /></p>
+
+<div class="row">
+        <div class="col-12 col-sm-12 col-md-8 col-lg-8 mx-auto d-block">
+        <img class="img-fluid" src="/assets/img/serverless-lora-time.png" alt="" />
+        <div class="caption">
+            Time breakdown of LoRA functions’ invocations. 
+        </div>
     </div>
 </div>
 
   </article>
 
-  
-
 </div>
 
+<ul>
+  <p align="right"><img id="foot-logo" src="/assets/img/isl-logo-dark.gif" height="40px" /> </p>
+</ul>
     </div>
 
     <!-- Footer -->
