@@ -70,11 +70,11 @@ Serverless Computing, Federated Learning, High-Performance Computing, AI Securit
 #### :mortar_board: Education
 <ul>
     <li>Ph.D. in Computer Engineering <br /> 
-    <a href="https://www.utoronto.ca">University of Toronto</a>, <i>2015.09 - 2020.11, advised by <a href="https://iqua.ece.toronto.edu/bli/index.html">Prof. Baochun Li</a></i>.</li>
+    <a href="https://www.utoronto.ca">University of Toronto</a>, <i>2015.09--2020.11, advised by <a href="https://iqua.ece.toronto.edu/bli/index.html">Prof. Baochun Li</a></i>.</li>
     <li>M.E. in Software Engineering <br /> 
-    <a href="https://www.sjtu.edu.cn">Shanghai Jiao Tong University (SJTU)</a>, <i>2012.09 - 2015.03</i></li>
+    <a href="https://www.sjtu.edu.cn">Shanghai Jiao Tong University (SJTU)</a>, <i>2012.09--2015.03</i></li>
     <li>B.E. in Information Security <br /> 
-    <a href="https://www.sjtu.edu.cn">Shanghai Jiao Tong University (SJTU)</a>, <i>2008.09 - 2012.07</i></li>
+    <a href="https://www.sjtu.edu.cn">Shanghai Jiao Tong University (SJTU)</a>, <i>2008.09--2012.07</i></li>
 </ul>
 
 
@@ -95,8 +95,10 @@ Serverless Computing, Federated Learning, High-Performance Computing, AI Securit
 </ul> -->
 #### :triangular_ruler: Teaching
 <ul>
-    <li><a href="https://www.haow.ca/csc3501/">CSC3501: Computer Organization & Design</a>, LSU, <i>2021, 2022 Spring</i></li>
-    <li>CSC4501: Computer Networks, LSU, <i>2021, 2022 Fall</i></li>
+    <li>AAI595: Applied Machine Learning, Stevens, <i>2025 Spring, Fall</i></li>
+    <li>CSC7598: Distributed Computing, LSU, <i>2024 Spring</i></li>
+    <li><a href="https://www.haow.us/csc3501/">CSC3501: Computer Organization & Design</a>, LSU, <i>2021--2024 Spring</i></li>
+    <li>CSC4501: Computer Networks, LSU, <i>2021--2023 Fall</i></li>
 </ul>
 
 <!-- #### Mentoring
@@ -111,6 +113,7 @@ Serverless Computing, Federated Learning, High-Performance Computing, AI Securit
 
 #### :trophy: Awards
 <ul>
+    <li>2025, <strong>Research Excellence Award</strong>,  ECE Department, Stevens Institute of Technology</li>
     <li>2025, <strong>Distinguished Member of IEEE INFOCOM 2025 TPC recognition</strong> [<a href="/assets/pdf/INFOCOM Dist TPC Certificate.pdf">Link</a>]</li>
     <li>2024, <strong>ACM SoCC 2024 Best Paper Award</strong> [<a href="/assets/pdf/socc24-best-paper.pdf">Link</a>]</li>
     <li>2024, <strong>ACM/IEEE SC 2024 Best Student Paper Finalist</strong></li>
