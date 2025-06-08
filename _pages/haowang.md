@@ -29,7 +29,7 @@ nav: true
     <div class="row">
         
         <div class="mt-3 mb-2 col-sm-7 col-md-3 col-lg-3">
-            <img class="img-fluid rounded" src="/assets/img/haowang-head-ss.JPG" width="175px" alt="" title="haowang"/>
+            <img class="img-fluid rounded" src="/assets/img/haowang-v2.jpg" width="175px" alt="" title="haowang"/>
         </div>
         <div class="mb-1 col-sm-7 col-md-7 col-lg-5">
             <p>
