@@ -266,7 +266,7 @@ nav: true
                 <img class="img-fluid rounded" src="/assets/img/jain.jpeg" width="130px" alt="" title=""/>
             </div>
             <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
-                <h4><b><a href="">Shubham Jain</a></b></h4>
+                <h4><b>Shubham Jain</b></h4>
                 <span>Master, 2024</span><br />
                 <span>Stevens Institute of Technology</span><br />
                 <span>RLHF and Serverless Computing</span>
@@ -280,7 +280,7 @@ nav: true
                 <img class="img-fluid rounded" src="/assets/img/Rajat.jpg" width="130px" alt="" title=""/>
             </div>
             <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
-                <h4><b><a href="">Rajat Jaiswal</a></b></h4>
+                <h4><b>Rajat Jaiswal</b></h4>
                 <span>Master of Science, Applied Artificial Intelligence, 2024</span><br />
                 <span>Stevens Institute of Technology</span><br />
                 <span>LLM Serving</span>
@@ -294,7 +294,7 @@ nav: true
                 <img class="img-fluid rounded" src="/assets/img/rushi.jpeg" width="130px" alt="" title=""/>
             </div>
             <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
-                <h4><b><a href="">Rushi Lunagariya</a></b></h4>
+                <h4><b>Rushi Lunagariya</b></h4>
                 <span>Master of Science, Applied Artificial Intelligence, 2025</span><br />
                 <span>Stevens Institute of Technology</span><br />
                 <span>LLM Serving</span>
@@ -308,7 +308,7 @@ nav: true
                 <img class="img-fluid rounded" src="/assets/img/krishna.jpg" width="130px" alt="" title=""/>
             </div>
             <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
-                <h4><b><a href="">Krishna Sai Srinivas Venigalla</a></b></h4>
+                <h4><b>Krishna Sai Srinivas Venigalla</b></h4>
                 <span>Master, 2024</span><br />
                 <span>Stevens Institute of Technology</span><br />
                 <span>LLM Serving</span>
@@ -406,8 +406,7 @@ nav: true
                     <img class="img-fluid rounded" src="/assets/img/alejandra_malia.jpg" width="80px" alt="" title=""/>
                 </div>
                 <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
-                    <span><b>Alejandra Malia Saez</b>, Exchange student from Universidad Pontificia de Comillas ICAI, Stevens Institute of Technology</span><br />
-                    <span><a>Project: Self-charging Smart Cars</a></span>
+                    <span><b>Alejandra Malia Saez</b>, Exchange student from Universidad Pontificia de Comillas ICAI, Stevens Institute of Technology</span>, <a href="/projects/10_project/">Project: Self-charging Smart Cars</a></span>
                 </div>
             </div>
         </div>   
@@ -443,8 +442,7 @@ nav: true
                 </div>
                 <div class="col-sm-10 col-lg-10 col-9 mt-1 mt-md-1">
                     <b>Damien H Nguyen</b>, 
-                    <span>Joined at 2023 Fall, LSU</span>, 
-                    <span>Freshmen student from the <a href="https://www.lsu.edu/discover/funding/presidents_future_leaders_in_research.php">President's Future Leader in Research (PFLR)</a> scholarship project</span>
+                    <span>Joined at 2023 Fall, LSU, Freshmen student from the <a href="https://www.lsu.edu/discover/funding/presidents_future_leaders_in_research.php">PFLR</a> scholarship project. Volunteer for <a href="https://tigeraibootcamp.github.io/TigerAI/">TigerAI</a></span>
                     <br />
                 </div>
             </div>
@@ -457,7 +455,7 @@ nav: true
                 <div class="col-sm-10 col-lg-10 col-9 mt-1 mt-md-1">
                     <b>Hudson N Vu</b>, 
                     <span>Joined at 2023 Fall</span>, 
-                    <span>Computer Vision</span>, 
+                    <span>Computer Vision. Volunteer for <a href="https://tigeraibootcamp.github.io/TigerAI/">TigerAI</a></span>. 
                 </div>
             </div>
         </div>
@@ -469,7 +467,7 @@ nav: true
                 <div class="col-sm-10 col-lg-10 col-9 mt-1 mt-md-1">
                     <b>Sahithi Rampally</b>, 
                     <span>Joined at 2024 Spring</span>, 
-                    <span>Federated Learning</span>
+                    <span>Federated Learning. Volunteer head for <a href="https://tigeraibootcamp.github.io/TigerAI/">TigerAI</a></span>
                 </div>
             </div>
         </div>
@@ -481,7 +479,7 @@ nav: true
                 <div class="col-sm-10 col-lg-10 col-9 mt-1 mt-md-1">
                     <b>Jackson Descant</b>, 
                     <span>Joined at 2024 Spring</span>, 
-                    <span>Serverless Computing</span>
+                    <span>Serverless Computing, Volunteer for <a href="https://tigeraibootcamp.github.io/TigerAI/">TigerAI</a></span>
                 </div>
             </div>
         </div>
