@@ -113,16 +113,17 @@ Serverless Computing, Federated Learning, High-Performance Computing, AI Securit
 
 #### :trophy: Awards
 <ul>
+    <li>2025, <strong><a href="https://kdd2025.kdd.org/research-track-program-committee/">KDD 2025 Feb Cycle Outstanding Reviewers (Top 10%)</a></strong>, KDD</li>
     <li>2025, <strong>Research Excellence Award</strong>,  ECE Department, Stevens Institute of Technology</li>
-    <li>2025, <strong>Distinguished Member of IEEE INFOCOM 2025 TPC recognition</strong> [<a href="/assets/pdf/INFOCOM Dist TPC Certificate.pdf">Link</a>]</li>
-    <li>2024, <strong>ACM SoCC 2024 Best Paper Award</strong> [<a href="/assets/pdf/socc24-best-paper.pdf">Link</a>]</li>
+    <li>2025, <strong><a href="/assets/pdf/INFOCOM Dist TPC Certificate.pdf">Distinguished Member of IEEE INFOCOM 2025 TPC recognition</a></strong></li>
+    <li>2024, <strong><a href="/assets/pdf/socc24-best-paper.pdf">ACM SoCC 2024 Best Paper Award</a></strong> </li>
     <li>2024, <strong>ACM/IEEE SC 2024 Best Student Paper Finalist</strong></li>
     <li>2024, <strong>SIGHPC Early Career Travel Grant</strong></li>
-    <li>2024, <strong>Distinguished Member of IEEE INFOCOM 2024 TPC recognition</strong> [<a href="/assets/pdf/2024_DTPC_certificate_FK-SK.pdf">Link</a>]</li>
-    <li>2022, <strong>Excellent Reviewer for the IEEE Transactions on Network Science & Engineering</strong> [<a href="/assets/pdf/tnse-excellent-reviewer.pdf">Link</a>]</li>
-    <li>2022, <strong>NSF CRII Award</strong> [<a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2153502">Link</a>]</li>
-    <li>2019, <strong>Didi Graduate Awards</strong> on Cloud Computing, Didi Chuxing Technology Co. (滴滴出行) [<a href="/assets/pdf/didi_award.pdf">Link</a>]</li>
-    <li>2019, <strong>Best In-session Presentation Award</strong>, INFOCOM'19, IEEE [<a href="/assets/pdf/6-E-2019_Best_In_session_Presentation_Certificate.pdf">Link</a>]</li>
+    <li>2024, <strong><a href="/assets/pdf/2024_DTPC_certificate_FK-SK.pdf">Distinguished Member of IEEE INFOCOM 2024 TPC recognition</a></strong></li>
+    <li>2022, <strong><a href="/assets/pdf/tnse-excellent-reviewer.pdf">Excellent Reviewer for the IEEE Transactions on Network Science & Engineering</a></strong></li>
+    <li>2022, <strong><a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2153502">NSF CRII Award</a></strong></li>
+    <li>2019, <strong><a href="/assets/pdf/didi_award.pdf">Didi Graduate Awards</a></strong> on Cloud Computing, Didi Chuxing Technology Co. (滴滴出行)</li>
+    <li>2019, <strong><a href="/assets/pdf/6-E-2019_Best_In_session_Presentation_Certificate.pdf">Best In-session Presentation Award</a></strong>, INFOCOM'19, IEEE</li>
     <li>2019, <strong>Doctoral Completion Award</strong>, ECE Department, University of Toronto</li>
     <li>2018, <strong>SGS Conference Grant</strong>, School of Graduate Studies, University of Toronto</li>
     <li>2018, <strong>Student Scholarships</strong>, SoCC'18, ACM</li>
@@ -157,7 +158,7 @@ Serverless Computing, Federated Learning, High-Performance Computing, AI Securit
     * [Kenilworth Science and Technology Charter School](https://www.kenilworthschool.org) Student Research Mentorship Program, 2021-2024
 * **Conference TPC Member &#38; Journal Reviewer** 
     * **System & Network**: ACM HPDC 2024-25, ACM SoCC 2022, INFOCOM 2021-2025, Globecom 2022, ADHOCNETS 2021, ICCCN 2022-2023, ICDCS 2022-2025, IEEE TPDS, IEEE ToN, IEEE TNSE, IEEE TCC, IEEE TMC, IEEE TSC, IEEE IoTJ
-    * **AI & ML**: AISTATS 2025, CVPR 2024-2025, ICLR 2024-2025, ECAI 2023, AAAI 2023-2025, ECML PKDD 2022, NeurIPS 2022-2024, ICML 2022-2023, IEEE CDC 2023, IEEE TAI, IEEE TIST
+    * **AI & ML**: AISTATS 2025, CVPR 2024-2025, ICLR 2024-2025, KDD 2025, ECAI 2023, AAAI 2023-2025, ECML PKDD 2022, NeurIPS 2022-2024, ICML 2022-2023, IEEE CDC 2023, IEEE TAI, IEEE TIST
     * **Security**: TIFS
     * **Web & Data**: ACM WSDM 2023, ACM theWebConf 2022, 2024, IEEE IRI 2020-2021
 
