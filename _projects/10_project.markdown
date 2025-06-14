@@ -4,7 +4,7 @@ title: Self-Charging Smart Car
 category: ai
 description:
 img: /assets/img/jetracer-ai-kit.jpg
-importance: 1
+importance: 2
 ---
 
 
