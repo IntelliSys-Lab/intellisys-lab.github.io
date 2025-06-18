@@ -152,8 +152,9 @@ nav: true
                 <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
                     <h4><b>Yifan Sui</b></h4>
                     <span>[<a href="/assets/pdf/yifan-socc24.pdf">SoCC'24 <b>Best Paper Award</b></a>]</span>  <br />
-                    <span>Shanghai Jiao Tong University</span><br />
-                    <span><a>Project: ML Pre-loading for Serverless Architectures</a></span>
+                    <span>Ph.D. at Shanghai Jiao Tong University</span><br />
+                    <span>Serverless AI Systems</span><br />
+                    <span>Project: <a href="/projects/9_project/">ML Pre-loading for Serverless Architectures</a></span>
                 </div>
             </div>
         </div>
@@ -165,8 +166,8 @@ nav: true
                 <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
                     <h4><b>Peishen Yan</b></h4>
                     <span>[<a href="/assets/pdf/SkyMask_for_ECCV.pdf">ECCV'24</a>]</span> <br />
-                    <span>Shanghai Jiao Tong University</span><br />
-                    <span><a>Project: FL Security & Efficiency</a></span>
+                    <span>Ph.D. at Shanghai Jiao Tong University</span><br />
+                    <span><a>FL Security & Efficiency</a></span>
                 </div>
             </div>
         </div>
@@ -177,7 +178,8 @@ nav: true
                 </div>
                 <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
                     <h4><b>Qi Qi</b></h4>
-                    <span>UCSD</span><br />
+                    <span>Master at UCSD</span><br />
+                    <span>Bachelor at HUST</span><br />
                     <span><a>Serverless computing for AI</a></span>
                 </div>
             </div>
@@ -189,7 +191,7 @@ nav: true
                 </div>
                 <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
                     <h4><b>Weixuan Ding</b></h4>
-                    <span>Wuhan University</span><br />
+                    <span>Bachelor at Wuhan University</span><br />
                     <span><a>FL Privacy & Security</a></span>
                 </div>
             </div>
@@ -201,8 +203,21 @@ nav: true
                 </div>
                 <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
                     <h4><b>Bei Ouyang</b></h4>
-                    <span>Sun Yat-sen University</span><br />
+                    <span>Master and Bachelor at Sun Yat-sen University</span><br />
                     <span><a>LLM Serving Systems</a></span>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 mt-1 mb-4 mt-md-1">
+            <div class="row">
+                <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
+                    <img class="img-fluid rounded" src="/assets/img/zhanming.jpg" width="130px" alt="" title=""/>
+                </div>
+                <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
+                    <h4><b>Zhanming Shen</b></h4>
+                    <span>Ph.D. at Zhe Jiang University</span><br />
+                    <span>Bachelor at Shan Dong University</span><br />
+                    <span><a>FL & LLM fine-tuning</a></span>
                 </div>
             </div>
         </div>
@@ -240,7 +255,7 @@ nav: true
                 <span>Master, 2024</span><br />
                 <span>Bachelor of Engineering</span><br />
                 <span>Stevens Institute of Technology</span>
-                <span>Generative Spatial Audio Diffusion Model</span><br />
+                <span><a href="/projects/16_project/">Generative Spatial Audio Diffusion Model</a></span><br />
             </div>
         </div>
     </div>
@@ -418,7 +433,7 @@ nav: true
                     <img class="img-fluid rounded" src="/assets/img/alejandra_malia.jpg" width="80px" alt="" title=""/>
                 </div>
                 <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
-                    <span><b>Alejandra Malia Saez</b>, Exchange student from Universidad Pontificia de Comillas ICAI, Stevens Institute of Technology</span>, <a href="/projects/10_project/">Project: Self-charging Smart Cars</a></span>
+                    <span><b>Alejandra Malia Saez</b>, Exchange student from Universidad Pontificia de Comillas ICAI, Stevens Institute of Technology</span>, <a href="/projects/10_project/">Project: Self-charging Smart Cars</a>
                 </div>
             </div>
         </div>   
