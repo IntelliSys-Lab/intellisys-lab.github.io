@@ -406,6 +406,19 @@ nav: true
                 </div>
             </div>
         </div>
+        <div class="col-lg-6 mt-1 mb-4 mt-md-1">
+            <div class="row">
+                <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
+                    <img class="img-fluid rounded" src="/assets/img/yufan.jpeg" width="130px" alt="" title=""/>
+                </div>
+                <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
+                    <h4><b>Yufan Lin</b></h4>
+                    <span>Bronx High School of Science</span><br />            
+                    <span>Class of 2027</span><br />    
+                    <span>Project: MARL for Gaming</span>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
