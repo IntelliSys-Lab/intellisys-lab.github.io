@@ -7,12 +7,13 @@ img: /assets/img/spatial-audio.png
 importance: 1
 ---
 
-<div class="title"><strong>Dynamic Spatial Audio Soundscapes with Latent Diffusion Models</strong></div>
+<div class="title"><strong>SonicMotion: Dynamic Spatial Audio Soundscapes with Latent Diffusion Models</strong></div>
 <div class="author">
-    Christian Templin, Hao Wang
+    Christian Templin, Yanda Zhu, and Hao Wang
 </div>
 <!-- <div class="periodical"> -->
-------Preprint will arrive soon. 
+------Preprint: [https://arxiv.org/abs/2507.07318](https://arxiv.org/abs/2507.07318). <br/>
+------Demo: [https://intellisys.haow.us/spatial-audio-project/](https://intellisys.haow.us/spatial-audio-project/)
 <!-- </div> -->
 
 #### Abstract
