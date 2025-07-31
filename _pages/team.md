@@ -401,7 +401,7 @@ nav: true
                 <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
                     <h4><b>Shelley Ma</b></h4>
                     <span>McNair Academic High School</span><br />            
-                    <span>2026 Class</span><br />    
+                    <span>Class of 2026</span><br />    
                     <span>Project: ML-driven ANC for Misophonia</span>
                 </div>
             </div>
@@ -416,6 +416,19 @@ nav: true
                     <span>Bronx High School of Science</span><br />            
                     <span>Class of 2027</span><br />    
                     <span>Project: MARL for Gaming</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 mt-1 mb-4 mt-md-1">
+            <div class="row">
+                <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
+                    <img class="img-fluid rounded" src="/assets/img/bener.jpg" width="130px" alt="" title=""/>
+                </div>
+                <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
+                    <h4><b>Bener Dulger</b></h4>
+                    <span>High Technology High School</span><br />            
+                    <span>Class of 2027</span><br />    
+                    <span>Project: AI-driven Smart Car for Racing</span>
                 </div>
             </div>
         </div>
