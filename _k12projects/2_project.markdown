@@ -3,7 +3,7 @@ layout: page
 title: Super Computer in Your Pocket
 description:
 img: /assets/img/pi.png
-importance: 1
+importance: 3
 ---
 
 <!-- <div class="title"><strong>Playing FlappyBird with Reinforcement Learning</strong></div> -->

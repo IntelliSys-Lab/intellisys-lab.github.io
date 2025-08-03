@@ -3,7 +3,7 @@ layout: page
 title: Playing FlappyBird with AI
 description:
 img: /assets/img/flappy.png
-importance: 1
+importance: 4
 ---
 
 <!-- <div class="title"><strong>Playing FlappyBird with Reinforcement Learning</strong></div> -->
