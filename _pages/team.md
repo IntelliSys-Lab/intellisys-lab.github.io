@@ -343,6 +343,20 @@ nav: true
             </div>
         </div>
     </div>
+    <div class="col-lg-6 mt-1 mb-4 mt-md-1">
+        <div class="row">
+            <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
+                <img class="img-fluid rounded" src="/assets/img/longzhao.jpg" width="130px" alt="" title=""/>
+            </div>
+            <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
+                <h4><b>Longzhao Gong</b></h4>
+                <span>Master, 2024</span><br />
+                <span>Stevens Institute of Technology</span><br />
+                <span>Smart Kart & RL</span>
+                <!-- <span>Reinforcement Learning-driven Multi-Depot Vehicle Routing [<a href="https://iise.confex.com/iise/2023/meetingapp.cgi/Paper/3575">IISE'23</a>]</span><br /> -->
+            </div>
+        </div>
+    </div>
     </div>
 </div>
 
