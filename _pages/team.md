@@ -215,6 +215,7 @@ nav: true
                 </div>
                 <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
                     <h4><b>Zhanming Shen</b></h4>
+                    <span>[<a href=".">EMNLP'25</a>]</span> <br />
                     <span>Ph.D. at Zhe Jiang University</span><br />
                     <span>Bachelor at Shan Dong University</span><br />
                     <span><a>FL & LLM fine-tuning</a></span>
