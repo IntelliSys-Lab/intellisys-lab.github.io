@@ -486,7 +486,8 @@ nav: true
                 </div>
                 <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
                     <span><b>Xingqi Cui</b></span>, 
-                    <span>Research Intern, joined at 2024 Fall</span>, 
+                    <span>Research Intern, joined in 2024 Fall</span>,
+                    <span>[EuroSys'26]</span>  <br />
                     <span>MoE-based LLM System</span>, <br/>
                     <span>PhD student @ Rice University 2025 Fall</span>
                 </div>
@@ -511,7 +512,7 @@ nav: true
                 </div>
                 <div class="col-sm-10 col-lg-10 col-9 mt-1 mt-md-1">
                     <b>Damien H Nguyen</b>, 
-                    <span>Joined at 2023 Fall, LSU, Freshmen student from the <a href="https://www.lsu.edu/discover/funding/presidents_future_leaders_in_research.php">PFLR</a> scholarship project. Volunteer for <a href="https://tigeraibootcamp.github.io/TigerAI/">TigerAI</a></span>
+                    <span>joined in 2023 Fall, LSU, Freshmen student from the <a href="https://www.lsu.edu/discover/funding/presidents_future_leaders_in_research.php">PFLR</a> scholarship project. Volunteer for <a href="https://tigeraibootcamp.github.io/TigerAI/">TigerAI</a></span>
                     <br />
                 </div>
             </div>
@@ -523,7 +524,7 @@ nav: true
                 </div>
                 <div class="col-sm-10 col-lg-10 col-9 mt-1 mt-md-1">
                     <b>Hudson N Vu</b>, 
-                    <span>Joined at 2023 Fall</span>, 
+                    <span>joined in 2023 Fall</span>, 
                     <span>Computer Vision. Volunteer for <a href="https://tigeraibootcamp.github.io/TigerAI/">TigerAI</a></span>. 
                 </div>
             </div>
@@ -535,7 +536,7 @@ nav: true
                 </div>
                 <div class="col-sm-10 col-lg-10 col-9 mt-1 mt-md-1">
                     <b>Sahithi Rampally</b>, 
-                    <span>Joined at 2024 Spring</span>, 
+                    <span>joined in 2024 Spring</span>, 
                     <span>Federated Learning. Volunteer head for <a href="https://tigeraibootcamp.github.io/TigerAI/">TigerAI</a></span>
                 </div>
             </div>
@@ -547,7 +548,7 @@ nav: true
                 </div>
                 <div class="col-sm-10 col-lg-10 col-9 mt-1 mt-md-1">
                     <b>Jackson Descant</b>, 
-                    <span>Joined at 2024 Spring</span>, 
+                    <span>joined in 2024 Spring</span>, 
                     <span>Serverless Computing, Volunteer for <a href="https://tigeraibootcamp.github.io/TigerAI/">TigerAI</a></span>
                 </div>
             </div>
@@ -559,7 +560,7 @@ nav: true
                 </div>
                 <div class="col-sm-10 col-lg-10 col-9 mt-1 mt-md-1">
                     <b>Nasser J Mohammed</b>, 
-                    <span>Joined at 2021 Fall</span>, 
+                    <span>joined in 2021 Fall</span>, 
                     <span><a href="/projects/5_project/">Automating Material Measurement and Evaluation using CV Approaches</a></span>, 
                     <span>Admitted by LSU CS Master program</span>
                 </div>
@@ -584,7 +585,7 @@ nav: true
                 </div>
                 <div class="col-sm-10 col-lg-10 col-9 mt-1 mt-md-1">
                     <b>Jacob Carter</b>, 
-                    <span>Joined at 2023 Fall</span>, 
+                    <span>joined in 2023 Fall</span>, 
                     <span>Serverless computing systems for AI</span>, 
                     <span>Now Ph.D. student @ University of Florida</span>
                 </div>
@@ -597,7 +598,7 @@ nav: true
                 </div>
                 <div class="col-sm-10 col-lg-10 col-9 mt-1 mt-md-1">
                     <b>Faris Khattak</b>, 
-                    <span>Joined at 2022 Fall</span>, 
+                    <span>joined in 2022 Fall</span>, 
                     <span>LLM-driven Scheduling for Distributed Systems</span> 
                 </div>
             </div>
@@ -609,7 +610,7 @@ nav: true
             </div>
             <div class="col-sm-10 col-lg-10 col-9 mt-1 mt-md-1">
                 <b><a href="https://zhmzm.github.io">Haomin Zhuang</a></b>, 
-                <span>Research Intern, joined at 2022 Spring</span>, 
+                <span>Research Intern, joined in 2022 Spring</span>, 
                 <span>[<a href="https://openreview.net/pdf?id=AJBGSVSTT2">ICLR'24</a>]</span>, 
                 <span>Now Ph.D. student @ Notre Dame</span> 
             </div>
@@ -622,7 +623,7 @@ nav: true
             </div>
             <div class="col-sm-10 col-lg-10 col-9 mt-1 mt-md-1">
                 <b><a href="https://hanxiguo.me">Hanxi Guo</a></b>, 
-                <span>Research Intern, joined at 2021 Spring</span>, 
+                <span>Research Intern, joined in 2021 Spring</span>, 
                 <span>[<a href="https://intellisys.haow.ca/assets/pdf/hanxi-siren-socc.pdf">SoCC'21</a>], [<a href="https://dl.acm.org/doi/abs/10.1145/3472883.3486990">TDSC</a>], [<a href="https://intellisys.haow.ca/assets/pdf/hanxi-spacedml-network.pdf">IEEE Network</a>]</span>, <br/>
                 <span>Now Ph.D. student @ Purdue</span>
             </div>
@@ -635,7 +636,7 @@ nav: true
                 </div>
                 <div class="col-sm-10 col-lg-10 col-9 mt-1 mt-md-1">
                     <b><a href="https://github.com/TsingZ0">Jianqing Zhang</a></b>, 
-                    <span>Research Intern, joined at 2023 Summer</span>, 
+                    <span>Research Intern, joined in 2023 Summer</span>, 
                     <span>[<a href="https://arxiv.org/pdf/2308.10279v3">ICCV'23</a>], [<a href="https://intellisys.haow.ca/assets/pdf/fedala-jianqing-aaai2023.pdf">AAAI'23</a>], [<a href="https://intellisys.haow.ca/assets/pdf/fedcp-jianqing.pdf">KDD'23</a>], [<a href="https://intellisys.haow.ca/assets/pdf/2806_eliminating_domain_bias_for_fe.pdf">NeurIPS'23</a>]</span>, 
                     <span>Now Ph.D. student @ SJTU</span>
                 </div>
