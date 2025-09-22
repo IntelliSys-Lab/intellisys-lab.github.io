@@ -145,8 +145,9 @@ Serverless Computing, Federated Learning, High-Performance Computing, AI Securit
     * **Publicity Chair**: Springer [ICA3PP 2023](http://tjutanklab.com/ica3pp2023/home.html)
     * **Web Chair**: [APNet 2024](https://conferences.sigcomm.org/events/apnet2024/)-[2025](https://conferences.sigcomm.org/events/apnet2025/organization.php), IEEE ICNP 2017
     * **Session Chair**: INFOCOM 2022-2023, ACM SoCC 2022 (online)
-    * **Guest Editor**: Journal of Systems Architecture (Special issue: [AI-driven Next-Generation Distributed Systems and Applications](https://www.sciencedirect.com/journal/journal-of-systems-architecture/about/call-for-papers))
-    * **Topic Editor**: Frontiers in Computer Science Software (Topics: Serverless Computing for Stateful Applications)
+    * **Guest Editor**: Journal of Systems Architecture (Special issue: [AI-driven Next-Generation Distributed Systems and Applications](https://www.sciencedirect.com/journal/journal-of-systems-architecture/about/call-for-papers)), 2023
+    * **Topic Editor**: Frontiers in Computer Science Software (Topics: Serverless Computing for Stateful Applications), 2024
+    * **Guest Editor**: [Computer Networks](https://www.sciencedirect.com/journal/computer-networks) (Special Issue: Reconfigurable Networks: Enhancing Performance and Sustainability in Access Networks and the Edge-to-Cloud Continuum), 2025
 
 * **NSF Panelist**, 2022, 2024x3, 2025x6
 * **NSF Graduate Research Fellowship Program Reviewer**, 2023
