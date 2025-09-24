@@ -292,20 +292,6 @@ nav: true
     <div class="col-lg-6 mt-1 mb-4 mt-md-1">
         <div class="row">
             <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
-                <img class="img-fluid rounded" src="/assets/img/krishna.jpg" width="130px" alt="" title=""/>
-            </div>
-            <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
-                <h4><b>Krishna Sai Srinivas Venigalla</b></h4>
-                <span>Master, 2024</span><br />
-                <span>Stevens Institute of Technology</span><br />
-                <span>LLM Serving</span>
-                <!-- <span>Reinforcement Learning-driven Multi-Depot Vehicle Routing [<a href="https://iise.confex.com/iise/2023/meetingapp.cgi/Paper/3575">IISE'23</a>]</span><br /> -->
-            </div>
-        </div>
-    </div>
-    <div class="col-lg-6 mt-1 mb-4 mt-md-1">
-        <div class="row">
-            <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
                 <img class="img-fluid rounded" src="/assets/img/longzhao.jpg" width="130px" alt="" title=""/>
             </div>
             <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
@@ -403,6 +389,20 @@ nav: true
 ---
 <div class="container">
     <div class="row">
+        <div class="col-lg-6 mt-1 mb-2 mt-md-1">
+        <div class="row">
+                <div class="mt-1 mt-md-1">
+                <img class="img-fluid rounded" src="/assets/img/krishna.jpg" width="80px" alt="" title=""/>
+            </div>
+            <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
+                <span><b>Krishna Sai Srinivas Venigalla</b></span>, 
+                <span>Master, 2024</span>,
+                <span>Stevens Institute of Technology</span>, 
+                <span>LLM Serving</span>
+                <!-- <span>Reinforcement Learning-driven Multi-Depot Vehicle Routing [<a href="https://iise.confex.com/iise/2023/meetingapp.cgi/Paper/3575">IISE'23</a>]</span><br /> -->
+            </div>
+        </div>
+        </div>
         <div class="col-lg-6 mt-1 mb-2 mt-md-1">
             <div class="row">
                 <div class="mt-1 mt-md-1">
