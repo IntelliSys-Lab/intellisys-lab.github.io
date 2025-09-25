@@ -49,7 +49,7 @@ nav: true
                 [<a href="/assets/pdf/TPDS_Hanfei.pdf">TPDS</a>],
                 [<a href="/assets/pdf/yifan-socc24.pdf">SoCC'24 <b>Best Paper Award</b></a>],
                 [<a href="/assets/pdf/hanfei-vldb25.pdf">VLDB'25</a>],
-                [EuroSys'26], 
+                [<a href="https://arxiv.org/pdf/2502.05370v1">EuroSys'26</a>], 
                 [<a href="https://mlcommons.org/about-us/programs/">2025 <b>ML and Systems Rising Stars</b></a>]
                 </span> <br />                
                 <span>B.S. Shanghai Jiao Tong University</span><br />   
@@ -303,6 +303,34 @@ nav: true
             </div>
         </div>
     </div>
+    <div class="col-lg-6 mt-1 mb-4 mt-md-1">
+        <div class="row">
+            <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
+                <img class="img-fluid rounded" src="/assets/img/kedar.jpg" width="130px" alt="" title=""/>
+            </div>
+            <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
+                <h4><b>Kedarnath Naik</b></h4>
+                <span>Master, 2024</span><br />
+                <span>Stevens Institute of Technology</span><br />
+                <span>Smart Kart & RL</span>
+                <!-- <span>Reinforcement Learning-driven Multi-Depot Vehicle Routing [<a href="https://iise.confex.com/iise/2023/meetingapp.cgi/Paper/3575">IISE'23</a>]</span><br /> -->
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6 mt-1 mb-4 mt-md-1">
+        <div class="row">
+            <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
+                <img class="img-fluid rounded" src="/assets/img/isl-logo-dark.svg" width="130px" alt="" title=""/>
+            </div>
+            <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
+                <h4><b>Nandan Hemanth</b></h4>
+                <span>Master, 2024</span><br />
+                <span>Stevens Institute of Technology</span><br />
+                <!-- <span>Smart Kart & RL</span> -->
+                <!-- <span>Reinforcement Learning-driven Multi-Depot Vehicle Routing [<a href="https://iise.confex.com/iise/2023/meetingapp.cgi/Paper/3575">IISE'23</a>]</span><br /> -->
+            </div>
+        </div>
+    </div>
     </div>
 </div>
 
@@ -376,6 +404,19 @@ nav: true
                     <span>High Technology High School</span><br />            
                     <span>Class of 2027</span><br />    
                     <span>Project: AI-driven Smart Car for Racing</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 mt-1 mb-4 mt-md-1">
+            <div class="row">
+                <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
+                    <img class="img-fluid rounded" src="/assets/img/isl-logo-dark.svg" width="130px" alt="" title=""/>
+                </div>
+                <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
+                    <h4><b>Shlok Patel</b></h4>
+                    <span>Bergen County Academies</span><br />            
+                    <span>Class of 2026</span><br />    
+                    <span>Project: MARL for Gaming</span>
                 </div>
             </div>
         </div>
@@ -487,7 +528,7 @@ nav: true
                 <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
                     <span><b>Xingqi Cui</b></span>, 
                     <span>Research Intern, joined in 2024 Fall</span>,
-                    <span>[EuroSys'26]</span>  <br />
+                    <span>[<a href="https://arxiv.org/pdf/2502.05370v1">EuroSys'26</a>]</span>  <br />
                     <span>MoE-based LLM System</span>, <br/>
                     <span>PhD student @ Rice University 2025 Fall</span>
                 </div>
