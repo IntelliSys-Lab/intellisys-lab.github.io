@@ -45,7 +45,7 @@ nav: true
             <span>Assistant Professor of <a href="https://www.stevens.edu/page-minisite-landing/electrical-and-computer-engineering-department">ECE</a>, <a href="https://www.stevens.edu/">Stevens</a></span><br>                
             <span>Email: hwang9 at stevens.edu</span> <br>
             <span>Phone: (201) 216-3325 </span> <br>
-            <span>Office: Burchard Building 411</span> <br> 
+            <span>Office: Burchard Building 211</span> <br> 
             <span>Lab: Burchard Building 110</span> </p>
         </div>
 
@@ -113,6 +113,7 @@ Serverless Computing, Federated Learning, High-Performance Computing, AI Securit
 
 #### :trophy: Awards
 <ul>
+    <li>2025, <strong>SIGHPC Early Career Travel Grant</strong></li>
     <li>2025, <strong><a href="https://kdd2025.kdd.org/research-track-program-committee/">KDD 2025 Feb Cycle Outstanding Reviewers (Top 10%)</a></strong>, KDD</li>
     <li>2025, <strong>Research Excellence Award</strong>,  ECE Department, Stevens Institute of Technology</li>
     <li>2025, <strong><a href="/assets/pdf/INFOCOM Dist TPC Certificate.pdf">Distinguished Member of IEEE INFOCOM 2025 TPC recognition</a></strong></li>
