@@ -3,13 +3,17 @@
 ---
 @charset "utf-8";
 
-// Dimensions
-$max-content-width: {{site.max_width}};
+@use "sass:color";
+@use "variables" as *;
+@use "themes";
+@use "layout";
+@use "base";
+@use "distill";
 
-@import
-  "variables",
-  "themes",
-  "layout",
-  "base",
-  "distill"
-;
+// @import
+//   "variables",
+//   "themes",
+//   "layout",
+//   "base",
+//   "distill"
+// ;

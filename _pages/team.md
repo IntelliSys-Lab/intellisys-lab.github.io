@@ -351,6 +351,7 @@ nav: true
                 <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
                     <h4><b>Alice Agnoletto</b></h4>
                     <span>Pinnacle Scholar</span><br />
+                    <span>Provost Undergraduate Research Fund</span><br />
                     <span>Stevens Institute of Technology, 2022</span><br />
                     <span><a>Project: MARL for Gaming</a></span>
                 </div>

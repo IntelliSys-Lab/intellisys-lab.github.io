@@ -1,6 +1,8 @@
 /*******************************************************************************
  * Style overrides for distill blog posts.
  ******************************************************************************/
+@use "sass:color";
+@use "variables" as *;
 
 d-byline {
   border-top-color: $grey-color-light !important;

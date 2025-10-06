@@ -3,6 +3,7 @@
  * To adjust anything, simply edit the variables below and rebuild the theme.
  ******************************************************************************/
 
+ @use "sass:color";
 
 // Colors
 $red-color:           #FF3636 !default;
@@ -11,7 +12,8 @@ $orange-color:        #F29105 !default;
 $blue-color:          #0076df !default;
 $blue-color-dark:     #00369f !default;
 $cyan-color:          #2698BA !default;
-$light-cyan-color:    lighten($cyan-color, 25%);
+// $light-cyan-color:    lighten($cyan-color, 25%);
+$light-cyan-color:    color.adjust($cyan-color, $lightness: 25%);
 $green-color:         #00ab37 !default;
 $green-color-lime:    #B7D12A !default;
 $green-color-dark:    #009f06 !default;
@@ -20,18 +22,23 @@ $green-color-bright:  #11D68B !default;
 $purple-color:        rgb(70, 29, 124) !default;
 $stevens-red:         rgb(163, 38, 56) !default;
 $bg-grey-color:  rgb(103, 103, 103);
-$light-purple-color:  lighten($purple-color, 25%);
+// $light-purple-color:  lighten($purple-color, 25%);
+$light-purple-color:  color.adjust($purple-color, $lightness: 25%);
 $pink-color:          #f92080 !default;
 $pink-color-light:    #ffdddd !default;
 $yellow-color:        #efcc00 !default;
 
 $grey-color:          #7F7F7F !default;
-$grey-color-light:    lighten($grey-color, 40%);
-$grey-color-dark:     darken($grey-color, 25%);
+// $grey-color-light:    lighten($grey-color, 40%);
+// $grey-color-dark:     darken($grey-color, 25%);
+$grey-color-light:    color.adjust($grey-color, $lightness: 40%);
+$grey-color-dark:     color.adjust($grey-color, $lightness: -25%);
 
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
 
+// Dimensions
+$max-content-width: 1000px !default;
 
 // Theme colors
 
