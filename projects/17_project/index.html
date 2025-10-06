@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>IntelliSys Lab | Stevens | NSF: CSR: Energy Awareness for Mobile AI Systems</title>
+<meta name="description" content="the Intelligent System (IntelliSys) Lab 
+">
+
+<!-- Open Graph -->
+
+
+<!-- Bootstrap & MDB -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" integrity="sha512-RO38pBRxYH3SoOprtPTD86JFOclM51/XTIdEPh5j8sj4tp8jmQIx26twG52UaLi//hQldfrh7e51WzP9wuP32Q==" crossorigin="anonymous" />
+
+<!-- Fonts & Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"  integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+<!-- Code Syntax Highlighting -->
+<link rel="stylesheet" href="/assets/css/github.css" />
+
+<!-- Styles -->
+
+<!-- Favicons -->
+<link rel="icon" type="image/x-icon" href="/assets/img/isl-favicons/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/isl-favicons/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/isl-favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/assets/img/isl-favicons/favicon-96x96.png">
+<link rel="apple-touch-icon" sizes="57x57" href="/assets/img/isl-favicons/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/assets/img/isl-favicons/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/assets/img/isl-favicons/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/assets/img/isl-favicons/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/assets/img/isl-favicons/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/assets/img/isl-favicons/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/assets/img/isl-favicons/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/assets/img/isl-favicons/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/isl-favicons/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/img/isl-favicons/android-icon-192x192.png">
+
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<link rel="canonical" href="/projects/17_project/">
+
+<!-- JQuery -->
+<!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
+
+<!-- Theming-->
+
+
+
+
+
+
+    
+<!-- MathJax -->
+<script type="text/javascript">
+  window.MathJax = {
+    tex: {
+      tags: 'ams'
+    }
+  };
+</script>
+<script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.1.2/es5/tex-mml-chtml.js"></script>
+<script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+
+  </head>
+
+  <body class="fixed-top-nav sticky-bottom-footer">
+
+    <!-- Header -->
+
+    <header>
+
+    <!-- Nav Bar -->
+    <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+    <div class="container">
+      <!--  -->
+      <a class="navbar-brand title font-weight-lighter" href="/" style="padding-top: 0; padding-bottom: 0;">
+       <!-- IntelliSys Lab | Stevens -->
+       <img src="/assets/img/isl-logo-dark.svg" alt="isl-logo" height="38px">
+      </a>
+      <!--  -->
+      <!-- Navbar Toggle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="padding-top: 12px; padding-bottom: 8px;">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <!-- About -->
+          <!-- <li class="nav-item ">
+            <a class="nav-link" href="/">
+              About
+              
+            </a>
+          </li> -->
+          <!--  -->
+          <!-- pages -->
+          <li class="nav-item active">
+            <a class="nav-link" href="/projects/">
+              </span><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-lightning-charge-fill" viewBox="0 0 20 20">
+                <path d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09z"/>
+              </svg> Projects 
+              
+            </a>
+          </li>          
+          <li class="nav-item ">
+            <a class="nav-link" href="/publications/" style="margin-left: 5px;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-mortarboard-fill" viewBox="0 0 20 20">
+                <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5Z"/>
+                <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Z"/>
+              </svg> Publications  
+              
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="/teaching/">
+              </span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dpad-fill" viewBox="0 0 16 16">
+                <path d="M6.5 0A1.5 1.5 0 0 0 5 1.5v3a.5.5 0 0 1-.5.5h-3A1.5 1.5 0 0 0 0 6.5v3A1.5 1.5 0 0 0 1.5 11h3a.5.5 0 0 1 .5.5v3A1.5 1.5 0 0 0 6.5 16h3a1.5 1.5 0 0 0 1.5-1.5v-3a.5.5 0 0 1 .5-.5h3A1.5 1.5 0 0 0 16 9.5v-3A1.5 1.5 0 0 0 14.5 5h-3a.5.5 0 0 1-.5-.5v-3A1.5 1.5 0 0 0 9.5 0zm1.288 2.34a.25.25 0 0 1 .424 0l.799 1.278A.25.25 0 0 1 8.799 4H7.201a.25.25 0 0 1-.212-.382zm0 11.32-.799-1.277A.25.25 0 0 1 7.201 12H8.8a.25.25 0 0 1 .212.383l-.799 1.278a.25.25 0 0 1-.424 0Zm-4.17-4.65-1.279-.798a.25.25 0 0 1 0-.424l1.279-.799A.25.25 0 0 1 4 7.201V8.8a.25.25 0 0 1-.382.212Zm10.043-.798-1.278.799A.25.25 0 0 1 12 8.799V7.2a.25.25 0 0 1 .383-.212l1.278.799a.25.25 0 0 1 0 .424Z"/>
+              </svg> Teaching 
+              
+            </a>
+          </li>   
+          <li class="nav-item ">
+            <a class="nav-link" href="/team/" style="margin-left: 5px;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 20 20">
+                <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                <path fill-rule="evenodd" d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z"/>
+                <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/>
+              </svg> Team
+              
+            </a>
+          </li>
+          <!-- <li class="nav-item ">
+            <a class="nav-link" href="/joinus/" style="margin-left: 5px;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-plus-fill" viewBox="0 0 20 20">
+                <path d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                <path fill-rule="evenodd" d="M13.5 5a.5.5 0 0 1 .5.5V7h1.5a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0V8h-1.5a.5.5 0 0 1 0-1H13V5.5a.5.5 0 0 1 .5-.5z"/>
+              </svg> Join Us
+              
+            </a>
+          </li> -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/haowang/" style="margin-left: 5px;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-badge" viewBox="0 0 20 20">
+                <path d="M6.5 2a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1h-3zM11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                <path d="M4.5 0A2.5 2.5 0 0 0 2 2.5V14a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2.5A2.5 2.5 0 0 0 11.5 0h-7zM3 2.5A1.5 1.5 0 0 1 4.5 1h7A1.5 1.5 0 0 1 13 2.5v10.795a4.2 4.2 0 0 0-.776-.492C11.392 12.387 10.063 12 8 12s-3.392.387-4.224.803a4.2 4.2 0 0 0-.776.492V2.5z"/>
+              </svg> Hao Wang
+              
+            </a>
+          </li>
+          <!-- Other pages -->
+          <!-- 
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/haowang/">
+                
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/news/">
+                
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/team/">
+                IntelliSys Team
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/joinus/">
+                Join Us
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/projects/">
+                Projects
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/publications/">
+                Publications
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/teaching/">
+                Teaching
+                
+              </a>
+          </li>
+          
+          
+          
+           -->
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+
+    <!-- Content -->
+
+    <div class="container mt-5">
+      <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">NSF: CSR: Energy Awareness for Mobile AI Systems</h1>
+    <p class="post-description"></p>
+  </header>
+
+  <article>
+    <!-- **Collaborative Research: CSR: Medium: Enhancing Energy Awareness for Efficient Federated Learning over Mobile AI Systems** -->
+
+<div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 mx-auto d-block">
+        <img class="img-fluid rounded" src="/assets/img/NSF_CSR_PI_Meeting_Poster_Hao.png" alt="" />
+        <!-- <div class="caption">
+            Time breakdown of LoRA functions’ invocations. 
+        </div> -->
+    </div>
+</div>
+<p><br /></p>
+
+<h4 id="abstract">Abstract</h4>
+
+<p>Federated Learning (FL) has emerged as a popular distributed machine learning paradigm in a wide range of sectors (e.g., healthcare, fintech, and autonomous driving) because of its potential of protecting people?s privacy - it does not require gathering all the data in one place for operation. Meanwhile, driven by the increasing ubiquity of mobile devices, FL applications are shifting from wall-plug powered artificial intelligence (AI) devices to battery-powered mobile AI systems (e.g., smartphones, tablets, wearables). Existing research largely ignore the role battery energy awareness plays in efficient FL training over mobile AI systems. This project addresses this challenge and innovates on developing an energy-efficient FL framework for mobile AI systems, making these systems more suitable for execution on everyday mobile devices without draining their batteries quickly. The project’s broader significance and importance are its potential to advance mobile computing and AI technologies, ensuring both are energy-efficient and privacy-preserving. Furthermore, this project shares its research artifacts and results with the community and includes educational activities targeting under-represented groups in computing.</p>
+
+<p>This project investigates the efficiency, quality, and robustness of FL systems from an energy perspective, aiming to develop a comprehensive energy-efficient FL framework for mobile AI systems. The research is structured around three synergistic objectives. First, the project develops a universal energy estimation methodology applicable across a variety of devices engaged in FL training, incorporating Deep Neural Network (DNN) models with diverse architectures. Next, utilizing insights into energy consumption, the project explores strategies to enhance the energy efficiency of FL, particularly in high-speed communication scenarios such as autonomous driving and augmented/virtual reality. Additionally, the project integrates learning performance metrics, such as accuracy and latency, with energy parameters?including energy consumption and battery life?in the FL participant selection process. This integration aims to create a balanced and optimized learning environment. To support these goals, the project establishes a mobile AI testbed and energy measurement setup, equipped with real-world FL benchmarks and workloads.</p>
+
+<p><br /></p>
+
+<h3 id="publications">Publications</h3>
+
+<p><strong>WHALE-FL: Wireless and Heterogeneity Aware Latency Efficient Federated Learning over Mobile Devices via Adaptive Subnetwork Scheduling</strong>
+Huai-an Su, Jiaxiang Geng, Liang Li, Xiaoqi Qin, Yanzhao Hou, Hao Wang, Xin Fu, and Miao Pan
+In Proceedings of the AAAI Conference on Artificial Intelligence (AAAI) 2025</p>
+
+<p><strong>Ampere: A Generic Energy Estimation Approach for On-Device Training</strong>
+Jiaru Zhang, Zesong Wang, Hao Wang, Tao Song, Huai-an Su, Rui Chen, Yang Hua, Xiangwei Zhou, Ruhui Ma, Miao Pan, and Haibing Guan
+In Proceedings of ACM SIGMETRICS 2025 Workshop: AI for Crossroad: Systems, Energy, and Applications 2025</p>
+
+<p><br /></p>
+
+<h3 id="pi-collaborative-events">PI Collaborative Events</h3>
+
+<div class="row">
+        <div class="col-12 col-sm-12 col-md-8 col-lg-8 mx-auto d-block">
+        <img class="img-fluid rounded" src="/assets/img/miao-visit-stevens.jpeg" alt="" />
+        <div class="caption">
+            PI Miao Pan visited Stevens and attended IntelliSys group meeting in 2025 Feb. 
+        </div>
+    </div>
+</div>
+<p><br /></p>
+
+  </article>
+
+</div>
+
+<ul>
+  <p align="right"><img id="foot-logo" src="/assets/img/isl-logo-dark.gif" height="40px" /> </p>
+</ul>
+    </div>
+
+    <!-- Footer -->
+
+    
+<footer class="sticky-bottom mt-5">
+  <div class="container">
+    Last updated: October 06, 2025   &copy; Copyright 2025 IntelliSys  Lab.
+    Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+
+    
+
+    <script async src="//static.getclicky.com/101345564.js"></script>
+
+  </div>
+</footer>
+
+
+
+  </body>
+
+  <!-- Bootsrap & MDB scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js" integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A==" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js" integrity="sha512-Mug9KHKmroQFMLm93zGrjhibM2z2Obg9l6qFG2qKjXEXkMp/VDkI4uju9m4QKPjWSwQ6O2qzZEnJDEeCw0Blcw==" crossorigin="anonymous"></script>
+
+  
+<!-- Mansory & imagesLoaded -->
+<script defer src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script defer src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script defer src="/assets/js/mansory.js" type="text/javascript"></script>
+
+
+  
+
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+
+</html>
