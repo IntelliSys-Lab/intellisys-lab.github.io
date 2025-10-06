@@ -26,7 +26,7 @@ Without direct access to the client's data, federated learning (FL) is well-know
 
 <div class="row">
         <div class="col-12 col-sm-12 col-md-12 col-lg-12 mx-auto d-block">
-        <img class="img-fluid" src="{{ '/assets/img/poison-pill-full.png' | relative_url }}" alt="" />
+        <img class="img-fluid rounded" src="{{ '/assets/img/poison-pill-full.png' | relative_url }}" alt="" />
         <div class="caption">
             Pill injection's workflow.  
         </div>

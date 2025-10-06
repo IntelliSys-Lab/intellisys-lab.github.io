@@ -26,7 +26,7 @@ We propose ServerlessLoRA, a novel serverless inference system designed for fast
 
 <div class="row">
         <div class="col-12 col-sm-12 col-md-8 col-lg-8 mx-auto d-block">
-        <img class="img-fluid" src="{{ '/assets/img/serverless-lora-time.png' | relative_url }}" alt="" />
+        <img class="img-fluid rounded" src="{{ '/assets/img/serverless-lora-time.png' | relative_url }}" alt="" />
         <div class="caption">
             Time breakdown of LoRA functions’ invocations. 
         </div>
