@@ -17,10 +17,10 @@ nav: true
     </div>
     <div class="col-sm-9 mt-1 mt-md-1 col-md-9 col-8 col-lg-8">
         <h4><a href="https://intellisys.haow.ca/haowang/"><b>Dr. Hao Wang</b></a></h4>
-        <span>Assistant Professor of the CSE Division at LSU</span><br />
-        <span>Email: haowang at lsu.edu</span> <br />
-        <span>Phone: +1 (225) 578-7510</span> <br />
-        <span>Office: 3272X Patrick F. Taylor Hall</span>
+        <span>Assistant Professor of <a href="https://www.stevens.edu/page-minisite-landing/electrical-and-computer-engineering-department">ECE</a>, <a href="https://www.stevens.edu/">Stevens</a></span><br />
+        <span>Email: hwang9 at stevens.edu</span> <br />
+        <span>Phone: +1 (201) 216-3325</span> <br />
+        <span>Office: Burchard Building 211</span>
     </div>
 </div>
 </div>
