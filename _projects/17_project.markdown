@@ -3,7 +3,7 @@ layout: page
 title: "NSF: CSR: Energy Awareness for Mobile AI Systems"
 category: fl
 description:
-img: /assets/img/energy-fl.png
+img: /assets/img/energy-fl-thumbnail.png
 importance: 1
 ---
 
