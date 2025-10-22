@@ -12,7 +12,7 @@ importance: 1
     Yifan Sui, Hao Wang, Hanfei Yu, Yitao Hu, Jianxun Li, and Hao Wang
 </div>
 <!-- <div class="periodical"> -->
-------Preprint at [[arXiv]](https://arxiv.org/abs/2505.14468), Accepted by EuroSys'26.
+------Preprint at [[arXiv]](https://arxiv.org/abs/2505.14468). 
 <!-- </div> -->
 
 <br />
