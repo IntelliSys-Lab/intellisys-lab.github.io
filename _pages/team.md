@@ -110,7 +110,7 @@ nav: true
         </div>
          </div>
     </div>
-    <div class="col-lg-6 mt-1 mb-4 mt-md-1">
+    <!-- <div class="col-lg-6 mt-1 mb-4 mt-md-1">
         <div class="row">
         <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
             <img class="img-fluid rounded" src="/assets/img/renming.jpeg" width="130px" alt="" title=""/>
@@ -122,7 +122,7 @@ nav: true
             <span>M.S. Boston University</span> 
         </div>
          </div>
-    </div>
+    </div> -->
     <div class="col-lg-6 mt-1 mb-4 mt-md-1">
         <div class="row">
         <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
