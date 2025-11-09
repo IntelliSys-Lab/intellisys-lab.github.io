@@ -695,7 +695,7 @@ nav: true
             <div class="col-sm-10 col-lg-10 col-9 mt-1 mt-md-1">
                 <b><a href="https://hanxiguo.me">Hanxi Guo</a></b>, 
                 <span>Research Intern, joined in 2021 Spring</span>, 
-                <span>[<a href="https://intellisys.haow.ca/assets/pdf/hanxi-siren-socc.pdf">SoCC'21</a>], [<a href="https://dl.acm.org/doi/abs/10.1145/3472883.3486990">TDSC</a>], [<a href="https://intellisys.haow.ca/assets/pdf/hanxi-spacedml-network.pdf">IEEE Network</a>]</span>, <br/>
+                <span>[<a href="https://intellisys.haow.ca/assets/pdf/hanxi-siren-socc.pdf">SoCC'21</a>], [<a href="https://dl.acm.org/doi/abs/10.1145/3472883.3486990">TDSC</a>], [<a href="https://intellisys.haow.ca/assets/pdf/hanxi-spacedml-network.pdf">IEEE Network</a>], [<a href="https://dl.acm.org/doi/abs/10.1145/3472883.3486990">TDSC</a>], [<a href="https://arxiv.org/abs/2407.15389">AAAI'26</a>]</span>, <br/>
                 <span>Now Ph.D. student @ Purdue</span>
             </div>
             </div>
