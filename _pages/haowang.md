@@ -46,7 +46,7 @@ nav: true
             <span>Email: hwang9 at stevens.edu</span> <br>
             <span>Phone: (201) 216-3325 </span> <br>
             <span>Office: Burchard Building 211</span> <br> 
-            <span>Lab: Burchard Building 110</span> </p>
+            <span>Lab: Burchard Building 213</span> </p>
         </div>
 
     </div>
