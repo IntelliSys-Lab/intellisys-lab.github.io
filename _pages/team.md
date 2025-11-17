@@ -46,7 +46,8 @@ nav: true
                 [<a href="/assets/pdf/hanfei-asplos24spring.pdf">ASPLOS'24</a>], 
                 [<a href="/assets/pdf/Hanfei_AAAI24_RL_serverless.pdf">AAAI'24</a>], 
                 [<a href="/assets/pdf/SC41406.2024.00045.pdf">SC'24</a>],
-                [<a href="/assets/pdf/TPDS_Hanfei.pdf">TPDS</a>],
+                [<a href="/assets/pdf/TPDS_Hanfei.pdf">TPDS'24</a>],
+                [TPDS'26]
                 [<a href="/assets/pdf/yifan-socc24.pdf">SoCC'24 <b>Best Paper Award</b></a>],
                 [<a href="/assets/pdf/hanfei-vldb25.pdf">VLDB'25</a>],
                 [<a href="https://arxiv.org/pdf/2502.05370v1">EuroSys'26</a>], 
@@ -153,7 +154,7 @@ nav: true
                 </div>
                 <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
                     <h4><b>Yifan Sui</b></h4>
-                    <span>[<a href="/assets/pdf/yifan-socc24.pdf">SoCC'24 <b>Best Paper Award</b></a>]</span>  <br />
+                    <span>[<a href="/assets/pdf/yifan-socc24.pdf">SoCC'24 <b>Best Paper Award</b></a>], [TPDS]</span>  <br />
                     <span>Ph.D. at Shanghai Jiao Tong University</span><br />
                     <span>Serverless AI Systems</span><br />
                     <span>Project: <a href="/projects/9_project/">ML Pre-loading for Serverless Architectures</a></span>
