@@ -49,6 +49,7 @@ nav: true
                 [<a href="/assets/pdf/TPDS_Hanfei.pdf">TPDS'24</a>],
                 [TPDS'26]
                 [<a href="/assets/pdf/yifan-socc24.pdf">SoCC'24 <b>Best Paper Award</b></a>],
+                [<a href="https://intellisys.haow.us/assets/pdf/socc25-final106.pdf">SoCC'25</a>],
                 [<a href="/assets/pdf/hanfei-vldb25.pdf">VLDB'25</a>],
                 [<a href="https://arxiv.org/pdf/2502.05370v1">EuroSys'26</a>], 
                 [<a href="https://mlcommons.org/about-us/programs/">2025 <b>ML and Systems Rising Stars</b></a>]
@@ -92,7 +93,7 @@ nav: true
         <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
             <h4><a href="https://me.waynetech.site"><b>Richard (Rui) Wei</b></a></h4>
             <span>2024 Fall</span> <br />
-            <span>[SoCC'25]</span><br />
+            <span><a href="https://intellisys.haow.us/assets/pdf/socc25-final106.pdf">[SoCC'25]</a></span><br />
             <span>B.S. Chongqing University</span> <br />
             <span>M.S. Boston University</span>
         </div>
