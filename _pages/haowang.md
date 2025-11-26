@@ -140,7 +140,8 @@ Serverless Computing, Federated Learning, High-Performance Computing, AI Securit
 #### :speech_balloon: Professional Service
 
 * **Organizer**
-    * **Organizers**: [DuckAI 2025: The 1st iCNS/ECE Symposium on AI Research and Innovations](https://duck-ai-stevens.github.io)
+    * **TPC Co-chair**: [INFOCOM 2026 Workshop on Embodied Intelligence Networks (EIN)](https://infocom26-ein.netlify.app)
+    * **Organizers**: DuckAI: The iCNS/ECE Symposium on AI Research and Innovations [2025 Spring](http://duck-ai-stevens.github.io/2025-spring/), [2025 Fall](http://duck-ai-stevens.github.io/2025-fall/)
     * **Organizers/Program Chairs**: [ACM SIGMETRICS 2025 Workshop: AI Crossroads: Systems, Energy, and Applications](https://ai-crossroads.github.io)
     * **Organizer/Chair**: [TigerAI 2024: LSU/IBM AI Security Summer Boot Camp](https://tigeraibootcamp.github.io/TigerAI/)
     * **Publicity Chair**: Springer [ICA3PP 2023](http://tjutanklab.com/ica3pp2023/home.html)
