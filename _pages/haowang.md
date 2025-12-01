@@ -160,7 +160,7 @@ Serverless Computing, Federated Learning, High-Performance Computing, AI Securit
     * LSU High School Summer Research Program, 2022-2023
     * [Kenilworth Science and Technology Charter School](https://www.kenilworthschool.org) Student Research Mentorship Program, 2021-2024
 * **Conference TPC Member &#38; Journal Reviewer** 
-    * **System & Network**: ACM/IEEE SC 2026, ACM HPDC 2024-26, ACM SoCC 2022,2025, INFOCOM 2021-2025, Globecom 2022, ADHOCNETS 2021, ICCCN 2022-2023, ICDCS 2022-2025, IEEE TPDS, IEEE ToN, IEEE TNSE, IEEE TCC [2024](/assets/pdf/tcc-certificate-2024.pdf), IEEE TMC [2024](/assets/pdf/tmc-certificate-2024.pdf), IEEE TC [2024](/assets/pdf/tc-certificate-2024.pdf), IEEE TSC, IEEE IoTJ
+    * **System & Network**: DAC 2026, ACM/IEEE SC 2026, ACM HPDC 2024-26, ACM SoCC 2022,2025, INFOCOM 2021-2025, Globecom 2022, ADHOCNETS 2021, ICCCN 2022-2023, ICDCS 2022-2025, IEEE TPDS, IEEE ToN, IEEE TNSE, IEEE TCC [2024](/assets/pdf/tcc-certificate-2024.pdf), IEEE TMC [2024](/assets/pdf/tmc-certificate-2024.pdf), IEEE TC [2024](/assets/pdf/tc-certificate-2024.pdf), IEEE TSC, IEEE IoTJ
     * **AI & ML**: AISTATS 2025, CVPR 2024-2026, ICLR 2024-2026, KDD 2025-26, ECAI 2023, AAAI 2023-2026, ECML PKDD 2022, NeurIPS 2022-2026, ICML 2022-2026, IEEE CDC 2023, IEEE TAI, IEEE TIST
     * **Security**: TIFS, IEEE TDSC [2024](/assets/pdf/tdsc-certificate-2024.pdf)
     * **Web & Data**: ACM WSDM 2023, ACM theWebConf 2022, 2024, IEEE IRI 2020-2021
