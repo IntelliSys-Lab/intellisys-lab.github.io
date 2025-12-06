@@ -3,7 +3,7 @@ layout: page
 title: "Encrypted LLM Fingerprinting"
 category: fl
 description:
-img: /assets/img/iSeal.png
+img: /assets/img/iseal.png
 importance: 2
 ---
 
@@ -14,7 +14,7 @@ importance: 2
 
 <div class="row">
         <div class="col-12 col-sm-12 col-md-12 col-lg-12 mx-auto d-block">
-        <img class="img-fluid rounded" src="{{ '/assets/img/iSeal.png' | relative_url }}" alt="" />
+        <img class="img-fluid rounded" src="{{ '/assets/img/iseal.png' | relative_url }}" alt="" />
         <!-- <div class="caption">
             Time breakdown of LoRA functions’ invocations. 
         </div> -->
