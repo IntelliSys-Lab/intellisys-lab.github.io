@@ -10,6 +10,8 @@ importance: 2
 <!-- **Collaborative Research: CSR: Medium: Enhancing Energy Awareness for Efficient Federated Learning over Mobile AI Systems** -->
 ### iSeal: Encrypted Fingerprinting for Reliable LLM Ownership Verification
 
+[Paper PDF](https://arxiv.org/pdf/2511.08905) 
+
 <div class="row">
         <div class="col-12 col-sm-12 col-md-12 col-lg-12 mx-auto d-block">
         <img class="img-fluid rounded" src="{{ '/assets/img/iSeal.png' | relative_url }}" alt="" />
