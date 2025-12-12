@@ -31,7 +31,7 @@ nav: true
         <div class="mt-3 mb-2 col-sm-7 col-md-3 col-lg-3">
             <img class="img-fluid rounded" src="/assets/img/haowang.jpg" width="175px" alt="" title="haowang"/>
         </div>
-        <div class="mb-1 col-sm-7 col-md-7 col-lg-5">
+        <div class="mb-1 col-sm-9 col-md-9 col-lg-9">
             <p>
             <h4>Dr. Hao Wang (王灏)</h4>
             <span>
@@ -42,11 +42,11 @@ nav: true
             <a href="https://www.xiaohongshu.com/user/profile/657db29b000000001c01b9a5"><img src="/assets/img/XiaohongshuLOGO.svg" alt="orcid logo" width="20px"/></a>
             </span> 
             <br>
-            <span>Assistant Professor of <a href="https://www.stevens.edu/page-minisite-landing/electrical-and-computer-engineering-department">ECE</a>, <a href="https://www.stevens.edu/">Stevens</a></span><br>                
-            <span>Email: hwang9 at stevens.edu</span> <br>
-            <span>Phone: (201) 216-3325 </span> <br>
-            <span>Office: Burchard Building 211</span> <br> 
-            <span>Lab: Burchard Building 213</span> </p>
+            <span>Assistant Professor of <a href="https://www.stevens.edu/page-minisite-landing/electrical-and-computer-engineering-department">ECE</a>, <a href="https://www.stevens.edu/">Stevens</a></span><br>      
+            <span>ACM Member, IEEE Senior Member</span><br>                
+            <span>:mailbox: hwang9 --> stevens.edu</span><br>   
+            <span>:phone: (201) 216-3325 </span> <br>
+            <span>:tent: Burchard Building-211 (<b>Office</b>), -213 (<b>Lab</b>)</span></p>
         </div>
 
     </div>
