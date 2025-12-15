@@ -144,7 +144,7 @@ Serverless Computing, Federated Learning, High-Performance Computing, AI Securit
     * **Organizers**: DuckAI: The iCNS/ECE Symposium on AI Research and Innovations [2025 Spring](http://duck-ai-stevens.github.io/2025-spring/), [2025 Fall](http://duck-ai-stevens.github.io/2025-fall/)
     * **Organizers/Program Chairs**: [ACM SIGMETRICS 2025 Workshop: AI Crossroads: Systems, Energy, and Applications](https://ai-crossroads.github.io)
     * **Organizer/Chair**: [TigerAI 2024: LSU/IBM AI Security Summer Boot Camp](https://tigeraibootcamp.github.io/TigerAI/)
-    * **Publicity Chair**: Springer [ICA3PP 2023](http://tjutanklab.com/ica3pp2023/home.html)
+    * **Publicity Chair**: IEEE Cluster 2026, Springer [ICA3PP 2023](http://tjutanklab.com/ica3pp2023/home.html)
     * **Web Chair**: [APNet 2024](https://conferences.sigcomm.org/events/apnet2024/)-[2025](https://conferences.sigcomm.org/events/apnet2025/organization.php), IEEE ICNP 2017
     * **Session Chair**: INFOCOM 2022-2023, ACM SoCC 2022 (online)
     * **Guest Editor**: Journal of Systems Architecture (Special issue: [AI-driven Next-Generation Distributed Systems and Applications](https://www.sciencedirect.com/journal/journal-of-systems-architecture/about/call-for-papers)), 2023
