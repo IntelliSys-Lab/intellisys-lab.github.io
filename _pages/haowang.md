@@ -113,14 +113,12 @@ Serverless Computing, Federated Learning, High-Performance Computing, AI Securit
 
 #### :trophy: Awards
 <ul>
-    <li>2025, <strong>SIGHPC Early Career Travel Grant</strong></li>
+    <li>2024, 2025, <strong>SIGHPC Early Career Travel Grant</strong></li>
     <li>2025, <strong><a href="https://kdd2025.kdd.org/research-track-program-committee/">KDD 2025 Feb Cycle Outstanding Reviewers (Top 10%)</a></strong>, KDD</li>
     <li>2025, <strong>Research Excellence Award</strong>,  ECE Department, Stevens Institute of Technology</li>
-    <li>2025, <strong><a href="/assets/pdf/INFOCOM Dist TPC Certificate.pdf">Distinguished Member of IEEE INFOCOM 2025 TPC recognition</a></strong></li>
+    <li><a href="/assets/pdf/2024_DTPC_certificate.pdf">2024</a>, <a href="/assets/pdf/2025_DTPC_certificate.pdf">2025</a>, <a href="/assets/pdf/2026_DTPC_certificate.pdf">2026</a>, <strong>Distinguished Member of IEEE INFOCOM TPC recognition</strong></li>
     <li>2024, <strong><a href="/assets/pdf/socc24-best-paper.pdf">ACM SoCC 2024 Best Paper Award</a></strong> </li>
     <li>2024, <strong>ACM/IEEE SC 2024 Best Student Paper Finalist</strong></li>
-    <li>2024, <strong>SIGHPC Early Career Travel Grant</strong></li>
-    <li>2024, <strong><a href="/assets/pdf/2024_DTPC_certificate_FK-SK.pdf">Distinguished Member of IEEE INFOCOM 2024 TPC recognition</a></strong></li>
     <li>2022, <strong><a href="/assets/pdf/tnse-excellent-reviewer.pdf">Excellent Reviewer for the IEEE Transactions on Network Science & Engineering</a></strong></li>
     <li>2022, <strong><a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2153502">NSF CRII Award</a></strong></li>
     <li>2019, <strong><a href="/assets/pdf/didi_award.pdf">Didi Graduate Awards</a></strong> on Cloud Computing, Didi Chuxing Technology Co. (滴滴出行)</li>
