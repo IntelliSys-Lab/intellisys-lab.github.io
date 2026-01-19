@@ -501,7 +501,7 @@ nav: true
                     <span>Master, 2024</span>, 
                     <span>Bachelor of Engineering</span>, 
                     <span>Stevens Institute of Technology</span>, 
-                    <span><a href="/projects/16_project/">Generative Spatial Audio Diffusion Model</a></span><br />
+                    <span><a href="/projects/16_project/">Generative Spatial Audio Diffusion Model</a>[ICASSP'26]</span><br />
                 </div>
             </div>
         </div>
