@@ -70,7 +70,7 @@ Serverless Computing, Federated Learning, High-Performance Computing, AI Securit
 #### :mortar_board: Education
 <ul>
     <li>Ph.D. in Computer Engineering <br /> 
-    <a href="https://www.utoronto.ca">University of Toronto</a>, <i>2015.09--2020.11, advised by <a href="https://iqua.ece.toronto.edu/bli/index.html">Prof. Baochun Li</a></i>.</li>
+    <a href="https://www.utoronto.ca">University of Toronto</a>, <i>2015.09--2020.07, advised by <a href="https://iqua.ece.toronto.edu/bli/index.html">Prof. Baochun Li</a></i>.</li>
     <li>M.E. in Software Engineering <br /> 
     <a href="https://www.sjtu.edu.cn">Shanghai Jiao Tong University (SJTU)</a>, <i>2012.09--2015.03</i></li>
     <li>B.E. in Information Security <br /> 
