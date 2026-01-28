@@ -206,39 +206,11 @@ nav: true
                 <h4><b>Gaoyi Wu</b></h4>
                 <span>Master, 2024</span><br />
                 <span>Stevens Institute of Technology</span><br />
-                <span>AI Security</span>
+                <span><a href="https://arxiv.org/pdf/2511.08905">[AAAI'26]</a></span>, <span>AI Security</span>
                 <!-- <span>Reinforcement Learning-driven Multi-Depot Vehicle Routing [<a href="https://iise.confex.com/iise/2023/meetingapp.cgi/Paper/3575">IISE'23</a>]</span><br /> -->
             </div>
         </div>
-    </div>
-    <div class="col-lg-6 mt-1 mb-4 mt-md-1">
-        <div class="row">
-            <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
-                <img class="img-fluid rounded" src="/assets/img/jain.jpeg" width="130px" alt="" title=""/>
-            </div>
-            <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
-                <h4><b>Shubham Jain</b></h4>
-                <span>Master, 2024</span><br />
-                <span>Stevens Institute of Technology</span><br />
-                <span>RLHF and Serverless Computing</span>
-                <!-- <span>Reinforcement Learning-driven Multi-Depot Vehicle Routing [<a href="https://iise.confex.com/iise/2023/meetingapp.cgi/Paper/3575">IISE'23</a>]</span><br /> -->
-            </div>
-        </div>
-    </div>
-    <div class="col-lg-6 mt-1 mb-4 mt-md-1">
-        <div class="row">
-            <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
-                <img class="img-fluid rounded" src="/assets/img/rushi.jpeg" width="130px" alt="" title=""/>
-            </div>
-            <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
-                <h4><b>Rushi Lunagariya</b></h4>
-                <span>Master of Science, Applied Artificial Intelligence, 2025</span><br />
-                <span>Stevens Institute of Technology</span><br />
-                <span>LLM Serving</span>
-                <!-- <span>Reinforcement Learning-driven Multi-Depot Vehicle Routing [<a href="https://iise.confex.com/iise/2023/meetingapp.cgi/Paper/3575">IISE'23</a>]</span><br /> -->
-            </div>
-        </div>
-    </div>
+    </div>  
     <div class="col-lg-6 mt-1 mb-4 mt-md-1">
         <div class="row">
             <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
@@ -263,34 +235,6 @@ nav: true
                 <span>Master, 2024</span><br />
                 <span>Stevens Institute of Technology</span><br />
                 <span>Smart Kart & RL</span>
-                <!-- <span>Reinforcement Learning-driven Multi-Depot Vehicle Routing [<a href="https://iise.confex.com/iise/2023/meetingapp.cgi/Paper/3575">IISE'23</a>]</span><br /> -->
-            </div>
-        </div>
-    </div>
-    <div class="col-lg-6 mt-1 mb-4 mt-md-1">
-        <div class="row">
-            <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
-                <img class="img-fluid rounded" src="/assets/img/isl-logo-dark.svg" width="130px" alt="" title=""/>
-            </div>
-            <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
-                <h4><b>Nandan Hemanth</b></h4>
-                <span>Master, 2024</span><br />
-                <span>Stevens Institute of Technology</span><br />
-                <!-- <span>Smart Kart & RL</span> -->
-                <!-- <span>Reinforcement Learning-driven Multi-Depot Vehicle Routing [<a href="https://iise.confex.com/iise/2023/meetingapp.cgi/Paper/3575">IISE'23</a>]</span><br /> -->
-            </div>
-        </div>
-    </div>
-    <div class="col-lg-6 mt-1 mb-4 mt-md-1">
-        <div class="row">
-            <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
-                <img class="img-fluid rounded" src="/assets/img/isl-logo-dark.svg" width="130px" alt="" title=""/>
-            </div>
-            <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
-                <h4><b>Siddhant Rajhans</b></h4>
-                <span>Master, 2024</span><br />
-                <span>Stevens Institute of Technology</span><br />
-                <!-- <span>Smart Kart & RL</span> -->
                 <!-- <span>Reinforcement Learning-driven Multi-Depot Vehicle Routing [<a href="https://iise.confex.com/iise/2023/meetingapp.cgi/Paper/3575">IISE'23</a>]</span><br /> -->
             </div>
         </div>
@@ -409,6 +353,34 @@ nav: true
 ---
 <div class="container">
     <div class="row">
+        <div class="col-lg-6 mt-1 mb-4 mt-md-1">
+            <div class="row">
+                <div class="mt-1 mt-md-1">
+                    <img class="img-fluid rounded" src="/assets/img/jain.jpeg" width="80px" alt="" title=""/>
+                </div>
+                <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
+                    <span><b>Shubham Jain</b></span>, 
+                    <span>Master's, 2024</span>,
+                    <span>Stevens Institute of Technology</span>, 
+                    <span>RLHF and Serverless Computing</span>
+                    <!-- <span>Reinforcement Learning-driven Multi-Depot Vehicle Routing [<a href="https://iise.confex.com/iise/2023/meetingapp.cgi/Paper/3575">IISE'23</a>]</span><br /> -->
+                </div>
+            </div>
+        </div>  
+        <div class="col-lg-6 mt-1 mb-4 mt-md-1">
+            <div class="row">
+                <div class="mt-1 mt-md-1">
+                    <img class="img-fluid rounded" src="/assets/img/rushi.jpeg" width="80px" alt="" title=""/>
+                </div>
+                <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
+                    <span><b>Rushi Lunagariya</b></span>, 
+                    <span>Master's, Applied AI, 2025</span>,
+                    <span>Stevens Institute of Technology</span>
+                    <span>LLM Serving</span>
+                    <!-- <span>Reinforcement Learning-driven Multi-Depot Vehicle Routing [<a href="https://iise.confex.com/iise/2023/meetingapp.cgi/Paper/3575">IISE'23</a>]</span><br /> -->
+                </div>
+            </div>
+        </div>
         <div class="col-lg-6 mt-1 mb-4 mt-md-1">
             <div class="row">
                 <div class="mt-1 mt-md-1">
