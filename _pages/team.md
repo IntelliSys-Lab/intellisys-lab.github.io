@@ -284,7 +284,7 @@ nav: true
                     <img class="img-fluid rounded" src="/assets/img/jimmy-le.jpg" width="130px" alt="" title=""/>
                 </div>
                 <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
-                    <h4><b>Hoang Nhan (Jimmy) Le</b></h4>
+                    <h4><b><a href="https://jimmyle.work">Hoang Nhan (Jimmy) Le</a></b></h4>
                     <span>Stevens Institute of Technology, Class of 2028</span><br />
                     <span><a>Project: AI Security in AR/VR</a></span>
                 </div>
