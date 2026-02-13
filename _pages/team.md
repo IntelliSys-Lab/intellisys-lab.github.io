@@ -159,7 +159,7 @@ nav: true
                     <h4><b>Peishen Yan</b></h4>
                     <span>[<a href="/assets/pdf/SkyMask_for_ECCV.pdf">ECCV'24</a>]</span> <br />
                     <span>Ph.D. at Shanghai Jiao Tong University</span><br />
-                    <span><a>FL Security & Efficiency</a></span>
+                    <span>FL Security & Efficiency</span>
                 </div>
             </div>
         </div>
@@ -172,7 +172,7 @@ nav: true
                     <h4><b>Qi Qi</b></h4>
                     <span>Master at UCSD</span><br />
                     <span>Bachelor at HUST</span><br />
-                    <span><a>Serverless computing for AI</a></span>
+                    <span>Serverless computing for AI</span>
                 </div>
             </div>
         </div>
@@ -184,7 +184,7 @@ nav: true
                 <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
                     <h4><b>Weixuan Ding</b></h4>
                     <span>Bachelor at Wuhan University</span><br />
-                    <span><a>FL Privacy & Security</a></span>
+                    <span>FL Privacy & Security</span>
                 </div>
             </div>
         </div>              
