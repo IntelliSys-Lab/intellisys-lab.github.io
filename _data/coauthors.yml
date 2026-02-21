@@ -91,3 +91,27 @@
 "Pan":
   - firstname: ["Miao"]
     url: http://www2.egr.uh.edu/~mpan2/
+
+"Zhang":
+  - firstname: ["Sai Qian", "Saiqian"]
+    url: https://www.saiqianzhang.com
+
+"Templin":
+  - firstname: ["Christian"]
+    url: https://ctemp48.github.io
+
+"Hu":
+  - firstname: ["Yitao"]
+    url: https://flashserve.org
+
+"Ma":
+  - firstname: ["Mingyu", "Derek", "Mingyu Derek"]
+    url: https://derek.ma
+
+"Wang@Rutgers":
+  - firstname: ["Hao"]
+    url: https://www.wanghao.in
+
+"Xu":
+  - firstname: ["Zhaozhuo"]
+    url: https://ottovonxu.github.io
