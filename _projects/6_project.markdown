@@ -19,11 +19,27 @@ importance: 2
 </div>
 <br />
 
+
+<div class="title"><strong>Multi-Agent Reinforcement Learning with Serverless Computing</strong></div>
+<div class="author">
+    Rui Wei, Hanfei Yu, Xikang Song, Jian Li, Devesh Tiwari, Ying Mao, and Hao Wang
+</div>
+------Accepted by the SoCC 2025
+
+<br />
+
+---
+
+<br />
+
+
 <div class="title"><strong>Nitro: Boosting Distributed Reinforcement Learning with Serverless Computing</strong></div>
 <div class="author">
     Hanfei Yu, Jacob Carter, Hao Wang, Devesh Tiwari, Jian Li, and Seung-Jong Park
 </div>
 ------Accepted by the VLDB 2025
+
+
 
 <!-- #### Abstract
 
