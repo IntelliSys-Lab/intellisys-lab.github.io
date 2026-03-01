@@ -97,9 +97,9 @@ collections:
   miscprojects:
     output: true
     permalink: /miscprojects/:path/
-  courses:
+  education:
     output: true
-    permalink: /courses/:path/
+    permalink: /education/:path/
 
 news_limit: 5
 
