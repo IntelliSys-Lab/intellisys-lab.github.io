@@ -1,6 +1,7 @@
 ---
 layout: page
 title: LSU-CSC7598 Distributed Compting
+category: course
 description:
 img: /assets/img/csc7598.jpg
 importance: 2
