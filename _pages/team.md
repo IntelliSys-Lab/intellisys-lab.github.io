@@ -264,7 +264,7 @@ nav: true
                     <img class="img-fluid rounded" src="/assets/img/jiabin-luo.jpg" width="130px" alt="" title=""/>
                 </div>
                 <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
-                    <h4><b>Jinru Duan</b></h4>
+                    <h4><b>Jiabin Luo</b></h4>
                     <span>Ph.D. at PKU</span><br />
                     <span>LLM Inference Systems</span>
                 </div>
