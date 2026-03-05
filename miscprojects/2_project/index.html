@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>IntelliSys Lab | Stevens | Machine Learning Summer Tutorial Series</title>
+<meta name="description" content="the Intelligent System (IntelliSys) Lab 
+">
+
+<!-- Open Graph -->
+
+
+<!-- Bootstrap & MDB -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" integrity="sha512-RO38pBRxYH3SoOprtPTD86JFOclM51/XTIdEPh5j8sj4tp8jmQIx26twG52UaLi//hQldfrh7e51WzP9wuP32Q==" crossorigin="anonymous" />
+
+<!-- Fonts & Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"  integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+<!-- Code Syntax Highlighting -->
+<link rel="stylesheet" href="/assets/css/github.css" />
+
+<!-- Styles -->
+
+<!-- Favicons -->
+<link rel="icon" type="image/x-icon" href="/assets/img/isl-favicons/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/isl-favicons/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/isl-favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/assets/img/isl-favicons/favicon-96x96.png">
+<link rel="apple-touch-icon" sizes="57x57" href="/assets/img/isl-favicons/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/assets/img/isl-favicons/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/assets/img/isl-favicons/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/assets/img/isl-favicons/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/assets/img/isl-favicons/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/assets/img/isl-favicons/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/assets/img/isl-favicons/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/assets/img/isl-favicons/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/isl-favicons/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/img/isl-favicons/android-icon-192x192.png">
+
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<link rel="canonical" href="/miscprojects/2_project/">
+
+<!-- JQuery -->
+<!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
+
+<!-- Theming-->
+
+
+
+
+
+
+    
+<!-- MathJax -->
+<script type="text/javascript">
+  window.MathJax = {
+    tex: {
+      tags: 'ams'
+    }
+  };
+</script>
+<script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.1.2/es5/tex-mml-chtml.js"></script>
+<script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+
+  </head>
+
+  <body class="fixed-top-nav sticky-bottom-footer">
+
+    <!-- Header -->
+
+    <header>
+
+    <!-- Nav Bar -->
+    <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+    <div class="container">
+      <!--  -->
+      <a class="navbar-brand title font-weight-lighter" href="/" style="padding-top: 0; padding-bottom: 0;">
+       <!-- IntelliSys Lab | Stevens -->
+       <img src="/assets/img/isl-logo-dark.svg" alt="isl-logo" height="38px">
+      </a>
+      <!--  -->
+      <!-- Navbar Toggle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="padding-top: 12px; padding-bottom: 8px;">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <!-- About -->
+          <!-- <li class="nav-item ">
+            <a class="nav-link" href="/">
+              About
+              
+            </a>
+          </li> -->
+          <!--  -->
+          <!-- pages -->
+          <li class="nav-item active">
+            <a class="nav-link" href="/projects/">
+              </span><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-lightning-charge-fill" viewBox="0 0 20 20">
+                <path d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09z"/>
+              </svg> Projects 
+              
+            </a>
+          </li>          
+          <li class="nav-item ">
+            <a class="nav-link" href="/publications/" style="margin-left: 5px;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-mortarboard-fill" viewBox="0 0 20 20">
+                <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5Z"/>
+                <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Z"/>
+              </svg> Publications  
+              
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="/education/">
+              </span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dpad-fill" viewBox="0 0 16 16">
+                <path d="M6.5 0A1.5 1.5 0 0 0 5 1.5v3a.5.5 0 0 1-.5.5h-3A1.5 1.5 0 0 0 0 6.5v3A1.5 1.5 0 0 0 1.5 11h3a.5.5 0 0 1 .5.5v3A1.5 1.5 0 0 0 6.5 16h3a1.5 1.5 0 0 0 1.5-1.5v-3a.5.5 0 0 1 .5-.5h3A1.5 1.5 0 0 0 16 9.5v-3A1.5 1.5 0 0 0 14.5 5h-3a.5.5 0 0 1-.5-.5v-3A1.5 1.5 0 0 0 9.5 0zm1.288 2.34a.25.25 0 0 1 .424 0l.799 1.278A.25.25 0 0 1 8.799 4H7.201a.25.25 0 0 1-.212-.382zm0 11.32-.799-1.277A.25.25 0 0 1 7.201 12H8.8a.25.25 0 0 1 .212.383l-.799 1.278a.25.25 0 0 1-.424 0Zm-4.17-4.65-1.279-.798a.25.25 0 0 1 0-.424l1.279-.799A.25.25 0 0 1 4 7.201V8.8a.25.25 0 0 1-.382.212Zm10.043-.798-1.278.799A.25.25 0 0 1 12 8.799V7.2a.25.25 0 0 1 .383-.212l1.278.799a.25.25 0 0 1 0 .424Z"/>
+              </svg> Education 
+              
+            </a>
+          </li>   
+          <li class="nav-item ">
+            <a class="nav-link" href="/team/" style="margin-left: 5px;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 20 20">
+                <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                <path fill-rule="evenodd" d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z"/>
+                <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/>
+              </svg> Team
+              
+            </a>
+          </li>
+          <!-- <li class="nav-item ">
+            <a class="nav-link" href="/joinus/" style="margin-left: 5px;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-plus-fill" viewBox="0 0 20 20">
+                <path d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                <path fill-rule="evenodd" d="M13.5 5a.5.5 0 0 1 .5.5V7h1.5a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0V8h-1.5a.5.5 0 0 1 0-1H13V5.5a.5.5 0 0 1 .5-.5z"/>
+              </svg> Join Us
+              
+            </a>
+          </li> -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/haowang/" style="margin-left: 5px;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-badge" viewBox="0 0 20 20">
+                <path d="M6.5 2a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1h-3zM11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                <path d="M4.5 0A2.5 2.5 0 0 0 2 2.5V14a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2.5A2.5 2.5 0 0 0 11.5 0h-7zM3 2.5A1.5 1.5 0 0 1 4.5 1h7A1.5 1.5 0 0 1 13 2.5v10.795a4.2 4.2 0 0 0-.776-.492C11.392 12.387 10.063 12 8 12s-3.392.387-4.224.803a4.2 4.2 0 0 0-.776.492V2.5z"/>
+              </svg> Hao Wang
+              
+            </a>
+          </li>
+          <!-- Other pages -->
+          <!-- 
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/haowang/">
+                
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/news/">
+                
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/education/">
+                Education
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/team/">
+                IntelliSys Team
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/joinus/">
+                Join Us
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/projects/">
+                Projects
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/publications/">
+                Publications
+                
+              </a>
+          </li>
+          
+          
+          
+           -->
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+
+    <!-- Content -->
+
+    <div class="container mt-5">
+      <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Machine Learning Summer Tutorial Series</h1>
+    <p class="post-description"></p>
+  </header>
+
+  <article>
+    <h2 id="2023-summer-tutorial-series-syllabus">2023 Summer Tutorial Series (<a href="/assets/pdf/ml-tutorial/Syllabus.pdf">Syllabus</a>)</h2>
+<h3 id="machine-learning-applications-and-practices-and-introduction-to-meteorology">Machine Learning: Applications and Practices, and Introduction to Meteorology</h3>
+
+<hr />
+
+<h2 id="instructors">Instructors:</h2>
+
+<ul>
+  <li>Dr. Xu Yuan from UL Lafayette</li>
+  <li>Dr. Li Chen from UL Lafayette</li>
+  <li>Dr. Nian-Feng Tzeng from UL Lafayette</li>
+  <li><strong>Dr. Hao Wang from Louisiana State University</strong></li>
+  <li>Dr. Sytske Kimball from University of South Alabama</li>
+  <li>Dr. Eric Rappin from Western Kentucky University</li>
+</ul>
+
+<h4 id="week-1">Week 1</h4>
+
+<ul>
+  <li>May 31 - <strong>Lecture 1:</strong> Course Overview and Introduction to Machine Learning. <a href="https://people.cmix.louisiana.edu/yuan/Lecture23/Lecture 1.pdf">Slides</a>. <a href="https://ullafayette.zoom.us/rec/share/Rj79p8CJ80JMbyKCcJomYMifp3CttZiAI222IEWQYCRw07XPrvSJVb1B0D6zsgn8.tnKy4j-SuzeITmCT">Video Record</a></li>
+  <li>June 2 - <strong>Lab 1</strong>: Installing Python (<a href="https://people.cmix.louisiana.edu/yuan/Lecture23/installing_python.pdf">File 1</a>), Running Simple ML Examples (<a href="https://people.cmix.louisiana.edu/yuan/Lecture23/Traditional machine learning algorithms.docx">File 2</a>). <a href="https://ullafayette.zoom.us/rec/share/ZTzFmM9mm5RoXvYH-b83gx4aUlmhCNqa1NFBsevuYzasN9y0_oAlm86J9npWzLlf.VM9i0LV6MOk4Y7_W">Video Record</a></li>
+</ul>
+
+<h4 id="week-2">Week 2</h4>
+
+<ul>
+  <li><strong>Watching video clips:</strong> The sun as the primary weather forcing factor.</li>
+  <li>June 7 - <strong>Lecture 2:</strong> Feature Selection and ML Classification. <a href="https://people.cmix.louisiana.edu/yuan/Lecture23/Lecture 2.pdf">Slides</a>. <a href="https://ullafayette.zoom.us/rec/share/IllQvBL44YHr9IXByhrjlv_mmVFDIiv1NfAEsjCxVJf-PKzhHJGE1Tvdom5IXVsB.wyfcjcl3mYBR6lB1">Video Record</a></li>
+  <li>June 8 - Q&amp;A <a href="https://drive.google.com/drive/folders/1iAmYvp5RQBVyJorrpfS4oovFxQsRVV8N?usp=drive_link">Video Record</a>.</li>
+  <li>June 9 - <strong>Lab 2:</strong> Labeling Twitter Data and Coding for Feature Extraction. <a href="https://people.cmix.louisiana.edu/yuan/Lecture23/June_Labeling.zip">Data Label Sample Codes</a>, <a href="https://people.cmix.louisiana.edu/yuan/Lecture23/Feature_Extraction.zip">Feature Extraction Sample Codes</a>, and <a href="https://ullafayette.zoom.us/rec/share/TdEcpzY7RnfGT_wnJ3CI3Es2wtlkov6FRHJHEvjnKMONL7sft2Y3KV7NyL85Govr.kET0N4zn_yXJaI2j">Video Record</a></li>
+</ul>
+
+<h4 id="week-3">Week 3</h4>
+
+<ul>
+  <li><strong>Watching video clips:</strong> What happens when the sun hits the Earth’s Surface?</li>
+  <li>June 14 - <strong>Lecture 3:</strong> Neural Networks and Deep Learning Fundamentals. <a href="https://people.cmix.louisiana.edu/yuan/Lecture23/Lecture 3.pdf">Slides</a> and <a href="https://ullafayette.zoom.us/rec/share/Crb_xMlGOmR478QCQa7vOcpo4DlK6s1qKjHSEN7eXW-yuR_tbhxI7r4NqivL-4QC.l6r-1A-xDQEWSl0e">Video Record</a></li>
+  <li>June 15 - Q&amp;A <a href="https://drive.google.com/file/d/1SAMKKhyko4DPUIoX4O-BcOS0D0FLAPNW/view">Video Record</a>.</li>
+  <li>June 16 - <strong>Lab 3:</strong> Coding for ML Algorithms. <a href="https://people.cmix.louisiana.edu/yuan/Lecture23/June_Classification.zip">ML Classification Sample Codes</a> and <a href="https://ullafayette.zoom.us/rec/share/Z0Lpa-1_8mcTygnQ84694MquspDxcJwBFk8e7dmO1jii5njvhm9IX8JJbbydm4Pq.c3eyq1MGhvOSyyie">Video Record</a></li>
+</ul>
+
+<h4 id="week-4">Week 4</h4>
+
+<ul>
+  <li><strong>Watching video clips:</strong> Where weather affects us: The Boundary Layer?</li>
+  <li>June 21 - <strong>Lecture 4:</strong> Theory of Deep Learning. <a href="https://people.cmix.louisiana.edu/yuan/Lecture23/Lecture 4.pdf">Slides</a>. <a href="https://ullafayette.zoom.us/rec/share/W1pJBUMdzXdemkAs8VE4ET9u93JjT2wiZKUwpstfJdYdU-pcB2MvwmUIAPc91tmA.nUe3mgmI-Ub65r4k">Video Record</a></li>
+  <li>June 22 - Q&amp;A</li>
+  <li>June 23 - <strong>Lab 4:</strong> Coding for LSTM and CNN. <a href="https://people.cmix.louisiana.edu/yuan/Lecture23/LSTMCNN.zip">Sample Codes</a> and <a href="https://ullafayette.zoom.us/rec/share/4XUresbUfSQt0ASGa_CKZ_89l8eAQeXYBrSQvDGk2ntgH4OEAwf10WP6D8aL-YwR.0cHzwJAsrjYtXWBw">Video Record </a></li>
+</ul>
+
+<h4 id="week-5">Week 5</h4>
+
+<ul>
+  <li><strong>Watching video clips:</strong> Forecasting Basics?</li>
+  <li>June 28 - Lecture 5: Weather Forecasting: Introduction to Mesonet and WRF-HRRR Data, and Forecasting Modelets <a href="https://people.cmix.louisiana.edu/yuan/Lecture23/Lecture 5.pdf">Slides</a> and <a href="https://ullafayette.zoom.us/rec/share/Nn7C5NeaGvvYVb_2b-H8wmTblx0Pw-YAO0_Zy27xIUHXhgjEuX7SLZu9FgLfIpBU.dGso-kF_jmkpVHjQ">Video Record</a></li>
+  <li>June 29 - Q&amp;A</li>
+  <li>June 30 - <strong>Lab 5:</strong> Downloading Data of Interests and Extracting Features<a href="https://people.cmix.louisiana.edu/yuan/Lecture23/Weather_Data_Code.zip">Download Sample Codes</a>, and <a href="https://people.cmix.louisiana.edu/yuan/Lecture23/Micro.zip">Micro Sample Codes</a> and Micro Running Modelets <a href="https://people.cmix.louisiana.edu/yuan/Lecture23/MicroMarco.zip">Mesonet and WRF Sample Codes</a>. and <a href="https://ullafayette.zoom.us/rec/share/4XVpBgje5YjKZvnnP128fmMPxM16ZMYXRQc5N3vwDymQzPUNag99RiFqx9eWNOz7.xDq_iBkxi2HEaEDW">Video Record</a></li>
+</ul>
+
+<h4 id="week-6">Week 6</h4>
+
+<ul>
+  <li><strong>Watching video clips:</strong> Severe Weather</li>
+  <li>July 5 - <strong>Lecture 6:</strong> Reinforcement Learning <a href="https://people.cmix.louisiana.edu/yuan/Lecture23/Lecture6.pdf">Slides</a> and <a href="https://ullafayette.zoom.us/rec/share/qjw8zj_BNo_k4_gwlBfc01ll6QfmmPIEnL-rkLpd1fMd_8nAJooHp5atuNHruTyo.N1oSM0NjNxBh0fES">Video Record</a>.</li>
+  <li>June 6 - Q&amp;A</li>
+  <li>July 7- <strong>Lab 6:</strong> Coding for Reinforcement Learning. <a href="https://people.cmix.louisiana.edu/yuan/Lecture23/flappybirdqlearning.zip">Sample Codes</a> and <a href="https://ullafayette.zoom.us/rec/share/BEr5wTBtloaqsQVUa5lkSCxE4PsErX1G3OS-6DsDvfLwXgn0tWPT3DQXkyML_oIb.G2u-yyGRdX7nQnBp">Video Record</a>.</li>
+</ul>
+
+<h4 id="week-7">Week 7</h4>
+
+<ul>
+  <li><strong>Watching video clips:</strong> Hurricanes</li>
+  <li>July 12 - <strong>Lecture 7:</strong> Introduction of Large Language Models (LLMs). <a href="https://people.cmix.louisiana.edu/yuan/Lecture23/Lecture 7.pdf">Slides</a> and <a href="https://ullafayette.zoom.us/rec/share/qXg2OLJWw4_YMrMo1DvNwjSl0IAoaZAdxeMlz_PhO7pswrd9SMHnTe-I4tZtMtnw.O0OqPE9doSc9gR8I">Video Record</a>.</li>
+  <li>June 13 - Q&amp;A</li>
+  <li>July 14 - <strong>Lab 7:</strong> Hands-on Experience with Training and Using LLMs<a href="https://ullafayette.zoom.us/rec/share/dWc-cnwxBUBLVhW3rWlVbwJePSczRsIWsVVCN7Opfhqzn7eCaP3WTJKxxWPbtnlY.XWuv1HSNgHgaakn6">LLM codes</a>.</li>
+</ul>
+
+<h4 id="week-8">Week 8</h4>
+
+<ul>
+  <li><strong>Watching video clips:</strong> Measuring the Weather with Instruments and Weather Stations</li>
+  <li>July 19 - <strong>Lecture 8:</strong> How Does ChatGPT work? <a href="https://people.cmix.louisiana.edu/yuan/Lecture23/Lecture 8.pdf">Slides</a> and <a href="https://ullafayette.zoom.us/rec/share/Sy23F5vzXzaE9umwtDGwAcltY0zEUyNF2LKVNesIW9xiagMFEf_BTTDtnqCdUaba.rAL_DMP6J_Hbf-9y">Video Record</a>.</li>
+  <li>June 20 - Q&amp;A</li>
+  <li>July 21 - <strong>Lab 8:</strong> Hands-on Experience with Training and Using LLMs. <a href="https://ullafayette.zoom.us/rec/share/EeC7-XCyD_WwtRXib9U5nqmevLdRrbaq2zMGSS5fPlOo7CyNsCzY8OaqE7oY9VvI._MMtrZGjAS6P34hF">Video Record</a>.</li>
+</ul>
+
+<h4 id="week-9">Week 9</h4>
+
+<ul>
+  <li><strong>Watching video clips:</strong> Observing Weather with Radar</li>
+  <li>July 26 - <strong>Lecture 9:</strong> LLMs for Real-world Applications. <a href="https://people.cmix.louisiana.edu/yuan/Lecture23/Lecture 9.pdf">Slides</a> and <a href="">Video Record</a>.</li>
+  <li>June 27 - Q&amp;A</li>
+  <li>July 28 - <strong>Lab 9:</strong> Reporting. <a href="">Video Record</a>.</li>
+</ul>
+
+<!-- 
+<div class="row">
+        <div class="col-12 col-sm-12 col-md-10 col-lg-10 mx-auto d-block">
+        <img class="img-fluid" src="/assets/img/geaux-hackathon-overview.png" alt="" />
+        <div class="caption">
+            <a href="https://sase-lsu-geaux-hack-2023.devpost.com">https://sase-lsu-geaux-hack-2023.devpost.com</a>.
+        </div>
+    </div>
+</div> -->
+
+
+  </article>
+
+</div>
+
+<ul>
+  <p align="right"><img id="foot-logo" src="/assets/img/isl-logo-dark.gif" height="40px" /> </p>
+</ul>
+    </div>
+
+    <!-- Footer -->
+
+    
+<footer class="sticky-bottom mt-5">
+  <div class="container">
+    Last updated: March 05, 2026   &copy; Copyright 2026 IntelliSys  Lab.
+    Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+
+    
+
+    <script async src="//static.getclicky.com/101345564.js"></script>
+
+  </div>
+</footer>
+
+
+
+  </body>
+
+  <!-- Bootsrap & MDB scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js" integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A==" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js" integrity="sha512-Mug9KHKmroQFMLm93zGrjhibM2z2Obg9l6qFG2qKjXEXkMp/VDkI4uju9m4QKPjWSwQ6O2qzZEnJDEeCw0Blcw==" crossorigin="anonymous"></script>
+
+  
+<!-- Mansory & imagesLoaded -->
+<script defer src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script defer src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script defer src="/assets/js/mansory.js" type="text/javascript"></script>
+
+
+  
+
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+
+</html>
