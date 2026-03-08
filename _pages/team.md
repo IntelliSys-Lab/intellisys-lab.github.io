@@ -106,7 +106,7 @@ nav: true
         <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
             <h4><b>Qingqian Yang</b></h4>
             <span>2026 Fall (upcoming)</span> <br />
-            <span><a href="http://127.0.0.1:4000/assets/pdf/FL_Backdoor_Attack_Qingqian.pdf">[ICCV'25]</a>, [INFOCOM'26-EIN]</span><br />
+            <span><a href="http://127.0.0.1:4000/assets/pdf/FL_Backdoor_Attack_Qingqian.pdf">[ICCV'25]</a>, <a href="http://127.0.0.1:4000/assets/pdf/1571235278-final.pdf">[INFOCOM'26-EIN]</a></span><br />
             <!-- <span>B.S. </span> <br /> -->
             <span>M.S. Shanghai University of Electric Power</span>
         </div>
@@ -280,75 +280,62 @@ nav: true
 ---
 <div class="container">
     <div class="row">                
-    <div class="col-lg-6 mt-1 mb-4 mt-md-1">
-        <div class="row">
-            <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
-                <img class="img-fluid rounded" src="/assets/img/gaoyi-wu.jpg" width="130px" alt="" title=""/>
+        <div class="col-lg-6 mt-1 mb-4 mt-md-1">
+            <div class="row">
+                <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
+                    <img class="img-fluid rounded" src="/assets/img/gaoyi-wu.jpg" width="130px" alt="" title=""/>
+                </div>
+                <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
+                    <h4><b>Gaoyi Wu</b></h4>
+                    <span>Master, 2024</span><br />
+                    <span>Stevens Institute of Technology</span><br />
+                    <span><a href="https://arxiv.org/pdf/2511.08905">[AAAI'26]</a></span>, <span>AI Security</span>
+                    <!-- <span>Reinforcement Learning-driven Multi-Depot Vehicle Routing [<a href="https://iise.confex.com/iise/2023/meetingapp.cgi/Paper/3575">IISE'23</a>]</span><br /> -->
+                </div>
             </div>
-            <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
-                <h4><b>Gaoyi Wu</b></h4>
-                <span>Master, 2024</span><br />
-                <span>Stevens Institute of Technology</span><br />
-                <span><a href="https://arxiv.org/pdf/2511.08905">[AAAI'26]</a></span>, <span>AI Security</span>
-                <!-- <span>Reinforcement Learning-driven Multi-Depot Vehicle Routing [<a href="https://iise.confex.com/iise/2023/meetingapp.cgi/Paper/3575">IISE'23</a>]</span><br /> -->
-            </div>
-        </div>
-    </div>  
-    <div class="col-lg-6 mt-1 mb-4 mt-md-1">
-        <div class="row">
-            <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
-                <img class="img-fluid rounded" src="/assets/img/longzhao.jpg" width="130px" alt="" title=""/>
-            </div>
-            <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
-                <h4><b>Longzhao Gong</b></h4>
-                <span>Master, 2024</span><br />
-                <span>Stevens Institute of Technology</span><br />
-                <span>Smart Kart & RL</span>
-                <!-- <span>Reinforcement Learning-driven Multi-Depot Vehicle Routing [<a href="https://iise.confex.com/iise/2023/meetingapp.cgi/Paper/3575">IISE'23</a>]</span><br /> -->
-            </div>
-        </div>
-    </div>
-    <div class="col-lg-6 mt-1 mb-4 mt-md-1">
-        <div class="row">
-            <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
-                <img class="img-fluid rounded" src="/assets/img/kedar.jpg" width="130px" alt="" title=""/>
-            </div>
-            <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
-                <h4><b>Kedarnath Naik</b></h4>
-                <span>Master, 2024</span><br />
-                <span>Stevens Institute of Technology</span><br />
-                <span>Smart Kart & RL</span>
-                <!-- <span>Reinforcement Learning-driven Multi-Depot Vehicle Routing [<a href="https://iise.confex.com/iise/2023/meetingapp.cgi/Paper/3575">IISE'23</a>]</span><br /> -->
+        </div>  
+        <div class="col-lg-6 mt-1 mb-4 mt-md-1">
+            <div class="row">
+                <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
+                    <img class="img-fluid rounded" src="/assets/img/longzhao.jpg" width="130px" alt="" title=""/>
+                </div>
+                <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
+                    <h4><b>Longzhao Gong</b></h4>
+                    <span>Master, 2024</span><br />
+                    <span>Stevens Institute of Technology</span><br />
+                    <span>Smart Kart & RL</span>
+                    <!-- <span>Reinforcement Learning-driven Multi-Depot Vehicle Routing [<a href="https://iise.confex.com/iise/2023/meetingapp.cgi/Paper/3575">IISE'23</a>]</span><br /> -->
+                </div>
             </div>
         </div>
-    </div>
-    <div class="col-lg-6 mt-1 mb-4 mt-md-1">
-        <div class="row">
-            <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
-                <img class="img-fluid rounded" src="/assets/img/shravani.jpeg" width="130px" alt="" title=""/>
+        <div class="col-lg-6 mt-1 mb-4 mt-md-1">
+            <div class="row">
+                <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
+                    <img class="img-fluid rounded" src="/assets/img/kedar.jpg" width="130px" alt="" title=""/>
+                </div>
+                <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
+                    <h4><b>Kedarnath Naik</b></h4>
+                    <span>Master, 2024</span><br />
+                    <span>Stevens Institute of Technology</span><br />
+                    <span>Smart Kart & RL</span>
+                    <!-- <span>Reinforcement Learning-driven Multi-Depot Vehicle Routing [<a href="https://iise.confex.com/iise/2023/meetingapp.cgi/Paper/3575">IISE'23</a>]</span><br /> -->
+                </div>
             </div>
-            <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
-                <h4><b>Shravani Sawant</b></h4>
-                <span>Master, 2025</span><br />
-                <span>Stevens Institute of Technology</span><br />
-                <!-- <span>Smart Kart & RL</span> -->
-                <span>Fault Tolerance in Serverless Computing</span><br />
+        </div>
+        <div class="col-lg-6 mt-1 mb-4 mt-md-1">
+            <div class="row">
+                <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
+                    <img class="img-fluid rounded" src="/assets/img/shravani.jpeg" width="130px" alt="" title=""/>
+                </div>
+                <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
+                    <h4><b>Shravani Sawant</b></h4>
+                    <span>Master, 2025</span><br />
+                    <span>Stevens Institute of Technology</span><br />
+                    <!-- <span>Smart Kart & RL</span> -->
+                    <span>Fault Tolerance in Serverless Computing</span><br />
+                </div>
             </div>
         </div>
-    </div>
-     <div class="col-lg-6 mt-1 mb-4 mt-md-1">
-        <div class="row">
-        <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
-            <img class="img-fluid rounded" src="/assets/img/lucas.jpg" width="130px" alt="" title=""/>
-        </div>
-        <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
-            <h4><b>Lucas (Hao) Wang</b></h4>
-            <span>2025 Fall</span> <br />
-            <span>B.S. Tongji University</span> <br />
-            <span>M.S. Tongji University</span>
-        </div>
-         </div>
-    </div>
     </div>
 </div>
 
@@ -464,6 +451,19 @@ nav: true
         <div class="col-lg-6 mt-1 mb-4 mt-md-1">
             <div class="row">
                 <div class="mt-1 mt-md-1">
+                    <img class="img-fluid rounded" src="/assets/img/lucas.jpg" width="80px" alt="" title=""/>
+                </div>
+                <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
+                    <span><b>Lucas (Hao) Wang</b></span>, 
+                    <span>2025 Fall</span>,<br />
+                    <span>B.S. Tongji University</span>, <br />
+                    <span>M.S. Tongji University</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 mt-1 mb-4 mt-md-1">
+            <div class="row">
+                <div class="mt-1 mt-md-1">
                     <img class="img-fluid rounded" src="/assets/img/jain.jpeg" width="80px" alt="" title=""/>
                 </div>
                 <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
@@ -496,7 +496,7 @@ nav: true
             </div>
             <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
                 <span><a href="https://kitaharasetusna.github.io/zixun-xiong.github.io/"><b>Zixun Xiong</b></a></span>, 
-                <span><a href="https://arxiv.org/pdf/2511.08905">[AAAI'26]</a></span>, 
+                <span><a href="https://arxiv.org/pdf/2511.08905">[AAAI'26]</a></span>, <br />
                 <span>B.S. Nanking Audit University</span>,
                 <span>M.S. University of Massachusetts Amherst</span>
          </div>
