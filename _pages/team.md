@@ -276,7 +276,7 @@ nav: true
                     <img class="img-fluid rounded" src="/assets/img/jialuo-hu.jpg" width="130px" alt="" title=""/>
                 </div>
                 <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
-                    <h4><b>Jialuo Hu</b></h4>
+                    <h4><a href="https://jialuohu.com"><b>Jialuo Hu</b></a></h4>
                     <span>Master at UCSD</span><br />
                     <span>Bachelor at UCI</span><br />
                     <span>Multi-modal Inference Systems</span>
