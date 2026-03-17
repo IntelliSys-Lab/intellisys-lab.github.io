@@ -282,6 +282,20 @@ nav: true
                     <span>Multi-modal Inference Systems</span>
                 </div>
             </div>
+        </div>
+        <div class="col-lg-6 mt-1 mb-4 mt-md-1">
+            <div class="row">
+                <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
+                    <img class="img-fluid rounded" src="/assets/img/zhanming.jpg" width="130px" alt="" title=""/>
+                </div>
+                <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
+                    <h4><b>Zhanming Shen</b></h4> 
+                    <span>[<a href="/assets/pdf/Zhanming_EMNLP2025.pdf">EMNLP'25</a>]</span><br />
+                    <span>Ph.D. at Zhe Jiang University</span><br />
+                    <span>Bachelor at Shan Dong University</span><br />
+                    <span><a>pFL & LLM fine-tuning</a></span>
+                </div>
+            </div>
         </div>              
     </div>
 </div>
@@ -527,20 +541,6 @@ nav: true
                 </div>
             </div>
         </div>  
-        <div class="col-lg-6 mt-1 mb-4 mt-md-1">
-            <div class="row">
-                <div class="mt-1 mt-md-1">
-                    <img class="img-fluid rounded" src="/assets/img/zhanming.jpg" width="80px" alt="" title=""/>
-                </div>
-                <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
-                    <span><b>Zhanming Shen</b></span>, 
-                    <span>[<a href=".">EMNLP'25</a>], </span>
-                    <span>Ph.D. at Zhe Jiang University, </span>
-                    <span>Bachelor at Shan Dong University, </span>
-                    <span><a>FL & LLM fine-tuning</a></span>
-                </div>
-            </div>
-        </div>
         <div class="col-lg-6 mt-1 mb-4 mt-md-1">
             <div class="row">
                 <div class="mt-1 mt-md-1">
