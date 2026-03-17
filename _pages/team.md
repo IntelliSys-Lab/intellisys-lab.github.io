@@ -537,7 +537,8 @@ nav: true
                 <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
                     <span><b>Bei Ouyang</b></span>,
                     <span>Master and Bachelor at Sun Yat-sen University</span><br /> 
-                    <span><a>Serverless LLM Serving Systems</a></span>
+                    <span><a>Serverless LLM Serving Systems</a></span><br />
+                    <span>PhD student @ UT Austin 2026 Fall</span>
                 </div>
             </div>
         </div>  
