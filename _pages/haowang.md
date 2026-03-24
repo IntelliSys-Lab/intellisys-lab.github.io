@@ -95,7 +95,7 @@ Serverless Computing, Federated Learning, High-Performance Computing, AI Securit
 </ul> -->
 #### :triangular_ruler: Teaching
 <ul>
-    <li>AAI595: Applied Machine Learning, Stevens, <i>2025 Spring, Fall</i></li>
+    <li>AAI595: Applied Machine Learning, Stevens, <i>2025-present (<a href="/assets/pdf/AAI595-haowang-eval.pdf">2025F: 4.87/5.0</a>)</i></li>
     <li>CSC7598: Distributed Computing, LSU, <i>2024 Spring</i></li>
     <li><a href="https://www.haow.us/csc3501/">CSC3501: Computer Organization & Design</a>, LSU, <i>2021--2024 Spring</i></li>
     <li>CSC4501: Computer Networks, LSU, <i>2021--2023 Fall</i></li>
