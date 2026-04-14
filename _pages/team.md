@@ -606,8 +606,8 @@ nav: true
                 <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
                     <span><b>Shaghayegh Rabbanian</b></span>,
                     <span>Master, 2023, LSU</span>, 
-                    <span>Reinforcement Learning-driven Multi-Depot Vehicle Routing [<a href="https://iise.confex.com/iise/2023/meetingapp.cgi/Paper/3575">IISE'23</a>]</span><br />
-                    <span>Ph.D. from the MIE Department</span><br />
+                    <span>Reinforcement Learning-driven Multi-Depot Vehicle Routing [<a href="https://iise.confex.com/iise/2023/meetingapp.cgi/Paper/3575">IISE'23</a>], [AIEng'26]</span>, 
+                    <span>Ph.D. from LSU MIE Department</span><br />
                     <!-- <span><i>Co-advised with Dr. Gerald M. Knapp</i></span><br /> -->
                 </div>
             </div>
