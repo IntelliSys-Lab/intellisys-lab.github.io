@@ -15,3 +15,10 @@ nav: true
 {% endfor %}
 
 </div>
+
+<script>
+  document.querySelectorAll('.bibliography').forEach(function(list) {
+    var items = Array.from(list.children);
+    items.reverse().forEach(function(item) { list.appendChild(item); });
+  });
+</script>
