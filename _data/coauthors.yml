@@ -52,6 +52,15 @@
   - firstname: ["Jianqing"]
     url: https://scholar.google.com/citations?user=lppe2vwAAAAJ&hl=en
 
+  - firstname: ["Sai Qian", "Saiqian"]
+    url: https://www.saiqianzhang.com
+
+  - firstname: ["Qizhen"]
+    url: https://qizhenzhang.me/
+
+  - firstname: ["Jiaru"]
+    url: https://jiaruzhang.github.io
+
 "Yan":
   - firstname: ["Gang"]
     url: https://www.gyan23.com
@@ -88,10 +97,6 @@
   - firstname: ["Miao"]
     url: http://www2.egr.uh.edu/~mpan2/
 
-"Zhang":
-  - firstname: ["Sai Qian", "Saiqian"]
-    url: https://www.saiqianzhang.com
-
 "Templin":
   - firstname: ["Christian"]
     url: https://ctemp48.github.io
@@ -112,10 +117,6 @@
   - firstname: ["Zhaozhuo"]
     url: https://ottovonxu.github.io
 
-"Zhang":
-  - firstname: ["Qizhen"]
-    url: https://qizhenzhang.me/
-
 "Wu":
   - firstname: ["Lei"]
     url: https://sites.google.com/site/leiwupes/
@@ -135,3 +136,7 @@
 "Rabbanian":
   - firstname: ["Shaghayegh"]
     url: https://www.linkedin.com/in/shaghayegh-rabbanian-503402161/
+
+"Wei":
+  - firstname: ["Rui"]
+    url: https://me.waynetech.site/
