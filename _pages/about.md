@@ -15,7 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-<p style="text-align: justify;">We are the Intelligent System (IntelliSys) Lab at <a href="https://www.stevens.edu/school-engineering-science/departments/electrical-computer-engineering">the ECE Department</a> of <a href="https://www.stevens.edu">Stevens Institute of Technology</a>. Our research bridges artificial intelligence (AI) and novel system architectures by designing efficient and robust AI algorithms and developing intelligent and high-performance computing systems. Check our <a href="https://intellisys.haow.us/projects/">roadmap</a>. </p>
+<p style="text-align: justify;">We are the Intelligent System (IntelliSys) Lab at <a href="https://www.stevens.edu/school-engineering-science/departments/electrical-computer-engineering">the ECE Department</a> of <a href="https://www.stevens.edu">Stevens Institute of Technology</a>. Our research bridges artificial intelligence (AI) and novel system architectures by designing efficient and robust AI algorithms and developing intelligent and high-performance computing systems. Check our <a href="https://intellisys.haow.us/projects/">projects</a>. </p>
 
 <div class="row">
     <div class="offset-6 mt-3 col-6 col-sm-6 col-md-6 mt-md-0">
