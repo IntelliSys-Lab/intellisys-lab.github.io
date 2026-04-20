@@ -16,7 +16,7 @@ nav: true
         <img class="img-fluid rounded" src="/assets/img/haowang.jpg" width="130px" alt="" title="haowang"/>
     </div>
     <div class="col-sm-9 mt-1 mt-md-1 col-md-9 col-8 col-lg-8">
-        <h4><a href="https://intellisys.haow.ca/haowang/"><b>Dr. Hao Wang</b></a></h4>
+        <h4><a href="https://intellisys.haow.us/haowang/"><b>Dr. Hao Wang</b></a></h4>
         <span>Assistant Professor of <a href="https://www.stevens.edu/page-minisite-landing/electrical-and-computer-engineering-department">ECE</a>, <a href="https://www.stevens.edu/">Stevens</a></span><br />
         <span>Email: hwang9 at stevens.edu</span> <br />
         <span>Phone: +1 (201) 216-3325</span> <br />
