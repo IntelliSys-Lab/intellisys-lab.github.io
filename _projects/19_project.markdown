@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Serverless Computing for Efficient RLHF"
+title: "Efficient Serverless RLHF"
 category: serverless
 description:
 img: /assets/img/rlhfless.png

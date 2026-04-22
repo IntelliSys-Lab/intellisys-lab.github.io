@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Serverless Inference With Opportunistic Pre-Loading
+title: Serverless Inference with Pre-Loading
 category: serverless
 description:
 img: /assets/img/instainfer-thumbnail.png

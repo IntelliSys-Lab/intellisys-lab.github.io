@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Distributed DRL with Serverless Computing
+title: Serverless Distributed DRL   
 category: serverless
 description:
 img: /assets/img/serverless-RL.png

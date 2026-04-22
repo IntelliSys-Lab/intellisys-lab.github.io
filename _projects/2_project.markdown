@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Resource Harvesting in Serverless Computing
+title: Resource Harvesting in Serverless 
 category: serverless
 description:
 img: /assets/img/serverless.png

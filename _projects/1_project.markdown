@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Mitigating Cold-starts in Serverless Computing
+title: Mitigating Cold-starts in Serverless
 category: serverless
 description:
-img: /assets/img/cold-starts.png
+img: /assets/img/rainbow-cake-thumbnail.png
 importance: 1
 ---
 
