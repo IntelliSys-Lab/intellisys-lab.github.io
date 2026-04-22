@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Byzantine-robust Federated Learning via Proactive Alarming
+title: Robust FL via Proactive Alarming
 category: fl
 img: /assets/img/fl-project.png
 importance: 4

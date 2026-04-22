@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Fine-grained Defense Towards Federated Learning
+title: Fine-grained Defense towards FL
 category: fl
 img: /assets/img/skymask-peishen-thumbnail.png
 importance: 2

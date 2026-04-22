@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Fine-grained Attacks Towards Federated Learning
+title: Fine-grained Attacks towards FL
 category: fl
 img: /assets/img/lsa-haomin-thumbnail.png
 importance: 3
