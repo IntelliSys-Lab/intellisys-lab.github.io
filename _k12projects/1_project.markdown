@@ -2,7 +2,7 @@
 layout: page
 title: Playing FlappyBird with AI
 description:
-img: /assets/img/flappy.png
+img: /assets/img/flappy.jpg
 importance: 4
 ---
 
