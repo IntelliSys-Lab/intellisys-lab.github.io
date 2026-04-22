@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Automating Material Measurement and Evaluation using CV Approaches
+title: Automating Measurement in AM
 category: ai
 description:
 img: /assets/img/material-measurement-thumbnail.png
