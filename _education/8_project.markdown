@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "TigerAI: LSU-IBM AI & Security Summer Boot Camp"
+title: "LSU-IBM AI&Security Summer Boot Camp"
 category: event
 description:
 img: /assets/img/tigerai-2.jpg

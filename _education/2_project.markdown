@@ -1,6 +1,6 @@
 ---
 layout: page
-title: LSU-CSC4501 Computer Networks
+title: CSC4501 Computer Networks
 category: course
 description:
 img: /assets/img/csc4501.png

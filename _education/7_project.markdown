@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Machine Learning Summer Tutorial Series
+title: Machine Learning Summer Tutorial
 category: event
 description:
 img: /assets/img/ML-lecture.jpeg

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Stevens-AAI595 Applied Machine Learning
+title: AAI595 Applied Machine Learning
 category: course
 description:
 img: /assets/img/ds2-sam.jpg

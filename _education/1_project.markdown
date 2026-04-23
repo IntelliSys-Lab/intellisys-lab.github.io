@@ -1,6 +1,6 @@
 ---
 layout: page
-title: LSU-CSC3501 Computer Organization and Design
+title: CSC3501 Computer Org. and Design
 category: course
 description:
 img: /assets/img/csc3501.jpg

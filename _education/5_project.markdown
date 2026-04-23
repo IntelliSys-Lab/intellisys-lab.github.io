@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "McNair Hacks 2025"
+title: "McNair Hackathon 2025"
 category: event
 description:
 img: /assets/img/mahs.jpg
