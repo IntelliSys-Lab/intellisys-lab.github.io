@@ -135,34 +135,39 @@ Serverless Computing, Federated Learning, High-Performance Computing, AI Securit
     <!--<li>2009, <strong>Second-Class Academic Excellence Scholarship</strong>, Shanghai Jiao Tong University </li>-->
 </ul>
 
-
 #### :speech_balloon: Professional Service
 
-* **Organizer**
+* **Leadership and Organizing Roles**
+    * **Steering Committee**: [Stevens Institute for Artificial Intelligence (SIAI)](https://www.stevens.edu/stevens-institute-for-artificial-intelligence)
     * **TPC Co-chair**: [INFOCOM 2026 Workshop on Embodied Intelligence Networks (EIN)](https://infocom26-ein.netlify.app)
-    * **Organizers**: DuckAI: The iCNS/ECE Symposium on AI Research and Innovations [2025 Spring](http://duck-ai-stevens.github.io/2025-spring/), [2025 Fall](http://duck-ai-stevens.github.io/2025-fall/)
-    * **Organizers/Program Chairs**: [ACM SIGMETRICS 2025 Workshop: AI Crossroads: Systems, Energy, and Applications](https://ai-crossroads.github.io)
-    * **Organizer/Chair**: [TigerAI 2024: LSU/IBM AI Security Summer Boot Camp](https://tigeraibootcamp.github.io/TigerAI/)
+    * **Organizer**: DuckAI: The iCNS/ECE Symposium on AI Research and Innovations, [2025 Spring](http://duck-ai-stevens.github.io/2025-spring/), [2025 Fall](http://duck-ai-stevens.github.io/2025-fall/)
+    * **Organizer and Program Chair**: [ACM SIGMETRICS 2025 Workshop: AI Crossroads: Systems, Energy, and Applications](https://ai-crossroads.github.io)
+    * **Organizer and Chair**: [TigerAI 2024: LSU/IBM AI Security Summer Boot Camp](https://tigeraibootcamp.github.io/TigerAI/)
     * **Publicity Chair**: [IEEE Cluster 2026](https://clustercomp.org/2026/), Springer [ICA3PP 2023](http://tjutanklab.com/ica3pp2023/home.html)
-    * **Web Chair**: [APNet 2024](https://conferences.sigcomm.org/events/apnet2024/)-[2025](https://conferences.sigcomm.org/events/apnet2025/organization.php), IEEE ICNP 2017
-    * **Session Chair**: INFOCOM 2022-2023, ACM SoCC 2022 (online)
-    * **Guest Editor**: Journal of Systems Architecture (Special issue: [AI-driven Next-Generation Distributed Systems and Applications](https://www.sciencedirect.com/journal/journal-of-systems-architecture/about/call-for-papers)), 2023
-    * **Topic Editor**: Frontiers in Computer Science Software (Topics: Serverless Computing for Stateful Applications), 2024
-    * **Guest Editor**: [Computer Networks](https://www.sciencedirect.com/journal/computer-networks) (Special Issue: Reconfigurable Networks: Enhancing Performance and Sustainability in Access Networks and the Edge-to-Cloud Continuum), 2025
+    * **Web Chair**: [APNet 2024](https://conferences.sigcomm.org/events/apnet2024/)–[2025](https://conferences.sigcomm.org/events/apnet2025/organization.php), IEEE ICNP 2017
+    * **Session Chair**: INFOCOM 2022–2023, ACM SoCC 2022
 
-* **NSF Panelist**, 2022, 2024x3, 2025x6
-* **NSF Graduate Research Fellowship Program Reviewer**, 2023
+* **Editorial Service**
+    * **Guest Editor**: [Computer Networks](https://www.sciencedirect.com/journal/computer-networks), Special Issue on Reconfigurable Networks: Enhancing Performance and Sustainability in Access Networks and the Edge-to-Cloud Continuum, 2025
+    * **Topic Editor**: Frontiers in Computer Science — Software, Topic on Serverless Computing for Stateful Applications, 2024
+    * **Guest Editor**: Journal of Systems Architecture, Special Issue on [AI-driven Next-Generation Distributed Systems and Applications](https://www.sciencedirect.com/journal/journal-of-systems-architecture/about/call-for-papers), 2023
+
+* **Funding Review Service**
+    * **NSF Panelist**: 2022, 2024 × 3, 2025 × 6
+    * **NSF Graduate Research Fellowship Program Reviewer**: 2023
     <!-- * ****: National Science Foundation Core Program Panel 2022 -->
     <!-- <li><strong>Shadow PC Member</strong>, ACM EuroSys Conference, 2021</li> -->
-* **Faculty Mentor**
-    * <a href="https://workshoputrgv.github.io/google.explorecsr.html">Google Research exploreCSR</a>, 2021
-    * LSU High School Summer Research Program, 2022-2023
-    * [Kenilworth Science and Technology Charter School](https://www.kenilworthschool.org) Student Research Mentorship Program, 2021-2024
-* **Conference TPC Member &#38; Journal Reviewer** 
-    * **System & Network**: DAC 2026, ACM/IEEE SC 2026, ACM HPDC 2024-26, ACM SoCC 2022,2025, INFOCOM 2021-2025, Globecom 2022, ADHOCNETS 2021, ICCCN 2022-2023, ICDCS 2022-2025, IEEE TPDS, IEEE ToN, IEEE TNSE, IEEE TCC [2024](/assets/pdf/tcc-certificate-2024.pdf),[2025](/assets/pdf/tcc-certificate-2025.pdf) IEEE TMC [2024](/assets/pdf/tmc-certificate-2024.pdf), IEEE TC [2024](/assets/pdf/tc-certificate-2024.pdf), IEEE TSC [2025](/assets/pdf/tsc-certificate-2025.pdf), IEEE IoTJ
-    * **AI & ML**: AISTATS 2025, CVPR 2024-2026, ICLR 2024-2026, KDD 2025-26, ECAI 2023, AAAI 2023-2026, ECML PKDD 2022, NeurIPS 2022-2026, ICML 2022-2026, IEEE BigData 2026, IEEE CDC 2023, IEEE TAI, IEEE TIST
-    * **Security**: TIFS, IEEE TDSC [2024](/assets/pdf/tdsc-certificate-2024.pdf)-[2025](/assets/pdf/tdsc-certificate-2025.pdf)
-    * **Web & Data**: ACM WSDM 2023, ACM theWebConf 2022, 2024, IEEE IRI 2020-2021
+
+* **Mentoring and Outreach**
+    * **Faculty Mentor**: <a href="https://workshoputrgv.github.io/google.explorecsr.html">Google Research exploreCSR</a>, 2021
+    * **Faculty Mentor**: LSU High School Summer Research Program, 2022–2023
+    * **Faculty Mentor**: [Kenilworth Science and Technology Charter School](https://www.kenilworthschool.org) Student Research Mentorship Program, 2021–2024
+
+* **Conference TPC Member and Journal Reviewer**
+    * **Systems and Networks**: DAC 2026, ACM/IEEE SC 2026, ACM HPDC 2024–2026, ACM SoCC 2022, 2025, INFOCOM 2021–2025, Globecom 2022, ADHOCNETS 2021, ICCCN 2022–2023, ICDCS 2022–2025, IEEE TPDS, IEEE ToN, IEEE TNSE, IEEE TCC [2024](/assets/pdf/tcc-certificate-2024.pdf), [2025](/assets/pdf/tcc-certificate-2025.pdf), IEEE TMC [2024](/assets/pdf/tmc-certificate-2024.pdf), IEEE TC [2024](/assets/pdf/tc-certificate-2024.pdf), IEEE TSC [2025](/assets/pdf/tsc-certificate-2025.pdf), IEEE IoTJ
+    * **AI and Machine Learning**: AISTATS 2025, CVPR 2024–2026, ICLR 2024–2026, KDD 2025–2026, ECAI 2023, AAAI 2023–2026, ECML PKDD 2022, NeurIPS 2022–2026, ICML 2022–2026, IEEE BigData 2026, IEEE CDC 2023, IEEE TAI, IEEE TIST
+    * **Security**: TIFS, IEEE TDSC [2024](/assets/pdf/tdsc-certificate-2024.pdf)–[2025](/assets/pdf/tdsc-certificate-2025.pdf)
+    * **Web and Data**: ACM WSDM 2023, ACM Web Conference 2022, 2024, IEEE IRI 2020–2021
 
 <!-- #### :rocket: Projects
 <ul>
