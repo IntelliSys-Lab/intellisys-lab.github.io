@@ -68,6 +68,7 @@ nav: true
         <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
             <h4><a href=""><b>Qingyang Yu</b></a></h4>
             <span>2024 Summer</span> <br />
+            <span>[ICML'25]</span> <br />
             <span>B.S. University of Liverpool</span> <br />
             <span>M.S. Rutgers University in New Brunswick</span>
         </div>
