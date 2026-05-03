@@ -22,11 +22,11 @@ nav: true
 <nav class="page-nav sticky-top bg-white py-2 mb-3">
   <div class="d-flex flex-wrap gap-2 justify-content-center">
     <a class="page-nav-link" href="#system">:zap: :cloud: :hourglass_flowing_sand: System</a>
-    <span class="text-muted">·</span>
+    <span class="text-muted">-</span>
     <a class="page-nav-link" href="#ai-fl">:lock: :crystal_ball: :space_invader: AI & FL</a>
-    <span class="text-muted">·</span>
+    <span class="text-muted">-</span>
     <a class="page-nav-link" href="#interdisciplinary">:microscope: :telescope: :rocket: Interdisciplinary</a>
-    <span class="text-muted">·</span>
+    <span class="text-muted">-</span>
     <a class="page-nav-link" href="#k12">K-12</a>
   </div>
 </nav>
