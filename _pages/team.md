@@ -160,7 +160,7 @@ nav: true
                 </div>
                 <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
                     <h4><b>Peishen Yan</b></h4>
-                    <span>[<a href="/assets/pdf/SkyMask_for_ECCV.pdf">ECCV'24</a>]</span> <br />
+                    <span>[<a href="/assets/pdf/SkyMask_for_ECCV.pdf">ECCV'24</a>], [IWQoS'26]</span> <br />
                     <span>Ph.D. at Shanghai Jiao Tong University</span><br />
                     <span>FL Security & Efficiency</span>
                 </div>
