@@ -68,7 +68,7 @@ nav: true
         <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
             <h4><a href=""><b>Qingyang Yu</b></a></h4>
             <span>2024 Summer</span> <br />
-            <span>[ICML'25]</span> <br />
+            <span>[ICML'26]</span> <br />
             <span>B.S. University of Liverpool</span> <br />
             <span>M.S. Rutgers University in New Brunswick</span>
         </div>
@@ -235,7 +235,7 @@ nav: true
                 </div>
                 <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
                     <h4><b>Zhanming Shen</b></h4> 
-                    <span>[<a href="/assets/pdf/Zhanming_EMNLP2025.pdf">EMNLP'25</a>]</span><br />
+                    <span>[<a href="/assets/pdf/Zhanming_EMNLP2025.pdf">EMNLP'25</a>], [ICML'26]</span><br />
                     <span>Ph.D. at Zhe Jiang University</span><br />
                     <span>Bachelor at Shan Dong University</span><br />
                     <span><a>pFL & LLM fine-tuning</a></span>
