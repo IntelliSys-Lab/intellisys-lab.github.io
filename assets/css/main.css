@@ -78,6 +78,31 @@ body.sticky-bottom-footer {
 /*****************************************************************************
 * Projects
 *****************************************************************************/
+/******************************************************************************
+ * Page Section Navigation
+ ******************************************************************************/
+html:has(.page-nav) {
+  scroll-padding-top: 60px;
+}
+
+.page-nav {
+  z-index: 100;
+  font-size: 1rem;
+}
+.page-nav .page-nav-link {
+  color: var(--global-text-color);
+  text-decoration: none;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: 400;
+  transition: background-color 0.15s, color 0.15s;
+}
+.page-nav .page-nav-link:hover {
+  background-color: var(--global-hover-color, #f0f0f0);
+  color: #fff;
+  text-decoration: none;
+}
+
 /*******************************************************************************
  * Styles for the base elements of the theme.
  ******************************************************************************/
