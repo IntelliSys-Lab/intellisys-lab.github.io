@@ -53,7 +53,29 @@ nav: true
 </div>
 ---
 
-#### :runner: About Me
+<nav class="page-nav sticky-top bg-white py-2 mb-3">
+  <div class="d-flex flex-wrap gap-2 justify-content-center">
+    <a class="page-nav-link" href="#about-me">:runner: About Me</a>
+    <span class="text-muted">·</span>
+    <a class="page-nav-link" href="#research-interest">:telescope: Research</a>
+    <span class="text-muted">·</span>
+    <a class="page-nav-link" href="#education">:mortar_board: Education</a>
+    <span class="text-muted">·</span>
+    <a class="page-nav-link" href="#teaching">:triangular_ruler: Teaching</a>
+    <span class="text-muted">·</span>
+    <a class="page-nav-link" href="#awards">:trophy: Awards</a>
+    <span class="text-muted">·</span>
+    <a class="page-nav-link" href="#service">:speech_balloon:  Service</a>
+    <span class="text-muted">·</span>
+    <a class="page-nav-link" href="#links">:link: Links</a>
+    <span class="text-muted">·</span>
+    <a class="page-nav-link" href="#leisure">:dart: Leisure</a>
+  </div>
+</nav>
+
+---
+
+#### :runner: About Me {#about-me}
 I received my Ph.D. degree from <a href="https://www.ece.utoronto.ca/">the ECE Department</a>, <a href="https://www.utoronto.ca">U<i>of</i>T</a> 2020 July. I finished both my Bachelor's and Master's degrees at <a href="https://www.sjtu.edu.cn">Shanghai Jiao Tong University</a> in 2012 and 2015, respectively. I received the NSF CRII Award in 2022. 
 <!-- <br/>We have available Ph.D. positions.  >>> <a href="https://intellisys.haow.ca/joinus/"><u>Join us</u></a> at <a href="https://intellisys.haow.ca"><img src="/assets/img/isl-logo-white.svg" alt="lab-logo" height="25px" style="margin-bottom: -7px;" /> IntelliSys Lab</a> ! -->
 
@@ -64,10 +86,10 @@ Please check all the cool labs and researchers at iCNS and ECE @ Stevens [[YouTu
 <!-- <h3><a name="designer-templates" class="anchor"><span class="octicon octicon-link"></span></a>Research Interest</h3> -->
 <!-- <br> -->
 
-#### :telescope: Research Interest
+#### :telescope: Research Interest {#research-interest}
 Serverless Computing, Federated Learning, High-Performance Computing, AI Security
 
-#### :mortar_board: Education
+#### :mortar_board: Education {#education}
 <ul>
     <li>Ph.D. in Computer Engineering <br /> 
     <a href="https://www.utoronto.ca">University of Toronto</a>, <i>2015.09--2020.07, advised by <a href="https://iqua.ece.toronto.edu/bli/index.html">Prof. Baochun Li</a></i>.</li>
@@ -93,7 +115,7 @@ Serverless Computing, Federated Learning, High-Performance Computing, AI Securit
     <li>ESC 499: Engineering Science Thesis (Students: Haobo Ding and Yudian Shi). <i>2018.10-2019.04</i></li>  
     <li>ECE 2500: Master of Engineering Project (Students: Zhixuan Wang). <i>2020.04-2020.09</i></li>  
 </ul> -->
-#### :triangular_ruler: Teaching
+#### :triangular_ruler: Teaching {#teaching}
 <ul>
     <li>AAI595: Applied Machine Learning, Stevens, <i>2025-present (<a href="/assets/pdf/AAI595-haowang-eval.pdf">2025F: 4.87/5.0</a>)</i></li>
     <li>CSC7598: Distributed Computing, LSU, <i>2024 Spring</i></li>
@@ -111,7 +133,7 @@ Serverless Computing, Federated Learning, High-Performance Computing, AI Securit
 </ul> -->
 
 
-#### :trophy: Awards
+#### :trophy: Awards {#awards}
 <ul>
     <li>2026, <strong>Stevens Early Career Award for Research Excellence</strong></li>
     <li>2024, 2025, <strong>SIGHPC Early Career Travel Grant</strong></li>
@@ -135,7 +157,7 @@ Serverless Computing, Federated Learning, High-Performance Computing, AI Securit
     <!--<li>2009, <strong>Second-Class Academic Excellence Scholarship</strong>, Shanghai Jiao Tong University </li>-->
 </ul>
 
-#### :speech_balloon: Professional Service
+#### :speech_balloon: Professional Service {#service}
 
 * **Leadership and Organizing Roles**
     * **Steering Committee**: [Stevens Institute for Artificial Intelligence (SIAI)](https://www.stevens.edu/stevens-institute-for-artificial-intelligence)
@@ -175,7 +197,7 @@ Serverless Computing, Federated Learning, High-Performance Computing, AI Securit
     <li><strong>FLSim</strong>, a simulation framework for federated learning based on PyTorch. <a href="https://github.com/iQua/flsim">[GitHub]</a></li>
 </ul> -->
 
-#### :link: Links
+#### :link: Links {#links}
 <ul>
     <li><a href="https://www.bilibili.com/video/BV18v411n7mr?p=1&share_medium=iphone&share_plat=ios&share_source=WEIXIN_MONMENT&share_tag=s_i&timestamp=1626790733&unique_k=V8kWdj&share_times=1">Writing Perfect Papers</a>, <i>by <a href="https://iqua.ece.toronto.edu/bli/">Prof. Baochun Li</a></i>.</li>
     <li><a href="https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf">How to Read a Paper</a>, <i>by <a href="https://svr-sk818-web.cl.cam.ac.uk/keshav/wiki/index.php/Main_Page">Prof. Srinivasan Keshav</a></i>.</li>
@@ -187,7 +209,7 @@ Serverless Computing, Federated Learning, High-Performance Computing, AI Securit
     <li><a href="https://nvie.com/posts/a-successful-git-branching-model/">A successful Git branching model</a>, <i>by <a href="https://nvie.com/about/">Vincent Driessen</a></i>. </li>
 </ul>
 
-#### :dart: Leisure Life
+#### :dart: Leisure Life {#leisure}
 <a href="https://zen.haow.us" target="_blank"> :art:</a> :camera: :book: :running: :swimmer: :bicyclist: :badminton: :video_game: <a href="https://dingyanna.github.io" target="_blank">:airplane:</a>
     <!-- <p align="right"><img id="foot-logo" alt="foot-logo" src="./images/wh_c.png" height="40px" /> </p> -->
 
