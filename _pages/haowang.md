@@ -56,19 +56,19 @@ nav: true
 <nav class="page-nav sticky-top bg-white py-2 mb-3">
   <div class="d-flex flex-wrap gap-2 justify-content-center">
     <a class="page-nav-link" href="#about-me">:runner: About Me</a>
-    <span class="text-muted"> | </span>
+    <span class="text-muted">&nbsp;|&nbsp;</span>
     <a class="page-nav-link" href="#research-interest">:telescope: Research</a>
-    <span class="text-muted"> | </span>
+    <span class="text-muted">&nbsp;|&nbsp;</span>
     <a class="page-nav-link" href="#education">:mortar_board: Education</a>
-    <span class="text-muted"> | </span>
+    <span class="text-muted">&nbsp;|&nbsp;</span>
     <a class="page-nav-link" href="#teaching">:triangular_ruler: Teaching</a>
-    <span class="text-muted"> | </span>
+    <span class="text-muted">&nbsp;|&nbsp;</span>
     <a class="page-nav-link" href="#awards">:trophy: Awards</a>
-    <span class="text-muted"> | </span>
+    <span class="text-muted">&nbsp;|&nbsp;</span>
     <a class="page-nav-link" href="#service">:speech_balloon:  Service</a>
-    <span class="text-muted"> | </span>
+    <span class="text-muted">&nbsp;|&nbsp;</span>
     <a class="page-nav-link" href="#links">:link: Links</a>
-    <span class="text-muted"> | </span>
+    <span class="text-muted">&nbsp;|&nbsp;</span>
     <a class="page-nav-link" href="#leisure">:dart: Leisure</a>
   </div>
 </nav>

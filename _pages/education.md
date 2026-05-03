@@ -10,7 +10,7 @@ nav: true
 <nav class="page-nav sticky-top bg-white py-2 mb-3">
   <div class="d-flex flex-wrap gap-2 justify-content-center">
     <a class="page-nav-link" href="#courses">Courses</a>
-    <span class="text-muted"> | </span>
+    <span class="text-muted">&nbsp;|&nbsp;</span>
     <a class="page-nav-link" href="#workshops">Workshops & Events</a>
   </div>
 </nav>
