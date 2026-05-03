@@ -87,16 +87,16 @@ Please check all the cool labs and researchers at iCNS and ECE @ Stevens [[YouTu
 <!-- <br> -->
 
 #### :telescope: Research Interest {#research-interest}
-Serverless Computing, Federated Learning, High-Performance Computing, AI Security
+LLM Systems, AI Security, HPC, Serverless Computing, Federated Learning
 
 #### :mortar_board: Education {#education}
 <ul>
-    <li>Ph.D. in Computer Engineering <br /> 
-    <a href="https://www.utoronto.ca">University of Toronto</a>, <i>2015.09--2020.07, advised by <a href="https://iqua.ece.toronto.edu/bli/index.html">Prof. Baochun Li</a></i>.</li>
-    <li>M.E. in Software Engineering <br /> 
-    <a href="https://www.sjtu.edu.cn">Shanghai Jiao Tong University (SJTU)</a>, <i>2012.09--2015.03</i></li>
-    <li>B.E. in Information Security <br /> 
-    <a href="https://www.sjtu.edu.cn">Shanghai Jiao Tong University (SJTU)</a>, <i>2008.09--2012.07</i></li>
+    <li><i>2015.09--2020.07</i>, Ph.D. in Computer Engineering,  
+    <a href="https://www.utoronto.ca">University of Toronto</a></li>
+    <li><i>2012.09--2015.03</i>, M.E. in Software Engineering, 
+    <a href="https://www.sjtu.edu.cn">Shanghai Jiao Tong University</a></li>
+    <li><i>2008.09--2012.07</i>, B.E. in Information Security, 
+    <a href="https://www.sjtu.edu.cn">Shanghai Jiao Tong University</a></li>
 </ul>
 
 

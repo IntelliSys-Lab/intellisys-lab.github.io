@@ -6,6 +6,7 @@ description:
 nav: true
 ---
 
+
 <h3> Doorman </h3>
 <p>Velut arbor ævo</p>
 ---
@@ -27,7 +28,27 @@ nav: true
 
 <br />
 
-<h3> Ph.D. Students </h3>
+---
+<nav class="page-nav sticky-top bg-white py-2 mb-3">
+  <div class="d-flex flex-wrap gap-2 justify-content-center">
+    <a class="page-nav-link" href="#phd">Ph.D. Students</a>
+    <span class="text-muted">·</span>
+    <a class="page-nav-link" href="#interns">Research Interns</a>
+    <span class="text-muted">·</span>
+    <a class="page-nav-link" href="#team-building">Team Building</a>
+    <span class="text-muted">·</span>
+    <a class="page-nav-link" href="#master">Master Students</a>
+    <span class="text-muted">·</span>
+    <a class="page-nav-link" href="#undergrad">Undergrad</a>
+    <span class="text-muted">·</span>
+    <a class="page-nav-link" href="#highschool">High School</a>
+    <span class="text-muted">·</span>
+    <a class="page-nav-link" href="#alumni">Alumni</a>
+  </div>
+</nav>
+---
+
+<h3 id="phd"> Ph.D. Students </h3>
 <p>For the boundaries of knowledge we are pushing</p>
 ---
 <div class="container">
@@ -132,7 +153,7 @@ nav: true
 
 <br />
 
-<h3> Research Interns </h3>
+<h3 id="interns"> Research Interns </h3>
 <p>For the discoveries we are uncovering</p>
 ---
 <div class="container">
@@ -315,7 +336,7 @@ nav: true
 
 <br />
 
-<h3> Master Students </h3>
+<h3 id="master"> Master Students </h3>
 <p>For the expertise we are achieving</p>
 ---
 <div class="container">
@@ -393,7 +414,7 @@ nav: true
 
 <br />
 
-<h3> Undergraduate Students </h3>
+<h3 id="undergrad"> Undergraduate Students </h3>
 <p>For the foundation we are building</p>
 ---
 
@@ -430,7 +451,7 @@ nav: true
 
 <br />
 
-<h3> High School Interns </h3>
+<h3 id="highschool"> High School Interns </h3>
 <p>For the bright future we are creating</p>
 ---
 
@@ -480,7 +501,7 @@ nav: true
 
 <br />
 
-<h3> IntelliSys Alumni </h3>
+<h3 id="alumni"> IntelliSys Alumni </h3>
 <p>For the memorial journey we shared together</p>
 ---
 <div class="container">

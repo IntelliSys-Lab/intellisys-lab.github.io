@@ -18,12 +18,25 @@ nav: true
 <br />
 <br /> -->
 
+---
+<nav class="page-nav sticky-top bg-white py-2 mb-3">
+  <div class="d-flex flex-wrap gap-2 justify-content-center">
+    <a class="page-nav-link" href="#system">:zap: :cloud: :hourglass_flowing_sand: System</a>
+    <span class="text-muted">·</span>
+    <a class="page-nav-link" href="#ai-fl">:lock: :crystal_ball: :space_invader: AI & FL</a>
+    <span class="text-muted">·</span>
+    <a class="page-nav-link" href="#interdisciplinary">:microscope: :telescope: :rocket: Interdisciplinary</a>
+    <span class="text-muted">·</span>
+    <a class="page-nav-link" href="#k12">K-12</a>
+  </div>
+</nav>
+---
 
 ## Research Projects
 ---
 <br />
 
-### System: Serverless Computing, ML Systems, LLM Serving System :zap: :cloud: :hourglass_flowing_sand: 
+### :zap: :cloud: :hourglass_flowing_sand: System: Serverless Computing, ML Systems, LLM Serving System   {#system}
 
 <div class="projects grid" style="margin-top:20px">
   {% assign sorted_projects = site.projects | sort: "importance" %}
@@ -68,7 +81,7 @@ nav: true
 
 <br />
 
-### AI: FL, Efficient AI, AI Security...  :lock: :crystal_ball: :space_invader: 
+### :lock: :crystal_ball: :space_invader: AI: FL, Efficient AI, AI Security...    {#ai-fl}
 
 <div class="projects grid" style="margin-top:20px">
   {% assign sorted_projects = site.projects | sort: "importance" %}
@@ -113,7 +126,7 @@ nav: true
 
 <br />
 
-### AI for Inter-disciplinary Applications :microscope: :telescope: :rocket:
+### :microscope: :telescope: :rocket: AI for Inter-disciplinary Applications  {#interdisciplinary}
 
 <div class="projects grid" style="margin-top:20px">
   {% assign sorted_projects = site.projects | sort: "importance" %}
@@ -163,7 +176,7 @@ nav: true
 <br />
 <br />
 
-### K-12 Projects
+### K-12 Projects {#k12}
 ---
 <br />
 <div class="projects grid">

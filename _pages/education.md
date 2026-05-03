@@ -6,7 +6,18 @@ description:
 nav: true
 ---
 
-### Courses
+---
+<nav class="page-nav sticky-top bg-white py-2 mb-3">
+  <div class="d-flex flex-wrap gap-2 justify-content-center">
+    <a class="page-nav-link" href="#courses">Courses</a>
+    <span class="text-muted">·</span>
+    <a class="page-nav-link" href="#workshops">Workshops & Events</a>
+  </div>
+</nav>
+---
+
+
+### Courses {#courses}
 ---
 
 <br />
@@ -39,7 +50,7 @@ nav: true
 <br />
 
 
-### Workshops, Hackathons, Tutorials, and Fun
+### Workshops, Hackathons, Tutorials, and Fun {#workshops}
 ---
 <br />
 
