@@ -134,10 +134,6 @@ body.sticky-bottom-footer {
 /******************************************************************************
  * Page Section Navigation
  ******************************************************************************/
-html:has(.page-nav) {
-  scroll-padding-top: 116px;
-}
-
 .page-nav {
   z-index: 1025;
   top: 56px;

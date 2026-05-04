@@ -369,5 +369,21 @@
 <!-- Load Common JS -->
 <script src="/assets/js/common.js"></script>
 
+<!-- Dynamic scroll-padding for sticky page nav -->
+<script>
+(function () {
+  function updateScrollPadding() {
+    var pageNav = document.querySelector('.page-nav');
+    if (!pageNav) return;
+    var navbar = document.querySelector('#navbar');
+    var navbarH = navbar ? navbar.getBoundingClientRect().height : 0;
+    var pageNavH = pageNav.getBoundingClientRect().height;
+    document.documentElement.style.scrollPaddingTop = (navbarH + pageNavH + 8) + 'px';
+  }
+  document.addEventListener('DOMContentLoaded', updateScrollPadding);
+  window.addEventListener('resize', updateScrollPadding);
+})();
+</script>
+
 
 </html>
