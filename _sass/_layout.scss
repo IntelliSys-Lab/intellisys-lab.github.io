@@ -112,12 +112,15 @@
  ******************************************************************************/
 
 html:has(.page-nav) {
-  scroll-padding-top: 60px;
+  scroll-padding-top: 116px;
 }
 
 .page-nav {
-  z-index: 100;
+  z-index: 1025;
+  top: 56px;
   font-size: 1rem;
+  background-color: var(--global-bg-color) !important;
+  opacity: 0.95;
 
   .page-nav-link {
     color: var(--global-text-color);
