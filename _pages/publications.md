@@ -7,7 +7,7 @@ years: [2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 
 nav: true
 ---
 
-<nav class="page-nav sticky-top py-2 mb-3">
+<nav class="page-nav sticky-top bg-white py-2 mb-3">
   <div class="d-flex flex-wrap gap-2 justify-content-center">
     {% for y in page.years %}
       <a class="page-nav-link" href="#y-{{y}}">{{y}}</a>
