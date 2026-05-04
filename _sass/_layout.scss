@@ -111,6 +111,9 @@
  * Page Section Navigation
  ******************************************************************************/
 
+html:has(.page-nav) {
+  scroll-behavior: smooth;
+}
 
 .page-nav {
   z-index: 1025;
