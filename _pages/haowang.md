@@ -162,7 +162,7 @@ LLM Systems, AI Security, HPC, Serverless Computing, Federated Learning
 * **Leadership and Organizing Roles**
     * **Steering Committee**: [Stevens Institute for Artificial Intelligence (SIAI)](https://www.stevens.edu/stevens-institute-for-artificial-intelligence)
     * **TPC Co-chair**: [INFOCOM 2026 Workshop on Embodied Intelligence Networks (EIN)](https://infocom26-ein.netlify.app)
-    * **Organizer**: DuckAI: The iCNS/ECE Symposium on AI Research and Innovations, [2025 Spring](http://duck-ai-stevens.github.io/2025-spring/), [2025 Fall](http://duck-ai-stevens.github.io/2025-fall/)
+    * **Organizer**: DuckAI: The iCNS/ECE Symposium on AI Research and Innovations, [2025 Spring](http://duck-ai-stevens.github.io/2025-spring/), [2025 Fall](http://duck-ai-stevens.github.io/2025-fall/), [2026 Spring](https://www.stevens.edu/icns-center-for-innovative-computing-and-networked-systems/symposium)
     * **Organizer and Program Chair**: [ACM SIGMETRICS 2025 Workshop: AI Crossroads: Systems, Energy, and Applications](https://ai-crossroads.github.io)
     * **Organizer and Chair**: [TigerAI 2024: LSU/IBM AI Security Summer Boot Camp](https://tigeraibootcamp.github.io/TigerAI/)
     * **Publicity Chair**: [IEEE Cluster 2026](https://clustercomp.org/2026/), Springer [ICA3PP 2023](http://tjutanklab.com/ica3pp2023/home.html)
