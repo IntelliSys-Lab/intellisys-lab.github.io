@@ -1,6 +1,12 @@
 "Wang":
   - firstname: ["Hao", "H."]
     url: https://intellisys.haow.ca/haowang/
+  
+  - firstname: ["Yanzhi"]
+    url: https://coe.northeastern.edu/people/wang-yanzhi/
+
+  - firstname: ["Jingxian"]
+    url: https://wangwireless.com
 
 "Yu":
   - firstname: ["Hanfei", "H."]
@@ -32,6 +38,9 @@
 
   - firstname: ["Baochun", "B.", "B. C."]
     url: https://iqua.ece.toronto.edu/bli/index.html
+
+  - firstname: ["Jun"]
+    url: https://www.junli.io
 
 "Fontenot":
   - firstname: ["Christian", "C."]
@@ -69,6 +78,10 @@
   - firstname: ["Yang"]
     url: https://pure.qub.ac.uk/en/persons/yang-hua
 
+"Song":
+  - firstname: ["Tao"]
+    url: https://www.cs.sjtu.edu.cn/en/jiaoshiml/songtao.html
+
 "Bai":
   - firstname: ["Wei"]
     url: https://wei0427.github.io
@@ -105,6 +118,10 @@
   - firstname: ["Yitao"]
     url: https://flashserve.org
 
+"Huang":
+  - firstname: ["Shaoyi"]
+    url: https://www.shaoyihuang.com
+
 "Ma":
   - firstname: ["Mingyu", "Derek", "Mingyu Derek"]
     url: https://derek.ma
@@ -140,3 +157,7 @@
 "Wei":
   - firstname: ["Rui"]
     url: https://me.waynetech.site/
+
+"Peng":
+  - firstname: ["Lu"]
+    url: https://www.cs.tulane.edu/~lpeng3/
