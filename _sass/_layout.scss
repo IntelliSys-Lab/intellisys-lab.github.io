@@ -33,6 +33,14 @@
 
 // TODO: redefine content layout.
 
+.about-logo {
+  width: 60%;
+
+  @media (max-width: 575px) {
+    width: 100%;
+  }
+}
+
 
 /******************************************************************************
  * Publications
