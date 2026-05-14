@@ -135,6 +135,7 @@ LLM Systems, AI Security, HPC, Serverless Computing, Federated Learning
 
 #### :trophy: Awards {#awards}
 <ul>
+    <li>2026, <strong>ICML 2026 Gold Reviewer</strong></li>
     <li>2026, <strong>Stevens Early Career Award for Research Excellence</strong></li>
     <li>2024, 2025, <strong>SIGHPC Early Career Travel Grant</strong></li>
     <li>2025, <strong><a href="https://kdd2025.kdd.org/research-track-program-committee/">KDD 2025 Feb Cycle Outstanding Reviewers (Top 10%)</a></strong>, KDD</li>
