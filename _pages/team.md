@@ -87,7 +87,7 @@ nav: true
             <img class="img-fluid rounded" src="/assets/img/qingyang.jpg" width="130px" alt="" title=""/>
         </div>
         <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
-            <h4><a href=""><b>Qingyang Yu</b></a></h4>
+            <h4><a href="https://ryougish1k1.github.io"><b>Qingyang Yu</b></a></h4>
             <span>2024 Summer</span> <br />
             <span>[ICML'26]</span> <br />
             <span>B.S. University of Liverpool</span> <br />
