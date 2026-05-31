@@ -101,8 +101,8 @@ nav: true
             <img class="img-fluid rounded" src="/assets/img/ruiwei.jpg" width="130px" alt="" title=""/>
         </div>
         <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
-            <h4><a href="https://me.waynetech.site"><b>Richard (Rui) Wei</b></a></h4>
-            <span>2024 Fall</span> <br />
+            <h4><a href="https://me.waynetech.site"><b>Ricky (Rui) Wei</b></a></h4>
+            <span><b>[Chief Infra Officer]</b> 2024 Fall</span> <br />
             <span><a href="/assets/pdf/socc25-final106.pdf">[SoCC'25]</a></span><br />
             <span>B.S. Chongqing University</span> <br />
             <span>M.S. Boston University</span>
