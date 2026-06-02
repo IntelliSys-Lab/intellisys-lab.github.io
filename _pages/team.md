@@ -373,8 +373,8 @@ nav: true
                 </div>
                 <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
                     <h4><b>Longzhao Gong</b></h4>
-                    <span>Master, 2024</span><br />
-                    <span>Stevens Institute of Technology</span><br />
+                    <span><b>[2026 Outstanding Master’s Student Award in Computer Engineering :trophy:]</b></span><br />
+                    <span>Master, Stevens Institute of Technology, 2024, </span>
                     <span>Smart Kart & RL</span>
                 </div>
             </div>
