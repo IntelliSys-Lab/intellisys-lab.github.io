@@ -135,6 +135,7 @@ LLM Systems, AI Security, HPC, Serverless Computing, Federated Learning
 
 #### :trophy: Awards {#awards}
 <ul>
+    <li>2026, <strong><a href="https://www.griffissinstitute.org/information-institute">Visiting Faculty Research Program (VFRP)</a></strong>, Funded by AFRL/RI</li>
     <li>2026, <strong>ICML 2026 Gold Reviewer</strong> (Top 25%)</li>
     <li>2026, <strong>Stevens Early Career Award for Research Excellence</strong></li>
     <li>2024, 2025, <strong>SIGHPC Early Career Travel Grant</strong></li>
