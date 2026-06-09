@@ -34,11 +34,20 @@
 // TODO: redefine content layout.
 
 .about-logo {
-  width: 60%;
+  width: 80%;
 
   @media (max-width: 575px) {
     width: 100%;
   }
+}
+
+// Mobile 2x2 grid: individual sizing per logo.
+// max-width: 100% (from inline style) prevents wide logos from overflowing.
+@media (max-width: 575px) {
+  .sponsor-nsf    { max-height: 110px !important; }
+  .sponsor-nih    { max-height: 90px !important; }
+  .sponsor-aws    { max-height: 62px  !important; }
+  .sponsor-nvidia { max-height: 80px !important; }
 }
 
 
