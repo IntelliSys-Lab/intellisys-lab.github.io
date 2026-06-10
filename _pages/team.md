@@ -439,8 +439,35 @@ nav: true
                 </div>
                 <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
                     <h4><b><a href="https://jimmyle.work">Hoang Nhan (Jimmy) Le</a></b></h4>
-                    <span>Stevens Institute of Technology, Class of 2028</span><br />
+                    <span>Stevens Institute of Technology</span><br />
+                    <span>Class of 2028</span><br />
                     <span><a>Project: AI Security in AR/VR</a></span>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 mt-1 mb-4 mt-md-1">
+            <div class="row">
+                <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
+                    <img class="img-fluid rounded" src="/assets/img/karan.jpg" width="130px" alt="" title=""/>
+                </div>
+                <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
+                    <h4><b><a href="https://jimmyle.work">Karan Kapoor</a></b></h4>
+                    <span>Stevens Institute of Technology</span><br />
+                    <span>Class of 2027</span><br />
+                    <span><a>CRA REU: Energy-efficient ML</a></span>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 mt-1 mb-4 mt-md-1">
+            <div class="row">
+                <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
+                    <img class="img-fluid rounded" src="/assets/img/jared.jpg" width="130px" alt="" title=""/>
+                </div>
+                <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
+                    <h4><b><a href="https://jimmyle.work">Jared Surajballi</a></b></h4>
+                    <span>Stevens Institute of Technology</span><br />
+                    <span>Class of 2027</span><br />
+                    <span><a>CRA REU: Energy-efficient ML</a></span>
                 </div>
             </div>
         </div>
