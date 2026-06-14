@@ -173,6 +173,7 @@ LLM Systems, AI Security, HPC, Serverless Computing, Federated Learning
     * **Session Chair**: INFOCOM 2022–2023, ACM SoCC 2022
 
 * **Editorial Service**
+    * **Action Editor (AE)**: [Transactions on Machine Learning Research (TMLR)](https://jmlr.org/tmlr/), 2026
     * **Guest Editor**: [Computer Networks](https://www.sciencedirect.com/journal/computer-networks), Special Issue on Reconfigurable Networks: Enhancing Performance and Sustainability in Access Networks and the Edge-to-Cloud Continuum, 2025
     * **Topic Editor**: Frontiers in Computer Science — Software, Topic on Serverless Computing for Stateful Applications, 2024
     * **Guest Editor**: Journal of Systems Architecture, Special Issue on [AI-driven Next-Generation Distributed Systems and Applications](https://www.sciencedirect.com/journal/journal-of-systems-architecture/about/call-for-papers), 2023
