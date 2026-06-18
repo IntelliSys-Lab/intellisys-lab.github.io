@@ -129,7 +129,7 @@ nav: true
         <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
             <h4><b>Qingqian Yang</b></h4>
             <span>2026 Fall (upcoming)</span> <br />
-            <span><a href="/assets/pdf/FL_Backdoor_Attack_Qingqian.pdf">[ICCV'25]</a>, <a href="/assets/pdf/1571235278-final.pdf">[INFOCOM'26-EIN]</a></span><br />
+            <span><a href="/assets/pdf/FL_Backdoor_Attack_Qingqian.pdf">[ICCV'25]</a>, <a href="/assets/pdf/1571235278-final.pdf">[INFOCOM'26-EIN]</a>, and [ECCV'26]</span><br />
             <!-- <span>B.S. </span> <br /> -->
             <span>M.S. Shanghai University of Electric Power</span>
         </div>
