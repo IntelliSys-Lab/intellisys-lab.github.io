@@ -35,13 +35,13 @@ nav: true
     <span class="text-muted">&nbsp;|&nbsp;</span>
     <a class="page-nav-link" href="#interns">Research Interns</a>
     <span class="text-muted">&nbsp;|&nbsp;</span>
-    <a class="page-nav-link" href="#team-building">Team Building</a>
-    <span class="text-muted">&nbsp;|&nbsp;</span>
     <a class="page-nav-link" href="#master">Master Students</a>
     <span class="text-muted">&nbsp;|&nbsp;</span>
     <a class="page-nav-link" href="#undergrad">Undergrad</a>
     <span class="text-muted">&nbsp;|&nbsp;</span>
     <a class="page-nav-link" href="#highschool">High School</a>
+    <span class="text-muted">&nbsp;|&nbsp;</span>
+    <a class="page-nav-link" href="#team-building">Team Building</a>
     <span class="text-muted">&nbsp;|&nbsp;</span>
     <a class="page-nav-link" href="#alumni">Alumni</a>
   </div>
@@ -278,76 +278,6 @@ nav: true
 
 <br />
 
-<h3 id="team-building"> Team Building </h3>
-<p>For the team spirit we are cultivating</p>
----
-<div class="container">
-    <div class="row">
-        <div class="col-lg-6 mt-1 mb-4 mt-md-1">
-            <div class="row">
-                <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
-                    <img class="img-fluid rounded" src="/assets/img/hiking-2026-04-24.jpg" width="130px" alt="" title=""/>
-                </div>
-                <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
-                    <h4><b>2026-04-24</b></h4>
-                    <span><a href="https://docmost.intellisys.synology.me/share/0li6yzjxjo/p/ramapo-lake-trail-2026-04-24-Ccjzp0gFix">Ramapo Lake Trail</a></span><br />
-                    <span>Oakland, NJ 07436</span>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-6 mt-1 mb-4 mt-md-1">
-            <div class="row">
-                <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
-                    <img class="img-fluid rounded" src="/assets/img/hiking-2026-02-28.png" width="130px" alt="" title=""/>
-                </div>
-                <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
-                    <h4><b>2026-02-28</b></h4>
-                    <span><a href="https://docmost.intellisys.synology.me/share/gbldguikmf/p/eagle-rock-trail-2026-02-28-Xjms6IkMO1">Eagle Rock Trail</a></span><br />
-                    <span>West Orange, NJ 07052</span>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-6 mt-1 mb-4 mt-md-1">
-            <div class="row">
-                <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
-                    <img class="img-fluid rounded" src="/assets/img/karting-2025-12-16.png" width="130px" alt="" title=""/>
-                </div>
-                <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
-                    <h4><b>2025-12-16</b></h4>
-                    <span><a href="https://docmost.intellisys.synology.me/share/0zhpxnf1oj/p/rpm-karting-2025-12-16-S2a3DvXVhc">RPM Karting</a></span><br />
-                    <span>Jersey City, NJ 07305</span>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-6 mt-1 mb-4 mt-md-1">
-            <div class="row">
-                <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
-                    <img class="img-fluid rounded" src="/assets/img/hiking-2025-04-28.png" width="130px" alt="" title=""/>
-                </div>
-                <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
-                    <h4><b>2025-04-28</b></h4>
-                    <span><a href="https://docmost.intellisys.synology.me/share/uohc67ne4z/p/tripod-rock-trail-2025-04-28-jqYTxq9xw3">Tripod Rock Trail</a></span><br />
-                    <span>Kinnelon, NJ 07405</span>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-6 mt-1 mb-4 mt-md-1">
-            <div class="row">
-                <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
-                    <img class="img-fluid rounded" src="/assets/img/hiking-2024-10-12.png" width="130px" alt="" title=""/>
-                </div>
-                <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
-                    <h4><b>2024-10-12</b></h4>
-                    <span><a href="https://docmost.intellisys.synology.me/share/kzhxp2pnmw/p/white-shore-and-long-path-loop-trail-2024-10-12-abyucwEoit">White Shore and Long Path Loop Trail </a></span><br />
-                    <span>Orangetown, NY 10964</span>
-                </div>
-            </div>
-        </div>            
-    </div>
-</div>
-
-<br />
-
 <h3 id="master"> Master Students </h3>
 <p>For the expertise we are achieving</p>
 ---
@@ -512,6 +442,89 @@ nav: true
 </div>
 
 <br />
+
+<h3 id="team-building"> Team Building </h3>
+<p>For the team spirit we are cultivating</p>
+---
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6 mt-1 mb-4 mt-md-1">
+            <div class="row">
+                <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
+                    <img class="img-fluid rounded" src="/assets/img/met-2026-06-20.jpg" width="130px" alt="" title=""/>
+                </div>
+                <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
+                    <h4><b>2026-06-20</b></h4>
+                    <span><a href="https://docmost.intellisys.synology.me/share/x70azyff8q/p/the-met-2026-06-20-1EwyB1yb3i">The Metropolitan Museum of Art</a></span><br />
+                    <span>New York, NY 10028</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 mt-1 mb-4 mt-md-1">
+            <div class="row">
+                <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
+                    <img class="img-fluid rounded" src="/assets/img/hiking-2026-04-24.jpg" width="130px" alt="" title=""/>
+                </div>
+                <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
+                    <h4><b>2026-04-24</b></h4>
+                    <span><a href="https://docmost.intellisys.synology.me/share/0li6yzjxjo/p/ramapo-lake-trail-2026-04-24-Ccjzp0gFix">Ramapo Lake Trail</a></span><br />
+                    <span>Oakland, NJ 07436</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 mt-1 mb-4 mt-md-1">
+            <div class="row">
+                <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
+                    <img class="img-fluid rounded" src="/assets/img/hiking-2026-02-28.png" width="130px" alt="" title=""/>
+                </div>
+                <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
+                    <h4><b>2026-02-28</b></h4>
+                    <span><a href="https://docmost.intellisys.synology.me/share/gbldguikmf/p/eagle-rock-trail-2026-02-28-Xjms6IkMO1">Eagle Rock Trail</a></span><br />
+                    <span>West Orange, NJ 07052</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 mt-1 mb-4 mt-md-1">
+            <div class="row">
+                <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
+                    <img class="img-fluid rounded" src="/assets/img/karting-2025-12-16.png" width="130px" alt="" title=""/>
+                </div>
+                <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
+                    <h4><b>2025-12-16</b></h4>
+                    <span><a href="https://docmost.intellisys.synology.me/share/0zhpxnf1oj/p/rpm-karting-2025-12-16-S2a3DvXVhc">RPM Karting</a></span><br />
+                    <span>Jersey City, NJ 07305</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 mt-1 mb-4 mt-md-1">
+            <div class="row">
+                <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
+                    <img class="img-fluid rounded" src="/assets/img/hiking-2025-04-28.png" width="130px" alt="" title=""/>
+                </div>
+                <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
+                    <h4><b>2025-04-28</b></h4>
+                    <span><a href="https://docmost.intellisys.synology.me/share/uohc67ne4z/p/tripod-rock-trail-2025-04-28-jqYTxq9xw3">Tripod Rock Trail</a></span><br />
+                    <span>Kinnelon, NJ 07405</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 mt-1 mb-4 mt-md-1">
+            <div class="row">
+                <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
+                    <img class="img-fluid rounded" src="/assets/img/hiking-2024-10-12.png" width="130px" alt="" title=""/>
+                </div>
+                <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
+                    <h4><b>2024-10-12</b></h4>
+                    <span><a href="https://docmost.intellisys.synology.me/share/kzhxp2pnmw/p/white-shore-and-long-path-loop-trail-2024-10-12-abyucwEoit">White Shore and Long Path Loop Trail </a></span><br />
+                    <span>Orangetown, NY 10964</span>
+                </div>
+            </div>
+        </div>            
+    </div>
+</div>
+
+<br />
+
 
 <h3 id="alumni"> IntelliSys Alumni </h3>
 <p>For the memorial journey we shared together</p>
