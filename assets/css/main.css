@@ -89,16 +89,16 @@ body.sticky-bottom-footer {
     max-height: 80px !important;
   }
   .sponsor-aws {
-    max-height: 62px !important;
-    margin-top: 20px;
+    max-height: 52px !important;
+    margin-top: 30px;
   }
   .sponsor-nvidia {
-    max-height: 80px !important;
-    margin-top: 20px;
+    max-height: 75px !important;
+    margin-top: 25px;
   }
   .sponsor-amd {
     max-height: 30px !important;
-    margin-top: 20px;
+    margin-top: 50px;
   }
 }
 /******************************************************************************
