@@ -352,6 +352,32 @@ nav: true
         <div class="col-lg-6 mt-1 mb-4 mt-md-1">
             <div class="row">
                 <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
+                    <img class="img-fluid rounded" src="/assets/img/terry-liu.png" width="130px" alt="" title=""/>
+                </div>
+                <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
+                    <h4><b><a href="https://www.linkedin.com/in/xuanlinterryliu/">Xuanlin (Terry) Liu</a></b></h4>
+                    <span>Stevens Institute of Technology</span><br />
+                    <span>Class of 2028</span><br />
+                    <span><a>Project: FL+X</a></span>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 mt-1 mb-4 mt-md-1">
+            <div class="row">
+                <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
+                    <img class="img-fluid rounded" src="/assets/img/weiwei-lai.jpeg" width="130px" alt="" title=""/>
+                </div>
+                <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
+                    <h4><b><a href="https://www.linkedin.com/in/wei-wei-lai-117474301/">Wei-wei Lai</a></b></h4>
+                    <span>Stevens Institute of Technology</span><br />
+                    <span>Class of 2028</span><br />
+                    <span><a>Project: FL+X</a></span>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 mt-1 mb-4 mt-md-1">
+            <div class="row">
+                <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
                     <img class="img-fluid rounded" src="/assets/img/karan.jpg" width="130px" alt="" title=""/>
                 </div>
                 <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
