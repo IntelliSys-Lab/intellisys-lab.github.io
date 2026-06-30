@@ -4,6 +4,7 @@ title: Fine-grained Defense towards FL [ECCV'24]
 category: fl
 img: /assets/img/skymask-peishen-thumbnail.png
 importance: 8
+sponsors: []
 ---
 
 <div class="title"><strong>SkyMask: Attack-agnostic Robust Federated Learning with Fine-grained Learnable Masks</strong></div>

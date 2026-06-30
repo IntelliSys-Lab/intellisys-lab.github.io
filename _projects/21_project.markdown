@@ -5,6 +5,7 @@ category: sys
 description:
 img: /assets/img/paste-thumbnail.png
 importance: 22
+sponsors: []
 ---
 
 <!-- **Collaborative Research: CSR: Medium: Enhancing Energy Awareness for Efficient Federated Learning over Mobile AI Systems** -->

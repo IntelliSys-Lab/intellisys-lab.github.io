@@ -5,6 +5,7 @@ category: ai
 description:
 img: /assets/img/material-measurement-thumbnail.png
 importance: 5
+sponsors: []
 ---
 
 <!-- <div class="title"><strong>Siren: Byzantine-robust Federated Learning via Proactive Alarming</strong></div>

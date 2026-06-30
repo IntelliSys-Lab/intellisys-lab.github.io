@@ -4,6 +4,7 @@ title: Unleashing AI’s Creative Minds
 description:
 img: /assets/img/bad-prompt.png
 importance: 2
+sponsors: []
 ---
 
 <!-- <div class="title"><strong>Playing FlappyBird with Reinforcement Learning</strong></div> -->

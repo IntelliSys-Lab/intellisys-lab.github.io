@@ -5,6 +5,7 @@ category: fl
 description:
 img: /assets/img/gfedcl-thumbnail.png
 importance: 21
+sponsors: []
 ---
 
 <!-- **Collaborative Research: CSR: Medium: Enhancing Energy Awareness for Efficient Federated Learning over Mobile AI Systems** -->

@@ -5,6 +5,7 @@ category: fl
 description:
 img: /assets/img/fednasp-thumbnail.png
 importance: 20
+sponsors: [NVIDIA]
 ---
 
 <!-- **Collaborative Research: CSR: Medium: Enhancing Energy Awareness for Efficient Federated Learning over Mobile AI Systems** -->

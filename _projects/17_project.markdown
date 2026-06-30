@@ -5,6 +5,7 @@ category: fl
 description:
 img: /assets/img/energy-fl-thumbnail.png
 importance: 17
+sponsors: [NSF]
 ---
 
 <!-- **Collaborative Research: CSR: Medium: Enhancing Energy Awareness for Efficient Federated Learning over Mobile AI Systems** -->

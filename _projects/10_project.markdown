@@ -5,6 +5,7 @@ category: ai
 description:
 img: /assets/img/jetracer-ai-kit.jpg
 importance: 10
+sponsors: []
 ---
 
 

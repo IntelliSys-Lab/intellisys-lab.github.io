@@ -4,6 +4,7 @@ title: Robust FL via Proactive Alarming [SoCC'21]
 category: fl
 img: /assets/img/fl-project.png
 importance: 3
+sponsors: [NSF]
 ---
 
 <div class="title"><strong>Siren: Byzantine-robust Federated Learning via Proactive Alarming</strong></div>

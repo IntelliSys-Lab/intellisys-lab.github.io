@@ -4,6 +4,7 @@ title: Hacking Self-driving Models
 description:
 img: /assets/img/stop-sign.png
 importance: 1
+sponsors: []
 ---
 
 <!-- <div class="title"><strong>Playing FlappyBird with Reinforcement Learning</strong></div> -->

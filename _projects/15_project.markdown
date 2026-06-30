@@ -5,6 +5,7 @@ category: serverless
 description:
 img: /assets/img/serverless-lora.png
 importance: 15
+sponsors: []
 ---
 
 <div class="title"><strong>ServerlessLoRA: Minimizing Latency and Cost in Serverless Inference for LoRA-Based LLMs</strong></div>

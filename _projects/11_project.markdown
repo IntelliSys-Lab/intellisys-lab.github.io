@@ -5,6 +5,7 @@ category: fl
 description:
 img: /assets/img/fedcod.png
 importance: 11
+sponsors: []
 ---
 
 <div class="title"><strong>FedCod: An Efficient Communication Protocol for Cross-Silo Federated Learning with Coding</strong></div>

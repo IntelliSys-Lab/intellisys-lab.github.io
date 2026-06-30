@@ -5,6 +5,7 @@ category: serverless
 description:
 img: /assets/img/serverless-RL.png
 importance: 6
+sponsors: []
 ---
 
 <div class="row">

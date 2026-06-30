@@ -70,6 +70,22 @@ nav: true
               </div>
               {% endif %}
             </div>
+            {% if project.sponsors %}
+            <div class="card-sponsors">
+              {% for sponsor in project.sponsors %}
+                {% case sponsor %}
+                  {% when "NSF" %}
+                    <img src="{{ '/assets/img/nsf.svg' | relative_url }}" alt="NSF" title="NSF"/>
+                  {% when "AMD" %}
+                    <img src="{{ '/assets/img/amd-logo.svg' | relative_url }}" alt="AMD" title="AMD"/>
+                  {% when "NVIDIA" %}
+                    <img src="{{ '/assets/img/nv-logo-v1.svg' | relative_url }}" alt="NVIDIA" title="NVIDIA"/>
+                  {% when "AIM-AHEAD" %}
+                    <img src="{{ '/assets/img/nih-aim-ahead-logo.svg' | relative_url }}" alt="AIM-AHEAD" title="AIM-AHEAD"/>
+                {% endcase %}
+              {% endfor %}
+            </div>
+            {% endif %}
           </div>
         </div>
       </a>
@@ -115,6 +131,22 @@ nav: true
               </div>
               {% endif %}
             </div>
+            {% if project.sponsors %}
+            <div class="card-sponsors">
+              {% for sponsor in project.sponsors %}
+                {% case sponsor %}
+                  {% when "NSF" %}
+                    <img src="{{ '/assets/img/nsf.svg' | relative_url }}" alt="NSF" title="NSF"/>
+                  {% when "AMD" %}
+                    <img src="{{ '/assets/img/amd-logo.svg' | relative_url }}" alt="AMD" title="AMD"/>
+                  {% when "NVIDIA" %}
+                    <img src="{{ '/assets/img/nv-logo-v1.svg' | relative_url }}" alt="NVIDIA" title="NVIDIA"/>
+                  {% when "AIM-AHEAD" %}
+                    <img src="{{ '/assets/img/nih-aim-ahead-logo.svg' | relative_url }}" alt="AIM-AHEAD" title="AIM-AHEAD"/>
+                {% endcase %}
+              {% endfor %}
+            </div>
+            {% endif %}
           </div>
         </div>
       </a>
@@ -160,6 +192,22 @@ nav: true
               </div>
               {% endif %}
             </div>
+            {% if project.sponsors %}
+            <div class="card-sponsors">
+              {% for sponsor in project.sponsors %}
+                {% case sponsor %}
+                  {% when "NSF" %}
+                    <img src="{{ '/assets/img/nsf.svg' | relative_url }}" alt="NSF" title="NSF"/>
+                  {% when "AMD" %}
+                    <img src="{{ '/assets/img/amd-logo.svg' | relative_url }}" alt="AMD" title="AMD"/>
+                  {% when "NVIDIA" %}
+                    <img src="{{ '/assets/img/nv-logo-v1.svg' | relative_url }}" alt="NVIDIA" title="NVIDIA"/>
+                  {% when "AIM-AHEAD" %}
+                    <img src="{{ '/assets/img/nih-aim-ahead-logo.svg' | relative_url }}" alt="AIM-AHEAD" title="AIM-AHEAD"/>
+                {% endcase %}
+              {% endfor %}
+            </div>
+            {% endif %}
           </div>
         </div>
       </a>
@@ -205,6 +253,22 @@ nav: true
             </div>
             {% endif %}
           </div>
+          {% if project.sponsors %}
+          <div class="card-sponsors">
+            {% for sponsor in project.sponsors %}
+              {% case sponsor %}
+                {% when "NSF" %}
+                  <img src="{{ '/assets/img/nsf.svg' | relative_url }}" alt="NSF" title="NSF"/>
+                {% when "AMD" %}
+                  <img src="{{ '/assets/img/amd-logo.svg' | relative_url }}" alt="AMD" title="AMD"/>
+                {% when "NVIDIA" %}
+                  <img src="{{ '/assets/img/nv-logo-v1.svg' | relative_url }}" alt="NVIDIA" title="NVIDIA"/>
+                {% when "AIM-AHEAD" %}
+                  <img src="{{ '/assets/img/nih-aim-ahead-logo.svg' | relative_url }}" alt="AIM-AHEAD" title="AIM-AHEAD"/>
+              {% endcase %}
+            {% endfor %}
+          </div>
+          {% endif %}
         </div>
       </div>
     </a>

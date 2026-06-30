@@ -5,6 +5,7 @@ category: serverless
 description:
 img: /assets/img/instainfer-thumbnail.png
 importance: 9
+sponsors: []
 ---
 
 <div class="title"><strong>Pre-Warming is Not Enough: Accelerating Serverless Inference with Opportunistic Pre-Loading</strong></div>

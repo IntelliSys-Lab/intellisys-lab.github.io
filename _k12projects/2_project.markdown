@@ -4,6 +4,7 @@ title: Super Computer in Your Pocket
 description:
 img: /assets/img/pi.png
 importance: 3
+sponsors: []
 ---
 
 <!-- <div class="title"><strong>Playing FlappyBird with Reinforcement Learning</strong></div> -->

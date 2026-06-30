@@ -4,6 +4,7 @@ title: Playing FlappyBird with AI
 description:
 img: /assets/img/flappy.jpg
 importance: 4
+sponsors: []
 ---
 
 <!-- <div class="title"><strong>Playing FlappyBird with Reinforcement Learning</strong></div> -->

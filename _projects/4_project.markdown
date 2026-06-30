@@ -4,6 +4,7 @@ title: Fine-grained Attacks towards FL [ICLR'24]
 category: fl
 img: /assets/img/lsa-haomin-thumbnail.png
 importance: 4
+sponsors: []
 ---
 
 <!-- <div class="title"><strong>Siren: Byzantine-robust Federated Learning via Proactive Alarming</strong></div>

@@ -4,6 +4,7 @@ title: "Donkey car: How to Train your AI"
 description:
 img: /assets/img/mariana.jpg
 importance: 1
+sponsors: []
 ---
 
 <!-- <div class="title"><strong>Playing FlappyBird with Reinforcement Learning</strong></div> -->

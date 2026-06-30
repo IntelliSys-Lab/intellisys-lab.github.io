@@ -5,6 +5,7 @@ category: fl
 description:
 img: /assets/img/poison-pill.png
 importance: 12
+sponsors: [NSF]
 ---
 
 <div class="title"><strong>Poisoning with A Pill: Circumventing Detection in Federated Learning</strong></div>

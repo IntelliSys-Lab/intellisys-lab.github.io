@@ -5,6 +5,7 @@ category: ai
 description:
 img: /assets/img/spatial-audio.png
 importance: 16
+sponsors: []
 ---
 
 <div class="title"><strong>SonicMotion: Dynamic Spatial Audio Soundscapes with Latent Diffusion Models</strong></div>
