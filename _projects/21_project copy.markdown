@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Federated Continual Learning [ICML'26][TMLR'26]"
-category: sys
+category: fl
 description:
 img: /assets/img/gfedcl-thumbnail.png
 importance: 21
