@@ -17,7 +17,7 @@ nav: true
 ---
 
 
-### Courses {#courses}
+##### Courses {#courses}
 ---
 
 <br />
@@ -50,7 +50,7 @@ nav: true
 <br />
 
 
-### Workshops, Hackathons, Tutorials, and Fun {#workshops}
+##### Workshops, Hackathons, Tutorials, and Fun {#workshops}
 ---
 <br />
 
