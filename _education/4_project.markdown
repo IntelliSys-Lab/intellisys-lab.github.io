@@ -1,6 +1,6 @@
 ---
 layout: page
-title: AAI595 Applied Machine Learning
+title: AAI595 Applied ML
 category: course
 description:
 img: /assets/img/ds2-sam.jpg

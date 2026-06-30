@@ -34,10 +34,10 @@ nav: true
       {% endif %}
         <div class="card hoverable">
           {% if project.img %}
-          <div> <img class="img-fluid rounded" src="{{ project.img | relative_url }}" alt="project thumbnail"> </div>
+          <div class="card-img-wrap"> <img class="img-fluid rounded" src="{{ project.img | relative_url }}" alt="project thumbnail"> </div>
           {% endif %}
           <div class="card-body">
-            <h5 style="text-align: center" class="card-title">{{ project.title }}</h5>
+            <span style="text-align: center" class="card-title">{{ project.title }}</span>
             <!-- <p class="card-text">{{ project.description }}</p> -->
           </div>
         </div>
@@ -66,10 +66,10 @@ nav: true
       {% endif %}
         <div class="card hoverable">
           {% if project.img %}
-          <div> <img class="img-fluid rounded" src="{{ project.img | relative_url }}" alt="project thumbnail"> </div>
+          <div class="card-img-wrap"> <img class="img-fluid rounded" src="{{ project.img | relative_url }}" alt="project thumbnail"> </div>
           {% endif %}
           <div class="card-body">
-            <h5 style="text-align: center" class="card-title">{{ project.title }}</h5>
+            <span style="text-align: center" class="card-title">{{ project.title }}</span>
             <!-- <p class="card-text">{{ project.description }}</p> -->
             <div class="row ml-1 mr-1 p-0">
               {% if project.github %}

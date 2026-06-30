@@ -297,9 +297,11 @@ footer.sticky-bottom {
 
 .projects {
   .grid-item {
-    width: 235px;
+    width: 150px;
     margin-bottom: 10px;
     a {
+      display: block;
+      height: 100%;
       color: black;
       text-decoration: none;
       &:hover {
@@ -308,13 +310,31 @@ footer.sticky-bottom {
     }
   }
   .card {
-    // border-radius: 10px; 
-    img {
-      width: 100%;
+    // border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 262px;
+    overflow: hidden;
+
+    .card-img-wrap {
+      flex: 1 1 auto;
+      min-height: 0;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
     }
     .card-body {
+      flex: 0 0 auto;
       background: transparent;
-      border-radius: 0 0 10px 10px; 
+      border-radius: 0 0 10px 10px;
     }
     .card-title {
       color: $stevens-red;
