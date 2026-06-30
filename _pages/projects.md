@@ -39,7 +39,7 @@ nav: true
 #### :zap: :cloud: :hourglass_flowing_sand: System: Serverless Computing, ML Systems, LLM Serving System   {#system}
 
 <div class="projects grid" style="margin-top:20px">
-  {% assign sorted_projects = site.projects | sort: "importance" %}
+  {% assign sorted_projects = site.projects | sort: "importance" | reverse %}
   {% for project in sorted_projects %}
     {% if project.category == "serverless" %}
     <div class="grid-item">
@@ -84,7 +84,7 @@ nav: true
 #### :lock: :crystal_ball: :space_invader: AI: FL, Efficient AI, AI Security...    {#ai-fl}
 
 <div class="projects grid" style="margin-top:20px">
-  {% assign sorted_projects = site.projects | sort: "importance" %}
+  {% assign sorted_projects = site.projects | sort: "importance" | reverse %}
   {% for project in sorted_projects %}
     {% if project.category == "fl" %}
     <div class="grid-item">
@@ -129,7 +129,7 @@ nav: true
 #### :microscope: :telescope: :rocket: AI for Inter-disciplinary Applications  {#interdisciplinary}
 
 <div class="projects grid" style="margin-top:20px">
-  {% assign sorted_projects = site.projects | sort: "importance" %}
+  {% assign sorted_projects = site.projects | sort: "importance" | reverse %}
   {% for project in sorted_projects %}
     {% if project.category == "ai" %}
     <div class="grid-item">
@@ -175,7 +175,7 @@ nav: true
 
 <div class="projects grid" style="margin-top:20px">
 
-  {% assign sorted_projects = site.k12projects | sort: "importance" %}
+  {% assign sorted_projects = site.k12projects | sort: "importance" | reverse %}
   {% for project in sorted_projects %}
   <div class="grid-item">
     {% if project.redirect %}

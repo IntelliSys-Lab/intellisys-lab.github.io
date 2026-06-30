@@ -4,7 +4,7 @@ title: Serverless Inference with Pre-Loading
 category: serverless
 description:
 img: /assets/img/instainfer-thumbnail.png
-importance: 2
+importance: 9
 ---
 
 <div class="title"><strong>Pre-Warming is Not Enough: Accelerating Serverless Inference with Opportunistic Pre-Loading</strong></div>

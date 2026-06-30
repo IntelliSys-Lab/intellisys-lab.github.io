@@ -4,7 +4,7 @@ title: Serverless Distributed DRL
 category: serverless
 description:
 img: /assets/img/serverless-RL.png
-importance: 2
+importance: 6
 ---
 
 

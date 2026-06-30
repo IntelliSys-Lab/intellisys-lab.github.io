@@ -4,7 +4,7 @@ title: "Accelerate MoE-based LLM Serving"
 category: serverless
 description:
 img: /assets/img/fmoe.png
-importance: 1
+importance: 13
 ---
 
 <div class="title"><strong>fMoE: Fine-Grained Expert Offloading for Large Mixture-of-Experts Serving</strong></div>

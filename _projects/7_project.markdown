@@ -3,7 +3,7 @@ layout: page
 title: Critical Learning Periods
 category: fl
 img: /assets/img/critical-learning-periods.png
-importance: 2
+importance: 7
 ---
 
 

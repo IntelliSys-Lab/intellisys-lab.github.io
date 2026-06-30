@@ -4,7 +4,7 @@ title: "Energy Awareness for Mobile AI Sys"
 category: fl
 description:
 img: /assets/img/energy-fl-thumbnail.png
-importance: 1
+importance: 17
 ---
 
 <!-- **Collaborative Research: CSR: Medium: Enhancing Energy Awareness for Efficient Federated Learning over Mobile AI Systems** -->

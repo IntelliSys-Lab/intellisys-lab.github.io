@@ -4,7 +4,7 @@ title: Dynamic Spatial Audio with GenAI
 category: ai
 description:
 img: /assets/img/spatial-audio.png
-importance: 1
+importance: 16
 ---
 
 <div class="title"><strong>SonicMotion: Dynamic Spatial Audio Soundscapes with Latent Diffusion Models</strong></div>

@@ -3,7 +3,7 @@ layout: page
 title: Fine-grained Attacks towards FL
 category: fl
 img: /assets/img/lsa-haomin-thumbnail.png
-importance: 3
+importance: 4
 ---
 
 <!-- <div class="title"><strong>Siren: Byzantine-robust Federated Learning via Proactive Alarming</strong></div>

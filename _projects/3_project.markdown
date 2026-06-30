@@ -3,7 +3,7 @@ layout: page
 title: Robust FL via Proactive Alarming
 category: fl
 img: /assets/img/fl-project.png
-importance: 4
+importance: 3
 ---
 
 <div class="title"><strong>Siren: Byzantine-robust Federated Learning via Proactive Alarming</strong></div>

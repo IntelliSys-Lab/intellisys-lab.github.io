@@ -4,7 +4,7 @@ title: Resource Harvesting in Serverless
 category: serverless
 description:
 img: /assets/img/serverless.png
-importance: 3
+importance: 2
 ---
 
 <div class="title"><strong>Libra: Harvesting Idle Resources Safely and Timely in Serverless Clusters</strong></div>

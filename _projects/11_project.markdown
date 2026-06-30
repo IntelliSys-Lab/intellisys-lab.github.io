@@ -4,7 +4,7 @@ title: Cross-Silo Federated Learning with Coding
 category: fl
 description:
 img: /assets/img/fedcod.png
-importance: 1
+importance: 11
 ---
 
 <div class="title"><strong>FedCod: An Efficient Communication Protocol for Cross-Silo Federated Learning with Coding</strong></div>

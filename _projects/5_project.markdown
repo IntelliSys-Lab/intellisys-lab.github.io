@@ -4,7 +4,7 @@ title: Automating Measurement in AM
 category: ai
 description:
 img: /assets/img/material-measurement-thumbnail.png
-importance: 6
+importance: 5
 ---
 
 <!-- <div class="title"><strong>Siren: Byzantine-robust Federated Learning via Proactive Alarming</strong></div>
