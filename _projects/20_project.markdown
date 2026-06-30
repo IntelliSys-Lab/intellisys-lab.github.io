@@ -3,7 +3,7 @@ layout: page
 title: "Federated Vision-Language Navigation"
 category: fl
 description:
-img: /assets/img/fednasp.png
+img: /assets/img/fednasp-thumbnail.png
 importance: 20
 ---
 
