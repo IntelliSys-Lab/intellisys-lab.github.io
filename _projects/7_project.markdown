@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Critical Learning Periods
+title: Critical Learning Periods [AAAI'22-23][KDD'23][RAID'24]
 category: fl
 img: /assets/img/critical-learning-periods.png
 importance: 7

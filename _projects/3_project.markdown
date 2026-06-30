@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Robust FL via Proactive Alarming
+title: Robust FL via Proactive Alarming [SoCC'21]
 category: fl
 img: /assets/img/fl-project.png
 importance: 3

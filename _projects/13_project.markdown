@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Accelerate MoE-based LLM Serving"
+title: "Accelerate MoE-based LLM Serving [EuroSys'26]"
 category: serverless
 description:
 img: /assets/img/fmoe.png

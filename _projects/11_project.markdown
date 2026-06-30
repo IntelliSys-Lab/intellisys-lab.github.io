@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Cross-Silo Federated Learning with Coding
+title: Cross-Silo FL with Coding [IWQoS'26]
 category: fl
 description:
 img: /assets/img/fedcod.png
@@ -12,7 +12,7 @@ importance: 11
     Peishen Yan, Jun Li, Hao Wang, Tao Song, Yang Hua, Lu Peng, Haihui Zhou, Haibing Guan
 </div>
 <!-- <div class="periodical"> -->
-------Preprint at arXiv, [[link]](https://arxiv.org/abs/2501.00216). 
+------IWQoS'26, [[link]](https://arxiv.org/abs/2501.00216). 
 <!-- </div> -->
 
 <br />

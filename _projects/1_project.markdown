@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Mitigating Cold-starts in Serverless
+title: Mitigating Cold-starts in Serverless [ASPLOS'24]
 category: serverless
 description:
 img: /assets/img/rainbow-cake-thumbnail.png

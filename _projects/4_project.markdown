@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Fine-grained Attacks towards FL
+title: Fine-grained Attacks towards FL [ICLR'24]
 category: fl
 img: /assets/img/lsa-haomin-thumbnail.png
 importance: 4

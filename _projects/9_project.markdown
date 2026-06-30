@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Serverless Inference with Pre-Loading
+title: Serverless Inference with Pre-Loading [SoCC'24]
 category: serverless
 description:
 img: /assets/img/instainfer-thumbnail.png

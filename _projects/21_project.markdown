@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Federated Continual Learning"
+title: "Federated Continual Learning [ICML'26][TMLR'26]"
 category: fl
 description:
 img: /assets/img/gfedcl-thumbnail.png

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Energy Awareness for Mobile AI Sys"
+title: "Energy Awareness for Mobile AI Sys [SIGMETRICS'25]"
 category: fl
 description:
 img: /assets/img/energy-fl-thumbnail.png

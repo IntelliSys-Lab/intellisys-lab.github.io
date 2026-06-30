@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Dynamic Spatial Audio with GenAI
+title: Dynamic Spatial Audio with GenAI [ICASSP'26]
 category: ai
 description:
 img: /assets/img/spatial-audio.png

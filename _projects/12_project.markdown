@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Poisoning FL with A Pill"
+title: "Poisoning FL with A Pill [AAAI'26]"
 category: fl
 description:
 img: /assets/img/poison-pill.png
@@ -12,7 +12,7 @@ importance: 12
     Hanxi Guo, Hao Wang, Tao Song, Tianhang Zheng, Yang Hua, Haibing Guan, Xiangyu Zhang
 </div>
 <!-- <div class="periodical"> -->
-------Preprint at arXiv, [[link]](https://arxiv.org/abs/2407.15389). 
+------AAAI'26, [[link]](https://arxiv.org/abs/2407.15389). 
 <!-- </div> -->
 
 <br />

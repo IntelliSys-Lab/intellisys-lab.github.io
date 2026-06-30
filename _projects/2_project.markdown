@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Resource Harvesting in Serverless 
+title: Resource Harvesting in Serverless [WWW'22][HPDC'23]
 category: serverless
 description:
 img: /assets/img/serverless.png

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Encrypted LLM Fingerprinting"
+title: "Encrypted LLM Fingerprinting [AAAI'26]"
 category: fl
 description:
 img: /assets/img/iseal.png

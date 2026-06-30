@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Federated VLN"
+title: "Federated VLN [ECCV'26]"
 category: fl
 description:
 img: /assets/img/fednasp-thumbnail.png

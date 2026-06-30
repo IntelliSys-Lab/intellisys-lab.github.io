@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Serverless Distributed DRL   
+title: "Serverless Distributed DRL <br />[AAAI'24][SC'24][VLDB'25][SoCC'25]"
 category: serverless
 description:
 img: /assets/img/serverless-RL.png
