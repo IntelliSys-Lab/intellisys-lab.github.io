@@ -41,7 +41,7 @@ nav: true
 <div class="projects grid" style="margin-top:20px">
   {% assign sorted_projects = site.projects | sort: "importance" | reverse %}
   {% for project in sorted_projects %}
-    {% if project.category == "serverless" %}
+    {% if project.category == "serverless" or project.category == "sys" %}
     <div class="grid-item">
       {% if project.redirect %}
       <a href="{{ project.redirect }}" target="_blank">

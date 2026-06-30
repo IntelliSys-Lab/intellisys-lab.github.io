@@ -1,13 +1,11 @@
 ---
 layout: page
-title: "Serverless Distributed DRL <br />[AAAI'24][SC'24][VLDB'25][SoCC'25]"
+title: "Serverless DRL <br />[AAAI'24][SC'24][VLDB'25][SoCC'25]"
 category: serverless
 description:
 img: /assets/img/serverless-RL.png
 importance: 6
 ---
-
-
 
 <div class="row">
     <div class="col-sm col-md-8 mt-3 mt-md-0 mx-auto d-block">
