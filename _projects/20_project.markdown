@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Federated Vision-Language Navigation"
+title: "Federated VLN"
 category: fl
 description:
 img: /assets/img/fednasp-thumbnail.png
@@ -31,7 +31,7 @@ Code is available at: [https://github.com/IntelliSys-Lab/FedNASP.git](https://gi
 <br />
 
 <div class="row">
-        <div class="col-10 col-sm-10 col-md-10 col-lg-10 mx-auto d-block">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 mx-auto d-block">
         <img class="img-fluid rounded" src="{{ '/assets/img/fednasp-overview.png' | relative_url }}" alt="" />
         <div class="caption">
             FedNASP's overview.
