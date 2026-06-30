@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>IntelliSys Lab | Stevens | Federated VLN</title>
+<title>IntelliSys Lab | Stevens | Federated Continual Learning</title>
 <meta name="description" content="the Intelligent System (IntelliSys) Lab 
 ">
 
@@ -45,7 +45,7 @@
 
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/projects/20_project/">
+<link rel="canonical" href="/projects/21_project/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -251,37 +251,50 @@
       <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Federated VLN</h1>
+    <h1 class="post-title">Federated Continual Learning</h1>
     <p class="post-description"></p>
   </header>
 
   <article>
     <!-- **Collaborative Research: CSR: Medium: Enhancing Energy Awareness for Efficient Federated Learning over Mobile AI Systems** -->
 
-<p><strong>FedNASP: Federated Vision-Language Navigation with Adaptive Step-wise Personalization</strong>, Qingqian Yang, Hao Wang, Sai Qian Zhang, Jian Li, Yang Hua, Miao Pan, Tao Song, Zhengwei Qi, and Haibing Guan [ECCV’26]</p>
+<p><strong>GFedCL: Graph-Based Federated Continual Learning with Spatial and Temporal Awareness</strong>, Qingyang Yu, Yang Hua, Qizhen Zhang, and Hao Wang [ICML’26]</p>
 
-<p><strong><img class="emoji" title=":pencil:" alt=":pencil:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"> <a href="/assets/pdf/Qingqian_ECCV26.pdf">PDF</a></strong></p>
+<p><strong><img class="emoji" title=":pencil:" alt=":pencil:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"> <a href="/assets/pdf/Qingyang_ICML_26_GFedCL__Camera_Ready_Version.pdf">PDF</a></strong></p>
 
 <!-- #### Abstract -->
 
-<p>Federated learning (FL) protects sensitive (Vision-Language Navigation) VLN data without centralizing trajectories or instructions, but severe non-IID environments make personalized FL (pFL) necessary.
-Moreover, VLN poses several coupled challenges for personalized federated learning, including environment heterogeneity, multimodal language-vision fusion, and long-horizon navigation with time-varying decision contexts.
-To address these challenges, we propose FedNASP, a step-wise personalized federated learning framework for VLN. 
-The key idea is to dynamically calibrate personalization strength along a navigation trajectory. 
-Specifically, we introduce a lightweight Step-wise Personalized Modulator (SPM) that predicts personalization strength at each navigation step. 
-We further design a structure-aware adapter-based personalized prefix injection mechanism that enables client-specific grounding while keeping the backbone shared across clients.
-Experiments on three representative datasets show that FedNASP consistently outperforms state-of-the-art federated VLN methods under substantial cross-client heterogeneity.
-Compared with the non-centralized baselines, FedNASP improves Remote Grounding Success on REVERIE by 13% and Success Rate on CVDN by 22.6%.
-Extensive ablation studies and visualizations further validate the effectiveness of adaptive step-wise personalization for federated VLN.
-Code is available at: <a href="https://github.com/IntelliSys-Lab/FedNASP.git">https://github.com/IntelliSys-Lab/FedNASP.git</a></p>
+<p>Recent years have witnessed a surge of interest in federated learning. In particular, federated continual learning (FCL) emerged as an effective approach that enables clients with evolving, non-storable data to engage in collective learning. Among FCL approaches, replay-based methods excel by mitigating data storage constraints through synthetic data generation. However, existing replay-based methods overlook spatial and temporal information inherent in FCL settings, leading to suboptimal model performance. For instance, spatial variation in COVID-19 prevalence across hospitals in different states (e.g., Delta surging in Florida vs. Omicron in New York) and the temporal evolution of regional outbreaks are critical information for accurately distinguishing between COVID variants. This paper presents GFedCL to address this limitation. GFedCL is a new FCL approach that (1) constructs spatial- and temporal-aware relational graphs with attention mechanisms, and (2) uses the graphs, combined with generative adversarial learning, to generate high-quality synthetic data. GFedCL can generate synthetic data that matches the expectation of real data distribution while preserving privacy with theoretical guarantees. GFedCL consistently outperforms state-of-the-art FCL methods, gaining 27.95% improvement on TinyImageNet.</p>
+
+<p>Code is available at: <a href="https://github.com/IntelliSys-Lab/GFedCL">https://github.com/IntelliSys-Lab/GFedCL</a></p>
 
 <p><br></p>
 
 <div class="row">
         <div class="col-12 col-sm-12 col-md-12 col-lg-12 mx-auto d-block">
-        <img class="img-fluid rounded" src="/assets/img/fednasp-overview.png" alt="">
+        <img class="img-fluid rounded" src="/assets/img/gfedcl.png" alt="">
         <div class="caption">
-            FedNASP's overview.
+            GFedCL's overview.
+        </div>
+    </div>
+</div>
+<p><br></p>
+
+<p><strong>FedIndex: Federated Domain Adaptation with Continuous Domain Indices</strong>, Qingyang Yu, Hao Wang, Qizhen Zhang, and Hao Wang [TMLR’26]</p>
+
+<p><strong><img class="emoji" title=":pencil:" alt=":pencil:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"> <a href="/assets/pdf/Qingyang_ICML_26_GFedCL__Camera_Ready_Version.pdf">PDF</a></strong></p>
+
+<!-- #### Abstract -->
+
+<p>Federated domain adaptation incorporates source clients’ knowledge to improve the model performance on the target client under the coordination of the server, mitigating the impact of data insufficiency and domain shift. Existing federated domain adaptation (FDA) methods focus on domain adaptation with categorical domain indices (e.g., “source” and “target”), while many real-world tasks involve domains with continuous domain indices. For instance, hospitals need to adapt disease analysis and prediction across patients via age, a continuous domain index in medical applications capturing the underlying relation between patient information and disease analysis. Prior FDA methods struggle with such tasks due to their ignorance of continuous domain indices. This paper proposes FedIndex to enable FDA with continuous domain indices. FedIndex performs adversarial domain adaptation across clients with the help of a global discriminator, aligning all domains’ distributions. Our theoretical analysis demonstrates the capability of FedIndex to generate domain-invariant features across clients using continuous domain indices without accessing data on clients, simultaneously maintaining privacy preservation. Our empirical results show that FedIndex outperforms the state-of-the-art FDA methods on synthetic and real-world datasets.</p>
+
+<p><br></p>
+
+<div class="row">
+        <div class="col-7 col-sm-7 col-md-7 col-lg-7 mx-auto d-block">
+        <img class="img-fluid rounded" src="/assets/img/fedindex.png" alt="">
+        <div class="caption">
+            FedIndex's overview.
         </div>
     </div>
 </div>
