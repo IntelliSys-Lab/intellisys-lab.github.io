@@ -431,20 +431,40 @@ footer.sticky-bottom {
 }
 
 .projects .grid-item {
-  width: 235px;
+  width: 150px;
   margin-bottom: 10px;
 }
 .projects .grid-item a {
+  display: block;
+  height: 100%;
   color: black;
   text-decoration: none;
 }
 .projects .grid-item a:hover {
   color: var(--global-theme-color);
 }
-.projects .card img {
+.projects .card {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  height: 262px;
+  overflow: hidden;
+}
+.projects .card .card-img-wrap {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.projects .card .card-img-wrap img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .projects .card .card-body {
+  flex: 0 0 auto;
   background: transparent;
   border-radius: 0 0 10px 10px;
 }
