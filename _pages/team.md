@@ -286,20 +286,6 @@ nav: true
         <div class="col-lg-6 mt-1 mb-4 mt-md-1">
             <div class="row">
                 <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
-                    <img class="img-fluid rounded" src="/assets/img/ruidu.jpeg" width="130px" alt="" title=""/>
-                </div>
-                <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
-                    <h4><b>Rui Du</b></h4>
-                    <span>Master, 2025</span><br />
-                    <span>Stevens Institute of Technology</span><br />
-                    <!-- <span>Smart Kart & RL</span> -->
-                    <span>LLM Serving Systems</span><br />
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-6 mt-1 mb-4 mt-md-1">
-            <div class="row">
-                <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
                     <img class="img-fluid rounded" src="/assets/img/zirui-wen.jpeg" width="130px" alt="" title=""/>
                 </div>
                 <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
@@ -547,6 +533,19 @@ nav: true
         <div class="col-lg-6 mt-1 mb-4 mt-md-1">
             <div class="row">
                 <div class="mt-1 mt-md-1">
+                    <img class="img-fluid rounded" src="/assets/img/ruidu.jpeg" width="80px" alt="" title=""/>
+                </div>
+                <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
+                    <span><b>Rui Du</b></span>,
+                    <span>Master, 2025</span>,
+                    <span>Stevens Institute of Technology</span>,
+                    <span>LLM Serving Systems</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 mt-1 mb-4 mt-md-1">
+            <div class="row">
+                <div class="mt-1 mt-md-1">
                     <img class="img-fluid rounded" src="/assets/img/gaoyi-wu.jpg" width="80px" alt="" title=""/>
                 </div>
                 <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
@@ -584,6 +583,14 @@ nav: true
                 </div>
             </div>
         </div>
+    </div><!-- end visible alumni row -->
+    <div class="text-center mt-2 mb-3">
+        <button class="btn btn-sm rounded-pill" style="color: var(--global-theme-color); border: 1px solid #d0d0d0; padding-left: 1.2rem; padding-right: 1.2rem; box-shadow: none; font-size: 1rem; text-transform: none;" type="button" data-toggle="collapse" data-target="#alumniMore" aria-expanded="false" aria-controls="alumniMore" onclick="this.parentElement.style.display='none'">
+            ++ Show More ++
+        </button>
+    </div>
+    <div class="collapse" id="alumniMore">
+    <div class="row">
         <div class="col-lg-6 mt-1 mb-4 mt-md-1">
             <div class="row">
                 <div class="mt-1 mt-md-1">
@@ -598,14 +605,6 @@ nav: true
                 </div>
             </div>
         </div>
-    </div><!-- end visible alumni row -->
-    <div class="text-center mt-2 mb-3">
-        <button class="btn btn-sm rounded-pill" style="color: var(--global-theme-color); border: 1px solid #d0d0d0; padding-left: 1.2rem; padding-right: 1.2rem; box-shadow: none; font-size: 1rem; text-transform: none;" type="button" data-toggle="collapse" data-target="#alumniMore" aria-expanded="false" aria-controls="alumniMore" onclick="this.parentElement.style.display='none'">
-            ++ Show More ++
-        </button>
-    </div>
-    <div class="collapse" id="alumniMore">
-    <div class="row">
         <div class="col-lg-6 mt-1 mb-4 mt-md-1">
             <div class="row">
                 <div class="mt-1 mt-md-1">
