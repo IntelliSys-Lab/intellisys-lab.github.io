@@ -128,26 +128,27 @@ nav: true
         </div>
         <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
             <h4><b>Qingqian Yang</b></h4>
-            <span>2026 Fall (upcoming)</span> <br />
+            <span>2026 Fall</span> <br />
             <span><a href="/assets/pdf/FL_Backdoor_Attack_Qingqian.pdf">[ICCV'25]</a>, <a href="/assets/pdf/1571235278-final.pdf">[INFOCOM'26-EIN]</a>, and [ECCV'26]</span><br />
             <!-- <span>B.S. </span> <br /> -->
             <span>M.S. Shanghai University of Electric Power</span>
         </div>
          </div>
     </div>
-    <!-- <div class="col-lg-6 mt-1 mb-4 mt-md-1">
-        <div class="row">
-        <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
-            <img class="img-fluid rounded" src="/assets/img/renming.jpeg" width="130px" alt="" title=""/>
-        </div>
-        <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
-            <h4><a href="https://me.waynetech.site"><b>Renming Zhang</b></a></h4>
-            <span>2025 Fall</span> <br />
-            <span>B.S. Communication University of Zhejiang</span><br />
-            <span>M.S. Boston University</span> 
-        </div>
-         </div>
-    </div> -->
+    <div class="col-lg-6 mt-1 mb-4 mt-md-1">
+            <div class="row">
+                <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
+                    <img class="img-fluid rounded" src="/assets/img/jialuo-hu.jpg" width="130px" alt="" title=""/>
+                </div>
+                <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
+                    <h4><a href="https://jialuohu.com"><b>Jialuo Hu</b></a></h4>
+                    <span>2026 Fall</span> <br />
+                    <span>Master at UCSD</span><br />
+                    <span>Bachelor at UCI</span><br />
+                    <span>Multi-modal Inference Systems</span>
+                </div>
+            </div>
+    </div>
 </div>
 </div>
 
@@ -234,19 +235,6 @@ nav: true
                 </div>
             </div>
         </div> 
-        <div class="col-lg-6 mt-1 mb-4 mt-md-1">
-            <div class="row">
-                <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
-                    <img class="img-fluid rounded" src="/assets/img/jialuo-hu.jpg" width="130px" alt="" title=""/>
-                </div>
-                <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
-                    <h4><a href="https://jialuohu.com"><b>Jialuo Hu</b></a></h4>
-                    <span>Master at UCSD</span><br />
-                    <span>Bachelor at UCI</span><br />
-                    <span>Multi-modal Inference Systems</span>
-                </div>
-            </div>
-        </div>
         <div class="col-lg-6 mt-1 mb-4 mt-md-1">
             <div class="row">
                 <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
