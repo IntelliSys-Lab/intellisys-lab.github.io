@@ -59,6 +59,8 @@ nav: true
     <span class="text-muted">&nbsp;|&nbsp;</span>
     <a class="page-nav-link" href="#research-interest">:telescope: Research</a>
     <span class="text-muted">&nbsp;|&nbsp;</span>
+    <a class="page-nav-link" href="#experience">:briefcase: Experience</a>
+    <span class="text-muted">&nbsp;|&nbsp;</span>
     <a class="page-nav-link" href="#education">:mortar_board: Education</a>
     <span class="text-muted">&nbsp;|&nbsp;</span>
     <a class="page-nav-link" href="#teaching">:triangular_ruler: Teaching</a>
@@ -88,6 +90,15 @@ Please check all the cool labs and researchers at iCNS and ECE @ Stevens [[YouTu
 
 #### :telescope: Research Interest {#research-interest}
 LLM Systems, AI Security, HPC, Serverless Computing, Federated Learning
+
+#### :briefcase: Experience {#experience}
+<ul>
+    <li><i>06/2026–present</i>, Advisor,<br> <a href="https://www.scholera-inc.com">Scholera</a>, NJ, USA</li>
+    <li><i>09/2024–present</i>, Tenure-track Assistant Professor, Electrical and Computer Engineering,<br>
+    <a href="https://www.stevens.edu/">Stevens Institute of Technology</a>, Hoboken, NJ, USA</li>
+    <li><i>01/2021–08/2024</i>, Tenure-track Assistant Professor, Computer Science Engineering,<br>
+    <a href="https://www.lsu.edu/">Louisiana State University</a>, Baton Rouge, LA, USA</li>
+</ul>
 
 #### :mortar_board: Education {#education}
 <ul>
