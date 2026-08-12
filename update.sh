@@ -18,7 +18,7 @@ git add -A .
 git commit -m "$1"
 
 # Push changes to the current branch
-git push origin master
+git push
 
 echo "### Changes have been pushed successfully!"
 
