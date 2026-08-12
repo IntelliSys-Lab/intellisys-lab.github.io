@@ -18,7 +18,7 @@ git add -A .
 git commit -m "$1"
 
 # Push changes to the current branch
-git push origin master
+git push
 
 echo "### Changes have been pushed successfully!"
 
@@ -32,6 +32,6 @@ git add -A .
 git commit -m "$1"
 
 # Force-push the fresh build to gh-pages (always overwrites CI-built version)
-git push --force-with-lease origin gh-pages
+git push --force-with-lease origin master
 
-echo "### Changes have been pushed successfully to intellisys-lab.github.io!"
+echo "### Changes have been pushed successfully to https://intellisys.haow.us!"

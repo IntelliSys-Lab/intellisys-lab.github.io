@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>IntelliSys Lab | Stevens</title>
+<meta name="description" content="the Intelligent System (IntelliSys) Lab 
+">
+
+<!-- Open Graph -->
+
+
+<!-- Bootstrap & MDB -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" integrity="sha512-RO38pBRxYH3SoOprtPTD86JFOclM51/XTIdEPh5j8sj4tp8jmQIx26twG52UaLi//hQldfrh7e51WzP9wuP32Q==" crossorigin="anonymous" />
+
+<!-- Fonts & Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"  integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+<!-- Code Syntax Highlighting -->
+<link rel="stylesheet" href="/assets/css/github.css" />
+
+<!-- Styles -->
+
+<!-- Favicons -->
+<link rel="icon" type="image/x-icon" href="/assets/img/isl-favicons/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/isl-favicons/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/isl-favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/assets/img/isl-favicons/favicon-96x96.png">
+<link rel="apple-touch-icon" sizes="57x57" href="/assets/img/isl-favicons/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/assets/img/isl-favicons/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/assets/img/isl-favicons/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/assets/img/isl-favicons/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/assets/img/isl-favicons/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/assets/img/isl-favicons/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/assets/img/isl-favicons/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/assets/img/isl-favicons/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/isl-favicons/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/img/isl-favicons/android-icon-192x192.png">
+
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<link rel="canonical" href="/haowang/">
+
+<!-- JQuery -->
+<!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
+
+<!-- Theming-->
+
+
+
+
+
+
+    
+<!-- MathJax -->
+<script type="text/javascript">
+  window.MathJax = {
+    tex: {
+      tags: 'ams'
+    }
+  };
+</script>
+<script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.1.2/es5/tex-mml-chtml.js"></script>
+<script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+
+  </head>
+
+  <body class="fixed-top-nav sticky-bottom-footer">
+
+    <!-- Header -->
+
+    <header>
+
+    <!-- Nav Bar -->
+    <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+    <div class="container">
+      <!--  -->
+      <a class="navbar-brand title font-weight-lighter" href="/" style="padding-top: 0; padding-bottom: 0;">
+       <!-- IntelliSys Lab | Stevens -->
+       <img src="/assets/img/isl-logo-dark.svg" alt="isl-logo" height="38px">
+      </a>
+      <!--  -->
+      <!-- Navbar Toggle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="padding-top: 12px; padding-bottom: 8px;">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <!-- About -->
+          <!-- <li class="nav-item ">
+            <a class="nav-link" href="/">
+              About
+              
+            </a>
+          </li> -->
+          <!--  -->
+          <!-- pages -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/projects/">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-lightning-charge-fill" viewbox="0 0 20 20">
+                <path d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09z"></path>
+              </svg> Projects 
+              
+            </a>
+          </li>          
+          <li class="nav-item ">
+            <a class="nav-link" href="/publications/" style="margin-left: 5px;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-mortarboard-fill" viewbox="0 0 20 20">
+                <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5Z"></path>
+                <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Z"></path>
+              </svg> Publications  
+              
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="/education/">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dpad-fill" viewbox="0 0 16 16">
+                <path d="M6.5 0A1.5 1.5 0 0 0 5 1.5v3a.5.5 0 0 1-.5.5h-3A1.5 1.5 0 0 0 0 6.5v3A1.5 1.5 0 0 0 1.5 11h3a.5.5 0 0 1 .5.5v3A1.5 1.5 0 0 0 6.5 16h3a1.5 1.5 0 0 0 1.5-1.5v-3a.5.5 0 0 1 .5-.5h3A1.5 1.5 0 0 0 16 9.5v-3A1.5 1.5 0 0 0 14.5 5h-3a.5.5 0 0 1-.5-.5v-3A1.5 1.5 0 0 0 9.5 0zm1.288 2.34a.25.25 0 0 1 .424 0l.799 1.278A.25.25 0 0 1 8.799 4H7.201a.25.25 0 0 1-.212-.382zm0 11.32-.799-1.277A.25.25 0 0 1 7.201 12H8.8a.25.25 0 0 1 .212.383l-.799 1.278a.25.25 0 0 1-.424 0Zm-4.17-4.65-1.279-.798a.25.25 0 0 1 0-.424l1.279-.799A.25.25 0 0 1 4 7.201V8.8a.25.25 0 0 1-.382.212Zm10.043-.798-1.278.799A.25.25 0 0 1 12 8.799V7.2a.25.25 0 0 1 .383-.212l1.278.799a.25.25 0 0 1 0 .424Z"></path>
+              </svg> Education 
+              
+            </a>
+          </li>   
+          <li class="nav-item ">
+            <a class="nav-link" href="/team/" style="margin-left: 5px;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-people-fill" viewbox="0 0 20 20">
+                <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path>
+                <path fill-rule="evenodd" d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z"></path>
+                <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"></path>
+              </svg> Team
+              
+            </a>
+          </li>
+          <!-- <li class="nav-item ">
+            <a class="nav-link" href="/joinus/" style="margin-left: 5px;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-plus-fill" viewBox="0 0 20 20">
+                <path d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                <path fill-rule="evenodd" d="M13.5 5a.5.5 0 0 1 .5.5V7h1.5a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0V8h-1.5a.5.5 0 0 1 0-1H13V5.5a.5.5 0 0 1 .5-.5z"/>
+              </svg> Join Us
+              
+            </a>
+          </li> -->
+          <li class="nav-item active">
+            <a class="nav-link" href="/haowang/" style="margin-left: 5px;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-badge" viewbox="0 0 20 20">
+                <path d="M6.5 2a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1h-3zM11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path>
+                <path d="M4.5 0A2.5 2.5 0 0 0 2 2.5V14a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2.5A2.5 2.5 0 0 0 11.5 0h-7zM3 2.5A1.5 1.5 0 0 1 4.5 1h7A1.5 1.5 0 0 1 13 2.5v10.795a4.2 4.2 0 0 0-.776-.492C11.392 12.387 10.063 12 8 12s-3.392.387-4.224.803a4.2 4.2 0 0 0-.776.492V2.5z"></path>
+              </svg> Hao Wang
+              
+            </a>
+          </li>
+          <!-- Other pages -->
+          <!-- 
+          
+          
+          
+          
+          <li class="nav-item active">
+              <a class="nav-link" href="/haowang/">
+                
+                
+                <span class="sr-only">(current)</span>
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item active">
+              <a class="nav-link" href="/news/">
+                
+                
+                <span class="sr-only">(current)</span>
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/education/">
+                Education
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/team/">
+                IntelliSys Team
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/joinus/">
+                Join Us
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/projects/">
+                Projects
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/publications/">
+                Publications
+                
+              </a>
+          </li>
+          
+          
+          
+           -->
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+
+    <!-- Content -->
+
+    <div class="container mt-5">
+      <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title"></h1>
+    <p class="post-description"></p>
+  </header>
+
+  <article>
+    <!-- <div style="
+        float: left;
+        margin-right: 40px;
+        background-image: url('images/Hao_Wang.png');      
+        background-size: 100% auto;
+        width: 160px;
+        height: 149px;" />
+        </div> -->
+
+<!-- <div style="float: left;
+        margin-top: 0px;">
+        <span><a href="haowang-cv.pdf">CV</a> | <a href="https://scholar.google.com/citations?user=r-Ik__gAAAAJ&hl=en">Google Scholar</a></span><br />
+        <span>Email: haowang at lsu.edu</span><br />
+        <span>Phone: +1 (225) 578-7510</span><br />
+        <span><a href="https://www.lsu.edu/eng/cse/about/general/index.php">Division of Computer Science & Engineering</a>, <a href="https://www.lsu.edu/index.php">LSU</a></span><br />
+        <span>Office: 3272X Patrick F. Taylor Hall</span><br />
+        <span>Address: Baton Rouge, Louisiana 70803, USA<span/>
+        </div> -->
+
+<div class="container">
+    <div class="row">
+        
+        <div class="mt-3 mb-2 col-sm-7 col-md-3 col-lg-3">
+            <img class="img-fluid rounded" src="/assets/img/haowang.jpg" width="175px" alt="" title="haowang">
+        </div>
+        <div class="mb-1 col-sm-9 col-md-9 col-lg-9">
+            <p>
+            </p>
+<h4>Dr. Hao Wang (王灏)</h4>
+            <span>
+            <!-- <a href="/assets/pdf/haowang-cv.pdf"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-file-earmark-pdf-fill" viewBox="0 0 20 20"> <path d="M5.523 12.424c.14-.082.293-.162.459-.238a7.878 7.878 0 0 1-.45.606c-.28.337-.498.516-.635.572a.266.266 0 0 1-.035.012.282.282 0 0 1-.026-.044c-.056-.11-.054-.216.04-.36.106-.165.319-.354.647-.548zm2.455-1.647c-.119.025-.237.05-.356.078a21.148 21.148 0 0 0 .5-1.05 12.045 12.045 0 0 0 .51.858c-.217.032-.436.07-.654.114zm2.525.939a3.881 3.881 0 0 1-.435-.41c.228.005.434.022.612.054.317.057.466.147.518.209a.095.095 0 0 1 .026.064.436.436 0 0 1-.06.2.307.307 0 0 1-.094.124.107.107 0 0 1-.069.015c-.09-.003-.258-.066-.498-.256zM8.278 6.97c-.04.244-.108.524-.2.829a4.86 4.86 0 0 1-.089-.346c-.076-.353-.087-.63-.046-.822.038-.177.11-.248.196-.283a.517.517 0 0 1 .145-.04c.013.03.028.092.032.198.005.122-.007.277-.038.465z"/> <path fill-rule="evenodd" d="M4 0h5.293A1 1 0 0 1 10 .293L13.707 4a1 1 0 0 1 .293.707V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2zm5.5 1.5v2a1 1 0 0 0 1 1h2l-3-3zM4.165 13.668c.09.18.23.343.438.419.207.075.412.04.58-.03.318-.13.635-.436.926-.786.333-.401.683-.927 1.021-1.51a11.651 11.651 0 0 1 1.997-.406c.3.383.61.713.91.95.28.22.603.403.934.417a.856.856 0 0 0 .51-.138c.155-.101.27-.247.354-.416.09-.181.145-.37.138-.563a.844.844 0 0 0-.2-.518c-.226-.27-.596-.4-.96-.465a5.76 5.76 0 0 0-1.335-.05 10.954 10.954 0 0 1-.98-1.686c.25-.66.437-1.284.52-1.794.036-.218.055-.426.048-.614a1.238 1.238 0 0 0-.127-.538.7.7 0 0 0-.477-.365c-.202-.043-.41 0-.601.077-.377.15-.576.47-.651.823-.073.34-.04.736.046 1.136.088.406.238.848.43 1.295a19.697 19.697 0 0 1-1.062 2.227 7.662 7.662 0 0 0-1.482.645c-.37.22-.699.48-.897.787-.21.326-.275.714-.08 1.103z"/> </svg> CV</a> |  -->
+            <a href="https://www.linkedin.com/in/haowanguoft/"><img src="/assets/img/linkedin-svgrepo-com.svg" width="26px"></a> | 
+            <a href="https://scholar.google.com/citations?user=r-Ik__gAAAAJ&amp;hl=en"><img src="/assets/img/google-scholar-svgrepo-com.svg" width="20px"></a> |
+            <a href="https://orcid.org/0000-0002-1444-2657"><img src="/assets/img/orcid.logo.icon.svg" alt="orcid logo" width="20px"></a> |
+            <a href="https://www.xiaohongshu.com/user/profile/657db29b000000001c01b9a5"><img src="/assets/img/XiaohongshuLOGO.svg" alt="orcid logo" width="20px"></a>
+            </span> 
+            <br>
+            <span>Assistant Professor of <a href="https://www.stevens.edu/page-minisite-landing/electrical-and-computer-engineering-department">ECE</a>, <a href="https://www.stevens.edu/">Stevens</a></span><br>      
+            <span>ACM Member, IEEE Senior Member</span><br>                
+            <span><img class="emoji" title=":mailbox:" alt=":mailbox:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4eb.png" height="20" width="20"> hwang9 --&gt; stevens.edu</span><br>   
+            <span><img class="emoji" title=":phone:" alt=":phone:" src="https://github.githubassets.com/images/icons/emoji/unicode/260e.png" height="20" width="20"> (201) 216-3325 </span> <br>
+            <span><img class="emoji" title=":tent:" alt=":tent:" src="https://github.githubassets.com/images/icons/emoji/unicode/26fa.png" height="20" width="20"> Burchard Building-211 (<b>Office</b>), -213 (<b>Lab</b>)</span>
+        </div>
+
+    </div>
+</div>
+<hr>
+
+<nav class="page-nav sticky-top bg-white py-2 mb-3">
+  <div class="d-flex flex-wrap gap-2 justify-content-center">
+    <a class="page-nav-link" href="#about-me"><img class="emoji" title=":runner:" alt=":runner:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c3.png" height="20" width="20"> About Me</a>
+    <span class="text-muted"> | </span>
+    <a class="page-nav-link" href="#research-interest"><img class="emoji" title=":telescope:" alt=":telescope:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f52d.png" height="20" width="20"> Research</a>
+    <span class="text-muted"> | </span>
+    <a class="page-nav-link" href="#experience"><img class="emoji" title=":briefcase:" alt=":briefcase:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4bc.png" height="20" width="20"> Experience</a>
+    <span class="text-muted"> | </span>
+    <a class="page-nav-link" href="#education"><img class="emoji" title=":mortar_board:" alt=":mortar_board:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f393.png" height="20" width="20"> Education</a>
+    <span class="text-muted"> | </span>
+    <a class="page-nav-link" href="#teaching"><img class="emoji" title=":triangular_ruler:" alt=":triangular_ruler:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4d0.png" height="20" width="20"> Teaching</a>
+    <span class="text-muted"> | </span>
+    <a class="page-nav-link" href="#awards"><img class="emoji" title=":trophy:" alt=":trophy:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c6.png" height="20" width="20"> Awards</a>
+    <span class="text-muted"> | </span>
+    <a class="page-nav-link" href="#service"><img class="emoji" title=":speech_balloon:" alt=":speech_balloon:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4ac.png" height="20" width="20">  Service</a>
+    <span class="text-muted"> | </span>
+    <a class="page-nav-link" href="#links"><img class="emoji" title=":link:" alt=":link:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f517.png" height="20" width="20"> Links</a>
+    <span class="text-muted"> | </span>
+    <a class="page-nav-link" href="#leisure"><img class="emoji" title=":dart:" alt=":dart:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3af.png" height="20" width="20"> Leisure</a>
+  </div>
+</nav>
+
+<hr>
+
+<h4 id="about-me">
+<img class="emoji" title=":runner:" alt=":runner:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c3.png" height="20" width="20"> About Me</h4>
+<p>I received my Ph.D. degree from <a href="https://www.ece.utoronto.ca/">the ECE Department</a>, <a href="https://www.utoronto.ca">U<i>of</i>T</a> 2020 July. I finished both my Bachelor’s and Master’s degrees at <a href="https://www.sjtu.edu.cn">Shanghai Jiao Tong University</a> in 2012 and 2015, respectively. I received the NSF CRII Award in 2022. 
+<!-- <br/>We have available Ph.D. positions.  >>> <a href="https://intellisys.haow.ca/joinus/"><u>Join us</u></a> at <a href="https://intellisys.haow.ca"><img src="/assets/img/isl-logo-white.svg" alt="lab-logo" height="25px" style="margin-bottom: -7px;" /> IntelliSys Lab</a> ! --></p>
+
+<p>👨🏻‍🔬#computer_science_researcher 👨🏻‍💻#developer 🎮#gamer 📷#photographer 👨🏻‍🎨#watercolor_painter</p>
+
+<p>Please check all the cool labs and researchers at iCNS and ECE @ Stevens [<a href="https://youtu.be/lmJbHa_aFvI?si=D1cxk93yuAqbhpCn">YouTube</a>]!</p>
+
+<!-- <h3><a name="designer-templates" class="anchor"><span class="octicon octicon-link"></span></a>Research Interest</h3> -->
+<!-- <br> -->
+
+<h4 id="research-interest">
+<img class="emoji" title=":telescope:" alt=":telescope:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f52d.png" height="20" width="20"> Research Interest</h4>
+<p>LLM Systems, AI Security, HPC, Serverless Computing, Federated Learning</p>
+
+<h4 id="experience">
+<img class="emoji" title=":briefcase:" alt=":briefcase:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4bc.png" height="20" width="20"> Experience</h4>
+<ul>
+    <li>
+<i>06/2026–present</i>, Advisor,<br> <a href="https://www.scholera-inc.com">Scholera</a>, NJ, USA</li>
+    <li>
+<i>09/2024–present</i>, Tenure-track Assistant Professor, Electrical and Computer Engineering,<br>
+    <a href="https://www.stevens.edu/">Stevens Institute of Technology</a>, Hoboken, NJ, USA</li>
+    <li>
+<i>01/2021–08/2024</i>, Tenure-track Assistant Professor, Computer Science Engineering,<br>
+    <a href="https://www.lsu.edu/">Louisiana State University</a>, Baton Rouge, LA, USA</li>
+</ul>
+
+<h4 id="education">
+<img class="emoji" title=":mortar_board:" alt=":mortar_board:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f393.png" height="20" width="20"> Education</h4>
+<ul>
+    <li>
+<i>2015.09--2020.07</i>, Ph.D. in Computer Engineering,  
+    <a href="https://www.utoronto.ca">University of Toronto</a>
+</li>
+    <li>
+<i>2012.09--2015.03</i>, M.E. in Software Engineering, 
+    <a href="https://www.sjtu.edu.cn">Shanghai Jiao Tong University</a>
+</li>
+    <li>
+<i>2008.09--2012.07</i>, B.E. in Information Security, 
+    <a href="https://www.sjtu.edu.cn">Shanghai Jiao Tong University</a>
+</li>
+</ul>
+
+<!-- <h3><a name="designer-templates" class="anchor"><span class="octicon octicon-link"></span></a>Teaching Assistant</h3>
+<ul>
+    <li>CSC 458: Computer Networks (by Prof. Yashar Ganjali). <i>2015-2016 Fall</i></li>
+    <li>ECE 344: Operating Systems (by Prof. Ashvin Goel). <i>2016 Fall</i></li>
+    <li>CSC 343: Introduction to Databases (by Dr. Marina Barsky). <i>2016 Summer</i></li>
+    <li>ECE 353: Systems Software (by Prof. Baochun Li). <i>2016-2020 Winter</i></li>
+    <li>CSC 444: Software Engineering I (by Prof. Michael Stumm). <i>2017-2019 Fall</i></li>
+    <li>CSC 369: Operating Systems (by Dr. Sina Meraji). <i>2017 Summer</i></li>          
+    <li>CSC 454: Computer Systems Programming (by Prof. Michael Stumm and Prof. Ding Yuan). <i>2018 Fall</i></li>
+    <li>ESC 499: Engineering Science Thesis (Students: Zhongyang Xiao and Luyuan Chen). <i>2016.10-2017.04</i></li>
+    <li>ESC 499: Engineering Science Thesis (Students: Haobo Ding and Yudian Shi). <i>2018.10-2019.04</i></li>  
+    <li>ECE 2500: Master of Engineering Project (Students: Zhixuan Wang). <i>2020.04-2020.09</i></li>  
+</ul> -->
+<h4 id="teaching">
+<img class="emoji" title=":triangular_ruler:" alt=":triangular_ruler:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4d0.png" height="20" width="20"> Teaching</h4>
+<ul>
+    <li>AAI595: Applied Machine Learning, Stevens, <i>2025-present (<a href="/assets/pdf/AAI595-haowang-eval.pdf">2025F: 4.87/5.0</a>)</i>
+</li>
+    <li>CSC7598: Distributed Computing, LSU, <i>2024 Spring</i>
+</li>
+    <li>
+<a href="https://www.haow.us/csc3501/">CSC3501: Computer Organization &amp; Design</a>, LSU, <i>2021--2024 Spring</i>
+</li>
+    <li>CSC4501: Computer Networks, LSU, <i>2021--2023 Fall</i>
+</li>
+</ul>
+
+<!-- #### Mentoring
+<ul>
+    <li>ESC 499: Engineering Science Thesis, Zhongyang Xiao and Luyuan Chen, <i>2016.10-2017.04</i></li>
+    <li>ESC 499: Engineering Science Thesis, Haobo Ding and Yudian Shi, <i>2018.10-2019.04</i></li> 
+    <li>Undergraduate Summer Intern, Zakhary Kaplan, <i>2019.04-2019.08</i></li>
+    <li>ESC 499: Engineering Science Thesis, Maliha Islam, <i>2019.10-2020.04</i></li>  
+    <li>ECE 2500: Master of Engineering Project, Zhixuan Wang, <i>2020.04-2020.09</i></li>
+</ul> -->
+
+<h4 id="awards">
+<img class="emoji" title=":trophy:" alt=":trophy:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c6.png" height="20" width="20"> Awards</h4>
+<ul>
+    <li>2026, <strong><a href="https://www.griffissinstitute.org/information-institute">Visiting Faculty Research Program (VFRP)</a></strong>, Funded by AFRL/RI</li>
+    <li>2026, <strong>ICML 2026 Gold Reviewer</strong> (Top 25%)</li>
+    <li>2026, <strong>Stevens Early Career Award for Research Excellence</strong>
+</li>
+    <li>2024, 2025, <strong>SIGHPC Early Career Travel Grant</strong>
+</li>
+    <li>2025, <strong><a href="https://kdd2025.kdd.org/research-track-program-committee/">KDD 2025 Feb Cycle Outstanding Reviewers (Top 10%)</a></strong>, KDD</li>
+    <li>2025, <strong>Research Excellence Award</strong>,  ECE Department, Stevens Institute of Technology</li>
+    <li>
+<a href="/assets/pdf/2024_DTPC_certificate.pdf">2024</a>, <a href="/assets/pdf/2025_DTPC_certificate.pdf">2025</a>, <a href="/assets/pdf/2026_DTPC_certificate.pdf">2026</a>, <strong>Distinguished Member of IEEE INFOCOM TPC recognition</strong>
+</li>
+    <li>2024, <strong><a href="/assets/pdf/socc24-best-paper.pdf">ACM SoCC 2024 Best Paper Award</a></strong> </li>
+    <li>2024, <strong>ACM/IEEE SC 2024 Best Student Paper Finalist</strong>
+</li>
+    <li>2022, <strong><a href="/assets/pdf/tnse-excellent-reviewer.pdf">Excellent Reviewer for the IEEE Transactions on Network Science &amp; Engineering</a></strong>
+</li>
+    <li>2022, <strong><a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2153502">NSF CRII Award</a></strong>
+</li>
+    <li>2019, <strong><a href="/assets/pdf/didi_award.pdf">Didi Graduate Awards</a></strong> on Cloud Computing, Didi Chuxing Technology Co. (滴滴出行)</li>
+    <li>2019, <strong><a href="/assets/pdf/6-E-2019_Best_In_session_Presentation_Certificate.pdf">Best In-session Presentation Award</a></strong>, INFOCOM'19, IEEE</li>
+    <li>2019, <strong>Doctoral Completion Award</strong>, ECE Department, University of Toronto</li>
+    <li>2018, <strong>SGS Conference Grant</strong>, School of Graduate Studies, University of Toronto</li>
+    <li>2018, <strong>Student Scholarships</strong>, SoCC'18, ACM</li>
+    <li>2015, <strong>University of Toronto Fellowship</strong>, ECE Department, University of Toronto </li>
+    <li>2015, <strong>Edward S. Rogers Sr. Graduate Scholarships</strong>, University of Toronto </li>
+    <li>2013, <strong>Yunfeng Prize</strong>, The 2nd Aliyun Cloud Computing Developer Competition (Top 1%), Alibaba Cloud Inc. </li>
+    <!--<li>2012, <strong>Second-Class Post Graduate Scholarship</strong>, Shanghai Jiao Tong University </li>      -->
+    <!--<li>2011, <strong>The 3rd Prize</strong>, The 4th National College Information Security Contest </li>       -->
+    <!--<li>2009, <strong>Second-Class Academic Excellence Scholarship</strong>, Shanghai Jiao Tong University </li>-->
+</ul>
+
+<h4 id="service">
+<img class="emoji" title=":speech_balloon:" alt=":speech_balloon:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4ac.png" height="20" width="20"> Professional Service</h4>
+
+<ul>
+  <li>
+<strong>Leadership and Organizing Roles</strong>
+    <ul>
+      <li>
+<strong>Reproducibility Initiative Co-Chair</strong>: <a href="https://sc27.supercomputing.org">ACM/IEEE SC27</a>
+</li>
+      <li>
+<strong>Steering Committee</strong>: <a href="https://www.stevens.edu/stevens-institute-for-artificial-intelligence">Stevens Institute for Artificial Intelligence (SIAI)</a>
+</li>
+      <li>
+<strong>TPC Co-chair</strong>: <a href="https://infocom26-ein.netlify.app">INFOCOM 2026 Workshop on Embodied Intelligence Networks (EIN)</a>
+</li>
+      <li>
+<strong>Organizer</strong>: DuckAI: The iCNS/ECE Symposium on AI Research and Innovations, <a href="http://duck-ai-stevens.github.io/2025-spring/">2025 Spring</a>, <a href="http://duck-ai-stevens.github.io/2025-fall/">2025 Fall</a>, <a href="https://www.stevens.edu/icns-center-for-innovative-computing-and-networked-systems/symposium">2026 Spring</a>
+</li>
+      <li>
+<strong>Organizer and Program Chair</strong>: <a href="https://ai-crossroads.github.io">ACM SIGMETRICS 2025 Workshop: AI Crossroads: Systems, Energy, and Applications</a>
+</li>
+      <li>
+<strong>Organizer and Chair</strong>: <a href="https://tigeraibootcamp.github.io/TigerAI/">TigerAI 2024: LSU/IBM AI Security Summer Boot Camp</a>
+</li>
+      <li>
+<strong>Publicity Chair</strong>: <a href="https://clustercomp.org/2026/">IEEE Cluster 2026</a>, Springer <a href="http://tjutanklab.com/ica3pp2023/home.html">ICA3PP 2023</a>
+</li>
+      <li>
+<strong>Web Chair</strong>: <a href="https://conferences.sigcomm.org/events/apnet2024/">APNet 2024</a>–<a href="https://conferences.sigcomm.org/events/apnet2025/organization.php">2025</a>, IEEE ICNP 2017</li>
+      <li>
+<strong>Session Chair</strong>: INFOCOM 2022–2023, ACM SoCC 2022</li>
+    </ul>
+  </li>
+  <li>
+<strong>Editorial Service</strong>
+    <ul>
+      <li>
+<strong>Action Editor (AE)</strong>: <a href="https://jmlr.org/tmlr/">Transactions on Machine Learning Research (TMLR)</a>, 2026</li>
+      <li>
+<strong>Guest Editor</strong>: <a href="https://www.sciencedirect.com/journal/computer-networks">Computer Networks</a>, Special Issue on Reconfigurable Networks: Enhancing Performance and Sustainability in Access Networks and the Edge-to-Cloud Continuum, 2025</li>
+      <li>
+<strong>Topic Editor</strong>: Frontiers in Computer Science — Software, Topic on Serverless Computing for Stateful Applications, 2024</li>
+      <li>
+<strong>Guest Editor</strong>: Journal of Systems Architecture, Special Issue on <a href="https://www.sciencedirect.com/journal/journal-of-systems-architecture/about/call-for-papers">AI-driven Next-Generation Distributed Systems and Applications</a>, 2023</li>
+    </ul>
+  </li>
+  <li>
+<strong>Funding Review Service</strong>
+    <ul>
+      <li>
+<strong>NSF Panelist</strong>: 2022, 2024 × 3, 2025 × 6</li>
+      <li>
+<strong>NSF Graduate Research Fellowship Program Reviewer</strong>: 2023
+  <!-- * ****: National Science Foundation Core Program Panel 2022 -->
+  <!-- <li><strong>Shadow PC Member</strong>, ACM EuroSys Conference, 2021</li> -->
+</li>
+    </ul>
+  </li>
+  <li>
+<strong>Mentoring and Outreach</strong>
+    <ul>
+      <li>
+<strong>Faculty Mentor</strong>: <a href="https://workshoputrgv.github.io/google.explorecsr.html">Google Research exploreCSR</a>, 2021</li>
+      <li>
+<strong>Faculty Mentor</strong>: LSU High School Summer Research Program, 2022–2023</li>
+      <li>
+<strong>Faculty Mentor</strong>: <a href="https://www.kenilworthschool.org">Kenilworth Science and Technology Charter School</a> Student Research Mentorship Program, 2021–2024</li>
+    </ul>
+  </li>
+  <li>
+<strong>Conference TPC Member and Journal Reviewer</strong>
+    <ul>
+      <li>
+<strong>Systems and Networks</strong>: DAC 2026, ACM/IEEE SC 2026-2027, ACM HPDC 2024–2026, ACM SoCC 2022, 2025, INFOCOM 2021–2025, Globecom 2022, ADHOCNETS 2021, ICCCN 2022–2023, ICDCS 2022–2025, IEEE TPDS 2021-<a href="/assets/pdf/tpds-certificate-2025.pdf">2025</a>, IEEE ToN, IEEE TNSE, IEEE TCC <a href="/assets/pdf/tcc-certificate-2024.pdf">2024</a>, <a href="/assets/pdf/tcc-certificate-2025.pdf">2025</a>, IEEE TMC <a href="/assets/pdf/tmc-certificate-2024.pdf">2024</a>, IEEE TC <a href="/assets/pdf/tc-certificate-2024.pdf">2024</a>, IEEE TSC <a href="/assets/pdf/tsc-certificate-2025.pdf">2025</a>, IEEE IoTJ</li>
+      <li>
+<strong>AI and Machine Learning</strong>: HealthCom 2026, ACL 2026, AISTATS 2025, CVPR 2024–2026, ICLR 2024–2026, KDD 2025–2026, ECAI 2023, AAAI 2023–2026, 2027 (SPC), ECML PKDD 2022, NeurIPS 2022–2026, ICML 2022–2026, IEEE BigData 2026, IEEE CDC 2023, IEEE TAI, IEEE TIST</li>
+      <li>
+<strong>Security</strong>: TIFS, IEEE TDSC <a href="/assets/pdf/tdsc-certificate-2024.pdf">2024</a>–<a href="/assets/pdf/tdsc-certificate-2025.pdf">2025</a>
+</li>
+      <li>
+<strong>Web and Data</strong>: ACM WSDM 2023, ACM Web Conference 2022, 2024, IEEE IRI 2020–2021</li>
+    </ul>
+  </li>
+</ul>
+
+<!-- #### :rocket: Projects
+<ul>
+    <li><strong>HDFS <code>putx</code> command</strong>, which specifies the data storage location in HDFS. <a href="https://github.com/chapter09/hadoop/tree/putx">[GitHub]</a></li>
+    <li><strong>FLSim</strong>, a simulation framework for federated learning based on PyTorch. <a href="https://github.com/iQua/flsim">[GitHub]</a></li>
+</ul> -->
+
+<h4 id="links">
+<img class="emoji" title=":link:" alt=":link:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f517.png" height="20" width="20"> Links</h4>
+<ul>
+    <li>
+<a href="https://www.bilibili.com/video/BV18v411n7mr?p=1&amp;share_medium=iphone&amp;share_plat=ios&amp;share_source=WEIXIN_MONMENT&amp;share_tag=s_i&amp;timestamp=1626790733&amp;unique_k=V8kWdj&amp;share_times=1">Writing Perfect Papers</a>, <i>by <a href="https://iqua.ece.toronto.edu/bli/">Prof. Baochun Li</a></i>.</li>
+    <li>
+<a href="https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf">How to Read a Paper</a>, <i>by <a href="https://svr-sk818-web.cl.cam.ac.uk/keshav/wiki/index.php/Main_Page">Prof. Srinivasan Keshav</a></i>.</li>
+    <li>
+<a href="https://zalberico.com/essay/2020/04/19/how-to-become-a-hacker.html">How to Become A Hacker</a>, <i>by <a href="https://zalberico.com">Zach Alberico</a></i>. </li>
+    <li>
+<a href="http://dustintran.com/blog/a-research-to-engineering-workflow">A Research to Engineering Workflow</a>, <i>by <a href="http://dustintran.com">Dr. Dustin Tran</a></i>.</li>
+    <li>
+<a href="https://muratbuffalo.blogspot.com/2020/02/the-art-of-powerful-questions.html">Metadata - on Distributed Systems Broadly Defined</a>, <i>by <a href="https://cse.buffalo.edu/~demirbas/">Prof. Murat Demirbas</a></i>.</li>
+    <li>
+<a href="https://josebrowne.com/on-coding-ego-and-attention/">On Coding, Ego and Attention</a>, <i>by <a href="https://josebrowne.com">Jose Browne</a></i>.</li>
+    <li>
+<a href="https://gernot-heiser.org/benchmarking-crimes.html">Systems Benchmarking Crimes</a>, <i>by <a href="https://gernot-heiser.org">Prof. Gernot Heiser</a></i>. </li>
+    <li>
+<a href="https://nvie.com/posts/a-successful-git-branching-model/">A successful Git branching model</a>, <i>by <a href="https://nvie.com/about/">Vincent Driessen</a></i>. </li>
+</ul>
+
+<h4 id="leisure">
+<img class="emoji" title=":dart:" alt=":dart:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3af.png" height="20" width="20"> Leisure Life</h4>
+<p><a href="https://zen.haow.us" target="_blank"> <img class="emoji" title=":art:" alt=":art:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3a8.png" height="20" width="20"></a> <img class="emoji" title=":camera:" alt=":camera:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4f7.png" height="20" width="20"> <img class="emoji" title=":book:" alt=":book:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4d6.png" height="20" width="20"> <img class="emoji" title=":running:" alt=":running:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c3.png" height="20" width="20"> <img class="emoji" title=":swimmer:" alt=":swimmer:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3ca.png" height="20" width="20"> <img class="emoji" title=":bicyclist:" alt=":bicyclist:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f6b4.png" height="20" width="20"> <img class="emoji" title=":badminton:" alt=":badminton:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3f8.png" height="20" width="20"> <img class="emoji" title=":video_game:" alt=":video_game:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3ae.png" height="20" width="20"> <img class="emoji" title=":airplane:" alt=":airplane:" src="https://github.githubassets.com/images/icons/emoji/unicode/2708.png" height="20" width="20">
+    <!-- <p align="right"><img id="foot-logo" alt="foot-logo" src="./images/wh_c.png" height="40px" /> </p> --></p>
+
+<div class="row">
+    <div class="col-sm col-lg-4 mt-3 mt-md-0">
+      <a href="https://zen.haow.us" target="_blank"><img class="img-fluid rounded" src="/assets/img/tokyo-jp.jpg" alt="" title="tokyo tower"></a>
+    </div>
+    <div class="col-sm col-lg-4 mt-3 mt-md-0">
+      <a href="https://zen.haow.us" target="_blank"><img class="img-fluid rounded" src="/assets/img/img4447.jpg" alt="" title="island"></a>
+    </div>
+    <div class="col-sm col-lg-4 mt-3 mt-md-0">
+      <a href="https://zen.haow.us" target="_blank"><img class="img-fluid rounded" src="/assets/img/a-48.png" alt="" title="shanghai"></a>
+    </div>
+</div>
+<p><br></p>
+<div class="row"> 
+    <div class="col-sm col-lg-4 mt-3 mt-md-0">
+      <a href="https://zen.haow.us" target="_blank"><img class="img-fluid rounded" src="/assets/img/venice-italy.png" alt="" title="venice"></a>
+    </div>
+    <div class="col-sm col-lg-4 mt-3 mt-md-0">
+      <a href="https://zen.haow.us" target="_blank"><img class="img-fluid rounded" src="/assets/img/img9785.png" alt="" title="house"></a>
+    </div>
+    <div class="col-sm col-lg-4 mt-3 mt-md-0">
+      <a href="https://zen.haow.us" target="_blank"><img class="img-fluid rounded" src="/assets/img/a-29.png" alt="" title="oldbuilding"></a>
+    </div>
+</div>
+<p><!-- <div class="caption">
+    Tower Dr., LSU Campus (shot by Dr. Hao Wang | Leica M240 | Summicron-M 1:2/35 ASPH)
+  </div> --></p>
+
+  </article>
+
+</div>
+
+<ul>
+  <p align="right"><img id="foot-logo" src="/assets/img/isl-logo-dark.gif" height="40px"> </p>
+</ul>
+    </div>
+
+    <!-- Footer -->
+
+    
+<footer class="sticky-bottom mt-5">
+  <div class="container">
+    Last updated: August 12, 2026   © Copyright 2026 IntelliSys  Lab.
+    Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+
+    
+
+    <script async src="//static.getclicky.com/101345564.js"></script>
+
+  </div>
+</footer>
+
+
+
+  </body>
+
+  <!-- Bootsrap & MDB scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js" integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A==" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js" integrity="sha512-Mug9KHKmroQFMLm93zGrjhibM2z2Obg9l6qFG2qKjXEXkMp/VDkI4uju9m4QKPjWSwQ6O2qzZEnJDEeCw0Blcw==" crossorigin="anonymous"></script>
+
+  
+<!-- Mansory & imagesLoaded -->
+<script defer src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script defer src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script defer src="/assets/js/mansory.js" type="text/javascript"></script>
+
+
+  
+
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+<!-- Dynamic positioning and scroll-padding for sticky page nav -->
+<script>
+(function () {
+  function updatePageNav() {
+    var pageNav = document.querySelector('.page-nav');
+    if (!pageNav) return;
+    var navbar = document.querySelector('#navbar');
+    var navbarH = navbar ? navbar.getBoundingClientRect().height : 0;
+    pageNav.style.top = navbarH + 'px';
+    var pageNavH = pageNav.getBoundingClientRect().height;
+    document.documentElement.style.scrollPaddingTop = (navbarH + pageNavH + 8) + 'px';
+  }
+  document.addEventListener('DOMContentLoaded', updatePageNav);
+  window.addEventListener('resize', updatePageNav);
+})();
+</script>
+
+
+</html>
