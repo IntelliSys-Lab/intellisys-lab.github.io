@@ -1,13 +1,12 @@
 name: Deploy
 
+# The site is normally built and published by update.sh from a local machine.
+# Auto-deploying on push would race that script and overwrite the local build,
+# so pushes only get a no-push build check; real deploys are triggered by hand.
 on:
-  push:
-    branches:
-      - master
-      - source
+  workflow_dispatch:
   pull_request:
     branches:
-      - master
       - source
 
 jobs:
@@ -16,6 +15,11 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v5
+      with:
+        # A manual run must build the source branch, not whatever ref it was
+        # dispatched from -- the default branch holds the generated site.
+        ref: ${{ github.event_name == 'pull_request' && github.head_ref || 'source' }}
+        fetch-depth: 0
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
@@ -26,13 +30,13 @@ jobs:
       run: |
         git config --global user.name "GitHub Action"
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        if [[ ${GITHUB_REF} = refs/pull/*/merge ]]; then # pull request
+        if [[ ${GITHUB_EVENT_NAME} = pull_request ]]; then # build only, never publish
           echo "SRC_BRANCH=${GITHUB_HEAD_REF}" >> $GITHUB_OUTPUT
           echo "NO_PUSH=--no-push" >> $GITHUB_OUTPUT
-        elif [[ ${GITHUB_REF} = refs/heads/* ]]; then # branch, e.g. master, source etc
-          echo "SRC_BRANCH=${GITHUB_REF#refs/heads/}" >> $GITHUB_OUTPUT
+        else # manual dispatch
+          echo "SRC_BRANCH=source" >> $GITHUB_OUTPUT
         fi
-        echo "DEPLOY_BRANCH=gh-pages" >> $GITHUB_OUTPUT
+        echo "DEPLOY_BRANCH=master" >> $GITHUB_OUTPUT
     - name: Deploy website
       run:  yes | bin/deploy --verbose ${{ steps.setup.outputs.NO_PUSH }}
                     --src ${{ steps.setup.outputs.SRC_BRANCH }}
