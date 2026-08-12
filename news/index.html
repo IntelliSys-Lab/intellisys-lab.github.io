@@ -1,0 +1,1584 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>IntelliSys Lab | Stevens</title>
+<meta name="description" content="the Intelligent System (IntelliSys) Lab 
+">
+
+<!-- Open Graph -->
+
+
+<!-- Bootstrap & MDB -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" integrity="sha512-RO38pBRxYH3SoOprtPTD86JFOclM51/XTIdEPh5j8sj4tp8jmQIx26twG52UaLi//hQldfrh7e51WzP9wuP32Q==" crossorigin="anonymous" />
+
+<!-- Fonts & Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"  integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+<!-- Code Syntax Highlighting -->
+<link rel="stylesheet" href="/assets/css/github.css" />
+
+<!-- Styles -->
+
+<!-- Favicons -->
+<link rel="icon" type="image/x-icon" href="/assets/img/isl-favicons/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/isl-favicons/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/isl-favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/assets/img/isl-favicons/favicon-96x96.png">
+<link rel="apple-touch-icon" sizes="57x57" href="/assets/img/isl-favicons/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/assets/img/isl-favicons/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/assets/img/isl-favicons/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/assets/img/isl-favicons/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/assets/img/isl-favicons/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/assets/img/isl-favicons/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/assets/img/isl-favicons/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/assets/img/isl-favicons/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/isl-favicons/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/img/isl-favicons/android-icon-192x192.png">
+
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<link rel="canonical" href="/news/">
+
+<!-- JQuery -->
+<!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
+
+<!-- Theming-->
+
+
+
+
+
+
+    
+<!-- MathJax -->
+<script type="text/javascript">
+  window.MathJax = {
+    tex: {
+      tags: 'ams'
+    }
+  };
+</script>
+<script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.1.2/es5/tex-mml-chtml.js"></script>
+<script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+
+  </head>
+
+  <body class="fixed-top-nav sticky-bottom-footer">
+
+    <!-- Header -->
+
+    <header>
+
+    <!-- Nav Bar -->
+    <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+    <div class="container">
+      <!--  -->
+      <a class="navbar-brand title font-weight-lighter" href="/" style="padding-top: 0; padding-bottom: 0;">
+       <!-- IntelliSys Lab | Stevens -->
+       <img src="/assets/img/isl-logo-dark.svg" alt="isl-logo" height="38px">
+      </a>
+      <!--  -->
+      <!-- Navbar Toggle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="padding-top: 12px; padding-bottom: 8px;">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <!-- About -->
+          <!-- <li class="nav-item ">
+            <a class="nav-link" href="/">
+              About
+              
+            </a>
+          </li> -->
+          <!--  -->
+          <!-- pages -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/projects/">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-lightning-charge-fill" viewbox="0 0 20 20">
+                <path d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09z"></path>
+              </svg> Projects 
+              
+            </a>
+          </li>          
+          <li class="nav-item ">
+            <a class="nav-link" href="/publications/" style="margin-left: 5px;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-mortarboard-fill" viewbox="0 0 20 20">
+                <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5Z"></path>
+                <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Z"></path>
+              </svg> Publications  
+              
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="/education/">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dpad-fill" viewbox="0 0 16 16">
+                <path d="M6.5 0A1.5 1.5 0 0 0 5 1.5v3a.5.5 0 0 1-.5.5h-3A1.5 1.5 0 0 0 0 6.5v3A1.5 1.5 0 0 0 1.5 11h3a.5.5 0 0 1 .5.5v3A1.5 1.5 0 0 0 6.5 16h3a1.5 1.5 0 0 0 1.5-1.5v-3a.5.5 0 0 1 .5-.5h3A1.5 1.5 0 0 0 16 9.5v-3A1.5 1.5 0 0 0 14.5 5h-3a.5.5 0 0 1-.5-.5v-3A1.5 1.5 0 0 0 9.5 0zm1.288 2.34a.25.25 0 0 1 .424 0l.799 1.278A.25.25 0 0 1 8.799 4H7.201a.25.25 0 0 1-.212-.382zm0 11.32-.799-1.277A.25.25 0 0 1 7.201 12H8.8a.25.25 0 0 1 .212.383l-.799 1.278a.25.25 0 0 1-.424 0Zm-4.17-4.65-1.279-.798a.25.25 0 0 1 0-.424l1.279-.799A.25.25 0 0 1 4 7.201V8.8a.25.25 0 0 1-.382.212Zm10.043-.798-1.278.799A.25.25 0 0 1 12 8.799V7.2a.25.25 0 0 1 .383-.212l1.278.799a.25.25 0 0 1 0 .424Z"></path>
+              </svg> Education 
+              
+            </a>
+          </li>   
+          <li class="nav-item ">
+            <a class="nav-link" href="/team/" style="margin-left: 5px;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-people-fill" viewbox="0 0 20 20">
+                <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path>
+                <path fill-rule="evenodd" d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z"></path>
+                <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"></path>
+              </svg> Team
+              
+            </a>
+          </li>
+          <!-- <li class="nav-item ">
+            <a class="nav-link" href="/joinus/" style="margin-left: 5px;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-plus-fill" viewBox="0 0 20 20">
+                <path d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                <path fill-rule="evenodd" d="M13.5 5a.5.5 0 0 1 .5.5V7h1.5a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0V8h-1.5a.5.5 0 0 1 0-1H13V5.5a.5.5 0 0 1 .5-.5z"/>
+              </svg> Join Us
+              
+            </a>
+          </li> -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/haowang/" style="margin-left: 5px;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-badge" viewbox="0 0 20 20">
+                <path d="M6.5 2a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1h-3zM11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"></path>
+                <path d="M4.5 0A2.5 2.5 0 0 0 2 2.5V14a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2.5A2.5 2.5 0 0 0 11.5 0h-7zM3 2.5A1.5 1.5 0 0 1 4.5 1h7A1.5 1.5 0 0 1 13 2.5v10.795a4.2 4.2 0 0 0-.776-.492C11.392 12.387 10.063 12 8 12s-3.392.387-4.224.803a4.2 4.2 0 0 0-.776.492V2.5z"></path>
+              </svg> Hao Wang
+              
+            </a>
+          </li>
+          <!-- Other pages -->
+          <!-- 
+          
+          
+          <li class="nav-item active">
+              <a class="nav-link" href="/haowang/">
+                
+                
+                <span class="sr-only">(current)</span>
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          <li class="nav-item active">
+              <a class="nav-link" href="/news/">
+                
+                
+                <span class="sr-only">(current)</span>
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/education/">
+                Education
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/team/">
+                IntelliSys Team
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/joinus/">
+                Join Us
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/projects/">
+                Projects
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/publications/">
+                Publications
+                
+              </a>
+          </li>
+          
+          
+          
+           -->
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+
+    <!-- Content -->
+
+    <div class="container mt-5">
+      <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title"></h1>
+    <p class="post-description"></p>
+  </header>
+
+  <article>
+    <div class="news">
+  <h2>News &amp; History</h2>
+  
+    <div class="table-responsive">
+      <table class="table table-sm table-borderless">
+      
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">07/25/2026</th>
+          <td>
+            
+              <img class="emoji" title=":globe_with_meridians:" alt=":globe_with_meridians:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f310.png" height="20" width="20"> Dr. Wang has been promoted to Senior Program Committee (SPC) member for AAAI-27.
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">06/25/2026</th>
+          <td>
+            
+              <img class="emoji" title=":pencil:" alt=":pencil:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"> Our paper``<strong>FedIndex: Federated Domain Adaptation with Continuous Domain Indices</strong>” has been accepted by TMLR. Congratulations to Qingyang!
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">06/18/2026</th>
+          <td>
+            
+              <img class="emoji" title=":pencil:" alt=":pencil:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"> Our paper``<strong>FedNASP: Federated Vision-Language Navigation with Adaptive Step-wise Personalization</strong>” has been accepted by ECCV’26. Congratulations to Qingqian!
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">06/15/2026</th>
+          <td>
+            
+              <img class="emoji" title=":pencil:" alt=":pencil:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"> Zixun Xiong, Qingyang Yu, and Dr. Wang co-authored ``<strong>Chapter 16: Trustworthy Generative AI for Wireless Communications</strong>,” in the new Elsevier book <a href="https://shop.elsevier.com/books/generative-learning-for-wireless-communications/zhang/978-0-443-41497-8">Generative Learning for Wireless Communications: Fundamentals and Applications</a>.
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">06/13/2026</th>
+          <td>
+            
+              <img class="emoji" title=":inbox_tray:" alt=":inbox_tray:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4e5.png" height="20" width="20"> Dr. Wang is invited to serve as an Action Editor (AE) for the <a href="https://jmlr.org/tmlr/">Transactions on Machine Learning Research (TMLR)</a>.
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">06/12/2026</th>
+          <td>
+            
+              <img class="emoji" title=":trophy:" alt=":trophy:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c6.png" height="20" width="20"> Our project <strong>``AgentBench-ROCm: Benchmarking and Optimizing Agentic LLM Workloads on AMD GPU Clusters’‘</strong> has been selected to be awarded by AMD University Program’s (AUP’s) with AI &amp; HPC Cluster. Kudos to $AMD!
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">06/09/2026</th>
+          <td>
+            
+              <img class="emoji" title=":inbox_tray:" alt=":inbox_tray:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4e5.png" height="20" width="20"> Dr. Wang will serve as the ACM/IEEE SC27 Reproducibility Initiative Co-Chair.
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">06/08/2026</th>
+          <td>
+            
+              <img class="emoji" title=":trophy:" alt=":trophy:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c6.png" height="20" width="20"> Our project <strong>``Federated Vision-Language-Action Learning for Embodied AI’‘</strong> has been selected to be awarded by NVIDIA Academic Grant Program. Kudos to $NVDA!
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">05/28/2026</th>
+          <td>
+            
+              <img class="emoji" title=":trophy:" alt=":trophy:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c6.png" height="20" width="20"> Congratulations to Longzhao Gong, our master’s student RA, on receiving <strong>the 2026 Outstanding Master’s Student Award in Computer Engineering</strong>! Thanks to our supportive SES community, check the <a href="https://youtu.be/c1m_otsr8sM?si=woDszEBnCbNG9tgU&amp;t=1057">video</a>!
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">05/28/2026</th>
+          <td>
+            
+              <img class="emoji" title=":bookmark:" alt=":bookmark:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f516.png" height="20" width="20"> Dr. Wang is invited to give a keynote talk at <a href="https://fedvision.github.io/fedvision2026/">the 5th Federated Learning for Computer Vision (FedVision) Workshop</a> at CVPR 2026.
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">04/30/2026</th>
+          <td>
+            
+              <img class="emoji" title=":pencil:" alt=":pencil:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"> Three papers have been accepted by ICML 2026! Congratulations to Qingyang!
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">04/30/2026</th>
+          <td>
+            
+              <img class="emoji" title=":pencil:" alt=":pencil:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"> Our paper “FedCod: An Efficient Coded Communication Protocol for Cross-Silo Federated Learning” has been accepted by ACM/IEEE IWQoS 2026!
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">04/29/2026</th>
+          <td>
+            
+              <img class="emoji" title=":trophy:" alt=":trophy:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c6.png" height="20" width="20"> We have received a 2026 NSF CISE REU Student Funding of $10K from <a href="https://cra.org">Computing Research Association (CRA)</a>!
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">04/14/2026</th>
+          <td>
+            
+              <img class="emoji" title=":pencil:" alt=":pencil:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"> Our paper ``Adaptive Multi-Agent Reinforcement Learning for Electric Vehicle On-Road Charging Optimization Under Dynamic Traffic Conditions’’ has been accepted by <a href="https://www.sciltp.com/journals/aieng">Scilight AI Engineering</a>. Congratulations to Shaghayegh!
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">04/13/2026</th>
+          <td>
+            
+              <img class="emoji" title=":trophy:" alt=":trophy:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c6.png" height="20" width="20"> Dr. Wang received <strong>the Stevens 2026 Early Career Award for Research Excellence</strong>. Kudos to the supportive Stevens community!
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">04/06/2026</th>
+          <td>
+            
+              <img class="emoji" title=":inbox_tray:" alt=":inbox_tray:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4e5.png" height="20" width="20"> Dr. Wang is selected to join the <strong><a href="https://www.griffissinstitute.org/information-institute">Visiting Faculty Research Program (VFRP)</a></strong> funded by AFRL/RI
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">03/15/2026</th>
+          <td>
+            
+              <img class="emoji" title=":calendar:" alt=":calendar:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4c6.png" height="20" width="20"> Dr. Wang is invited to give a talk at the annual Career Day at <a href="https://mhs.ucvts.org">Union County Magnet High School</a> on this Friday (03/27).
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">03/10/2026</th>
+          <td>
+            
+              <img class="emoji" title=":pencil:" alt=":pencil:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"> Our paper “Deep Learning Backdoor Defense via Adaptive Trigger Collisions in Latent Space” has been accepted by AsiaCCS 2026.
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">03/05/2026</th>
+          <td>
+            
+              <img class="emoji" title=":trophy:" alt=":trophy:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c6.png" height="20" width="20"> Congratulations to Hanfei for receiving the postdoc offer from <a href="https://sky.cs.berkeley.edu">Skylab</a> directed by Prof. Ion Stoica—what <em>a grand tour</em> from LSU to Stevens and UC Berkeley!
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">02/11/2026</th>
+          <td>
+            
+              <img class="emoji" title=":calendar:" alt=":calendar:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4c6.png" height="20" width="20"> Add a section about our <a href="/team/#team-building">team building activities</a>.
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">02/11/2026</th>
+          <td>
+            
+              <img class="emoji" title=":pencil:" alt=":pencil:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"> Qingqian’s paper ``<a href="/assets/pdf/1571235278-final.pdf">pFedNavi: Structure-Aware Personalized Federated Vision-Language Navigation for Embodied AI</a>’’ has been accepted by <a href="https://infocom26-ein.netlify.app">IEEE INFOCOM 2026 EIN Workshop</a>.
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">02/10/2026</th>
+          <td>
+            
+              <img class="emoji" title=":bookmark:" alt=":bookmark:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f516.png" height="20" width="20"> Our project on <a href="https://nairrpilot.org/projects/highlights/serverless-computing">Serverless Computing for the Next Generation of AI</a> has been highlighted by the NAIRR Pilot Program!
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">01/30/2026</th>
+          <td>
+            
+              <img class="emoji" title=":trophy:" alt=":trophy:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c6.png" height="20" width="20"> Our AI-Enhanced Learning Platform project (led by <a href="https://ecailab.org">Dr. Zining Zhu</a>) has been accepted for the <a href="https://www.plugandplaytechcenter.com/innovation-services/challenge-offerings/ai-innovation-challenge">NJ AI Innovation Challenge hosted by Plug and Play</a> (10 teams out of 280+)!
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">01/30/2026</th>
+          <td>
+            
+              <img class="emoji" title=":mega:" alt=":mega:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4e3.png" height="20" width="20"> Ricky’s poster and lightning talk ``Efficient Reinforcement Learning from Human Feedback with Serverless Computing’’ have been accepted by <a href="https://events.internet2.edu/website/89730/home/">NAIRR Annual Meeting 2026</a>. See you in DC!
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">01/18/2026</th>
+          <td>
+            
+              <img class="emoji" title=":pencil:" alt=":pencil:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"> <a href="https://ctemp48.github.io/">Christian Templin</a>’s paper ``SonicMotion: Dynamic Spatial Audio Soundscapes with Latent Diffusion Models’’ has been accepted by ICASSP 2026. Check our <a href="https://intellisys.haow.us/spatial-audio-project/">demo</a> and <a href="https://arxiv.org/abs/2507.07318">paper</a>. See you in Barcelona in May!
+
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">12/11/2025</th>
+          <td>
+            
+              <img class="emoji" title=":bookmark:" alt=":bookmark:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f516.png" height="20" width="20"> Dr. Wang is invited to give a keynote presentation at <a href="https://events.vtools.ieee.org/m/515741">2025-Fall IEEE Metropolitan AI Applications Symposium (METAI-2025-Fall)</a> 12/12/2025 12pm ET on Accelerating Mixture of Experts-Based Large Language Model (LLM) Serving.
+
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">12/10/2025</th>
+          <td>
+            
+              <img class="emoji" title=":fireworks:" alt=":fireworks:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f386.png" height="20" width="20"> We have successfully hosted <a href="https://duck-ai-stevens.github.io/2025-fall/">DuckAI 2025 Fall: The 2nd iCNS/ECE Symposium on AI Research and Innovations</a> <img class="emoji" title=":duck:" alt=":duck:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f986.png" height="20" width="20"><img class="emoji" title=":duck:" alt=":duck:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f986.png" height="20" width="20"><img class="emoji" title=":duck:" alt=":duck:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f986.png" height="20" width="20">
+
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">12/03/2025</th>
+          <td>
+            
+              <img class="emoji" title=":trophy:" alt=":trophy:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c6.png" height="20" width="20"> Dr. Wang has been elevated to the grade of IEEE Senior Member.
+
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">11/25/2025</th>
+          <td>
+            
+              <img class="emoji" title=":pencil:" alt=":pencil:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"> One paper ``PAT: Accelerating LLM Decoding via Prefix-Aware Attention with Resource Efficient Multi-Tile Kernel’’ has been accepted by ASPLOS 2026.
+
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">11/23/2025</th>
+          <td>
+            
+              <img class="emoji" title=":pencil:" alt=":pencil:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"> One paper ``<a href="https://arxiv.org/abs/2405.19931">Exploring Diffusion Models’ Corruption Stage in Few-Shot Fine-tuning and Mitigating with Bayesian Neural Networks</a>’’ has been accepted by KDD 2026.
+
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">11/19/2025</th>
+          <td>
+            
+              <img class="emoji" title=":flags:" alt=":flags:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f38f.png" height="20" width="20"> We are organizing the <a href="https://infocom26-ein.netlify.app">Embodied Intelligence Networks (EIN) Workshop at IEEE INFOCOM 2026</a> in Tokyo, Japan, and we warmly invite you to submit your work.
+
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">11/17/2025</th>
+          <td>
+            
+              <img class="emoji" title=":pencil:" alt=":pencil:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"> One papers has been accepted by TPDS. Congratulations to Yifan and Hanfei!
+
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">11/07/2025</th>
+          <td>
+            
+              <img class="emoji" title=":pencil:" alt=":pencil:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"> Two papers have been accepted by AAAI’26. Congratulations to Zixun and Hanxi!
+
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">10/03/2025</th>
+          <td>
+            
+              <img class="emoji" title=":trophy:" alt=":trophy:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c6.png" height="20" width="20"> Alice Agnoletto, our undergraduate RA, has received the Provost’s Office Undergraduate Research Fund! Kudos to the Provost’s Office.
+
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">09/26/2025</th>
+          <td>
+            
+              <img class="emoji" title=":pencil:" alt=":pencil:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"> Our paper “<em>Multi-Agent Reinforcement Learning with Serverless Computing</em>” has been accepted by SoCC 2025. Congratulations to Ricky!
+
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">08/23/2025</th>
+          <td>
+            
+              <img class="emoji" title=":pencil:" alt=":pencil:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"> Our paper “<em>Taming Latency-Memory Trade-Off in MoE-Based LLM Serving via Fine-Grained Expert Offloading</em>” has been accepted by EuroSys 2026. Find our arXiv paper <a href="https://arxiv.org/pdf/2502.05370v1">here</a>.
+
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">08/20/2025</th>
+          <td>
+            
+              <img class="emoji" title=":pencil:" alt=":pencil:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"> Our paper “<em>pFedGPT: Hierarchically Optimizing LoRA Aggregation Weights for Personalized Federated GPT Models</em>” has been accepted for presentation at the EMNLP 2025 <strong>Main Conference</strong> (acceptance rate 17.35%).
+
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">08/01/2025</th>
+          <td>
+            
+              <img class="emoji" title=":bookmark:" alt=":bookmark:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f516.png" height="20" width="20"> Our two K-12 interns have successfully presented their project ``Donkey car: How to Train your AI’’ at Stevens ACES STARS Launch Day. Check their project <a href="/k12projects/4_project/">here</a>!
+
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">06/25/2025</th>
+          <td>
+            
+              <img class="emoji" title=":pencil:" alt=":pencil:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"> Our paper ``Stealthy Backdoor Attack in Federated Learning via Adaptive Layer-wise Gradient Alignment’’ has been accepted by ICCV’25.
+
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">06/09/2025</th>
+          <td>
+            
+              <img class="emoji" title=":bookmark:" alt=":bookmark:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f516.png" height="20" width="20"> Our work on <strong>serverless eco-systems for AI</strong> has been reported by <a href="https://news.iu.edu/it/live/news/45943-jetstream2-user-advances-serverless-computing">News@Indiana University</a>.
+
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">06/05/2025</th>
+          <td>
+            
+              <img class="emoji" title=":bookmark:" alt=":bookmark:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f516.png" height="20" width="20"> Our first-year Stevens experience has been featured as a <a href="https://www.stevens.edu/news/hao-wang-intelligent-systems-electrical-computer-engineering">published story</a>—“Inspired by Humanity &amp; Powered by Technology”!
+
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">06/04/2025</th>
+          <td>
+            
+              <img class="emoji" title=":tada:" alt=":tada:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f389.png" height="20" width="20"> Dr. Wang received the <strong>Research Excellence Award</strong> of the ECE Department.
+
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">05/14/2025</th>
+          <td>
+            
+              <img class="emoji" title=":calendar:" alt=":calendar:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4c6.png" height="20" width="20"> We will host <a href="https://duck-ai-stevens.github.io">DuckAI 2025: The 1st iCNS/ECE Symposium on AI Research and Innovations</a> on May 15th. Check <a href="https://www.stevens.edu/news/duckai-2025">Stevens news</a>.
+
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">05/09/2025</th>
+          <td>
+            
+              <img class="emoji" title=":bookmark:" alt=":bookmark:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f516.png" height="20" width="20"> Our undergraduate RA Alejandra presents her self-charging smart car at <a href="https://www.stevens.edu/stevens-innovation-expo">2025 Stevens Innovation Expo</a>. Check her cool project <a href="./projects/10_project/">here</a>!
+
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">04/15/2025</th>
+          <td>
+            
+              <img class="emoji" title=":bookmark:" alt=":bookmark:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f516.png" height="20" width="20"> Our project ``Accelerating RLHF-based LLM Alignment with Serverless Computing’’ has been selected by Stevens Institute for Artificial Intelligence (SIAI) for its fourth <a href="https://www.stevens.edu/stevens-institute-for-artificial-intelligence/fellowship">AI Research in Summer (AIRS) Fellowship Program</a>. Kudos to SIAI!
+
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">03/30/2025</th>
+          <td>
+            
+              <img class="emoji" title=":inbox_tray:" alt=":inbox_tray:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4e5.png" height="20" width="20"> Qingyang is invited to attend Nokia Bell Labs centennial celebration event; Hanfei is invited to give a talk at the University of Pennsylvania <a href="https://dsl.cis.upenn.edu/seminar/">DSL Seminar</a>.
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">03/18/2025</th>
+          <td>
+            
+              <img class="emoji" title=":trophy:" alt=":trophy:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c6.png" height="20" width="20"> Dr. Wang received the <a href="/assets/pdf/INFOCOM%20Dist%20TPC%20Certificate.pdf"><strong>Distinguished Member of IEEE INFOCOM 2025 TPC recognition</strong></a>.
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">03/12/2025</th>
+          <td>
+            
+              <img class="emoji" title=":trophy:" alt=":trophy:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c6.png" height="20" width="20"> <a href="http://hanfeiyu.github.io">Hanfei</a> has been selected as one of <a href="https://mlcommons.org/about-us/programs/"><strong>the 2025 ML and Systems Rising Stars</strong> by ML Commons</a>. Congratulations to Hanfei!
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">02/07/2025</th>
+          <td>
+            
+              <img class="emoji" title=":trophy:" alt=":trophy:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c6.png" height="20" width="20"> <a href="https://ziningzhu.github.io">Dr. Zining Zhu</a> and Dr. Wang have received a Seed Grant Award from the Stevens Teaching and Learning Center (TLC) for their project <em>“An LLM-enhanced Framework for Targeted Practices.”</em>
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">01/17/2025</th>
+          <td>
+            
+              <img class="emoji" title=":airplane:" alt=":airplane:" src="https://github.githubassets.com/images/icons/emoji/unicode/2708.png" height="20" width="20"> Ricky Wei will give a Lightening Talk about his Serverless MARL project at the <a href="https://events.internet2.edu/website/79982/home/">NAIRR Pilot Inaugural Annual Meeting</a>.
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">01/16/2025</th>
+          <td>
+            
+              <img class="emoji" title=":golf:" alt=":golf:" src="https://github.githubassets.com/images/icons/emoji/unicode/26f3.png" height="20" width="20"> Dr. Wang will co-chair the <a href="https://ai-crossroads.github.io">ACM SIGMETRICS 2025 Workshop: AI Crossroads: Systems, Energy, and Applications</a>.
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">01/08/2025</th>
+          <td>
+            
+              <img class="emoji" title=":trophy:" alt=":trophy:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c6.png" height="20" width="20"> Received a subaward from the NIH AIM-AHEAD project <em><a href="https://www.aim-ahead.net/programs/aim-ahead-abc-ee-program/">“Ethics and Equity in Healthcare AI Application: Bias Assessment in ML Models for Opioid Prescribing.”</a></em> Kudos to <a href="https://www.aim-ahead.net">NIH AIM-AHEAD</a> and the PI <a href="https://www.chapman.edu/our-faculty/sherry-yun-wang">Dr. Sherry Wang</a>! Check our ongoing work <a href="/projects/10_project/">here</a>!
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">12/09/2024</th>
+          <td>
+            
+              <img class="emoji" title=":pencil:" alt=":pencil:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"> Our paper <em>“WHALE-FL: Wireless and Heterogeneity Aware Latency Efficient Federated Learning over Mobile Devices via Adaptive Subnetwork Scheduling”</em> has been accepted by AAAI 2025!
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">11/21/2024</th>
+          <td>
+            
+              <img class="emoji" title=":trophy:" alt=":trophy:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c6.png" height="20" width="20"> Our paper <em>“<a href="/assets/pdf/SC41406.2024.00045.pdf">Stellaris: Staleness-Aware Distributed Reinforcement Learning with Serverless Computing</a>”</em> has received the <strong>ACM/IEEE SC’24 Best Student Paper Finalist</strong>!
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">11/20/2024</th>
+          <td>
+            
+              <img class="emoji" title=":trophy:" alt=":trophy:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c6.png" height="20" width="20"> Our paper <em>“<a href="/assets/pdf/yifan-socc24.pdf">Pre-Warming is Not Enough: Accelerating Serverless Inference with Opportunistic Pre-Loading</a>”</em> has won the <strong>ACM SoCC’24 Best Paper Award</strong>!
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">10/26/2024</th>
+          <td>
+            
+              <img class="emoji" title=":video_camera:" alt=":video_camera:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4f9.png" height="20" width="20"> Please check all the cool labs and researchers at iCNS and ECE @ Stevens [<a href="https://youtu.be/lmJbHa_aFvI?si=D1cxk93yuAqbhpCn">YouTube</a>]!
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">10/07/2024</th>
+          <td>
+            
+              <img class="emoji" title=":calendar:" alt=":calendar:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4c6.png" height="20" width="20"> Dr. Wang gives a talk on <em><a href="./projects/6_project/">Large-scale Distributed DRL with Serverless Computing</a></em> at <a href="https://www.polito.it/">Politecnico di Torino</a> in Turin, Italy, hosted by <a href="https://www.polito.it/personale?p=carla.chiasserini">Prof. Carla Fabiana Chiasserini</a>.
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">10/02/2024</th>
+          <td>
+            
+              <img class="emoji" title=":trophy:" alt=":trophy:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c6.png" height="20" width="20"> Our project “Distributed Multi-agent Reinforcement Learning with Serverless Computing” (NAIRR240269) has been funded by the NAIRR Pilot program!
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">09/26/2024</th>
+          <td>
+            
+              <img class="emoji" title=":pencil:" alt=":pencil:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"> Our paper <em>“<a href="/assets/pdf/yifan-socc24.pdf">Pre-Warming is Not Enough: Accelerating Serverless Inference with Opportunistic Pre-Loading</a>”</em> has been accepted by ACM SoCC 2024. Congratulations to our intern Yifan!
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">08/29/2024</th>
+          <td>
+            
+              <img class="emoji" title=":pencil:" alt=":pencil:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"> Our paper <em>“Freyr+: Harvesting Idle Resources in Serverless Computing via Deep Reinforcement Learning”</em> has finally been accepted by IEEE TPDS. Our sincere appreciation to our reviewers and editors!
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">08/19/2024</th>
+          <td>
+            
+              <img class="emoji" title=":trophy:" alt=":trophy:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c6.png" height="20" width="20"> Our project “<em><a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2332638">SaTC: CORE: Small: Advancing Model Forensics with Systematic Parsing, Injection Detection, and Model Provenance Attribution</a></em>” have received the NSF SaTC CORE grant. Thanks NSF and my collaborator <a href="https://csc.lsu.edu/~baggili/">Dr. Ibrahim (Abe) Baggili</a>!
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">08/15/2024</th>
+          <td>
+            
+              <img class="emoji" title=":pencil:" alt=":pencil:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"> Our paper <em>“Nitro: Boosting Distributed Reinforcement Learning with Serverless Computing”</em> has been accepted by VLDB 2025! This is the last piece of <a href="./projects/6_project/">our trilogy on Serverless Computing for Distributed Reinforcement Learning</a>.
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">08/08/2024</th>
+          <td>
+            
+              <img class="emoji" title=":city_sunrise:" alt=":city_sunrise:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f307.png" height="20" width="20"> We have moved to <a href="https://www.stevens.edu">Stevens Institute of Technology</a>. Thanks LSU. Hello Hoboken!
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">08/01/2024</th>
+          <td>
+            
+              <img class="emoji" title=":trophy:" alt=":trophy:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c6.png" height="20" width="20"> Our project “<em><a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2431595">Towards the Resilient NextG Network Design for Federated Learning over Mobile Devices</a></em>” have received the NSF CISE MSI grant. Thanks NSF!
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">07/16/2024</th>
+          <td>
+            
+              <img class="emoji" title=":trophy:" alt=":trophy:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c6.png" height="20" width="20"> Our project “<em><a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2403247">Enhancing Energy Awareness for Efficient Federated Learning over Mobile AI Systems</a></em>” have received the NSF CSR Medium grant. Thanks NSF!
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">07/15/2024</th>
+          <td>
+            
+              <img class="emoji" title=":pencil:" alt=":pencil:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"> Our paper <em>``Federated Morozov Regularization for Shortcut Learning in Privacy Preserving Learning with Watermarked Image Data’’</em> has been accepted by ACM MM 2024!
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">07/10/2024</th>
+          <td>
+            
+              <img class="emoji" title=":calendar:" alt=":calendar:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4c6.png" height="20" width="20"> Dr. Wang will give a talk on <em><a href="./projects/6_project/">Distributed DRL with Serverless Computing</a></em> at IBM T.J. Watson Research Center on July 16.
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">07/05/2024</th>
+          <td>
+            
+              <img class="emoji" title=":outbox_tray:" alt=":outbox_tray:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4e4.png" height="20" width="20"> Please consider submitting your paper to ``Frontiers in Computer Science Software’’ on topics of <a href="https://www.frontiersin.org/research-topics/65081/serverless-computing-for-stateful-applications">Serverless Computing for Stateful Applications</a>!
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">07/01/2024</th>
+          <td>
+            
+              <img class="emoji" title=":pencil:" alt=":pencil:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"> Our paper <em><a href="./projects/8_project/">``SkyMask: Attack-agnostic Robust Federated Learning with Fine-grained Learnable Masks’’</a></em> has been accepted by ECCV 2024!
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">06/26/2024</th>
+          <td>
+            
+              <img class="emoji" title=":pencil:" alt=":pencil:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"> Our paper ``<em>Enhancing Model Poisoning Attacks to Byzantine-Robust Federated Learning via Critical Learning Periods</em>’’ has been accepted by RAID 2024! This is our 4th paper under the topic <strong><a href="./projects/7_project/">Critical Learning Periods</a></strong>.
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">06/14/2024</th>
+          <td>
+            
+              <img class="emoji" title=":pencil:" alt=":pencil:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"> Our paper on serverless RL systems has been accepted by <a href="https://sc24.supercomputing.org">SC 2024</a> and nominated for the Best Student Paper award! Congratulations to Hanfei. More serverless for AI, please stay tuned <img class="emoji" title=":radio:" alt=":radio:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4fb.png" height="20" width="20">
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">05/24/2024</th>
+          <td>
+            
+              <img class="emoji" title=":calendar:" alt=":calendar:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4c6.png" height="20" width="20"> Our <a href="https://tigeraibootcamp.github.io/TigerAI/">TigerAI: LSU/IBM AI security summer boot camp</a> has successfully completed. Check our <a href="/miscprojects/4_project/">exciting and fun moments</a>!
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">05/19/2024</th>
+          <td>
+            
+              <img class="emoji" title=":airplane:" alt=":airplane:" src="https://github.githubassets.com/images/icons/emoji/unicode/2708.png" height="20" width="20"> Dr. Wang will give a talk about Critical Learning Periods in Federated Learning at <a href="https://ei2-ai.github.io">the Smoky Mountain Workshop on Early Developmental Intelligence and Embodied Intelligence (EI2)</a> (May 30–June 1).
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">05/17/2024</th>
+          <td>
+            
+              <img class="emoji" title=":pencil:" alt=":pencil:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"> Our paper “<em>FedRoLA: Robust Federated Learning Against Model Poisoning via Layer-based Aggregation</em>” has been accepted by KDD 2024—our another work on fine-grained FL attack &amp; defense.
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">05/06/2024</th>
+          <td>
+            
+              <img class="emoji" title=":airplane:" alt=":airplane:" src="https://github.githubassets.com/images/icons/emoji/unicode/2708.png" height="20" width="20"> Dr. Wang visited <a href="https://www.tum.de/en/">Technical University of Munich (TUM)</a> and gave a talk about personalized Federated Learning (pFL).
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">04/16/2024</th>
+          <td>
+            
+              <img class="emoji" title=":trophy:" alt=":trophy:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c6.png" height="20" width="20"> Our project “<a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2403398">Harvesting Idle Resources Safely and Timely for Large-scale AI Applications in High-Performance Computing Systems</a>” have been funded by the NSF OAC Core grant. Thanks NSF!
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">04/16/2024</th>
+          <td>
+            
+              <img class="emoji" title=":trophy:" alt=":trophy:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c6.png" height="20" width="20"> Our project “AI Deployment for Athletes, industry, and
+Military Optimal Performance and Safety” have received the LSU Provost’s Fund for Innovation in Research—Big Idea Research Grants!
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">04/02/2024</th>
+          <td>
+            
+              <img class="emoji" title=":calendar:" alt=":calendar:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4c6.png" height="20" width="20"> We will host <a href="https://tigeraibootcamp.github.io/TigerAI/">TigerAI: LSU/IBM AI security summer boot camp</a>. <a href="https://docs.google.com/forms/d/e/1FAIpQLSd0Yx6w6l0xELOh9Q9ByEleEBL5W5_90mN5DeNaYI9Tk9-Atw/viewform">Sign up</a> before 4/19th 5pm!
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">03/14/2024</th>
+          <td>
+            
+              <img class="emoji" title=":trophy:" alt=":trophy:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c6.png" height="20" width="20"> We have received another round of AWS Public Sector Cloud Credit for Research program. Kudos to AWS!
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">02/02/2024</th>
+          <td>
+            
+              <img class="emoji" title=":tada:" alt=":tada:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f389.png" height="20" width="20"> Dr. Wang received the <a href="./assets/pdf/2024_DTPC_certificate_FK-SK.pdf">Distinguished Member of IEEE INFOCOM 2024 TPC recognition</a>.
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">02/01/2024</th>
+          <td>
+            
+              <img class="emoji" title=":school_satchel:" alt=":school_satchel:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f392.png" height="20" width="20"> <a href="https://hanfeiyu.github.io">Hanfei</a> has accepted the summer internship from Azure Research @ Microsoft.
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">01/16/2024</th>
+          <td>
+            
+              <img class="emoji" title=":pencil:" alt=":pencil:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"> Our paper “<em>Backdoor Federated Learning by Poisoning Backdoor-Critical Layers</em>” has been accepted by ICLR 2024. Congratulations to our two remote interns <a href="https://zhmzm.github.io">Haomin</a> and Mingxian! Check this project <a href="https://intellisys.haow.ca/projects/4_project/">here</a>.
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">01/10/2024</th>
+          <td>
+            
+              <img class="emoji" title=":pencil:" alt=":pencil:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"> Our paper “<em>Siren+: Robust Federated Learning with Proactive Alarming and Differential Privacy</em>” has been accepted by IEEE TDSC.
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">12/15/2023</th>
+          <td>
+            
+              <img class="emoji" title=":tada:" alt=":tada:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f389.png" height="20" width="20"> <em>William Wei</em>, our summer highschool intern, has been admitted by <em>Yale</em> ! Congratulations to William. Check his <a href="https://intellisys.haow.ca/k12projects/4_project/">fantastic summer project</a>.
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">12/09/2023</th>
+          <td>
+            
+              <img class="emoji" title=":pencil:" alt=":pencil:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"> Our paper “<em>Cheaper and Faster: Distributed Deep Reinforcement Learning with Serverless Computing</em>” has been accepted by <a href="https://aaai.org/aaai-conference/">AAAI 2024</a>! Congratulations to Hanfei. We are bringing more serverless to AI, please stay tuned <img class="emoji" title=":radio:" alt=":radio:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4fb.png" height="20" width="20">
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">12/08/2023</th>
+          <td>
+            
+              <img class="emoji" title=":speech_balloon:" alt=":speech_balloon:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4ac.png" height="20" width="20"> Dr. Wang will serve as a TPC member of <a href="https://www.hpdc.org/2024/">ACM HPDC 2024</a> and <a href="https://icdcs2024.icdcs.org">IEEE ICDCS 2024</a>.
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">11/06/2023</th>
+          <td>
+            
+              <img class="emoji" title=":trophy:" alt=":trophy:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c6.png" height="20" width="20"> Our <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2327480">Federated Analytics System project</a> has been funded by the NSF EPSCoR Research Infrastructure Improvement (RII) Track-4: EPSCoR Research Fellows program. This funding will support us to start a two-year collaborative project with IBM Research. Thanks NSF EPSCoR! —Check news by <a href="https://www.businessreport.com/business/lsu-and-ibm-are-partnering-to-study-more-effective-data-collection-and-sharing">Baton Rouge Business Report</a> and <a href="https://www.lsu.edu/eng/news/2023/12/cse-ibm-effective-data-collection.php">LSU CoE</a>.
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">10/27/2023</th>
+          <td>
+            
+              <img class="emoji" title=":pencil:" alt=":pencil:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"> Our paper “<em>Self-supervised Crack Detection in X-ray Computed Tomography Data of Additive Manufacturing Parts</em>” has been accepted by <a href="https://sites.google.com/view/ai4mat/home">NeurIPS 2023 Workshop AI4Mat</a>! Congratulations to Saber Nemati and Seyedeh Shaghayegh Rabbanian!
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">09/12/2023</th>
+          <td>
+            
+              <img class="emoji" title=":pencil:" alt=":pencil:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"> Our paper “<em>RainbowCake: Mitigating Cold-starts in Serverless with Layer-wise Container Caching and Sharing</em>” has been accepted by ACM ASPLOS 2024! Congratulations to Hanfei, and kudos to our collaborators!
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">08/21/2023</th>
+          <td>
+            
+              <img class="emoji" title=":trophy:" alt=":trophy:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c6.png" height="20" width="20"> Our <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2315612">Robust Federated Learning project</a> has been funded by the NSF SaTC CORE program. Thanks NSF! —<a href="https://www.lsu.edu/eng/news/2023/09/federated-learning-security.php">LSU CoE news</a>.
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">08/14/2023</th>
+          <td>
+            
+              <img class="emoji" title=":trophy:" alt=":trophy:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c6.png" height="20" width="20"> We received the LAMDA Seed Track 1B Collaborative Partnership Award. Thanks Louisiana Board of Regents!
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">08/12/2023</th>
+          <td>
+            
+              <img class="emoji" title=":trophy:" alt=":trophy:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c6.png" height="20" width="20"> Our summer intern, William Wei, from Baton Rouge High, won 2nd place in the LSU HSSR Poster Competition. Check our <a href="./k12projects/3_project/">award-winning project</a>!
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">05/30/2023</th>
+          <td>
+            
+              <img class="emoji" title=":triangular_ruler:" alt=":triangular_ruler:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4d0.png" height="20" width="20"> Join our summer tutorial series on <a href="https://people.cmix.louisiana.edu/yuan/2023_Summer_Tutorial_Courses.html">Machine Learning: Applications and Practices, and Introduction to Meteorology</a>!
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">05/16/2023</th>
+          <td>
+            
+              <img class="emoji" title=":pencil:" alt=":pencil:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"> Two papers on Federated Learning are accepted by ACM KDD 2023.
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">04/18/2023</th>
+          <td>
+            
+              <img class="emoji" title=":pencil:" alt=":pencil:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"> Our paper “<em>Libra: Harvesting Idle Resources Safely and Timely in Serverless Clusters</em>” has been accepted by HPDC 2023!
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">03/22/2023</th>
+          <td>
+            
+              <img class="emoji" title=":pencil:" alt=":pencil:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"> One paper on Data Privacy Examination is accepted by AsisCCS 2023.
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">02/28/2023</th>
+          <td>
+            
+              <img class="emoji" title=":trophy:" alt=":trophy:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c6.png" height="20" width="20"> Alexander Randall from KST Charter School, advised by Dr. Wang, won 2nd place in the Louisiana Regional Competition. Check our <a href="./k12projects/2_project/">award-winning project</a>!
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">02/06/2023</th>
+          <td>
+            
+              <img class="emoji" title=":earth_asia:" alt=":earth_asia:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f30f.png" height="20" width="20"> Dr. Wang will serve as the Publicity Chair of <a href="http://tjutanklab.com/ica3pp2023/home.html">the 23rd International Conference on Algorithms and Architectures for Parallel Processing (ICA3PP 2023)</a>.
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">12/09/2022</th>
+          <td>
+            
+              <img class="emoji" title=":trophy:" alt=":trophy:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c6.png" height="20" width="20"> Dr. Wang was awarded as an Excellent Reviewer for the IEEE Transactions on Network Science &amp; Engineering in 2022.
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">11/19/2022</th>
+          <td>
+            
+              <img class="emoji" title=":pencil:" alt=":pencil:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"> Two papers on Federated Learning are accepted by AAAI 2023.
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">11/04/2022</th>
+          <td>
+            
+              <img class="emoji" title=":speech_balloon:" alt=":speech_balloon:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4ac.png" height="20" width="20"> Dr. Wang will serve as the online session Chair for <a href="http://acmsocc.org/2022/index.html">ACM SoCC 2022</a> Serverless Session, Nov 8-10, 2022.
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">08/25/2022</th>
+          <td>
+            
+              <img class="emoji" title=":speech_balloon:" alt=":speech_balloon:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4ac.png" height="20" width="20"> Dr. Wang will serve as a TPC member for AAAI 2023 and ACM WSDM 2023.
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">07/12/2022</th>
+          <td>
+            
+              <img class="emoji" title=":trophy:" alt=":trophy:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c6.png" height="20" width="20"> Our proposal for AWS Cloud Credit for Research on serverless computing has been approved. Our thanks to AWS.
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">05/16/2022</th>
+          <td>
+            
+              <img class="emoji" title=":speech_balloon:" alt=":speech_balloon:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4ac.png" height="20" width="20"> Dr. Wang will serve as a TPC member for <a href="http://acmsocc.org/2022/index.html">ACM SoCC 2022</a>.
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">04/22/2022</th>
+          <td>
+            
+              <img class="emoji" title=":speech_balloon:" alt=":speech_balloon:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4ac.png" height="20" width="20"> Dr. Wang is invited to serve as a TPC member for IEEE INFOCOM 2023 and will serve as a session chair in INFOCOM 2022.
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">04/02/2022</th>
+          <td>
+            
+              <img class="emoji" title=":speech_balloon:" alt=":speech_balloon:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4ac.png" height="20" width="20"> Dr. Wang is invited to serve as a TPC member on NeurIPS 2022 and ECML PKDD 2022.
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">03/28/2022</th>
+          <td>
+            
+              <img class="emoji" title=":mortar_board:" alt=":mortar_board:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f393.png" height="20" width="20"> Mr. Xagen Mclaughlin (6-th grade student at <a href="https://www.kenilworthschool.org">Kenilworth Science and Technology</a>), advised by Dr. Wang, won the 3rd place in <a href="https://la-usla50.zfairs.com/?f=8096d131-e984-4b03-8bf4-fdb2921cc018">Louisiana State Science &amp; Engineering Fair</a> with his <a href="./projects/3_project/">project on playing FlappyBird with AI</a>.
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">02/18/2022</th>
+          <td>
+            
+              <img class="emoji" title=":trophy:" alt=":trophy:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c6.png" height="20" width="20"> Dr. Wang received the <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2153502">CRII Award</a> from National Science Foundation. Kudos to NSF!
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">02/04/2022</th>
+          <td>
+            
+              <img class="emoji" title=":trophy:" alt=":trophy:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c6.png" height="20" width="20"> We received the Faculty Research Grants—Big Idea Research Planning Grants from the LSU ORED Office on AI-Enabled Resilient Agriculture Management Systems.
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">01/31/2022</th>
+          <td>
+            
+              <img class="emoji" title=":speech_balloon:" alt=":speech_balloon:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4ac.png" height="20" width="20"> Dr. Wang is invited to serve on a 2022 National Science Foundation (NSF) panel.
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">01/13/2022</th>
+          <td>
+            
+              <img class="emoji" title=":pencil:" alt=":pencil:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" height="20" width="20"> Our work “<em><a href="https://arxiv.org/abs/2108.12717">Accelerating Serverless Computing by Harvesting Idle Resources</a></em>” has been accepted by ACM WebConf 2022. Congratulations to Hanfei!
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">12/22/2021</th>
+          <td>
+            
+              <img class="emoji" title=":trophy:" alt=":trophy:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c6.png" height="20" width="20"> Dr. Wang received the Single Investigator Award from the Louisiana Materials Design Alliance (LAMDA) Seed Funding 2021-22 for “<em>Optimizing Addictive Manufacturing with Deep Reinforcement Learning</em>.” Thanks to NSF and BoR!
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">12/01/2021</th>
+          <td>
+            
+              Two papers are accepted by AAAI 2022.
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">11/29/2021</th>
+          <td>
+            
+              Mr. Roshan Koirala has passed his Master’s degree defense. Congratulations!
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">11/12/2021</th>
+          <td>
+            
+              Dr. Wang will serve as a PC member of the 42nd IEEE International Conference on Distributed Computing Systems (ICDCS).
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">10/18/2021</th>
+          <td>
+            
+              Dr. Wang will serve as a PC member of the 31st ACM The Web Conference 2022 (TheWebConf).
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">08/27/2021</th>
+          <td>
+            
+              Our work “Siren: Byzantine-robust Federated Learning via Proactive Alarming” has been accepted by SoCC 2021.
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">07/22/2021</th>
+          <td>
+            
+              Our work “Self-Supervised Vessel Segmentation via Adversarial Learning” has been accepted by ICCV 2021.
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">07/06/2021</th>
+          <td>
+            
+              “FaaSRank: Learning to Schedule Functions in Serverless Platforms” has been accepted by IEEE ACSOS 2021, congratulations to Hanfei!
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">06/05/2021</th>
+          <td>
+            
+              Our work “SpaceDML: Enabling Distributed Machine Learning in Space Information Networks” has been accepted by IEEE Network.
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">04/29/2021</th>
+          <td>
+            
+              Our work “Themis: A Fair Evaluation Platform for Computer Vision Competitions” has been accepted by IJCAI-21.
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th style="font-size: 1rem;" scope="row">01/15/2021</th>
+          <td>
+            
+              Dr. Hao Wang started working as an Assistant Professor at <a href="https://www.lsu.edu/">Louisiana State University</a>.
+
+
+            
+          </td>
+        </tr>
+      
+      </table>
+    </div>
+  
+</div>
+
+  </article>
+
+</div>
+
+<ul>
+  <p align="right"><img id="foot-logo" src="/assets/img/isl-logo-dark.gif" height="40px"> </p>
+</ul>
+    </div>
+
+    <!-- Footer -->
+
+    
+<footer class="sticky-bottom mt-5">
+  <div class="container">
+    Last updated: August 12, 2026   © Copyright 2026 IntelliSys  Lab.
+    Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+
+    
+
+    <script async src="//static.getclicky.com/101345564.js"></script>
+
+  </div>
+</footer>
+
+
+
+  </body>
+
+  <!-- Bootsrap & MDB scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js" integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A==" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js" integrity="sha512-Mug9KHKmroQFMLm93zGrjhibM2z2Obg9l6qFG2qKjXEXkMp/VDkI4uju9m4QKPjWSwQ6O2qzZEnJDEeCw0Blcw==" crossorigin="anonymous"></script>
+
+  
+<!-- Mansory & imagesLoaded -->
+<script defer src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script defer src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script defer src="/assets/js/mansory.js" type="text/javascript"></script>
+
+
+  
+
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+<!-- Dynamic positioning and scroll-padding for sticky page nav -->
+<script>
+(function () {
+  function updatePageNav() {
+    var pageNav = document.querySelector('.page-nav');
+    if (!pageNav) return;
+    var navbar = document.querySelector('#navbar');
+    var navbarH = navbar ? navbar.getBoundingClientRect().height : 0;
+    pageNav.style.top = navbarH + 'px';
+    var pageNavH = pageNav.getBoundingClientRect().height;
+    document.documentElement.style.scrollPaddingTop = (navbarH + pageNavH + 8) + 'px';
+  }
+  document.addEventListener('DOMContentLoaded', updatePageNav);
+  window.addEventListener('resize', updatePageNav);
+})();
+</script>
+
+
+</html>

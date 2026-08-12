@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>IntelliSys Lab | Stevens | IntelliSys Lab | Stevens</title>
+<title>IntelliSys Lab | Stevens | Accelerate MoE-based LLM Serving [EuroSys'26]</title>
 <meta name="description" content="the Intelligent System (IntelliSys) Lab 
 ">
 
@@ -45,7 +45,7 @@
 
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/13_project/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -107,7 +107,7 @@
           </li> -->
           <!--  -->
           <!-- pages -->
-          <li class="nav-item ">
+          <li class="nav-item active">
             <a class="nav-link" href="/projects/">
               </span><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-lightning-charge-fill" viewBox="0 0 20 20">
                 <path d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09z"/>
@@ -184,8 +184,6 @@
           
           
           
-          
-          
           <li class="nav-item ">
               <a class="nav-link" href="/education/">
                 Education
@@ -252,59 +250,46 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2></h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">Accelerate MoE-based LLM Serving [EuroSys'26]</h1>
+    <p class="post-description"></p>
+  </header>
 
+  <article>
+    <div class="title"><strong>fMoE: Fine-Grained Expert Offloading for Large Mixture-of-Experts Serving</strong></div>
+<div class="author">
+    Hanfei Yu, Xingqi Cui, Hong Zhang, Hao Wang, Hao Wang
+</div>
+<!-- <div class="periodical"> -->
+<p>——<a href="https://arxiv.org/abs/2502.05370">Preprint at arXiv</a>. 
+<!-- </div> --></p>
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/2020/09/28/github-metadata.html">a post with github metadata</a></h3>
-        <p class="post-meta">September 28, 2020</p>
-        <p>a quick run down on accessing github metadata.</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/2020/09/28/twitter.html">a post with twitter</a></h3>
-        <p class="post-meta">September 28, 2020</p>
-        <p>an example of a blog post with twitter</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/2018/12/22/distill.html">a distill-style blog post</a></h3>
-        <p class="post-meta">December 22, 2018</p>
-        <p>an example of a distill-style blog post and main elements</p>
-      </li>
-    
-  </ul>
+<p><br /></p>
 
-  
-<nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
-    </li>
-    
-      
-        <li class="page-item active"><a class="page-link" href="/blog/index.html" title="IntelliSys Lab | Stevens">1</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/2/index.html" title="IntelliSys Lab | Stevens - page 2">2</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/3/index.html" title="IntelliSys Lab | Stevens - page 3">3</a></li>
-      
-    
-    <li class="page-item ">
-      <a class="page-link" href="/blog/page/2/">Older</a>
-    </li>
-  </ul>
-</nav>
+<h4 id="abstract">Abstract</h4>
 
+<p>Large Language Models (LLMs) have gained immense success in revolutionizing various applications, including content generation, search and recommendation, and AI-assisted operation. To reduce high training costs, Mixture-of-Experts (MoE) architecture has become a popular backbone for modern LLMs. However, despite the benefits, serving MoE-based LLMs experience severe memory inefficiency due to sparsely activated experts.
+Recent studies propose to offload inactive experts from GPU memory to CPU memory to improve the serving efficiency of MoE models. However, they either incur high inference latency or high model memory footprints due to coarse-grained designs. To tame the latency-memory trade-off in MoE serving, we present fMoE, a fine-grained expert offloading system for MoE serving that achieves low inference latency with memory efficiency. 
+We design fMoE to extract fine-grained expert selection patterns from MoE models and semantic hints from input prompts to efficiently guide expert prefetching, caching, and offloading decisions.
+fMoE is prototyped on top of HuggingFace Transformers and deployed on a six-GPU testbed. Experiments with open-source MoE models and real-world workloads show that fMoE reduces inference latency by 47% and improves expert hit rate by 36% over state-of-the-art solutions.
+<br /></p>
 
+<div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 mx-auto d-block">
+        <img class="img-fluid rounded" src="/assets/img/moe.png" alt="" />
+        <div class="caption">
+            Mixture-of-Experts (MoE) Large Language Model (LLM) serving.
+        </div>
+    </div>
+</div>
+
+  </article>
 
 </div>
 
+<ul>
+  <p align="right"><img id="foot-logo" src="/assets/img/isl-logo-dark.gif" height="40px" /> </p>
+</ul>
     </div>
 
     <!-- Footer -->
