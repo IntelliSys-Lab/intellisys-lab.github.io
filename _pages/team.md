@@ -438,6 +438,18 @@ nav: true
         <div class="col-lg-6 mt-1 mb-4 mt-md-1">
             <div class="row">
                 <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
+                    <img class="img-fluid rounded" src="/assets/img/bearpark-2026-08-11.jpg" width="130px" alt="" title=""/>
+                </div>
+                <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
+                    <h4><b>2026-08-11</b></h4>
+                    <span><a href="https://docmost.intellisys.synology.me/share/7gqv963a9k/p/bear-mountain-state-park-2026-08-11-rB4fKy377q">Bear Mountain State Park</a></span><br />
+                    <span>New York, NY 10986</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 mt-1 mb-4 mt-md-1">
+            <div class="row">
+                <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
                     <img class="img-fluid rounded" src="/assets/img/met-2026-06-20.jpg" width="130px" alt="" title=""/>
                 </div>
                 <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
