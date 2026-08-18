@@ -8,6 +8,9 @@
   - firstname: ["Jingxian"]
     url: https://wangwireless.com
 
+  - firstname: ["Jingyi"]
+    url: https://cs.sfsu.edu/people/jingyi-wang
+
 "Yu":
   - firstname: ["Hanfei", "H."]
     url: https://hanfeiyu.github.io
@@ -72,6 +75,9 @@
   - firstname: ["Jiaru"]
     url: https://jiaruzhang.github.io
 
+  - firstname: ["Xinyue", "X."]
+    url: https://sites.google.com/view/xinyuezhang/home
+
 "Yan":
   - firstname: ["Gang"]
     url: https://www.gyan23.com
@@ -135,6 +141,8 @@
 "Xu":
   - firstname: ["Zhaozhuo"]
     url: https://ottovonxu.github.io
+  - firstname: ["Ziyue"]
+    url: https://research.nvidia.com/person/ziyue-xu
 
 "Wu":
   - firstname: ["Lei"]
