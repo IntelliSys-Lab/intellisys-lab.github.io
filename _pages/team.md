@@ -89,7 +89,7 @@ nav: true
         <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
             <h4><a href="https://ryougish1k1.github.io"><b>Qingyang Yu</b></a></h4>
             <span>2024 Summer</span> <br />
-            <span><a href="/assets/pdf/Qingyang_ICML_26_GFedCL__Camera_Ready_Version.pdf">[ICML'26]</a>, <a href="">[TMLR'26]</a></span> <br />
+            <span><a href="/assets/pdf/Qingyang_ICML_26_GFedCL__Camera_Ready_Version.pdf">[ICML'26]</a>, <a href="https://ryougish1k1.github.io/assets/pdf/fedindex.pdf">[TMLR'26]</a></span>, and [HealthCom'26] <br />
             <span>B.S. University of Liverpool</span> <br />
             <span>M.S. Rutgers University in New Brunswick</span>
         </div>
@@ -129,7 +129,7 @@ nav: true
         <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
             <h4><b>Qingqian Yang</b></h4>
             <span>2026 Fall</span> <br />
-            <span><a href="/assets/pdf/FL_Backdoor_Attack_Qingqian.pdf">[ICCV'25]</a>, <a href="/assets/pdf/1571235278-final.pdf">[INFOCOM'26-EIN]</a>, and [ECCV'26]</span><br />
+            <span><a href="/assets/pdf/FL_Backdoor_Attack_Qingqian.pdf">[ICCV'25]</a>, <a href="/assets/pdf/1571235278-final.pdf">[INFOCOM'26-EIN]</a>, and <a href="/assets/pdf/Qingqian_ECCV26.pdf">[ECCV'26]</a></span><br />
             <!-- <span>B.S. </span> <br /> -->
             <span>M.S. Shanghai University of Electric Power</span>
         </div>
