@@ -86,6 +86,23 @@
 .projects .card {
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 
+  // The thumbnail and the title sit desaturated until the card is engaged,
+  // then ease back to full colour together. Scoped to .card-img-wrap and
+  // .card-title so the sponsor logos in .card-sponsors keep their brand
+  // colours at all times.
+  .card-img-wrap img,
+  .card-title {
+    filter: grayscale(100%);
+    transition: filter 0.4s ease;
+  }
+
+  &:hover .card-img-wrap img,
+  &:hover .card-title,
+  &:focus-within .card-img-wrap img,
+  &:focus-within .card-title {
+    filter: grayscale(0);
+  }
+
   .card-title {
     display: inline-block;
     position: relative;
