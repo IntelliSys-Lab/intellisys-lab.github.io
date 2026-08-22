@@ -126,6 +126,14 @@ body.sticky-bottom-footer {
 .projects .card {
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
+.projects .card .card-img-wrap img,
+.projects .card .card-title {
+  filter: grayscale(100%);
+  transition: filter 0.4s ease;
+}
+.projects .card:hover .card-img-wrap img, .projects .card:hover .card-title, .projects .card:focus-within .card-img-wrap img, .projects .card:focus-within .card-title {
+  filter: grayscale(0);
+}
 .projects .card .card-title {
   display: inline-block;
   position: relative;
