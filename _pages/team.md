@@ -238,20 +238,6 @@ nav: true
         <div class="col-lg-6 mt-1 mb-4 mt-md-1">
             <div class="row">
                 <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
-                    <img class="img-fluid rounded" src="/assets/img/zhanming.jpg" width="130px" alt="" title=""/>
-                </div>
-                <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
-                    <h4><b>Zhanming Shen</b></h4> 
-                    <span>[<a href="/assets/pdf/Zhanming_EMNLP2025.pdf">EMNLP'25</a>], [ICML'26]</span><br />
-                    <span>Ph.D. at Zhe Jiang University</span><br />
-                    <span>Bachelor at Shan Dong University</span><br />
-                    <span><a>pFL & LLM fine-tuning</a></span>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-6 mt-1 mb-4 mt-md-1">
-            <div class="row">
-                <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
                     <img class="img-fluid rounded" src="/assets/img/frankie.jpg" width="130px" alt="" title=""/>
                 </div>
                 <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
@@ -527,9 +513,23 @@ nav: true
 
 <h3 id="alumni"> IntelliSys Alumni </h3>
 <p>For the memorial journey we shared together</p>
+<p style="margin-top:-0.5rem"><b style="color: var(--global-theme-color)">26</b> graduate students &nbsp;&middot;&nbsp; <b style="color: var(--global-theme-color)">14</b> undergraduates &nbsp;&middot;&nbsp; <b style="color: var(--global-theme-color)">5</b> K-12 students</p>
 ---
 <div class="container">
     <div class="row">
+        <div class="col-lg-6 mt-1 mb-4 mt-md-1">
+            <div class="row">
+                <div class="mt-1 mt-md-1">
+                    <img class="img-fluid rounded" src="/assets/img/zhanming.jpg" width="80px" alt="" title=""/>
+                </div>
+                <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
+                    <span><b>Zhanming Shen</b></span>, 
+                    <span>Research Intern, 2026</span>, 
+                    <span>Ph.D. at Zhe Jiang University</span>, 
+                    <span><a href="/assets/pdf/Zhanming_EMNLP2025.pdf">[EMNLP'25]</a>, [ICML'26]</span>, <span>pFL & LLM fine-tuning</span>
+                </div>
+            </div>
+        </div>
         <div class="col-lg-6 mt-1 mb-4 mt-md-1">
             <div class="row">
                 <div class="mt-1 mt-md-1">
@@ -570,6 +570,14 @@ nav: true
                 </div>
             </div>
         </div>
+    </div><!-- end visible alumni row -->
+    <div class="text-center mt-2 mb-3">
+        <button class="btn btn-sm rounded-pill" style="color: var(--global-theme-color); border: 1px solid #d0d0d0; padding-left: 1.2rem; padding-right: 1.2rem; box-shadow: none; font-size: 1rem; text-transform: none;" type="button" data-toggle="collapse" data-target="#alumniMore" aria-expanded="false" aria-controls="alumniMore" onclick="this.parentElement.style.display='none'">
+            ++ Show More ++
+        </button>
+    </div>
+    <div class="collapse" id="alumniMore">
+    <div class="row">
         <div class="col-lg-6 mt-1 mb-4 mt-md-1">
             <div class="row">
                 <div class="mt-1 mt-md-1">
@@ -583,14 +591,6 @@ nav: true
                 </div>
             </div>
         </div>
-    </div><!-- end visible alumni row -->
-    <div class="text-center mt-2 mb-3">
-        <button class="btn btn-sm rounded-pill" style="color: var(--global-theme-color); border: 1px solid #d0d0d0; padding-left: 1.2rem; padding-right: 1.2rem; box-shadow: none; font-size: 1rem; text-transform: none;" type="button" data-toggle="collapse" data-target="#alumniMore" aria-expanded="false" aria-controls="alumniMore" onclick="this.parentElement.style.display='none'">
-            ++ Show More ++
-        </button>
-    </div>
-    <div class="collapse" id="alumniMore">
-    <div class="row">
         <div class="col-lg-6 mt-1 mb-4 mt-md-1">
             <div class="row">
                 <div class="mt-1 mt-md-1">
