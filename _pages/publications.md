@@ -28,7 +28,6 @@ nav: true
     <span class="venue"><b>2</b> ASPLOS</span>
     <span class="venue"><b>2</b> EuroSys</span>
     <span class="venue"><b>2</b> NSDI</span>
-    <span class="venue"><b>2</b> ICDCS</span>
     <span class="venue"><b>3</b> TPDS</span>
   </div>
   <div class="stat-line">
