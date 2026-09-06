@@ -21,7 +21,13 @@ nav: true
 </style>
 
 <div class="pub-stats">
-  <div class="stat-total"><b style="color: var(--global-theme-color)">94</b> publications in total</div>
+  <!-- The citation count comes from _data/scholar.yml, refreshed weekly by
+       .github/workflows/scholar-citations.yml. If that file is ever missing the
+       citation half of this line is simply omitted. -->
+  <div class="stat-total"><b style="color: var(--global-theme-color)">94</b> publications in total{% if site.data.scholar.citations %}
+    &nbsp;&middot;&nbsp;
+    <a href="https://scholar.google.com/citations?user=r-Ik__gAAAAJ&amp;hl=en" target="_blank" rel="noopener" title="Google Scholar, updated {{ site.data.scholar.updated }}"><b style="color: var(--global-theme-color)">{{ site.data.scholar.citations_display }}</b> citations</a>{% endif %}
+  </div>
   <div class="stat-line">
     <span class="cat">Systems &amp; Cloud</span>
     <span class="venue"><b>4</b> SoCC</span>
