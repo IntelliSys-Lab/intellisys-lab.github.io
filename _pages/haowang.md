@@ -200,11 +200,15 @@ LLM Systems, AI Security, HPC, Serverless Computing, Federated Learning
     * **Faculty Mentor**: LSU High School Summer Research Program, 2022–2023
     * **Faculty Mentor**: [Kenilworth Science and Technology Charter School](https://www.kenilworthschool.org) Student Research Mentorship Program, 2021–2024
 
-* **Conference TPC Member and Journal Reviewer**
-    * **Systems and Networks**: DAC 2026, ACM/IEEE SC 2026-2027, ACM HPDC 2024–2026, ACM SoCC 2022, 2025, INFOCOM 2021–2025, Globecom 2022, ADHOCNETS 2021, ICCCN 2022–2023, ICDCS 2022–2025, IEEE TPDS 2021-[2025](/assets/pdf/tpds-certificate-2025.pdf), IEEE ToN, IEEE TNSE, IEEE TCC [2024](/assets/pdf/tcc-certificate-2024.pdf), [2025](/assets/pdf/tcc-certificate-2025.pdf), IEEE TMC [2024](/assets/pdf/tmc-certificate-2024.pdf), IEEE TC [2024](/assets/pdf/tc-certificate-2024.pdf), IEEE TSC [2025](/assets/pdf/tsc-certificate-2025.pdf), IEEE IoTJ
-    * **AI and Machine Learning**: HealthCom 2026, ACL 2026, AISTATS 2025, CVPR 2024–2026, ICLR 2024–2026, KDD 2025–2026, ECAI 2023, AAAI 2023–2026, 2027 (SPC), ECML PKDD 2022, NeurIPS 2022–2026, ICML 2022–2026, IEEE BigData 2026, IEEE CDC 2023, IEEE TAI, IEEE TIST
-    * **Security**: TIFS, IEEE TDSC [2024](/assets/pdf/tdsc-certificate-2024.pdf)–[2025](/assets/pdf/tdsc-certificate-2025.pdf)
-    * **Web and Data**: ACM WSDM 2023, ACM Web Conference 2022, 2024, IEEE IRI 2020–2021
+* **Technical Program Committee (TPC)**
+    * **Systems and Networks**: ACM/IEEE SC 2026–2027; IEEE INFOCOM 2021–2025; ACM HPDC 2024–2026; ACM SoCC 2022, 2025; IEEE ICDCS 2022–2025; ACM/IEEE DAC 2026; IEEE ICCCN 2022–2023; IEEE GLOBECOM 2022; EAI ADHOCNETS 2021
+    * **AI and Machine Learning**: NeurIPS 2022–2026; ICML 2022–2026; ICLR 2024–2026, 2027 (Area Chair); CVPR 2024–2026; AAAI 2023–2026, 2027 (Senior PC); ACL 2026; KDD 2025–2026; AISTATS 2025; ECML PKDD 2022; ECAI 2023; IEEE BigData 2026; IEEE CDC 2023; IEEE HealthCom 2026
+    * **Web and Data**: ACM Web Conference 2022, 2024; ACM WSDM 2023; IEEE IRI 2020–2021
+
+* **Journal Reviewer**
+    * **Systems and Networks**: IEEE/ACM ToN; IEEE TPDS 2021–[2025](/assets/pdf/tpds-certificate-2025.pdf); IEEE TCC [2024](/assets/pdf/tcc-certificate-2024.pdf)–[2025](/assets/pdf/tcc-certificate-2025.pdf); IEEE TMC [2024](/assets/pdf/tmc-certificate-2024.pdf); IEEE TC [2024](/assets/pdf/tc-certificate-2024.pdf); IEEE TSC [2025](/assets/pdf/tsc-certificate-2025.pdf); IEEE TNSE; IEEE IoTJ
+    * **AI and Machine Learning**: IEEE TAI; ACM TIST
+    * **Security**: IEEE TIFS; IEEE TDSC [2024](/assets/pdf/tdsc-certificate-2024.pdf)–[2025](/assets/pdf/tdsc-certificate-2025.pdf)
 
 <!-- #### :rocket: Projects
 <ul>
