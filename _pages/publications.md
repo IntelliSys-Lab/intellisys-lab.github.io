@@ -24,17 +24,19 @@ nav: true
   <!-- The citation count comes from _data/scholar.yml, refreshed weekly by
        .github/workflows/scholar-citations.yml. If that file is ever missing the
        citation half of this line is simply omitted. -->
-  <div class="stat-total"><b style="color: var(--global-theme-color)">96</b> publications in total{% if site.data.scholar.citations %}
+  <div class="stat-total"><b style="color: var(--global-theme-color)">99</b> publications in total{% if site.data.scholar.citations %}
     &nbsp;&middot;&nbsp;
     <a href="https://scholar.google.com/citations?user=r-Ik__gAAAAJ&amp;hl=en" target="_blank" rel="noopener" title="Google Scholar, updated {{ site.data.scholar.updated }}"><b style="color: var(--global-theme-color)">{{ site.data.scholar.citations_display }}</b> citations</a>{% endif %}
   </div>
   <div class="stat-line">
     <span class="cat">Systems &amp; Cloud</span>
     <span class="venue"><b>4</b> SoCC</span>
+    <span class="venue"><b>3</b> EuroSys</span>
     <span class="venue"><b>2</b> ASPLOS</span>
-    <span class="venue"><b>2</b> EuroSys</span>
     <span class="venue"><b>2</b> NSDI</span>
     <span class="venue"><b>1</b> ATC</span>
+    <span class="venue"><b>1</b> SC</span>
+    <span class="venue"><b>1</b> HPDC</span>
     <span class="venue"><b>3</b> TPDS</span>
   </div>
   <div class="stat-line">
@@ -42,8 +44,8 @@ nav: true
     <span class="venue"><b>8</b> AAAI</span>
     <span class="venue"><b>4</b> KDD</span>
     <span class="venue"><b>3</b> ICML</span>
+    <span class="venue"><b>3</b> NeurIPS</span>
     <span class="venue"><b>2</b> ICLR</span>
-    <span class="venue"><b>1</b> NeurIPS</span>
     <span class="venue"><b>1</b> IJCAI</span>
   </div>
   <div class="stat-line">
