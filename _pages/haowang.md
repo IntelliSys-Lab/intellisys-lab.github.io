@@ -201,7 +201,7 @@ LLM Systems, AI Security, HPC, Serverless Computing, Federated Learning
     * **Faculty Mentor**: [Kenilworth Science and Technology Charter School](https://www.kenilworthschool.org) Student Research Mentorship Program, 2021–2024
 
 * **Technical Program Committee (TPC)**
-    * **Systems and Networks**: ACM/IEEE SC 2026–2027; IEEE INFOCOM 2021–2025; ACM HPDC 2024–2026; ACM SoCC 2022, 2025; IEEE ICDCS 2022–2025; ACM/IEEE DAC 2026; IEEE ICCCN 2022–2023; IEEE GLOBECOM 2022; EAI ADHOCNETS 2021
+    * **Systems and Networks**: EuroSys 2027; ACM/IEEE SC 2026–2027; IEEE INFOCOM 2021–2025; ACM HPDC 2024–2026; ACM SoCC 2022, 2025; IEEE ICDCS 2022–2025; ACM/IEEE DAC 2026; IEEE ICCCN 2022–2023; IEEE GLOBECOM 2022; EAI ADHOCNETS 2021
     * **AI and Machine Learning**: NeurIPS 2022–2026; ICML 2022–2026; ICLR 2024–2026, 2027 (Area Chair); CVPR 2024–2026; AAAI 2023–2026, 2027 (Senior PC); ACL 2026; KDD 2025–2026; AISTATS 2025; ECML PKDD 2022; ECAI 2023; IEEE BigData 2026; IEEE CDC 2023; IEEE HealthCom 2026
     * **Web and Data**: ACM Web Conference 2022, 2024; ACM WSDM 2023; IEEE IRI 2020–2021
 
