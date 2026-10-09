@@ -1,0 +1,46 @@
+{% comment %}
+  One card on the projects page. Venue tags written in the project title,
+  e.g. "Serverless DRL [AAAI'24][SC'24]", are split off and shown as
+  publication-style badges under the name.
+{% endcomment %}
+{% assign project = include.project %}
+{% assign title_parts = project.title | replace: '<br />', ' ' | replace: '<br>', ' ' | split: '[' %}
+{% if project.redirect %}
+<a class="project-card" href="{{ project.redirect }}" target="_blank" rel="noopener">
+{% else %}
+<a class="project-card" href="{{ project.url | relative_url }}">
+{% endif %}
+  {% if project.img %}
+  <div class="project-thumb"><img src="{{ project.img | relative_url }}" alt="" loading="lazy"></div>
+  {% endif %}
+  <div class="project-body">
+    <span class="project-name">{{ title_parts.first | strip }}</span>
+    {% if title_parts.size > 1 %}
+    <div class="project-venues">
+      {% for part in title_parts offset:1 %}
+        {% assign venue = part | remove: ']' | strip %}
+        {% if venue != '' %}<abbr class="badge">{{ venue }}</abbr>{% endif %}
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+  {% if project.sponsors.size > 0 or project.github %}
+  <div class="project-footer">
+    {% for sponsor in project.sponsors %}
+      {% case sponsor %}
+        {% when "NSF" %}
+          <img src="{{ '/assets/img/nsf.svg' | relative_url }}" alt="NSF" title="NSF"/>
+        {% when "AMD" %}
+          <img src="{{ '/assets/img/amd-logo.svg' | relative_url }}" alt="AMD" title="AMD"/>
+        {% when "NVIDIA" %}
+          <img src="{{ '/assets/img/nv-logo-v1.svg' | relative_url }}" alt="NVIDIA" title="NVIDIA"/>
+        {% when "AIM-AHEAD" %}
+          <img src="{{ '/assets/img/nih-aim-ahead-logo.svg' | relative_url }}" alt="AIM-AHEAD" title="AIM-AHEAD"/>
+      {% endcase %}
+    {% endfor %}
+    {% if project.github %}
+      <i class="fab fa-github project-gh" title="Code Repository"></i>
+    {% endif %}
+  </div>
+  {% endif %}
+</a>

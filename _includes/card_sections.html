@@ -1,0 +1,25 @@
+{% comment %}
+  Renders the card sections of the projects and education pages.
+
+  sections   -- list from the page's front matter; each has id, title, tagline,
+                and optionally `collection` (overrides the default below) and
+                `categories` (only items whose `category` is listed are shown).
+  collection -- default collection name for sections that don't set one.
+  reverse    -- true to list highest `importance` first.
+{% endcomment %}
+{% for section in include.sections %}
+{% assign collection_name = section.collection | default: include.collection %}
+{% assign items = site[collection_name] | sort: "importance" %}
+{% if include.reverse %}{% assign items = items | reverse %}{% endif %}
+{% if section.categories %}{% assign items = items | where_exp: "item", "section.categories contains item.category" %}{% endif %}
+<section class="project-section">
+  <h3 id="{{ section.id }}">{{ section.title }}</h3>
+  <p>{{ section.tagline }}</p>
+  <hr>
+  <div class="project-grid">
+    {% for item in items %}
+      {% include project_card.html project=item %}
+    {% endfor %}
+  </div>
+</section>
+{% endfor %}

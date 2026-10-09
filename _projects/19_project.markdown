@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Efficient Serverless RLHF"
+title: "Efficient Serverless RLHF [SoCC'26]"
 category: serverless
 description:
 img: /assets/img/rlhfless.png

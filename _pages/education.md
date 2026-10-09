@@ -4,94 +4,32 @@ permalink: /education/
 title: Education
 description: 
 nav: true
+# Each section lists the education items whose `category` is in `categories`.
+# Order here is the page order. Rendered by _includes/card_sections.html.
+sections:
+  - id: courses
+    title: Courses
+    tagline: Courses taught by Dr. Wang
+    categories: [course]
+  - id: workshops
+    title: Workshops & Events
+    tagline: Workshops, hackathons, tutorials, and fun
+    categories: [event]
 ---
 
----
+{% assign course_count = site.education | where: "category", "course" | size %}
+{% assign event_count = site.education | where: "category", "event" | size %}
+<div class="project-stats">
+  <b>{{ course_count }}</b> courses &nbsp;&middot;&nbsp; <b>{{ event_count }}</b> workshops &amp; events
+</div>
+
 <nav class="page-nav sticky-top bg-white py-2 mb-3">
   <div class="d-flex flex-wrap gap-2 justify-content-center">
-    <a class="page-nav-link" href="#courses">Courses</a>
-    <span class="text-muted">&nbsp;|&nbsp;</span>
-    <a class="page-nav-link" href="#workshops">Workshops & Events</a>
+    {% for section in page.sections %}
+      <a class="page-nav-link" href="#{{ section.id }}">{{ section.title }}</a>
+      {% unless forloop.last %}<span class="text-muted">&nbsp;|&nbsp;</span>{% endunless %}
+    {% endfor %}
   </div>
 </nav>
----
 
-
-##### Courses {#courses}
----
-
-<br />
-<div class="projects grid">
-
-  {% assign sorted_projects = site.education | sort: "importance" %}
-  {% for project in sorted_projects %}
-    {% if project.category == "course" %}
-    <div class="grid-item">
-      {% if project.redirect %}
-      <a href="{{ project.redirect }}" target="_blank">
-      {% else %}
-      <a href="{{ project.url | relative_url }}">
-      {% endif %}
-        <div class="card hoverable">
-          {% if project.img %}
-          <div class="card-img-wrap"> <img class="img-fluid rounded" src="{{ project.img | relative_url }}" alt="project thumbnail"> </div>
-          {% endif %}
-          <div class="card-body">
-            <span style="text-align: center" class="card-title">{{ project.title }}</span>
-            <!-- <p class="card-text">{{ project.description }}</p> -->
-          </div>
-        </div>
-      </a>
-    </div>
-    {% endif %}
-{% endfor %}
-</div>
-
-<br />
-
-
-##### Workshops, Hackathons, Tutorials, and Fun {#workshops}
----
-<br />
-
-<div class="projects grid">
-  {% assign sorted_projects = site.education | sort: "importance" %}
-  {% for project in sorted_projects %}
-    {% if project.category == "event" %}
-    <div class="grid-item">
-      {% if project.redirect %}
-      <a href="{{ project.redirect }}" target="_blank">
-      {% else %}
-      <a href="{{ project.url | relative_url }}">
-      {% endif %}
-        <div class="card hoverable">
-          {% if project.img %}
-          <div class="card-img-wrap"> <img class="img-fluid rounded" src="{{ project.img | relative_url }}" alt="project thumbnail"> </div>
-          {% endif %}
-          <div class="card-body">
-            <span style="text-align: center" class="card-title">{{ project.title }}</span>
-            <!-- <p class="card-text">{{ project.description }}</p> -->
-            <div class="row ml-1 mr-1 p-0">
-              {% if project.github %}
-              <div class="github-icon">
-                <div class="icon" data-toggle="tooltip" title="Code Repository">
-                  <a href="{{ project.github }}" target="_blank"><i class="fab fa-github gh-icon"></i></a>
-                </div>
-                {% if project.github_stars %}
-                <span class="stars" data-toggle="tooltip" title="GitHub Stars">
-                  <i class="fas fa-star"></i>
-                  <span id="{{ project.github_stars }}-stars"></span>
-                </span>
-                {% endif %}
-              </div>
-              {% endif %}
-            </div>
-          </div>
-        </div>
-      </a>
-    </div>
-    {% endif %}
-{% endfor %}
-
-</div>
-<br />
+{% include card_sections.html sections=page.sections collection="education" %}

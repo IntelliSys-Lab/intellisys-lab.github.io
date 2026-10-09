@@ -4,6 +4,26 @@ title: Projects
 permalink: /projects/
 description: 
 nav: true
+# Each section lists the projects whose `category` is in `categories`, or a
+# whole collection when `collection` is set. Order here is the page order.
+# Rendered by _includes/card_sections.html.
+sections:
+  - id: system
+    title: System
+    tagline: Serverless computing, ML systems, and LLM serving systems
+    categories: [serverless, sys]
+  - id: ai-fl
+    title: AI & FL
+    tagline: Federated learning, efficient AI, and AI security
+    categories: [fl]
+  - id: interdisciplinary
+    title: Interdisciplinary
+    tagline: AI for inter-disciplinary applications
+    categories: [ai]
+  - id: k12
+    title: K-12
+    tagline: Hands-on AI projects for K-12 students
+    collection: k12projects
 ---
 <!-- 
 ## Road Map
@@ -18,261 +38,17 @@ nav: true
 <br />
 <br /> -->
 
----
+<div class="project-stats">
+  <b>{{ site.projects.size }}</b> research projects &nbsp;&middot;&nbsp; <b>{{ site.k12projects.size }}</b> K-12 projects
+</div>
+
 <nav class="page-nav sticky-top bg-white py-2 mb-3">
   <div class="d-flex flex-wrap gap-2 justify-content-center">
-    <a class="page-nav-link" href="#system">:zap: :cloud: :hourglass_flowing_sand: System</a>
-    <span class="text-muted">&nbsp;|&nbsp;</span>
-    <a class="page-nav-link" href="#ai-fl">:lock: :crystal_ball: :space_invader: AI & FL</a>
-    <span class="text-muted">&nbsp;|&nbsp;</span>
-    <a class="page-nav-link" href="#interdisciplinary">:microscope: :telescope: :rocket: Interdisciplinary</a>
-    <span class="text-muted">&nbsp;|&nbsp;</span>
-    <a class="page-nav-link" href="#k12">K-12</a>
+    {% for section in page.sections %}
+      <a class="page-nav-link" href="#{{ section.id }}">{{ section.title }}</a>
+      {% unless forloop.last %}<span class="text-muted">&nbsp;|&nbsp;</span>{% endunless %}
+    {% endfor %}
   </div>
 </nav>
----
 
-<!-- ### Research Projects -->
-<!-- --- -->
-<br />
-
-##### :zap: :cloud: :hourglass_flowing_sand: System: Serverless Computing, ML Systems, LLM Serving System   {#system}
-
-<div class="projects grid" style="margin-top:20px">
-  {% assign sorted_projects = site.projects | sort: "importance" | reverse %}
-  {% for project in sorted_projects %}
-    {% if project.category == "serverless" or project.category == "sys" %}
-    <div class="grid-item">
-      {% if project.redirect %}
-      <a href="{{ project.redirect }}" target="_blank">
-      {% else %}
-      <a href="{{ project.url | relative_url }}">
-      {% endif %}
-        <div class="card">
-          {% if project.img %}
-          <div class="card-img-wrap"> <img class="img-fluid rounded" src="{{ project.img | relative_url }}" alt="project thumbnail"> </div>
-          {% endif %}
-          <div class="card-body">
-            <span style="text-align: center" class="card-title">{{ project.title }}</span>
-            <!-- <p class="card-text">{{ project.description }}</p> -->
-            <div class="row ml-1 mr-1 p-0">
-              {% if project.github %}
-              <div class="github-icon">
-                <div class="icon" data-toggle="tooltip" title="Code Repository">
-                  <a href="{{ project.github }}" target="_blank"><i class="fab fa-github gh-icon"></i></a>
-                </div>
-                {% if project.github_stars %}
-                <span class="stars" data-toggle="tooltip" title="GitHub Stars">
-                  <i class="fas fa-star"></i>
-                  <span id="{{ project.github_stars }}-stars"></span>
-                </span>
-                {% endif %}
-              </div>
-              {% endif %}
-            </div>
-            {% if project.sponsors %}
-            <div class="card-sponsors">
-              {% for sponsor in project.sponsors %}
-                {% case sponsor %}
-                  {% when "NSF" %}
-                    <img src="{{ '/assets/img/nsf.svg' | relative_url }}" alt="NSF" title="NSF"/>
-                  {% when "AMD" %}
-                    <img src="{{ '/assets/img/amd-logo.svg' | relative_url }}" alt="AMD" title="AMD"/>
-                  {% when "NVIDIA" %}
-                    <img src="{{ '/assets/img/nv-logo-v1.svg' | relative_url }}" alt="NVIDIA" title="NVIDIA"/>
-                  {% when "AIM-AHEAD" %}
-                    <img src="{{ '/assets/img/nih-aim-ahead-logo.svg' | relative_url }}" alt="AIM-AHEAD" title="AIM-AHEAD"/>
-                {% endcase %}
-              {% endfor %}
-            </div>
-            {% endif %}
-          </div>
-        </div>
-      </a>
-    </div>
-  {% endif %}
-{% endfor %}
-
-</div>
-
-<br />
-
-##### :lock: :crystal_ball: :space_invader: AI: FL, Efficient AI, AI Security...    {#ai-fl}
-
-<div class="projects grid" style="margin-top:20px">
-  {% assign sorted_projects = site.projects | sort: "importance" | reverse %}
-  {% for project in sorted_projects %}
-    {% if project.category == "fl" %}
-    <div class="grid-item">
-      {% if project.redirect %}
-      <a href="{{ project.redirect }}" target="_blank">
-      {% else %}
-      <a href="{{ project.url | relative_url }}">
-      {% endif %}
-        <div class="card">
-          {% if project.img %}
-          <div class="card-img-wrap"> <img class="img-fluid rounded" src="{{ project.img | relative_url }}" alt="project thumbnail"> </div>
-          {% endif %}
-          <div class="card-body">
-            <span style="text-align: center" class="card-title">{{ project.title }}</span>
-            <!-- <p class="card-text">{{ project.description }}</p> -->
-            <div class="row ml-1 mr-1 p-0">
-              {% if project.github %}
-              <div class="github-icon">
-                <div class="icon" data-toggle="tooltip" title="Code Repository">
-                  <a href="{{ project.github }}" target="_blank"><i class="fab fa-github gh-icon"></i></a>
-                </div>
-                {% if project.github_stars %}
-                <span class="stars" data-toggle="tooltip" title="GitHub Stars">
-                  <i class="fas fa-star"></i>
-                  <span id="{{ project.github_stars }}-stars"></span>
-                </span>
-                {% endif %}
-              </div>
-              {% endif %}
-            </div>
-            {% if project.sponsors %}
-            <div class="card-sponsors">
-              {% for sponsor in project.sponsors %}
-                {% case sponsor %}
-                  {% when "NSF" %}
-                    <img src="{{ '/assets/img/nsf.svg' | relative_url }}" alt="NSF" title="NSF"/>
-                  {% when "AMD" %}
-                    <img src="{{ '/assets/img/amd-logo.svg' | relative_url }}" alt="AMD" title="AMD"/>
-                  {% when "NVIDIA" %}
-                    <img src="{{ '/assets/img/nv-logo-v1.svg' | relative_url }}" alt="NVIDIA" title="NVIDIA"/>
-                  {% when "AIM-AHEAD" %}
-                    <img src="{{ '/assets/img/nih-aim-ahead-logo.svg' | relative_url }}" alt="AIM-AHEAD" title="AIM-AHEAD"/>
-                {% endcase %}
-              {% endfor %}
-            </div>
-            {% endif %}
-          </div>
-        </div>
-      </a>
-    </div>
-  {% endif %}
-{% endfor %}
-</div>
-
-
-<br />
-
-##### :microscope: :telescope: :rocket: AI for Inter-disciplinary Applications  {#interdisciplinary}
-
-<div class="projects grid" style="margin-top:20px">
-  {% assign sorted_projects = site.projects | sort: "importance" | reverse %}
-  {% for project in sorted_projects %}
-    {% if project.category == "ai" %}
-    <div class="grid-item">
-      {% if project.redirect %}
-      <a href="{{ project.redirect }}" target="_blank">
-      {% else %}
-      <a href="{{ project.url | relative_url }}">
-      {% endif %}
-        <div class="card">
-          {% if project.img %}
-          <div class="card-img-wrap"> <img class="img-fluid rounded" src="{{ project.img | relative_url }}" alt="project thumbnail"> </div>
-          {% endif %}
-          <div class="card-body">
-            <span style="text-align: center" class="card-title">{{ project.title }}</span>
-            <!-- <p class="card-text">{{ project.description }}</p> -->
-            <div class="row ml-1 mr-1 p-0">
-              {% if project.github %}
-              <div class="github-icon">
-                <div class="icon" data-toggle="tooltip" title="Code Repository">
-                  <a href="{{ project.github }}" target="_blank"><i class="fab fa-github gh-icon"></i></a>
-                </div>
-                {% if project.github_stars %}
-                <span class="stars" data-toggle="tooltip" title="GitHub Stars">
-                  <i class="fas fa-star"></i>
-                  <span id="{{ project.github_stars }}-stars"></span>
-                </span>
-                {% endif %}
-              </div>
-              {% endif %}
-            </div>
-            {% if project.sponsors %}
-            <div class="card-sponsors">
-              {% for sponsor in project.sponsors %}
-                {% case sponsor %}
-                  {% when "NSF" %}
-                    <img src="{{ '/assets/img/nsf.svg' | relative_url }}" alt="NSF" title="NSF"/>
-                  {% when "AMD" %}
-                    <img src="{{ '/assets/img/amd-logo.svg' | relative_url }}" alt="AMD" title="AMD"/>
-                  {% when "NVIDIA" %}
-                    <img src="{{ '/assets/img/nv-logo-v1.svg' | relative_url }}" alt="NVIDIA" title="NVIDIA"/>
-                  {% when "AIM-AHEAD" %}
-                    <img src="{{ '/assets/img/nih-aim-ahead-logo.svg' | relative_url }}" alt="AIM-AHEAD" title="AIM-AHEAD"/>
-                {% endcase %}
-              {% endfor %}
-            </div>
-            {% endif %}
-          </div>
-        </div>
-      </a>
-    </div>
-  {% endif %}
-{% endfor %}
-
-</div>
-
-<br />
-
-##### K-12 Projects {#k12}
-
-<div class="projects grid" style="margin-top:20px">
-
-  {% assign sorted_projects = site.k12projects | sort: "importance" | reverse %}
-  {% for project in sorted_projects %}
-  <div class="grid-item">
-    {% if project.redirect %}
-    <a href="{{ project.redirect }}" target="_blank">
-    {% else %}
-    <a href="{{ project.url | relative_url }}">
-    {% endif %}
-      <div class="card">
-        {% if project.img %}
-        <div class="card-img-wrap"> <img class="img-fluid rounded" src="{{ project.img | relative_url }}" alt="project thumbnail"> </div>
-        {% endif %}
-        <div class="card-body">
-          <span style="text-align: center" class="card-title">{{ project.title }}</span>
-          <!-- <p class="card-text">{{ project.description }}</p> -->
-          <div class="row ml-1 mr-1 p-0">
-            {% if project.github %}
-            <div class="github-icon">
-              <div class="icon" data-toggle="tooltip" title="Code Repository">
-                <a href="{{ project.github }}" target="_blank"><i class="fab fa-github gh-icon"></i></a>
-              </div>
-              {% if project.github_stars %}
-              <span class="stars" data-toggle="tooltip" title="GitHub Stars">
-                <i class="fas fa-star"></i>
-                <span id="{{ project.github_stars }}-stars"></span>
-              </span>
-              {% endif %}
-            </div>
-            {% endif %}
-          </div>
-          {% if project.sponsors %}
-          <div class="card-sponsors">
-            {% for sponsor in project.sponsors %}
-              {% case sponsor %}
-                {% when "NSF" %}
-                  <img src="{{ '/assets/img/nsf.svg' | relative_url }}" alt="NSF" title="NSF"/>
-                {% when "AMD" %}
-                  <img src="{{ '/assets/img/amd-logo.svg' | relative_url }}" alt="AMD" title="AMD"/>
-                {% when "NVIDIA" %}
-                  <img src="{{ '/assets/img/nv-logo-v1.svg' | relative_url }}" alt="NVIDIA" title="NVIDIA"/>
-                {% when "AIM-AHEAD" %}
-                  <img src="{{ '/assets/img/nih-aim-ahead-logo.svg' | relative_url }}" alt="AIM-AHEAD" title="AIM-AHEAD"/>
-              {% endcase %}
-            {% endfor %}
-          </div>
-          {% endif %}
-        </div>
-      </div>
-    </a>
-  </div>
-{% endfor %}
-
-</div>
+{% include card_sections.html sections=page.sections collection="projects" reverse=true %}
