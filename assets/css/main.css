@@ -81,6 +81,111 @@ body.sticky-bottom-footer {
   }
 }
 
+.isl-logo {
+  display: inline-block;
+  height: auto;
+  aspect-ratio: 392/147;
+  overflow: visible;
+  --isl-ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+.isl-logo .isl-bar,
+.isl-logo .isl-sq,
+.isl-logo .isl-bit {
+  transform-box: fill-box;
+}
+.isl-logo .isl-bit {
+  fill: transparent;
+  stroke: var(--c);
+  stroke-width: 2.4px;
+}
+.isl-logo .isl-warp {
+  --isl-start: 0s;
+  --isl-blink: 3s;
+}
+.isl-logo .isl-weft {
+  --isl-start: 0.9s;
+  --isl-blink: 6s;
+}
+.isl-logo .isl-blue {
+  --isl-d: 0.05s;
+}
+.isl-logo .isl-pink {
+  --isl-d: 0.2s;
+}
+.isl-logo .isl-yellow {
+  --isl-d: 0.35s;
+}
+.isl-logo .isl-green {
+  --isl-d: 0.45s;
+}
+.isl-logo .isl-bar {
+  animation: isl-thread-x 0.6s var(--isl-ease) both;
+  animation-delay: calc(var(--isl-start) + var(--isl-d));
+}
+.isl-logo .isl-warp .isl-blue, .isl-logo .isl-warp .isl-yellow, .isl-logo .isl-warp .isl-green {
+  transform-origin: left center;
+}
+.isl-logo .isl-warp .isl-pink {
+  transform-origin: right center;
+}
+.isl-logo .isl-weft .isl-bar {
+  animation-name: isl-thread-y;
+}
+.isl-logo .isl-weft .isl-blue, .isl-logo .isl-weft .isl-yellow, .isl-logo .isl-weft .isl-green {
+  transform-origin: center bottom;
+}
+.isl-logo .isl-weft .isl-pink {
+  transform-origin: center top;
+}
+.isl-logo .isl-sq,
+.isl-logo .isl-bit {
+  transform-origin: center;
+  animation: isl-pop 0.35s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+  animation-delay: calc(var(--isl-start) + 0.55s);
+}
+.isl-logo .isl-bit {
+  animation: isl-pop 0.35s cubic-bezier(0.34, 1.56, 0.64, 1) both, isl-bit 6s ease-in-out infinite;
+  animation-delay: calc(var(--isl-start) + 0.55s), var(--isl-blink);
+}
+.isl-logo .isl-wordmark {
+  animation: isl-rise 0.6s var(--isl-ease) 1.8s both;
+}
+@media (prefers-reduced-motion: reduce) {
+  .isl-logo,
+  .isl-logo * {
+    animation: none !important;
+  }
+}
+
+@keyframes isl-thread-x {
+  from {
+    transform: scaleX(0);
+  }
+}
+@keyframes isl-thread-y {
+  from {
+    transform: scaleY(0);
+  }
+}
+@keyframes isl-pop {
+  from {
+    transform: scale(0);
+  }
+}
+@keyframes isl-rise {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
+@keyframes isl-bit {
+  0%, 40%, 60%, 100% {
+    fill: transparent;
+  }
+  45%, 55% {
+    fill: var(--c);
+  }
+}
 @media (max-width: 575px) {
   .sponsor-nsf {
     max-height: 110px !important;
