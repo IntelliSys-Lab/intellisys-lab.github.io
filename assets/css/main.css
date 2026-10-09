@@ -109,7 +109,7 @@ body.sticky-bottom-footer {
  * _includes/project_card.html)
  *
  * Follows the rest of the site: hairline borders, theme-colour venue badges
- * as on the publications page, thumbnails desaturated until the card is
+ * as on the publications page, thumbnails in muted colour until the card is
  * engaged.
  ******************************************************************************/
 .project-stats {
@@ -147,7 +147,8 @@ body.sticky-bottom-footer {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
 }
 .project-card:hover .project-thumb img, .project-card:focus-visible .project-thumb img {
-  filter: grayscale(0);
+  filter: none;
+  opacity: 1;
 }
 .project-card:hover .project-name, .project-card:focus-visible .project-name {
   color: var(--global-theme-color);
@@ -166,8 +167,9 @@ body.sticky-bottom-footer {
   width: 100%;
   height: 100%;
   object-fit: contain;
-  filter: grayscale(100%);
-  transition: filter 0.4s ease;
+  filter: saturate(45%);
+  opacity: 0.8;
+  transition: filter 0.4s ease, opacity 0.4s ease;
 }
 
 .project-body {
