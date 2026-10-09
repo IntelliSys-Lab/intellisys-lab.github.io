@@ -64,7 +64,7 @@
  * _includes/project_card.html)
  *
  * Follows the rest of the site: hairline borders, theme-colour venue badges
- * as on the publications page, thumbnails desaturated until the card is
+ * as on the publications page, thumbnails in muted colour until the card is
  * engaged.
  ******************************************************************************/
 
@@ -105,7 +105,8 @@
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
 
     .project-thumb img {
-      filter: grayscale(0);
+      filter: none;
+      opacity: 1;
     }
 
     .project-name {
@@ -130,8 +131,10 @@
     width: 100%;
     height: 100%;
     object-fit: contain;
-    filter: grayscale(100%);
-    transition: filter 0.4s ease;
+    // At rest: soft, light colour; full colour once the card is engaged.
+    filter: saturate(45%);
+    opacity: 0.8;
+    transition: filter 0.4s ease, opacity 0.4s ease;
   }
 }
 
