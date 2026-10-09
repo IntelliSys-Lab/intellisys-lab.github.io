@@ -41,6 +41,89 @@
   }
 }
 
+// Front-page logo (_includes/intellisys-logo.svg). The horizontal bars (warp)
+// thread in row by row from alternating sides, like a shuttle, and their
+// squares pop in; the vertical bars (weft) then repeat the same move from top
+// and bottom. The wordmark rises in last, and afterwards the two orange
+// "bits" take turns flipping on.
+.isl-logo {
+  display: inline-block;
+  height: auto;
+  aspect-ratio: 392 / 147;
+  overflow: visible;
+  --isl-ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+
+  .isl-bar,
+  .isl-sq,
+  .isl-bit {
+    transform-box: fill-box;
+  }
+
+  .isl-bit {
+    fill: transparent;
+    stroke: var(--c);
+    stroke-width: 2.4px;
+  }
+
+  // Each layer starts at --isl-start; bars follow at --isl-d after that.
+  .isl-warp { --isl-start: 0s;   --isl-blink: 3s; }
+  .isl-weft { --isl-start: 0.9s; --isl-blink: 6s; }
+
+  .isl-blue   { --isl-d: 0.05s; }
+  .isl-pink   { --isl-d: 0.2s; }
+  .isl-yellow { --isl-d: 0.35s; }
+  .isl-green  { --isl-d: 0.45s; }
+
+  .isl-bar {
+    animation: isl-thread-x 0.6s var(--isl-ease) both;
+    animation-delay: calc(var(--isl-start) + var(--isl-d));
+  }
+
+  .isl-warp {
+    .isl-blue, .isl-yellow, .isl-green { transform-origin: left center; }
+    .isl-pink { transform-origin: right center; }
+  }
+
+  .isl-weft {
+    .isl-bar { animation-name: isl-thread-y; }
+    .isl-blue, .isl-yellow, .isl-green { transform-origin: center bottom; }
+    .isl-pink { transform-origin: center top; }
+  }
+
+  .isl-sq,
+  .isl-bit {
+    transform-origin: center;
+    animation: isl-pop 0.35s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+    animation-delay: calc(var(--isl-start) + 0.55s);
+  }
+
+  .isl-bit {
+    animation: isl-pop 0.35s cubic-bezier(0.34, 1.56, 0.64, 1) both,
+      isl-bit 6s ease-in-out infinite;
+    animation-delay: calc(var(--isl-start) + 0.55s), var(--isl-blink);
+  }
+
+  .isl-wordmark {
+    animation: isl-rise 0.6s var(--isl-ease) 1.8s both;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    &,
+    * {
+      animation: none !important;
+    }
+  }
+}
+
+@keyframes isl-thread-x { from { transform: scaleX(0); } }
+@keyframes isl-thread-y { from { transform: scaleY(0); } }
+@keyframes isl-pop      { from { transform: scale(0); } }
+@keyframes isl-rise     { from { opacity: 0; transform: translateY(10px); } }
+@keyframes isl-bit {
+  0%, 40%, 60%, 100% { fill: transparent; }
+  45%, 55% { fill: var(--c); }
+}
+
 // Mobile 2x2 grid: individual sizing per logo.
 // max-width: 100% (from inline style) prevents wide logos from overflowing.
 @media (max-width: 575px) {
