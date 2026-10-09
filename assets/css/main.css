@@ -104,73 +104,134 @@ body.sticky-bottom-footer {
 /******************************************************************************
  * Publications
  ******************************************************************************/
-/*****************************************************************************
-* Projects
-*****************************************************************************/
-@media (max-width: 575px) {
-  .projects.grid {
-    display: flex !important;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-    height: auto !important;
-  }
-  .projects.grid .grid-item {
-    position: static !important;
-    left: auto !important;
-    top: auto !important;
-    margin-bottom: 0;
-  }
+/******************************************************************************
+ * Project and education cards (_includes/card_sections.html,
+ * _includes/project_card.html)
+ *
+ * Follows the rest of the site: hairline borders, theme-colour venue badges
+ * as on the publications page, thumbnails desaturated until the card is
+ * engaged.
+ ******************************************************************************/
+.project-stats {
+  margin-bottom: 0.5rem;
 }
-.projects .card {
+.project-stats b {
+  color: var(--global-theme-color);
+}
+
+.project-section {
+  margin-top: 2.5rem;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 1rem;
+  margin-top: 1.25rem;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  color: var(--global-text-color);
+  background-color: var(--global-bg-color);
+  border: 1px solid #e5e5e5;
+  border-radius: 0.25rem;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
-.projects .card .card-img-wrap img,
-.projects .card .card-title {
-  filter: grayscale(100%);
-  transition: filter 0.4s ease;
-}
-.projects .card:hover .card-img-wrap img, .projects .card:hover .card-title, .projects .card:focus-within .card-img-wrap img, .projects .card:focus-within .card-title {
-  filter: grayscale(0);
-}
-.projects .card .card-title {
-  display: inline-block;
-  position: relative;
-}
-.projects .card .card-title::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: -2px;
-  width: 100%;
-  height: 2px;
-  background-color: currentColor;
-  transform: scaleX(0);
-  transform-origin: right;
-  transition: transform 0.25s ease;
-}
-.projects .card .card-title::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -2px;
-  width: 100%;
-  height: 2px;
-  background-color: currentColor;
-  transform: scaleX(0);
-  transform-origin: left;
-  transition: transform 0.25s ease;
-}
-.projects .card:hover {
+.project-card:hover, .project-card:focus-visible {
+  color: var(--global-text-color);
+  text-decoration: none;
   transform: translateY(-5px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
 }
-.projects .card:hover .card-title::before,
-.projects .card:hover .card-title::after {
-  transform: scaleX(1);
+.project-card:hover .project-thumb img, .project-card:focus-visible .project-thumb img {
+  filter: grayscale(0);
+}
+.project-card:hover .project-name, .project-card:focus-visible .project-name {
+  color: var(--global-theme-color);
+}
+.project-card:focus-visible {
+  outline: 2px solid var(--global-theme-color);
+  outline-offset: 2px;
 }
 
+.project-thumb {
+  aspect-ratio: 1/1;
+  background-color: #fff;
+  border-bottom: 1px solid #e5e5e5;
+}
+.project-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: grayscale(100%);
+  transition: filter 0.4s ease;
+}
+
+.project-body {
+  flex: 1 1 auto;
+  padding: 0.6rem 0.7rem 0.7rem;
+}
+
+.project-name {
+  display: block;
+  font-size: 0.95rem;
+  line-height: 1.35;
+  transition: color 0.2s ease;
+}
+
+.project-venues {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 0.45rem;
+}
+.project-venues .badge {
+  color: #fff;
+  background-color: var(--global-theme-color);
+  font-size: 0.68rem;
+  padding: 0.25em 0.5em;
+  border-radius: 0.2rem;
+  text-decoration: none;
+}
+
+.project-footer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0.45rem 0.7rem;
+  border-top: 1px solid #e5e5e5;
+}
+.project-footer img {
+  height: 22px;
+  width: auto;
+  max-width: 44px;
+  object-fit: contain;
+}
+.project-footer .project-gh {
+  margin-left: auto;
+  color: var(--global-text-color-light);
+}
+
+html[data-theme=dark] .project-card,
+html[data-theme=dark] .project-thumb,
+html[data-theme=dark] .project-footer {
+  border-color: rgba(255, 255, 255, 0.18);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .project-card,
+  .project-thumb img,
+  .project-name {
+    transition: none;
+  }
+  .project-card:hover,
+  .project-card:focus-visible {
+    transform: none;
+  }
+}
 /******************************************************************************
  * Page Section Navigation
  ******************************************************************************/
@@ -198,6 +259,65 @@ html:has(.page-nav) {
   text-decoration: none;
 }
 
+/******************************************************************************
+ * Back to Top (_includes/back_to_top.html)
+ *
+ * Fades in once the reader is a screen or more down the page, so it only ever
+ * shows on long pages. Hover matches the section nav links.
+ ******************************************************************************/
+.back-to-top {
+  position: fixed;
+  right: 1.5rem;
+  bottom: 1.5rem;
+  z-index: 1030;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  padding: 0;
+  color: var(--global-theme-color);
+  background-color: var(--global-bg-color);
+  border: 1px solid #e5e5e5;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(0.5rem);
+  transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s, background-color 0.15s, color 0.15s;
+}
+.back-to-top.is-visible {
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+}
+.back-to-top:hover {
+  color: #fff;
+  background-color: var(--global-hover-color);
+  border-color: var(--global-hover-color);
+}
+.back-to-top:focus-visible {
+  outline: 2px solid var(--global-theme-color);
+  outline-offset: 2px;
+}
+@media (max-width: 575px) {
+  .back-to-top {
+    right: 1rem;
+    bottom: 1rem;
+  }
+}
+
+html[data-theme=dark] .back-to-top {
+  border-color: rgba(255, 255, 255, 0.18);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .back-to-top {
+    transform: none;
+    transition: none;
+  }
+}
 /*******************************************************************************
  * Styles for the base elements of the theme.
  ******************************************************************************/
@@ -439,69 +559,6 @@ footer.sticky-bottom {
 .distill a:hover {
   border-bottom-color: var(--global-theme-color);
   text-decoration: none;
-}
-
-.projects .grid-item {
-  width: 150px;
-  margin-bottom: 10px;
-}
-.projects .grid-item a {
-  display: block;
-  height: 100%;
-  color: black;
-  text-decoration: none;
-}
-.projects .grid-item a:hover {
-  color: var(--global-theme-color);
-}
-.projects .card {
-  display: flex;
-  flex-direction: column;
-  width: 150px;
-  height: 262px;
-  overflow: hidden;
-}
-.projects .card .card-img-wrap {
-  flex: 1 1 auto;
-  min-height: 0;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.projects .card .card-img-wrap img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-.projects .card .card-body {
-  flex: 0 0 auto;
-  background: transparent;
-  border-radius: 0 0 10px 10px;
-  padding-bottom: 0.5rem;
-}
-.projects .card .card-title {
-  color: rgb(163, 38, 56);
-  margin-bottom: 0;
-}
-.projects .card .card-sponsors {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 6px;
-  margin-top: 6px;
-  margin-bottom: 0;
-}
-.projects .card .card-sponsors img {
-  height: 22px;
-  width: auto;
-  max-width: 40px;
-  object-fit: contain;
-}
-.projects .card {
-  box-shadow: none;
-  border: 1px solid #e5e5e5;
 }
 
 .publications {
