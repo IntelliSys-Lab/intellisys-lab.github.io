@@ -291,6 +291,7 @@ nav: true
                     <h4><b><a href="https://jimmyle.work">Karan Kapoor</a></b></h4>
                     <span>Stevens Institute of Technology</span><br />
                     <span>Class of 2027</span><br />
+                    <span><a href="/assets/pdf/karan-milcom-ws.pdf">[MILCOM-WS'26]</a></span><br />
                     <span><a>CRA REU: Energy-efficient ML</a></span>
                 </div>
             </div>
@@ -304,6 +305,7 @@ nav: true
                     <h4><b><a href="https://jimmyle.work">Jared Surajballi</a></b></h4>
                     <span>Stevens Institute of Technology</span><br />
                     <span>Class of 2027</span><br />
+                    <span><a href="/assets/pdf/karan-milcom-ws.pdf">[MILCOM-WS'26]</a></span><br />
                     <span><a>CRA REU: Energy-efficient ML</a></span>
                 </div>
             </div>
@@ -328,6 +330,7 @@ nav: true
                     <h4><b>Bener Dulger</b></h4>
                     <span>High Technology High School</span><br />            
                     <span>Class of 2027</span><br />    
+                    <span>[BigData-HS'26]</span><br />
                     <span>Project: AI-driven Smart Car for Racing</span>
                 </div>
             </div>
@@ -556,7 +559,8 @@ nav: true
                     <span><b>2026 Outstanding Master's Student Award :trophy:</b></span><br />
                     <span>Master, 2024</span>, 
                     <span>Stevens Institute of Technology</span>, 
-                    <span>Smart Kart & RL</span>
+                    <span>Smart Kart & RL</span>, 
+                    <span>[BigData-HS'26]</span>
                 </div>
             </div>
         </div>
