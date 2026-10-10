@@ -161,30 +161,6 @@ nav: true
         <div class="col-lg-6 mt-1 mb-4 mt-md-1">
             <div class="row">
                 <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
-                    <img class="img-fluid rounded" src="/assets/img/jinru-duan.jpg" width="130px" alt="" title=""/>
-                </div>
-                <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
-                    <h4><b>Jinru Duan</b></h4>
-                    <span>Master at NEU</span><br />
-                    <span>LLM Inference Systems</span>
-                </div>
-            </div>
-        </div> 
-        <div class="col-lg-6 mt-1 mb-4 mt-md-1">
-            <div class="row">
-                <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
-                    <img class="img-fluid rounded" src="/assets/img/jiabin-luo.jpg" width="130px" alt="" title=""/>
-                </div>
-                <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
-                    <h4><b>Jiabin Luo</b></h4>
-                    <span>Ph.D. at PKU</span><br />
-                    <span>LLM Inference Systems</span>
-                </div>
-            </div>
-        </div> 
-        <div class="col-lg-6 mt-1 mb-4 mt-md-1">
-            <div class="row">
-                <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
                     <img class="img-fluid rounded" src="/assets/img/frankie.jpg" width="130px" alt="" title=""/>
                 </div>
                 <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
@@ -215,20 +191,6 @@ nav: true
                     <span>Stevens Institute of Technology</span><br />
                     <!-- <span>Smart Kart & RL</span> -->
                     <span>Trustworthy AI</span><br />
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-6 mt-1 mb-4 mt-md-1">
-            <div class="row">
-                <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
-                    <img class="img-fluid rounded" src="/assets/img/isl-logo-dark.svg" width="130px" alt="" title=""/>
-                </div>
-                <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
-                    <h4><b>Shaoyu Zhang</b></h4>
-                    <span>Master, 2025</span><br />
-                    <span>Stevens Institute of Technology</span><br />
-                    <!-- <span>Smart Kart & RL</span> -->
-                    <span>LLM Serving Systems</span><br />
                 </div>
             </div>
         </div>
@@ -335,19 +297,6 @@ nav: true
                 </div>
             </div>
         </div>
-        <div class="col-lg-6 mt-1 mb-4 mt-md-1">
-            <div class="row">
-                <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
-                    <img class="img-fluid rounded" src="/assets/img/anika.png" width="130px" alt="" title=""/>
-                </div>
-                <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
-                    <h4><b>Anika Jolly</b></h4>
-                    <span>Union County Magnet High School</span><br />            
-                    <span>Class of 2027</span><br />    
-                    <span>Project: ML for Healthcare</span>
-                </div>
-            </div>
-        </div>
     </div>
 </div>
 
@@ -450,7 +399,7 @@ nav: true
 
 <h3 id="alumni"> IntelliSys Alumni </h3>
 <p>For the memorial journey we shared together</p>
-<p style="margin-top:-0.5rem"><b style="color: var(--global-theme-color)">29</b> graduate students &nbsp;&middot;&nbsp; <b style="color: var(--global-theme-color)">14</b> undergraduates &nbsp;&middot;&nbsp; <b style="color: var(--global-theme-color)">6</b> K-12 students</p>
+<p style="margin-top:-0.5rem"><b style="color: var(--global-theme-color)">32</b> graduate students &nbsp;&middot;&nbsp; <b style="color: var(--global-theme-color)">14</b> undergraduates &nbsp;&middot;&nbsp; <b style="color: var(--global-theme-color)">7</b> K-12 students</p>
 ---
 <div class="container">
     <h5 class="mt-1 mb-3"><b>Ph.D. Alumni</b></h5>
@@ -471,6 +420,58 @@ nav: true
     </div>
     <h5 class="mt-1 mb-3"><b>Interns, Master's, Undergrad, &amp; K-12 Student Alumni</b></h5>
     <div class="row">
+        <div class="col-lg-6 mt-1 mb-4 mt-md-1">
+            <div class="row">
+                <div class="mt-1 mt-md-1">
+                    <img class="img-fluid rounded" src="/assets/img/jinru-duan.jpg" width="80px" alt="" title=""/>
+                </div>
+                <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
+                    <span><b>Jinru Duan</b></span>, 
+                    <span>Research Intern, 2026</span>, 
+                    <span>Master at NEU</span>, 
+                    <span>LLM Inference Systems</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 mt-1 mb-4 mt-md-1">
+            <div class="row">
+                <div class="mt-1 mt-md-1">
+                    <img class="img-fluid rounded" src="/assets/img/jiabin-luo.jpg" width="80px" alt="" title=""/>
+                </div>
+                <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
+                    <span><b>Jiabin Luo</b></span>, 
+                    <span>Research Intern, 2026</span>, 
+                    <span>Ph.D. at PKU</span>, 
+                    <span>LLM Inference Systems</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 mt-1 mb-4 mt-md-1">
+            <div class="row">
+                <div class="mt-1 mt-md-1">
+                    <img class="img-fluid rounded" src="/assets/img/isl-logo-dark.svg" width="80px" alt="" title=""/>
+                </div>
+                <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
+                    <span><b>Shaoyu Zhang</b></span>, 
+                    <span>Master, 2025</span>, 
+                    <span>Stevens Institute of Technology</span>, 
+                    <span>LLM Serving Systems</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 mt-1 mb-4 mt-md-1">
+            <div class="row">
+                <div class="mt-1 mt-md-1">
+                    <img class="img-fluid rounded" src="/assets/img/anika.png" width="80px" alt="" title=""/>
+                </div>
+                <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
+                    <span><b>Anika Jolly</b></span>, 
+                    <span>Union County Magnet High School</span>, 
+                    <span>Class of 2027</span><br />
+                    <span>Project: ML for Healthcare</span>
+                </div>
+            </div>
+        </div>
         <div class="col-lg-6 mt-1 mb-4 mt-md-1">
             <div class="row">
                 <div class="mt-1 mt-md-1">
@@ -564,14 +565,9 @@ nav: true
                 </div>
             </div>
         </div>
-    </div><!-- end visible alumni row -->
-    <div class="text-center mt-2 mb-3">
-        <button class="btn btn-sm rounded-pill" style="color: var(--global-theme-color); border: 1px solid #d0d0d0; padding-left: 1.2rem; padding-right: 1.2rem; box-shadow: none; font-size: 1rem; text-transform: none;" type="button" data-toggle="collapse" data-target="#alumniMore" aria-expanded="false" aria-controls="alumniMore" onclick="this.parentElement.style.display='none'">
-            ++ Show More ++
-        </button>
-    </div>
-    <div class="collapse" id="alumniMore">
-    <div class="row">
+    <!-- Older alumni: hidden until "Show all alumni"; their cards flow in the
+         same grid as the ones above, so the list has no gaps when expanded. -->
+    <div class="alumni-more" id="alumniMore" hidden>
         <div class="col-lg-6 mt-1 mb-4 mt-md-1">
             <div class="row">
                 <div class="mt-1 mt-md-1">
@@ -1092,6 +1088,34 @@ nav: true
                 </div>
             </div>
         </div>
+    </div><!-- end alumniMore -->
+    </div><!-- end alumni row -->
+    <!-- Sits after the whole list, so it follows the last alumni card shown
+         whether the list is collapsed or expanded. -->
+    <div class="alumni-toggle">
+        <button class="alumni-toggle-btn" type="button" aria-expanded="false" aria-controls="alumniMore">
+            <span class="when-collapsed">Show all alumni <span class="alumni-more-count"></span></span>
+            <span class="when-expanded">Show fewer</span>
+            <i class="fas fa-chevron-down" aria-hidden="true"></i>
+        </button>
     </div>
-    </div><!-- end collapse -->
+    <script>
+      (function () {
+        var more = document.getElementById('alumniMore');
+        var button = document.querySelector('.alumni-toggle-btn');
+        // The grid is two columns wide; if an odd number of cards is always
+        // shown, pull the first hidden one up so the last row is full.
+        var shown = more.parentElement.querySelectorAll(':scope > [class*="col-lg-6"]').length;
+        if (shown % 2 && more.firstElementChild) more.parentElement.insertBefore(more.firstElementChild, more);
+        document.querySelector('.alumni-more-count').textContent = '(' + more.children.length + ' more)';
+        button.addEventListener('click', function () {
+          var expand = more.hidden;
+          more.hidden = !expand;
+          button.setAttribute('aria-expanded', String(expand));
+          // After collapsing, bring the button back into view; otherwise the
+          // reader is left far below the now-shorter list.
+          if (!expand) button.scrollIntoView({ block: 'center' });
+        });
+      })();
+    </script>
 </div>
