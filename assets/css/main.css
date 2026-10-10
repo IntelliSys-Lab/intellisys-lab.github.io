@@ -367,6 +367,86 @@ html:has(.page-nav) {
 }
 
 /******************************************************************************
+ * Team page: alumni "show all" toggle (_pages/team.md)
+ *
+ * A pill on a hairline divider, styled like the search box and back-to-top
+ * button; hover matches the section nav links.
+ ******************************************************************************/
+.alumni-more {
+  display: contents;
+}
+
+.alumni-toggle {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 0.5rem 0 1.5rem;
+}
+.alumni-toggle::before, .alumni-toggle::after {
+  content: "";
+  flex: 1;
+  border-top: 1px solid #e5e5e5;
+}
+
+.alumni-toggle-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.35rem 1.1rem;
+  font-size: 0.95rem;
+  color: var(--global-text-color);
+  background-color: var(--global-bg-color);
+  border: 1px solid #e5e5e5;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s, border-color 0.15s;
+}
+.alumni-toggle-btn span {
+  color: inherit;
+}
+.alumni-toggle-btn .alumni-more-count {
+  color: var(--global-text-color-light);
+}
+.alumni-toggle-btn .fa-chevron-down {
+  color: var(--global-theme-color);
+  font-size: 0.8em;
+  transition: transform 0.25s ease;
+}
+.alumni-toggle-btn .when-expanded {
+  display: none;
+}
+.alumni-toggle-btn[aria-expanded=true] .when-collapsed {
+  display: none;
+}
+.alumni-toggle-btn[aria-expanded=true] .when-expanded {
+  display: inline;
+}
+.alumni-toggle-btn[aria-expanded=true] .fa-chevron-down {
+  transform: rotate(180deg);
+}
+.alumni-toggle-btn:hover {
+  color: #fff;
+  background-color: var(--global-hover-color);
+  border-color: var(--global-hover-color);
+}
+.alumni-toggle-btn:hover .alumni-more-count,
+.alumni-toggle-btn:hover .fa-chevron-down {
+  color: inherit;
+}
+.alumni-toggle-btn:focus {
+  outline: none;
+}
+.alumni-toggle-btn:focus-visible {
+  outline: 2px solid var(--global-theme-color);
+  outline-offset: 2px;
+}
+
+html[data-theme=dark] .alumni-toggle::before, html[data-theme=dark] .alumni-toggle::after,
+html[data-theme=dark] .alumni-toggle .alumni-toggle-btn {
+  border-color: rgba(255, 255, 255, 0.18);
+}
+
+/******************************************************************************
  * Back to Top (_includes/back_to_top.html)
  *
  * Fades in once the reader is a screen or more down the page, so it only ever
