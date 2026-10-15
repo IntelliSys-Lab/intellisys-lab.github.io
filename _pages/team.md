@@ -227,6 +227,7 @@ nav: true
                     <h4><b><a href="https://www.linkedin.com/in/xuanlinterryliu/">Xuanlin (Terry) Liu</a></b></h4>
                     <span>Stevens Institute of Technology</span><br />
                     <span>Class of 2028</span><br />
+                    <span>Provost Undergraduate Research Fund</span><br />
                     <span><a>Project: FL+X</a></span>
                 </div>
             </div>
