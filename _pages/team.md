@@ -39,8 +39,8 @@ nav: true
     <span class="text-muted">&nbsp;|&nbsp;</span>
     <a class="page-nav-link" href="#undergrad">Undergrad</a>
     <span class="text-muted">&nbsp;|&nbsp;</span>
-    <a class="page-nav-link" href="#highschool">High School</a>
-    <span class="text-muted">&nbsp;|&nbsp;</span>
+    <!-- <a class="page-nav-link" href="#highschool">High School</a>
+    <span class="text-muted">&nbsp;|&nbsp;</span> -->
     <a class="page-nav-link" href="#team-building">Team Building</a>
     <span class="text-muted">&nbsp;|&nbsp;</span>
     <a class="page-nav-link" href="#alumni">Alumni</a>
@@ -278,30 +278,21 @@ nav: true
 
 <br />
 
+<!-- High School Interns: no current members. To bring the section back, add
+     cards inside the row below, uncomment it, and uncomment the "High School"
+     link in the section nav at the top of this page.
+
 <h3 id="highschool"> High School Interns </h3>
 <p>For the bright future we are creating</p>
 ---
 
 <div class="container">
     <div class="row">
-        <div class="col-lg-6 mt-1 mb-4 mt-md-1">
-            <div class="row">
-                <div class="col-sm-3 col-lg-4 col-4 mt-1 mt-md-1">
-                    <img class="img-fluid rounded" src="/assets/img/bener.jpg" width="130px" alt="" title=""/>
-                </div>
-                <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
-                    <h4><b>Bener Dulger</b></h4>
-                    <span>High Technology High School</span><br />            
-                    <span>Class of 2027</span><br />    
-                    <span>[BigData-HS'26]</span><br />
-                    <span>Project: AI-driven Smart Car for Racing</span>
-                </div>
-            </div>
-        </div>
     </div>
 </div>
 
 <br />
+-->
 
 <h3 id="team-building"> Team Building </h3>
 <p>For the team spirit we are cultivating</p>
@@ -412,7 +403,7 @@ nav: true
 
 <h3 id="alumni"> IntelliSys Alumni </h3>
 <p>For the memorial journey we shared together</p>
-<p style="margin-top:-0.5rem"><b style="color: var(--global-theme-color)">32</b> graduate students &nbsp;&middot;&nbsp; <b style="color: var(--global-theme-color)">14</b> undergraduates &nbsp;&middot;&nbsp; <b style="color: var(--global-theme-color)">7</b> K-12 students</p>
+<p style="margin-top:-0.5rem"><b style="color: var(--global-theme-color)">32</b> graduate students &nbsp;&middot;&nbsp; <b style="color: var(--global-theme-color)">14</b> undergraduates &nbsp;&middot;&nbsp; <b style="color: var(--global-theme-color)">8</b> K-12 students</p>
 ---
 <div class="container">
     <h5 class="mt-1 mb-3"><b>Ph.D. Alumni</b></h5>
@@ -433,6 +424,20 @@ nav: true
     </div>
     <h5 class="mt-1 mb-3"><b>Interns, Master's, Undergrad, &amp; K-12 Student Alumni</b></h5>
     <div class="row">
+        <div class="col-lg-6 mt-1 mb-4 mt-md-1">
+            <div class="row">
+                <div class="mt-1 mt-md-1">
+                    <img class="img-fluid rounded" src="/assets/img/bener.jpg" width="80px" alt="" title=""/>
+                </div>
+                <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
+                    <span><b>Bener Dulger</b></span>, 
+                    <span>High Technology High School</span>, 
+                    <span>Class of 2027</span><br />
+                    <span>Project: AI-driven Smart Car for Racing</span>, 
+                    <span>[BigData-HS'26]</span>
+                </div>
+            </div>
+        </div>
         <div class="col-lg-6 mt-1 mb-4 mt-md-1">
             <div class="row">
                 <div class="mt-1 mt-md-1">
