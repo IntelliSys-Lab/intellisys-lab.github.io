@@ -433,8 +433,7 @@ nav: true
                     <span><b>Bener Dulger</b></span>, 
                     <span>High Technology High School</span>, 
                     <span>Class of 2027</span><br />
-                    <span>Project: AI-driven Smart Car for Racing</span>, 
-                    <span>[BigData-HS'26]</span>
+                    <span>Project: AI-driven Smart Car for Racing</span>
                 </div>
             </div>
         </div>
@@ -578,8 +577,7 @@ nav: true
                     <span><b>2026 Outstanding Master's Student Award :trophy:</b></span><br />
                     <span>Master, 2024</span>, 
                     <span>Stevens Institute of Technology</span>, 
-                    <span>Smart Kart & RL</span>, 
-                    <span>[BigData-HS'26]</span>
+                    <span>Smart Kart & RL</span>
                 </div>
             </div>
         </div>
