@@ -124,10 +124,10 @@ nav: true
                     <img class="img-fluid rounded" src="/assets/img/yifansui.jpg" width="130px" alt="" title=""/>
                 </div>
                 <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
-                    <h4><a href="https://wisley1998.github.io"><b>Yifan Sui</b></a></h4>
+                    <h4><a href="https://wisley1998.github.io"><b>Dr. Yifan Sui</b></a></h4>
                     <span>[<a href="/assets/pdf/yifan-socc24.pdf">SoCC'24 <b>Best Paper Award</b></a>], [TPDS]</span>  <br />
                     <span>Ph.D. at Shanghai Jiao Tong University</span><br />
-                    <span>Serverless AI Systems</span><br />
+                    <span>Now: Postdoc at HKUST</span><br />
                     <!-- <span>Project: <a href="/projects/9_project/">ML Pre-loading for Serverless Architectures</a></span> -->
                 </div>
             </div>
@@ -138,8 +138,9 @@ nav: true
                     <img class="img-fluid rounded" src="/assets/img/weixuan-ding.jpg" width="130px" alt="" title=""/>
                 </div>
                 <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
-                    <h4><b>Weixuan Ding</b></h4>
+                    <h4><a href="https://wxding.top"><b>Weixuan Ding</b></a></h4>
                     <span>Bachelor at Wuhan University</span><br />
+                    <span>Master at University of Helsinki</span><br />
                     <span>FL Privacy & Security</span>
                 </div>
             </div>
@@ -400,7 +401,7 @@ nav: true
                     <img class="img-fluid rounded" src="/assets/img/hanfei-v2.JPG" width="80px" alt="" title=""/>
                 </div>
                 <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
-                    <span><b><a href="https://hanfeiyu.github.io">Hanfei Yu</a></b></span>,
+                    <span><b><a href="https://hanfeiyu.github.io">Dr. Hanfei Yu</a></b></span>,
                     <span>Ph.D., 2021--2026</span>,<br />
                     <span><a href="https://mlcommons.org/about-us/programs/">2025 <b>ML and Systems Rising Stars</b></a></span><br />
                     <span>Now: Postdoc at <a href="https://sky.cs.berkeley.edu/">Skylab, UC Berkeley</a></span>
