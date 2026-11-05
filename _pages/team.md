@@ -125,7 +125,7 @@ nav: true
                 </div>
                 <div class="col-sm-9 col-lg-8 col-8 mt-1 mt-md-1">
                     <h4><a href="https://wisley1998.github.io"><b>Dr. Yifan Sui</b></a></h4>
-                    <span>[<a href="/assets/pdf/yifan-socc24.pdf">SoCC'24 <b>Best Paper Award</b></a>], [TPDS]</span>  <br />
+                    <span>[<a href="/assets/pdf/yifan-socc24.pdf">SoCC'24 <b>Best Paper Award</b></a>], [<a href="/assets/pdf/Accelerating_ML_Inference_via_Opportunistic_Pre-Loading_on_Serverless_Clusters.pdf">TPDS'26</a>]</span>  <br />
                     <span>Ph.D., Shanghai Jiao Tong University, 2026</span><br />
                     <span>Now: Postdoc at HKUST</span><br />
                     <!-- <span>Project: <a href="/projects/9_project/">ML Pre-loading for Serverless Architectures</a></span> -->
