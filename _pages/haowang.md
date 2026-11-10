@@ -229,7 +229,7 @@ LLM Systems, AI Security, HPC, Serverless Computing, Federated Learning
 </ul>
 
 #### :dart: Leisure Life {#leisure}
-<a href="https://zen.haow.us" target="_blank"> :art:</a> :camera: :book: :running: :swimmer: :bicyclist: :badminton: :video_game: :airplane:
+<a href="https://zen.haow.us" target="_blank"> :art:</a> :camera: :book: :running: :swimmer: :bicyclist: :badminton: :video_game: :airplane: :climbing_woman: 
     <!-- <p align="right"><img id="foot-logo" alt="foot-logo" src="./images/wh_c.png" height="40px" /> </p> -->
 
 <div class="row">
