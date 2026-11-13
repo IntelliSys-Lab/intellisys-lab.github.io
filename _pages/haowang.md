@@ -173,6 +173,7 @@ LLM Systems, AI Security, HPC, Serverless Computing, Federated Learning
 #### :speech_balloon: Professional Service {#service}
 
 * **Leadership and Organizing Roles**
+    * **General Co-chair**: [INFOCOM 2027 Workshop on Embodied Intelligence Networks (EIN)](https://infocom27-ein.netlify.app)
     * **Reproducibility Initiative Co-Chair**: [ACM/IEEE SC27](https://sc27.supercomputing.org)
     * **Steering Committee**: [Stevens Institute for Artificial Intelligence (SIAI)](https://www.stevens.edu/stevens-institute-for-artificial-intelligence)
     * **TPC Co-chair**: [INFOCOM 2026 Workshop on Embodied Intelligence Networks (EIN)](https://infocom26-ein.netlify.app)
