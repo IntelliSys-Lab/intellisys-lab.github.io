@@ -8,6 +8,24 @@ importance: 13
 sponsors: []
 ---
 
+<div class="title"><strong>MoEless: Efficient MoE LLM Serving with Serverless Experts</strong></div>
+<div class="author">
+    Hanfei Yu, Bei Ouyang, Shwai He, Ang Li, and Hao Wang
+</div>
+------Preprint at [[arXiv]](https://arxiv.org/abs/2603.06350).
+
+<br />
+
+#### Abstract
+
+Large Language Models (LLMs) increasingly adopt Mixture-of-Experts (MoE) architectures to scale efficiently under stringent resource constraints. However, MoE's sparse activation causes severe expert load imbalance, where a few experts become stragglers while others remain underutilized, leading to inflated inference latency and cost. Existing solutions assume static, serverful model deployments, limiting expert elasticity and often incurring costly expert swapping or degraded output quality. We present **_MoEless_**, an efficient serverless MoE serving framework that mitigates expert load imbalance via elastic expert execution. **_MoEless_** leverages lightweight, layer-aware predictors to estimate incoming expert load distributions and proactively identify stragglers. We design optimized scaling and placement strategies to improve function locality, GPU utilization, and cross-expert load balance. **_MoEless_** is prototyped on top of Megatron-LM and deployed on an eight-GPU testbed. Experiments with open-source MoE models and real-world workloads show that **_MoEless_** reduces inference latency by 43% and inference cost by 84% compared to state-of-the-art solutions.
+
+<br />
+
+---
+
+<br />
+
 <div class="title"><strong>fMoE: Fine-Grained Expert Offloading for Large Mixture-of-Experts Serving</strong></div>
 <div class="author">
     Hanfei Yu, Xingqi Cui, Hong Zhang, Hao Wang, Hao Wang
