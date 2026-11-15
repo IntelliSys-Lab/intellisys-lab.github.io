@@ -256,7 +256,27 @@
   </header>
 
   <article>
-    <div class="title"><strong>Pre-Warming is Not Enough: Accelerating Serverless Inference with Opportunistic Pre-Loading</strong></div>
+    <div class="title"><strong>GearUp: DAG-aware Acceleration for Serverless Inference Serving via Slack-guided Pre-loading</strong></div>
+<div class="author">
+    Qi Qi, Yifan Sui, Hanfei Yu, Hong Zhang, and Hao Wang
+</div>
+<p>——Preprint at <a href="https://arxiv.org/abs/2610.38196">[arXiv]</a>.</p>
+
+<p><br /></p>
+
+<h4 id="abstract">Abstract</h4>
+
+<p>Serverless platforms increasingly host machine learning (ML) inference workflows, modeled as directed acyclic graphs (DAGs) of interdependent functions. Beyond container startup, each ML node must load libraries, model weights, and CUDA kernels before it can run. These costs accumulate along dependent DAG paths and place initialization on the end-to-end critical path. Existing systems optimize one half of this problem. DAG-agnostic pre-loading prepares nodes the request may never reach, wasting host and GPU memory. DAG-aware serving routes and scales whole functions, leaving the loading stages inside a node untouched.</p>
+
+<p>This paper presents <strong><em>GearUp</em></strong>, a serverless DAG inference serving system that removes ML-node loading from the end-to-end critical path at low resource cost. <strong><em>GearUp</em></strong> profiles the loading stages of each node and schedules them inside the slack time the DAG exposes, hiding initialization behind upstream execution. It reuses initialized instances within and across requests to avoid redundant cold starts. A probabilistic, traffic-adaptive keep-alive policy sets how long idle instances are retained, balancing memory cost against cold-start risk under bursty load. On the AMBER Alert and FINRA-ML workflows with NVIDIA L40S GPUs, <strong><em>GearUp</em></strong> reduces median end-to-end latency by 64.5% and 75.9% against SMIless, for median speedups of 3.1x and 10.0x over cold execution. Integrated GPU and host memory allocation fall by up to 83.9% and 94.6% against eager pre-loading in InstaInfer. <strong><em>GearUp</em></strong> achieves 4.2x strong scaling on four workers.</p>
+
+<p><br /></p>
+
+<hr />
+
+<p><br /></p>
+
+<div class="title"><strong>Pre-Warming is Not Enough: Accelerating Serverless Inference with Opportunistic Pre-Loading</strong></div>
 <div class="author">
     Yifan Sui, Hanfei Yu, Yitao Hu, Jianxun Li, and Hao Wang
 </div>
@@ -266,7 +286,7 @@
 
 <p><br /></p>
 
-<h4 id="abstract">Abstract</h4>
+<h4 id="abstract-1">Abstract</h4>
 
 <p>Serverless computing has rapidly prospered as a new cloud computing diagram with agile scalability, pay-as-you-go pricing, and ease-to-use features for Machine Learning (ML) inference tasks. Users package their ML code into lightweight serverless functions and execute them using containers. Unfortunately, a notorious problem, called cold-starts, hinders serverless computing from providing low-latency function executions. To mitigate cold-starts, pre-warming, which keeps containers warm predictively, has been widely accepted by academia and industry. However, pre-warming fails to eliminate the unique latency incurred by loading ML artifacts. We observed that for ML inference functions, the loading of libraries and models takes significantly more time than container warming. Consequently, pre-warming alone is not enough to mitigate the ML inference function’s cold-starts.</p>
 
@@ -297,7 +317,7 @@
     
 <footer class="sticky-bottom mt-5">
   <div class="container">
-    Last updated: November 13, 2026   &copy; Copyright 2026 IntelliSys  Lab.
+    Last updated: November 15, 2026   &copy; Copyright 2026 IntelliSys  Lab.
     Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
     

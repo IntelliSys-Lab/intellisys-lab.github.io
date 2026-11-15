@@ -256,7 +256,25 @@
   </header>
 
   <article>
-    <div class="title"><strong>fMoE: Fine-Grained Expert Offloading for Large Mixture-of-Experts Serving</strong></div>
+    <div class="title"><strong>MoEless: Efficient MoE LLM Serving with Serverless Experts</strong></div>
+<div class="author">
+    Hanfei Yu, Bei Ouyang, Shwai He, Ang Li, and Hao Wang
+</div>
+<p>——Preprint at <a href="https://arxiv.org/abs/2603.06350">[arXiv]</a>.</p>
+
+<p><br /></p>
+
+<h4 id="abstract">Abstract</h4>
+
+<p>Large Language Models (LLMs) increasingly adopt Mixture-of-Experts (MoE) architectures to scale efficiently under stringent resource constraints. However, MoE’s sparse activation causes severe expert load imbalance, where a few experts become stragglers while others remain underutilized, leading to inflated inference latency and cost. Existing solutions assume static, serverful model deployments, limiting expert elasticity and often incurring costly expert swapping or degraded output quality. We present <strong><em>MoEless</em></strong>, an efficient serverless MoE serving framework that mitigates expert load imbalance via elastic expert execution. <strong><em>MoEless</em></strong> leverages lightweight, layer-aware predictors to estimate incoming expert load distributions and proactively identify stragglers. We design optimized scaling and placement strategies to improve function locality, GPU utilization, and cross-expert load balance. <strong><em>MoEless</em></strong> is prototyped on top of Megatron-LM and deployed on an eight-GPU testbed. Experiments with open-source MoE models and real-world workloads show that <strong><em>MoEless</em></strong> reduces inference latency by 43% and inference cost by 84% compared to state-of-the-art solutions.</p>
+
+<p><br /></p>
+
+<hr />
+
+<p><br /></p>
+
+<div class="title"><strong>fMoE: Fine-Grained Expert Offloading for Large Mixture-of-Experts Serving</strong></div>
 <div class="author">
     Hanfei Yu, Xingqi Cui, Hong Zhang, Hao Wang, Hao Wang
 </div>
@@ -266,7 +284,7 @@
 
 <p><br /></p>
 
-<h4 id="abstract">Abstract</h4>
+<h4 id="abstract-1">Abstract</h4>
 
 <p>Large Language Models (LLMs) have gained immense success in revolutionizing various applications, including content generation, search and recommendation, and AI-assisted operation. To reduce high training costs, Mixture-of-Experts (MoE) architecture has become a popular backbone for modern LLMs. However, despite the benefits, serving MoE-based LLMs experience severe memory inefficiency due to sparsely activated experts.
 Recent studies propose to offload inactive experts from GPU memory to CPU memory to improve the serving efficiency of MoE models. However, they either incur high inference latency or high model memory footprints due to coarse-grained designs. To tame the latency-memory trade-off in MoE serving, we present fMoE, a fine-grained expert offloading system for MoE serving that achieves low inference latency with memory efficiency. 
@@ -297,7 +315,7 @@ fMoE is prototyped on top of HuggingFace Transformers and deployed on a six-GPU 
     
 <footer class="sticky-bottom mt-5">
   <div class="container">
-    Last updated: November 13, 2026   &copy; Copyright 2026 IntelliSys  Lab.
+    Last updated: November 15, 2026   &copy; Copyright 2026 IntelliSys  Lab.
     Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
     
