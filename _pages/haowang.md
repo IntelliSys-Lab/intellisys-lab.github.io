@@ -190,6 +190,10 @@ LLM Systems, AI Security, HPC, Serverless Computing, Federated Learning
     * **Topic Editor**: Frontiers in Computer Science — Software, Topic on Serverless Computing for Stateful Applications, 2024
     * **Guest Editor**: Journal of Systems Architecture, Special Issue on [AI-driven Next-Generation Distributed Systems and Applications](https://www.sciencedirect.com/journal/journal-of-systems-architecture/about/call-for-papers), 2023
 
+* **Area Chair and Senior Program Committee**
+    * **Area Chair**: ICML 2027; ICLR 2027
+    * **Senior Program Committee (SPC)**: AAAI 2027
+
 * **Funding Review Service**
     * **NSF Panelist**: 2022, 2024 × 3, 2025 × 6
     * **NSF Graduate Research Fellowship Program Reviewer**: 2023
@@ -203,7 +207,7 @@ LLM Systems, AI Security, HPC, Serverless Computing, Federated Learning
 
 * **Technical Program Committee (TPC)**
     * **Systems and Networks**: EuroSys 2027; ACM/IEEE SC 2026–2027; IEEE INFOCOM 2021–2025; ACM HPDC 2024–2026; ACM SoCC 2022, 2025; IEEE ICDCS 2022–2025; ACM/IEEE DAC 2026; IEEE ICCCN 2022–2023; IEEE GLOBECOM 2022; EAI ADHOCNETS 2021
-    * **AI and Machine Learning**: NeurIPS 2022–2026; ICML 2022–2026, 2027 (Area Chair); ICLR 2024–2026, 2027 (Area Chair); CVPR 2024–[2026](/assets/pdf/cvpr2026certificate.pdf); AAAI 2023–2026, 2027 (Senior PC); ACL 2026; KDD 2025–2026; AISTATS 2025; ECML PKDD 2022; ECAI 2023; IEEE BigData 2026; IEEE CDC 2023; IEEE HealthCom 2026
+    * **AI and Machine Learning**: NeurIPS 2022–2026; ICML 2022–2026; ICLR 2024–2026; CVPR 2024–[2026](/assets/pdf/cvpr2026certificate.pdf); AAAI 2023–2026; ACL 2026; KDD 2025–2026; AISTATS 2025; ECML PKDD 2022; ECAI 2023; IEEE BigData 2026; IEEE CDC 2023; IEEE HealthCom 2026; AIAS+ [2026](/assets/pdf/aias-certificate-2026.pdf)
     * **Web and Data**: ACM Web Conference 2022, 2024; ACM WSDM 2023; IEEE IRI 2020–2021
 
 * **Journal Reviewer**
