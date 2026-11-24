@@ -195,7 +195,7 @@ LLM Systems, AI Security, HPC, Serverless Computing, Federated Learning
     * **Senior Program Committee (SPC)**: AAAI 2027
 
 * **Funding Review Service**
-    * **NSF Panelist**: 2022, 2024 × 3, 2025 × 6
+    * **NSF Panelist**: 2022, 2024×3, 2025×6, 2027×1
     * **NSF Graduate Research Fellowship Program Reviewer**: 2023
     <!-- * ****: National Science Foundation Core Program Panel 2022 -->
     <!-- <li><strong>Shadow PC Member</strong>, ACM EuroSys Conference, 2021</li> -->
